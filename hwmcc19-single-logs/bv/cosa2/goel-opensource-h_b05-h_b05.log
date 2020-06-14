@@ -1,0 +1,9 @@
+c host: c3n29
+c start: Wed Oct 16 14:55:52 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564509
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/h_b05/h_b05.btor2
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564509.0
+c done

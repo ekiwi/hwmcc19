@@ -1,0 +1,27 @@
+[runlim] version:		1.17
+[runlim] host:			c3n07
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/EmzaMUx2.btor
+[runlim] start:			Fri Oct 18 20:05:37 2019
+[runlim] child:			19971
+[runlim] sample:		13.77 time, 10.02 real, 325 MB
+[runlim] sample:		20.83 time, 20.02 real, 117 MB
+[runlim] sample:		54.06 time, 30.02 real, 572 MB
+[runlim] sample:		74.19 time, 40.02 real, 597 MB
+[runlim] sample:		94.24 time, 50.02 real, 640 MB
+[runlim] sample:		114.34 time, 60.02 real, 671 MB
+[runlim] sample:		134.43 time, 70.02 real, 687 MB
+[runlim] sample:		154.50 time, 80.02 real, 690 MB
+[runlim] sample:		174.56 time, 90.02 real, 709 MB
+[runlim] sample:		194.62 time, 100.02 real, 713 MB
+[runlim] end:			Fri Oct 18 20:07:24 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		271
+[runlim] real:			106.50 seconds
+[runlim] time:			213.86 seconds
+[runlim] space:			715 MB
+[runlim] samples:		1064

@@ -1,0 +1,9 @@
+c host: c3n14
+c start: Wed Oct 16 13:14:29 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564434
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/frogs.5.prop1-func-interl.btor2
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564434.0
+c done

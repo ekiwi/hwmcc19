@@ -1,0 +1,9 @@
+c host: c3n21
+c start: Thu Oct 17 19:02:34 CEST 2019
+c arrayjobid: 17562841
+c jobid: 17566374
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dblclockfft_butterfly_ck2_r0-p166.btor
+c solver: ./run-conps-btormc-no-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566374.0
+c done

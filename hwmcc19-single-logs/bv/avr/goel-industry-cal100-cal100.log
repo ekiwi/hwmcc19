@@ -1,0 +1,65 @@
+c host: c3n23
+c start: Fri Oct 18 18:41:19 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567291
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/cal100/cal100.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567291.0
+	(output dir: /tmp//pr_test/work_w2)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(718 / 718 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     1	: 2	: 0 1 1 s: 2    0s                     2	: 2	: 0 1 1 s: 2    0s                     3	: 2	: 0 1 1 s: 2    0s                     3	: 2	: 0 1 2 s: 3    0s                     4	: 2	: 0 1 2 s: 3    1s                     5	: 2	: 0 1 2 s: 3    1s                     6	: 2	: 0 1 2 s: 3    1s                     6	: 2	: 0 1 2 s: 3    1s                  
+   6	: 3	: 0 1 2 0 s: 3    1s                     7	: 3	: 0 1 2 0 s: 3    1s                     7	: 3	: 0 1 2 1 s: 4    1s                     8	: 3	: 0 1 2 1 s: 4    1s                     9	: 3	: 0 1 2 1 s: 4    1s                     9	: 3	: 0 1 1 1 s: 3    1s                     9	: 3	: 0 1 20 2 s: 23    1s                     9	: 3	: 0 1 23 2 s: 26    1s                     9	: 3	: 0 1 23 2 s: 26    1s                  
+   9	: 4	: 0 1 23 1 1 s: 26    1s                     9	: 4	: 0 1 61 16 2 s: 80    3s                     9	: 4	: 0 1 62 16 2 s: 81    3s                     9	: 4	: 0 1 62 16 2 s: 81    3s                  
+   9	: 5	: 0 1 31 35 1 7 s: 75    4s                     10	: 5	: 0 1 31 38 1 7 s: 78    5s                     11	: 5	: 0 1 31 38 1 7 s: 78    7s                     12	: 5	: 0 1 34 42 1 7 s: 85    9s                     12	: 5	: 0 1 62 55 15 8 s: 141    22s                     12	: 5	: 0 1 62 55 15 8 s: 141    22s                     12	: 5	: 0 1 62 55 15 8 s: 141    22s                  
+   12	: 6	: 0 1 13 33 28 1 53 s: 129    37s                     12	: 6	: 0 1 16 35 30 7 54 s: 143    48s                     12	: 6	: 0 1 16 35 30 7 54 s: 143    48s                  
+   12	: 6	: 0 1 5 0 73 7 54 s: 140    51s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h       52.78         240          12
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 11209)
+@     0s  (started worker 1 with pid 11210)
+@     0s  (started worker 2 with pid 11211)
+@     0s  (started worker 3 with pid 11212)
+@     0s  (started worker 4 with pid 11213)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 11214)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 0 MB)
+@     1s  (started worker 6 with pid 11243)
+@     1s  (spawned 1 workers)
+@     1s  (total 7 workers using 0 MB)
+@     4s  (started worker 7 with pid 11348)
+@     4s  (spawned 1 workers)
+@     4s  (total 8 workers using 440 MB)
+@     8s  (started worker 8 with pid 11437)
+@     8s  (spawned 1 workers)
+@     8s  (total 9 workers using 708 MB)
+@    13s  (started worker 9 with pid 11528)
+@    13s  (spawned 1 workers)
+@    13s  (total 10 workers using 1297 MB)
+@    17s  (started worker 10 with pid 11606)
+@    17s  (spawned 1 workers)
+@    17s  (total 11 workers using 1487 MB)
+@    28s  (total 11 workers using 2434 MB)
+@    39s  (total 11 workers using 2697 MB)
+@    51s  (total 11 workers using 2825 MB)
+@    62s  (worker 2 finished with result safe) python3 avr.py
+@    62s  (worker 2 output)
+@    62s  (stopping all workers)
+@    62s  (copied results from worker 2 in /tmp//pr_test)
+@    62s  [0;30;47m(proof race finished with answer safe in 62.22 seconds)[m
+unsat
+b0
+c done

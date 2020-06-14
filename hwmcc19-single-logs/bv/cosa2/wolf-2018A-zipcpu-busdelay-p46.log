@@ -1,0 +1,9 @@
+c host: c3n03
+c start: Wed Oct 16 16:05:24 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564576
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018A/zipcpu-busdelay-p46.btor
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564576.0
+c done

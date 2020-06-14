@@ -1,0 +1,47 @@
+c host: c3n27
+c start: Fri Oct 18 21:15:49 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567581
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018A/picorv32-check-p18.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567581.0
+	(output dir: /tmp//pr_test/work_w0)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(18 / 1922 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 1 s: 2    0s                  
+   0	: 3	: 0 1 1 0 s: 2    0s                     0	: 3	: 0 2 1 1 s: 4    0s                     0	: 3	: 0 2 1 1 s: 4    0s                  
+   0	: 4	: 0 2 1 1 0 s: 4    0s                     0	: 4	: 0 2 12 1 1 s: 16    0s                     0	: 4	: 0 2 12 1 1 s: 16    0s                  
+   0	: 5	: 0 2 2 9 2 1 s: 16    0s                     0	: 5	: 0 2 2 12 9 2 s: 27    0s                     0	: 5	: 0 2 2 12 9 2 s: 27    0s                  
+   0	: 6	: 0 2 2 9 4 1 9 s: 27    0s                     0	: 6	: 0 2 2 9 4 1 10 s: 28    0s                     0	: 6	: 0 2 2 9 4 1 10 s: 28    0s                  
+   0	: 6	: 0 2 2 9 4 0 11 s: 28    0s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        0.44          23           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 2038)
+@     0s  (started worker 1 with pid 2039)
+@     0s  (started worker 2 with pid 2040)
+@     0s  (started worker 3 with pid 2041)
+@     0s  (started worker 4 with pid 2042)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 2168)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 177 MB)
+@     1s  (worker 0 finished with result safe) python3 avr.py -a sa
+@     1s  (worker 0 output)
+@     1s  (stopping all workers)
+@     1s  (copied results from worker 0 in /tmp//pr_test)
+@     1s  [0;30;47m(proof race finished with answer safe in 0.74 seconds)[m
+unsat
+b0
+c done

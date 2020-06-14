@@ -1,0 +1,44 @@
+c host: c3n09
+c start: Fri Oct 18 23:39:21 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567868
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/zipcpu_zipcpu_piped-p202.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567868.0
+	(output dir: /tmp//pr_test/work_w2)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1157 / 3834 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 2 s: 3    0s                     0	: 2	: 0 1 3 s: 4    0s                     0	: 2	: 0 1 4 s: 5    0s                     0	: 2	: 0 1 4 s: 5    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        0.29          52           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 19483)
+@     0s  (started worker 1 with pid 19484)
+@     0s  (started worker 2 with pid 19485)
+@     0s  (started worker 3 with pid 19486)
+@     0s  (started worker 4 with pid 19487)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 19613)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 71 MB)
+@     1s  (worker 0 finished with result unknown) python3 avr.py -a sa
+@     1s  (worker 2 finished with result safe) python3 avr.py
+@     1s  (worker 2 output)
+@     1s  (stopping all workers)
+@     1s  (copied results from worker 2 in /tmp//pr_test)
+@     1s  [0;30;47m(proof race finished with answer safe in 0.65 seconds)[m
+unsat
+b0
+c done

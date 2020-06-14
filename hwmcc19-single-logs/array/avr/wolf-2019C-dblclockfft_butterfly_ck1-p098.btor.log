@@ -1,0 +1,47 @@
+c host: c3n25
+c start: Fri Oct 18 22:29:30 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567680
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dblclockfft_butterfly_ck1-p098.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567680.0
+	(output dir: /tmp//pr_test/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(3968 / 7166 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     1	: 1	: 0 0 s: 0    0s                     1	: 1	: 0 1 s: 1    0s                     1	: 1	: 0 1 s: 1    0s                  
+   1	: 2	: 0 1 0 s: 1    0s                     2	: 2	: 0 1 0 s: 1    0s                     2	: 2	: 0 1 1 s: 2    0s                     2	: 2	: 0 1 1 s: 2    0s                  
+   2	: 3	: 0 1 1 0 s: 2    0s                     3	: 3	: 0 1 1 0 s: 2    0s                     5	: 3	: 0 2 3 0 s: 5    0s                     6	: 3	: 0 2 3 0 s: 5    0s                     7	: 3	: 0 2 4 0 s: 6    0s                     8	: 3	: 0 4 4 0 s: 8    0s                     9	: 3	: 0 4 4 0 s: 8    0s                     10	: 3	: 0 4 4 0 s: 8    0s                     11	: 3	: 0 4 4 0 s: 8    0s                     12	: 3	: 0 4 4 0 s: 8    1s                     12	: 3	: 0 4 4 1 s: 9    1s                     14	: 3	: 0 4 5 1 s: 10    1s                     16	: 3	: 0 4 5 1 s: 10    1s                     18	: 3	: 0 4 5 1 s: 10    1s                     19	: 3	: 0 4 5 1 s: 10    1s                     19	: 3	: 0 4 5 2 s: 11    1s                     19	: 3	: 0 4 5 2 s: 11    1s                  
+   19	: 3	: 0 3 2 0 s: 5    1s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        1.31          94          19
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 27052)
+@     0s  (started worker 1 with pid 27053)
+@     0s  (started worker 2 with pid 27054)
+@     0s  (started worker 3 with pid 27055)
+@     0s  (started worker 4 with pid 27056)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 27172)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 550 MB)
+@     2s  (started worker 6 with pid 27228)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 797 MB)
+@     2s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@     2s  (worker 3 output)
+@     2s  (stopping all workers)
+@     2s  (copied results from worker 3 in /tmp//pr_test)
+@     2s  [0;30;47m(proof race finished with answer safe in 1.82 seconds)[m
+unsat
+b0
+c done

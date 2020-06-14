@@ -1,0 +1,47 @@
+[runlim] version:		1.17
+[runlim] host:			c3n23
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc-master.sh
+[runlim] argv[1]:		/tmp/7VMBbt7p.btor
+[runlim] start:			Fri Oct 18 04:45:14 2019
+[runlim] child:			9596
+[runlim] sample:		10.00 time, 10.02 real, 77 MB
+[runlim] sample:		20.00 time, 20.02 real, 110 MB
+[runlim] sample:		30.00 time, 30.02 real, 152 MB
+[runlim] sample:		39.99 time, 40.01 real, 204 MB
+[runlim] sample:		50.00 time, 50.02 real, 212 MB
+[runlim] sample:		60.00 time, 60.02 real, 247 MB
+[runlim] sample:		70.00 time, 70.02 real, 271 MB
+[runlim] sample:		80.00 time, 80.02 real, 350 MB
+[runlim] sample:		90.00 time, 90.01 real, 357 MB
+[runlim] sample:		99.99 time, 100.01 real, 376 MB
+[runlim] sample:		110.00 time, 110.02 real, 406 MB
+[runlim] sample:		120.00 time, 120.01 real, 426 MB
+[runlim] sample:		130.00 time, 130.01 real, 431 MB
+[runlim] sample:		140.00 time, 140.02 real, 440 MB
+[runlim] sample:		150.00 time, 150.02 real, 439 MB
+[runlim] sample:		160.00 time, 160.02 real, 465 MB
+[runlim] sample:		169.99 time, 170.02 real, 536 MB
+[runlim] sample:		179.99 time, 180.02 real, 624 MB
+[runlim] sample:		189.99 time, 190.02 real, 649 MB
+[runlim] sample:		200.00 time, 200.02 real, 717 MB
+[runlim] sample:		210.00 time, 210.02 real, 822 MB
+[runlim] sample:		220.00 time, 220.02 real, 888 MB
+[runlim] sample:		229.99 time, 230.02 real, 956 MB
+[runlim] sample:		239.99 time, 240.02 real, 945 MB
+[runlim] sample:		250.00 time, 250.02 real, 942 MB
+[runlim] sample:		260.00 time, 260.02 real, 899 MB
+[runlim] sample:		269.99 time, 270.02 real, 930 MB
+[runlim] sample:		280.00 time, 280.02 real, 1043 MB
+[runlim] sample:		290.00 time, 290.02 real, 1158 MB
+[runlim] sample:		300.00 time, 300.02 real, 1174 MB
+[runlim] end:			Fri Oct 18 04:50:21 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			306.96 seconds
+[runlim] time:			306.90 seconds
+[runlim] space:			1239 MB
+[runlim] samples:		3069

@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n16
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/omfCAFl5.btor
+[runlim] start:			Wed Oct 16 20:48:44 2019
+[runlim] child:			27618
+[runlim] end:			Wed Oct 16 20:48:52 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			7.49 seconds
+[runlim] time:			14.92 seconds
+[runlim] space:			382 MB
+[runlim] samples:		74

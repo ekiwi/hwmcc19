@@ -1,0 +1,9 @@
+c host: c3n11
+c start: Wed Oct 16 13:30:05 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564443
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/pgm_protocol.2.prop5-back-serstep.btor2
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564443.0
+c done

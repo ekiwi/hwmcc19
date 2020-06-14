@@ -1,0 +1,81 @@
+[runlim] version:		1.17
+[runlim] host:			c3n17
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/NCuOp8AM.aig
+[runlim] start:			Thu Oct 17 00:03:16 2019
+[runlim] child:			11429
+[runlim] sample:		29.42 time, 10.02 real, 163 MB
+[runlim] sample:		49.29 time, 20.02 real, 168 MB
+[runlim] sample:		71.66 time, 30.02 real, 168 MB
+[runlim] sample:		407.21 time, 40.02 real, 190 MB
+[runlim] sample:		427.22 time, 50.02 real, 204 MB
+[runlim] sample:		470.37 time, 60.02 real, 201 MB
+[runlim] sample:		490.37 time, 70.02 real, 207 MB
+[runlim] sample:		510.37 time, 80.02 real, 209 MB
+[runlim] sample:		530.37 time, 90.02 real, 210 MB
+[runlim] sample:		550.37 time, 100.02 real, 219 MB
+[runlim] sample:		603.60 time, 110.02 real, 237 MB
+[runlim] sample:		623.60 time, 120.02 real, 244 MB
+[runlim] sample:		643.61 time, 130.02 real, 246 MB
+[runlim] sample:		663.60 time, 140.02 real, 248 MB
+[runlim] sample:		683.60 time, 150.02 real, 250 MB
+[runlim] sample:		703.60 time, 160.02 real, 253 MB
+[runlim] sample:		723.60 time, 170.02 real, 253 MB
+[runlim] sample:		743.59 time, 180.02 real, 253 MB
+[runlim] sample:		763.61 time, 190.02 real, 256 MB
+[runlim] sample:		783.60 time, 200.02 real, 256 MB
+[runlim] sample:		803.61 time, 210.02 real, 256 MB
+[runlim] sample:		823.60 time, 220.02 real, 258 MB
+[runlim] sample:		843.60 time, 230.02 real, 258 MB
+[runlim] sample:		863.60 time, 240.02 real, 258 MB
+[runlim] sample:		883.60 time, 250.02 real, 260 MB
+[runlim] sample:		903.60 time, 260.02 real, 260 MB
+[runlim] sample:		923.61 time, 270.02 real, 259 MB
+[runlim] sample:		943.60 time, 280.02 real, 266 MB
+[runlim] sample:		963.60 time, 290.02 real, 271 MB
+[runlim] sample:		2377.17 time, 300.02 real, 127 MB
+[runlim] sample:		2387.17 time, 310.02 real, 127 MB
+[runlim] sample:		2397.16 time, 320.02 real, 127 MB
+[runlim] sample:		2407.17 time, 330.02 real, 127 MB
+[runlim] sample:		2417.17 time, 340.02 real, 127 MB
+[runlim] sample:		2974.13 time, 350.02 real, 122 MB
+[runlim] sample:		2984.13 time, 360.02 real, 122 MB
+[runlim] sample:		2994.13 time, 370.02 real, 122 MB
+[runlim] sample:		3004.13 time, 380.02 real, 122 MB
+[runlim] sample:		3014.13 time, 390.02 real, 122 MB
+[runlim] sample:		3024.13 time, 400.02 real, 118 MB
+[runlim] sample:		3034.13 time, 410.02 real, 118 MB
+[runlim] sample:		3044.13 time, 420.02 real, 118 MB
+[runlim] sample:		3054.12 time, 430.02 real, 118 MB
+[runlim] sample:		3064.12 time, 440.02 real, 118 MB
+[runlim] sample:		3074.12 time, 450.02 real, 118 MB
+[runlim] sample:		3084.13 time, 460.02 real, 118 MB
+[runlim] sample:		3094.12 time, 470.02 real, 118 MB
+[runlim] sample:		3104.13 time, 480.02 real, 118 MB
+[runlim] sample:		3114.13 time, 490.02 real, 118 MB
+[runlim] sample:		3124.12 time, 500.02 real, 118 MB
+[runlim] sample:		3134.13 time, 510.02 real, 118 MB
+[runlim] sample:		3144.12 time, 520.02 real, 118 MB
+[runlim] sample:		3154.13 time, 530.02 real, 118 MB
+[runlim] sample:		3164.13 time, 540.02 real, 118 MB
+[runlim] sample:		3174.12 time, 550.02 real, 118 MB
+[runlim] sample:		3184.13 time, 560.02 real, 118 MB
+[runlim] sample:		3194.12 time, 570.02 real, 118 MB
+[runlim] sample:		3204.12 time, 580.02 real, 118 MB
+[runlim] sample:		3214.13 time, 590.02 real, 118 MB
+[runlim] sample:		3224.13 time, 600.02 real, 118 MB
+[runlim] sample:		3234.13 time, 610.02 real, 118 MB
+[runlim] sample:		3244.12 time, 620.02 real, 118 MB
+[runlim] sample:		3254.13 time, 630.02 real, 118 MB
+[runlim] sample:		3264.13 time, 640.02 real, 118 MB
+[runlim] end:			Thu Oct 17 00:14:00 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		37
+[runlim] real:			643.59 seconds
+[runlim] time:			5658.23 seconds
+[runlim] space:			298 MB
+[runlim] samples:		6435

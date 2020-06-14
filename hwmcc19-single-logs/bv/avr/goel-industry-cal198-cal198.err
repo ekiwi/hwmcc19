@@ -1,0 +1,22 @@
+[runlim] version:		1.17
+[runlim] host:			c3n19
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/cHSEKwWm.btor2
+[runlim] start:			Fri Oct 18 18:41:32 2019
+[runlim] child:			23942
+[runlim] sample:		11.16 time, 10.02 real, 160 MB
+[runlim] sample:		32.73 time, 20.02 real, 526 MB
+[runlim] sample:		52.86 time, 30.02 real, 543 MB
+[runlim] sample:		72.95 time, 40.02 real, 547 MB
+[runlim] sample:		93.05 time, 50.02 real, 540 MB
+[runlim] end:			Fri Oct 18 18:42:29 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		208
+[runlim] real:			57.70 seconds
+[runlim] time:			164.12 seconds
+[runlim] space:			574 MB
+[runlim] samples:		576

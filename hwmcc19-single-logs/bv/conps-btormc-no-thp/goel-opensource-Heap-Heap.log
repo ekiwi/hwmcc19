@@ -1,0 +1,9 @@
+c host: c3n31
+c start: Thu Oct 17 13:45:25 CEST 2019
+c arrayjobid: 17562840
+c jobid: 17566086
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/Heap/Heap.btor2
+c solver: ./run-conps-btormc-no-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566086.0
+c done

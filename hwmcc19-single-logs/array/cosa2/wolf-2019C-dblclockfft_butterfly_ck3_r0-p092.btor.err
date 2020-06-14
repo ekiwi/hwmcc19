@@ -1,0 +1,19 @@
+[runlim] version:		1.17
+[runlim] host:			c3n25
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/DllWmBIg.btor
+[runlim] start:			Wed Oct 16 20:37:29 2019
+[runlim] child:			15612
+[runlim] sample:		20.19 time, 10.02 real, 351 MB
+[runlim] sample:		40.46 time, 20.02 real, 481 MB
+[runlim] end:			Wed Oct 16 20:37:58 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			28.28 seconds
+[runlim] time:			57.07 seconds
+[runlim] space:			621 MB
+[runlim] samples:		282

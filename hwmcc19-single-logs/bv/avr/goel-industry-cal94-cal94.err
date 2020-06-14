@@ -1,0 +1,25 @@
+[runlim] version:		1.17
+[runlim] host:			c3n27
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/jcvltfTA.btor2
+[runlim] start:			Fri Oct 18 18:40:57 2019
+[runlim] child:			29991
+[runlim] sample:		0.24 time, 15.44 real, 50 MB
+[runlim] sample:		0.79 time, 25.72 real, 56 MB
+[runlim] sample:		1.19 time, 35.72 real, 56 MB
+[runlim] sample:		3.39 time, 45.72 real, 131 MB
+[runlim] sample:		25.69 time, 55.72 real, 393 MB
+[runlim] sample:		45.78 time, 65.72 real, 400 MB
+[runlim] sample:		65.87 time, 75.72 real, 456 MB
+[runlim] sample:		85.96 time, 85.72 real, 465 MB
+[runlim] end:			Fri Oct 18 18:42:26 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		281
+[runlim] real:			89.74 seconds
+[runlim] time:			137.50 seconds
+[runlim] space:			466 MB
+[runlim] samples:		840

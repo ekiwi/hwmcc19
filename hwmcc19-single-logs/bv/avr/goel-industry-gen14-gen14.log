@@ -1,0 +1,39 @@
+c host: c3n31
+c start: Fri Oct 18 18:42:20 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567322
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/gen14/gen14.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567322.0
+	(output dir: /tmp//pr_test/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(4 / 525 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 1	: 0 0 s: 0    0s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        0.01          17           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 3194)
+@     0s  (started worker 1 with pid 3195)
+@     0s  (started worker 2 with pid 3196)
+@     0s  (started worker 3 with pid 3197)
+@     0s  (started worker 4 with pid 3198)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     0s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@     0s  (worker 3 output)
+@     0s  (stopping all workers)
+@     0s  (copied results from worker 3 in /tmp//pr_test)
+@     0s  [0;30;47m(proof race finished with answer safe in 0.21 seconds)[m
+unsat
+b0
+c done

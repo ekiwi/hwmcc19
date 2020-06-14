@@ -1,0 +1,47 @@
+[runlim] version:		1.17
+[runlim] host:			c3n21
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-no-thp.sh
+[runlim] argv[1]:		/tmp/evqRfXRp.btor
+[runlim] start:			Thu Oct 17 16:57:29 2019
+[runlim] child:			19574
+[runlim] sample:		9.99 time, 10.02 real, 60 MB
+[runlim] sample:		19.98 time, 20.02 real, 111 MB
+[runlim] sample:		29.98 time, 30.02 real, 160 MB
+[runlim] sample:		39.98 time, 40.02 real, 188 MB
+[runlim] sample:		49.99 time, 50.02 real, 208 MB
+[runlim] sample:		59.98 time, 60.02 real, 248 MB
+[runlim] sample:		69.98 time, 70.02 real, 259 MB
+[runlim] sample:		79.98 time, 80.01 real, 323 MB
+[runlim] sample:		89.98 time, 90.01 real, 349 MB
+[runlim] sample:		99.98 time, 100.01 real, 365 MB
+[runlim] sample:		109.98 time, 110.01 real, 398 MB
+[runlim] sample:		119.98 time, 120.01 real, 416 MB
+[runlim] sample:		129.98 time, 130.01 real, 423 MB
+[runlim] sample:		139.98 time, 140.01 real, 442 MB
+[runlim] sample:		149.98 time, 150.01 real, 468 MB
+[runlim] sample:		159.97 time, 160.01 real, 460 MB
+[runlim] sample:		169.98 time, 170.01 real, 515 MB
+[runlim] sample:		179.98 time, 180.01 real, 616 MB
+[runlim] sample:		189.98 time, 190.01 real, 674 MB
+[runlim] sample:		199.98 time, 200.01 real, 748 MB
+[runlim] sample:		209.97 time, 210.01 real, 829 MB
+[runlim] sample:		219.98 time, 220.01 real, 891 MB
+[runlim] sample:		229.98 time, 230.01 real, 908 MB
+[runlim] sample:		239.97 time, 240.01 real, 908 MB
+[runlim] sample:		249.98 time, 250.01 real, 915 MB
+[runlim] sample:		259.98 time, 260.01 real, 915 MB
+[runlim] sample:		269.98 time, 270.01 real, 953 MB
+[runlim] sample:		279.97 time, 280.01 real, 1010 MB
+[runlim] sample:		289.98 time, 290.01 real, 1091 MB
+[runlim] sample:		299.98 time, 300.01 real, 1201 MB
+[runlim] end:			Thu Oct 17 17:02:34 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			304.40 seconds
+[runlim] time:			304.28 seconds
+[runlim] space:			1233 MB
+[runlim] samples:		3043

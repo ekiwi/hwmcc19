@@ -1,0 +1,67 @@
+c host: c3n12
+c start: Fri Oct 18 20:40:10 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567472
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dspfilters_fastfir_second-p04.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567472.0
+	(output dir: /tmp//pr_test/work_w8)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1095 / 1134 flops initialized)
+	(abstraction: sa8+l5)
+   2	: 0	: 0 s: 0    2s                     3	: 0	: 0 s: 0    2s                     5	: 0	: 0 s: 0    2s                     6	: 0	: 0 s: 0    2s                     6	: 0	: 0 s: 0    2s                  
+   6	: 1	: 0 0 s: 0    2s                     6	: 1	: 0 1 s: 1    2s                     6	: 1	: 0 2 s: 2    3s                     6	: 1	: 0 3 s: 3    3s                     6	: 1	: 0 4 s: 4    3s                     7	: 1	: 0 4 s: 4    3s                     9	: 1	: 0 4 s: 4    3s                     11	: 1	: 0 4 s: 4    3s                     12	: 1	: 0 4 s: 4    4s                     12	: 1	: 0 5 s: 5    4s                     14	: 1	: 0 5 s: 5    4s                     16	: 1	: 0 5 s: 5    4s                     18	: 1	: 0 5 s: 5    4s                     20	: 1	: 0 5 s: 5    4s                     22	: 1	: 0 5 s: 5    5s                     24	: 1	: 0 5 s: 5    5s                     26	: 1	: 0 5 s: 5    5s                     28	: 1	: 0 5 s: 5    5s                     28	: 1	: 0 6 s: 6    5s                     30	: 1	: 0 6 s: 6    5s                     32	: 1	: 0 6 s: 6    6s                     32	: 1	: 0 7 s: 7    6s                     32	: 1	: 0 8 s: 8    6s                     32	: 1	: 0 9 s: 9    6s                     34	: 1	: 0 9 s: 9    6s                     36	: 1	: 0 9 s: 9    6s                     38	: 1	: 0 9 s: 9    6s                     40	: 1	: 0 9 s: 9    6s                     42	: 1	: 0 9 s: 9    7s                     44	: 1	: 0 9 s: 9    7s                     44	: 1	: 0 10 s: 10    7s                     44	: 1	: 0 11 s: 11    7s                     45	: 1	: 0 11 s: 11    7s                     47	: 1	: 0 11 s: 11    7s                     49	: 1	: 0 11 s: 11    8s                     51	: 1	: 0 11 s: 11    8s                     53	: 1	: 0 11 s: 11    8s                     55	: 1	: 0 11 s: 11    8s                     57	: 1	: 0 11 s: 11    8s                     59	: 1	: 0 11 s: 11    9s                     61	: 1	: 0 11 s: 11    9s                     63	: 1	: 0 11 s: 11    9s                     65	: 1	: 0 11 s: 11    9s                     66	: 1	: 0 11 s: 11    10s                     68	: 1	: 0 11 s: 11    10s                     69	: 1	: 0 11 s: 11    10s                     69	: 1	: 0 12 s: 12    10s                     71	: 1	: 0 12 s: 12    10s                     71	: 1	: 0 12 s: 12    10s                  
+   71	: 2	: 0 8 4 s: 12    10s                     71	: 2	: 0 8 5 s: 13    11s                     73	: 2	: 0 8 5 s: 13    11s                     75	: 2	: 0 8 5 s: 13    11s                     77	: 2	: 0 8 5 s: 13    11s                     77	: 2	: 0 8 6 s: 14    11s                     77	: 2	: 0 8 7 s: 15    11s                     79	: 2	: 0 8 7 s: 15    12s                     80	: 2	: 0 8 7 s: 15    13s                     82	: 2	: 0 8 7 s: 15    13s                     84	: 2	: 0 8 7 s: 15    13s                     85	: 2	: 0 8 7 s: 15    14s                     85	: 2	: 0 8 8 s: 16    14s                     86	: 2	: 0 8 8 s: 16    14s                     86	: 2	: 0 8 9 s: 17    14s                     86	: 2	: 0 8 11 s: 19    15s                     88	: 2	: 0 8 11 s: 19    15s                     90	: 2	: 0 8 11 s: 19    15s                     91	: 2	: 0 8 11 s: 19    16s                     92	: 2	: 0 8 11 s: 19    17s                     92	: 2	: 0 8 10 s: 18    17s                     92	: 2	: 0 8 11 s: 19    17s                     92	: 2	: 0 8 11 s: 19    17s                  
+   92	: 3	: 0 5 12 2 s: 19    17s                     92	: 3	: 0 5 12 3 s: 20    17s                     92	: 3	: 0 5 12 4 s: 21    17s                     94	: 3	: 0 5 14 4 s: 23    17s                     95	: 3	: 0 5 14 4 s: 23    18s                     96	: 3	: 0 5 14 4 s: 23    18s                     96	: 3	: 0 5 14 5 s: 24    18s                     96	: 3	: 0 5 14 6 s: 25    18s                     96	: 3	: 0 5 14 7 s: 26    18s                     96	: 3	: 0 5 14 8 s: 27    18s                     98	: 3	: 0 5 14 8 s: 27    18s                     98	: 3	: 0 5 14 9 s: 28    18s                     99	: 3	: 0 5 14 9 s: 28    19s                     99	: 3	: 0 5 14 9 s: 28    19s                  
+   99	: 4	: 0 5 11 6 5 s: 27    20s                     99	: 4	: 0 5 11 6 6 s: 28    20s                     99	: 4	: 0 5 11 6 7 s: 29    20s                     101	: 4	: 0 5 12 8 8 s: 33    20s                     101	: 4	: 0 5 12 8 9 s: 34    20s                     101	: 4	: 0 5 12 8 10 s: 35    20s                     101	: 4	: 0 5 12 8 11 s: 36    20s                     101	: 4	: 0 5 12 8 12 s: 37    20s                     101	: 4	: 0 5 12 8 13 s: 38    20s                     101	: 4	: 0 5 12 13 15 s: 45    21s                     101	: 4	: 0 5 12 13 16 s: 46    21s                     102	: 4	: 0 5 12 13 16 s: 46    21s                     102	: 4	: 0 5 12 13 16 s: 46    21s                  
+   102	: 5	: 0 5 10 10 8 12 s: 45    23s                     103	: 5	: 0 5 10 10 8 12 s: 45    23s                     104	: 5	: 0 5 10 10 8 12 s: 45    24s                     104	: 5	: 0 5 10 10 8 13 s: 46    24s                     106	: 5	: 0 5 10 10 8 13 s: 46    24s                     106	: 5	: 0 5 10 10 8 14 s: 47    24s                     106	: 5	: 0 5 10 10 8 14 s: 47    24s                  
+   106	: 6	: 0 5 10 10 7 4 11 s: 47    26s                     108	: 6	: 0 5 10 10 7 4 11 s: 47    26s                     109	: 6	: 0 5 10 10 7 4 11 s: 47    27s                     109	: 6	: 0 5 10 10 7 3 12 s: 47    27s                     109	: 6	: 0 5 10 10 7 3 12 s: 47    27s                  
+   109	: 7	: 0 5 10 9 4 1 1 16 s: 46    27s                     109	: 7	: 0 5 10 9 4 1 1 16 s: 46    27s                  
+   109	: 8	: 0 5 10 9 4 1 1 2 14 s: 46    28s                     109	: 8	: 0 5 10 9 4 1 1 2 14 s: 46    28s                  
+   109	: 9	: 0 5 10 9 4 1 1 2 1 13 s: 46    28s                     109	: 9	: 0 5 10 9 4 1 1 2 1 13 s: 46    28s                  
+   109	: 9	: 0 5 10 9 4 1 1 2 1 0 s: 33    29s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h       30.15         118         109
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 10322)
+@     0s  (started worker 1 with pid 10323)
+@     0s  (started worker 2 with pid 10324)
+@     0s  (started worker 3 with pid 10325)
+@     0s  (started worker 4 with pid 10326)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 10443)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 491 MB)
+@     2s  (started worker 6 with pid 10499)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 638 MB)
+@     3s  (started worker 7 with pid 10561)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 857 MB)
+@     4s  (started worker 8 with pid 10629)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 1020 MB)
+@     5s  (started worker 9 with pid 10721)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 1192 MB)
+@     7s  (started worker 10 with pid 10801)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 1381 MB)
+@    15s  (total 11 workers using 2384 MB)
+@    27s  (total 11 workers using 2972 MB)
+@    34s  (worker 8 finished with result safe) python3 avr.py -l 5 -g 3 -a sa8 --interpol 1 -f 1
+@    34s  (worker 8 output)
+@    34s  (stopping all workers)
+@    34s  (copied results from worker 8 in /tmp//pr_test)
+@    34s  [0;30;47m(proof race finished with answer safe in 34.29 seconds)[m
+unsat
+b0
+c done

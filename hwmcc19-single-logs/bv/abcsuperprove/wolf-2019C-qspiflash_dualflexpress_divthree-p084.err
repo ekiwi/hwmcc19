@@ -1,0 +1,22 @@
+[runlim] version:		1.17
+[runlim] host:			c3n26
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/qUf1NEoh.aig
+[runlim] start:			Thu Oct 17 00:56:00 2019
+[runlim] child:			8922
+[runlim] sample:		72.99 time, 10.02 real, 145 MB
+[runlim] sample:		92.97 time, 20.02 real, 156 MB
+[runlim] sample:		112.99 time, 30.02 real, 174 MB
+[runlim] sample:		132.99 time, 40.02 real, 174 MB
+[runlim] sample:		152.99 time, 50.02 real, 190 MB
+[runlim] end:			Thu Oct 17 00:56:58 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		15
+[runlim] real:			57.92 seconds
+[runlim] time:			334.40 seconds
+[runlim] space:			199 MB
+[runlim] samples:		579

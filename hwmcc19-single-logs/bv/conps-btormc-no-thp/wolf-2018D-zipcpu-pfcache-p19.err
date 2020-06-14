@@ -1,0 +1,49 @@
+[runlim] version:		1.17
+[runlim] host:			c3n13
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-no-thp.sh
+[runlim] argv[1]:		/tmp/y81IvVFk.btor
+[runlim] start:			Thu Oct 17 15:31:57 2019
+[runlim] child:			1044
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+[runlim] sample:		9.98 time, 10.02 real, 94 MB
+[runlim] sample:		19.98 time, 20.01 real, 213 MB
+[runlim] sample:		29.98 time, 30.01 real, 250 MB
+[runlim] sample:		39.98 time, 40.01 real, 278 MB
+[runlim] sample:		49.98 time, 50.01 real, 314 MB
+[runlim] sample:		59.98 time, 60.01 real, 355 MB
+[runlim] sample:		69.98 time, 70.01 real, 373 MB
+[runlim] sample:		79.98 time, 80.01 real, 373 MB
+[runlim] sample:		89.98 time, 90.01 real, 441 MB
+[runlim] sample:		99.98 time, 100.01 real, 479 MB
+[runlim] sample:		109.98 time, 110.01 real, 473 MB
+[runlim] sample:		119.98 time, 120.01 real, 493 MB
+[runlim] sample:		129.98 time, 130.01 real, 507 MB
+[runlim] sample:		139.97 time, 140.01 real, 517 MB
+[runlim] sample:		149.98 time, 150.01 real, 622 MB
+[runlim] sample:		159.98 time, 160.01 real, 656 MB
+[runlim] sample:		169.98 time, 170.01 real, 656 MB
+[runlim] sample:		179.98 time, 180.01 real, 688 MB
+[runlim] sample:		189.97 time, 190.01 real, 695 MB
+[runlim] sample:		199.98 time, 200.01 real, 695 MB
+[runlim] sample:		209.97 time, 210.01 real, 708 MB
+[runlim] sample:		219.97 time, 220.01 real, 708 MB
+[runlim] sample:		229.98 time, 230.01 real, 783 MB
+[runlim] end:			Thu Oct 17 15:35:56 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			238.97 seconds
+[runlim] time:			238.88 seconds
+[runlim] space:			894 MB
+[runlim] samples:		2389

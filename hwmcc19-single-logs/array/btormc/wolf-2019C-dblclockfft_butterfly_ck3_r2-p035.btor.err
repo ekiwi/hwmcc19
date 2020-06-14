@@ -1,0 +1,24 @@
+[runlim] version:		1.17
+[runlim] host:			c3n04
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc.sh
+[runlim] argv[1]:		/tmp/Gtooag3S.btor
+[runlim] start:			Wed Oct 16 10:51:59 2019
+[runlim] child:			23150
+[runlim] sample:		10.00 time, 10.02 real, 81 MB
+[runlim] sample:		20.00 time, 20.02 real, 98 MB
+[runlim] sample:		30.00 time, 30.01 real, 104 MB
+[runlim] sample:		40.00 time, 40.01 real, 116 MB
+[runlim] sample:		50.00 time, 50.01 real, 122 MB
+[runlim] sample:		60.01 time, 60.02 real, 127 MB
+[runlim] sample:		70.00 time, 70.01 real, 138 MB
+[runlim] end:			Wed Oct 16 10:53:11 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			72.21 seconds
+[runlim] time:			72.10 seconds
+[runlim] space:			138 MB
+[runlim] samples:		721

@@ -1,0 +1,9 @@
+c host: c3n01
+c start: Thu Oct 17 12:05:06 CEST 2019
+c arrayjobid: 17562840
+c jobid: 17566017
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/crafted/toy_lock_4/toy_lock_4.btor2
+c solver: ./run-conps-btormc-no-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566017.0
+c done

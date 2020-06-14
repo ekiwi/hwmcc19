@@ -1,0 +1,39 @@
+[runlim] version:		1.17
+[runlim] host:			c3n06
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/I01IgTUd.aig
+[runlim] start:			Wed Oct 16 23:34:19 2019
+[runlim] child:			30850
+[runlim] sample:		24.54 time, 10.02 real, 337 MB
+[runlim] sample:		44.45 time, 20.02 real, 354 MB
+[runlim] sample:		65.57 time, 30.02 real, 459 MB
+[runlim] sample:		85.57 time, 40.02 real, 467 MB
+[runlim] sample:		228.62 time, 50.02 real, 455 MB
+[runlim] sample:		366.00 time, 60.02 real, 233 MB
+[runlim] sample:		992.03 time, 70.01 real, 86 MB
+[runlim] sample:		1011.75 time, 80.02 real, 306 MB
+[runlim] sample:		1031.75 time, 90.02 real, 321 MB
+[runlim] sample:		1051.76 time, 100.02 real, 334 MB
+[runlim] sample:		1071.76 time, 110.02 real, 341 MB
+[runlim] sample:		1091.76 time, 120.02 real, 347 MB
+[runlim] sample:		1111.76 time, 130.02 real, 371 MB
+[runlim] sample:		1131.76 time, 140.02 real, 378 MB
+[runlim] sample:		1151.76 time, 150.02 real, 384 MB
+[runlim] sample:		1171.75 time, 160.02 real, 390 MB
+[runlim] sample:		1191.75 time, 170.02 real, 404 MB
+[runlim] sample:		1211.76 time, 180.02 real, 408 MB
+[runlim] sample:		1231.76 time, 190.02 real, 413 MB
+[runlim] sample:		1251.76 time, 200.02 real, 418 MB
+[runlim] sample:		1271.76 time, 210.02 real, 422 MB
+[runlim] sample:		1291.75 time, 220.02 real, 425 MB
+[runlim] end:			Wed Oct 16 23:38:06 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		36
+[runlim] real:			227.03 seconds
+[runlim] time:			3019.94 seconds
+[runlim] space:			539 MB
+[runlim] samples:		2270

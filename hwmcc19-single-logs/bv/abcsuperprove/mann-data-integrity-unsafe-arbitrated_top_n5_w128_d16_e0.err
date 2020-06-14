@@ -1,0 +1,41 @@
+[runlim] version:		1.17
+[runlim] host:			c3n11
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/MYfCeszU.aig
+[runlim] start:			Wed Oct 16 23:28:53 2019
+[runlim] child:			19840
+[runlim] sample:		17.09 time, 10.02 real, 552 MB
+[runlim] sample:		45.97 time, 20.02 real, 435 MB
+[runlim] sample:		65.96 time, 30.02 real, 432 MB
+[runlim] sample:		85.86 time, 40.02 real, 564 MB
+[runlim] sample:		107.33 time, 50.02 real, 573 MB
+[runlim] sample:		127.32 time, 60.02 real, 573 MB
+[runlim] sample:		1039.34 time, 70.02 real, 309 MB
+[runlim] sample:		1059.34 time, 80.02 real, 363 MB
+[runlim] sample:		1079.35 time, 90.02 real, 379 MB
+[runlim] sample:		1099.34 time, 100.02 real, 385 MB
+[runlim] sample:		1119.34 time, 110.02 real, 400 MB
+[runlim] sample:		1139.34 time, 120.02 real, 407 MB
+[runlim] sample:		1159.34 time, 130.02 real, 412 MB
+[runlim] sample:		1179.33 time, 140.02 real, 433 MB
+[runlim] sample:		1199.34 time, 150.02 real, 438 MB
+[runlim] sample:		1219.33 time, 160.02 real, 444 MB
+[runlim] sample:		1239.33 time, 170.02 real, 457 MB
+[runlim] sample:		1259.33 time, 180.02 real, 463 MB
+[runlim] sample:		1279.33 time, 190.02 real, 468 MB
+[runlim] sample:		1299.34 time, 200.02 real, 474 MB
+[runlim] sample:		1319.34 time, 210.02 real, 486 MB
+[runlim] sample:		1339.34 time, 220.02 real, 489 MB
+[runlim] sample:		1359.34 time, 230.02 real, 493 MB
+[runlim] sample:		1379.34 time, 240.02 real, 497 MB
+[runlim] end:			Wed Oct 16 23:32:56 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		34
+[runlim] real:			242.38 seconds
+[runlim] time:			3292.00 seconds
+[runlim] space:			584 MB
+[runlim] samples:		2423

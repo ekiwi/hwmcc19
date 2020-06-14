@@ -1,0 +1,9 @@
+c host: c3n07
+c start: Thu Oct 17 14:25:16 CEST 2019
+c arrayjobid: 17562840
+c jobid: 17566116
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/data-integrity/unsafe/circular_pointer_top_w16_d64_e0.btor2
+c solver: ./run-conps-btormc-no-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566116.0
+c done

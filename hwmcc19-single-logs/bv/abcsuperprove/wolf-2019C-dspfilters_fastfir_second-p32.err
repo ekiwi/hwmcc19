@@ -1,0 +1,46 @@
+[runlim] version:		1.17
+[runlim] host:			c3n08
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/TLlf5w9v.aig
+[runlim] start:			Thu Oct 17 00:41:18 2019
+[runlim] child:			30854
+[runlim] sample:		31.21 time, 10.02 real, 247 MB
+[runlim] sample:		62.15 time, 20.02 real, 279 MB
+[runlim] sample:		81.98 time, 30.02 real, 104 MB
+[runlim] sample:		131.63 time, 40.02 real, 289 MB
+[runlim] sample:		151.63 time, 50.02 real, 293 MB
+[runlim] sample:		715.09 time, 60.02 real, 187 MB
+[runlim] sample:		735.08 time, 70.02 real, 215 MB
+[runlim] sample:		755.09 time, 80.02 real, 222 MB
+[runlim] sample:		775.08 time, 90.02 real, 231 MB
+[runlim] sample:		795.09 time, 100.02 real, 234 MB
+[runlim] sample:		815.09 time, 110.02 real, 247 MB
+[runlim] sample:		835.08 time, 120.02 real, 279 MB
+[runlim] sample:		855.07 time, 130.02 real, 270 MB
+[runlim] sample:		1355.77 time, 140.02 real, 272 MB
+[runlim] sample:		1375.77 time, 150.02 real, 278 MB
+[runlim] sample:		1395.77 time, 160.02 real, 280 MB
+[runlim] sample:		1415.77 time, 170.02 real, 282 MB
+[runlim] sample:		1435.77 time, 180.02 real, 288 MB
+[runlim] sample:		1455.77 time, 190.02 real, 289 MB
+[runlim] sample:		1475.76 time, 200.02 real, 291 MB
+[runlim] sample:		1495.77 time, 210.02 real, 296 MB
+[runlim] sample:		1515.77 time, 220.02 real, 297 MB
+[runlim] sample:		1535.77 time, 230.02 real, 298 MB
+[runlim] sample:		1555.77 time, 240.02 real, 300 MB
+[runlim] sample:		1575.77 time, 250.02 real, 305 MB
+[runlim] sample:		1595.77 time, 260.02 real, 306 MB
+[runlim] sample:		1615.77 time, 270.02 real, 307 MB
+[runlim] sample:		1635.77 time, 280.02 real, 309 MB
+[runlim] sample:		1655.77 time, 290.02 real, 314 MB
+[runlim] end:			Thu Oct 17 00:46:11 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		22
+[runlim] real:			292.74 seconds
+[runlim] time:			2429.21 seconds
+[runlim] space:			314 MB
+[runlim] samples:		2927

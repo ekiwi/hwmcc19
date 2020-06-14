@@ -1,0 +1,9 @@
+c host: c3n09
+c start: Thu Oct 17 23:10:38 CEST 2019
+c arrayjobid: 17562842
+c jobid: 17566639
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/exit.5.prop1-func-interl.btor2
+c solver: ./run-btormc-master.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566639.0
+c done

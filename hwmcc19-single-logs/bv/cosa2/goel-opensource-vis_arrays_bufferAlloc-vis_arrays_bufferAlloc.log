@@ -1,0 +1,9 @@
+c host: c3n12
+c start: Wed Oct 16 14:56:08 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564514
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vis_arrays_bufferAlloc/vis_arrays_bufferAlloc.btor2
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564514.0
+c done

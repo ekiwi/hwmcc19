@@ -1,0 +1,9 @@
+c host: c3n30
+c start: Thu Oct 17 00:13:36 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565208
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018D/VexRiscv-regch0-30-p1.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565208.0
+c done

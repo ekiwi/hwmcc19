@@ -1,0 +1,31 @@
+[runlim] version:		1.17
+[runlim] host:			c3n08
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/TxCrlcaT.btor2
+[runlim] start:			Fri Oct 18 19:40:32 2019
+[runlim] child:			30852
+[runlim] sample:		13.59 time, 10.02 real, 197 MB
+[runlim] sample:		33.70 time, 20.02 real, 240 MB
+[runlim] sample:		53.78 time, 30.02 real, 267 MB
+[runlim] sample:		73.88 time, 40.02 real, 287 MB
+[runlim] sample:		50.58 time, 50.02 real, 177 MB
+[runlim] sample:		114.03 time, 60.02 real, 317 MB
+[runlim] sample:		134.11 time, 70.02 real, 334 MB
+[runlim] sample:		154.20 time, 80.02 real, 352 MB
+[runlim] sample:		174.25 time, 90.02 real, 368 MB
+[runlim] sample:		194.36 time, 100.02 real, 386 MB
+[runlim] sample:		214.45 time, 110.02 real, 373 MB
+[runlim] sample:		234.50 time, 120.02 real, 377 MB
+[runlim] sample:		254.58 time, 130.02 real, 388 MB
+[runlim] sample:		274.70 time, 140.02 real, 394 MB
+[runlim] end:			Fri Oct 18 19:42:55 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		275
+[runlim] real:			143.04 seconds
+[runlim] time:			419.65 seconds
+[runlim] space:			394 MB
+[runlim] samples:		1430

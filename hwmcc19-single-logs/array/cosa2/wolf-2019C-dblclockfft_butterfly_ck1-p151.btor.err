@@ -1,0 +1,46 @@
+[runlim] version:		1.17
+[runlim] host:			c3n03
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/EfrOL7zn.btor
+[runlim] start:			Wed Oct 16 20:43:32 2019
+[runlim] child:			11579
+[runlim] sample:		20.16 time, 10.02 real, 478 MB
+[runlim] sample:		40.44 time, 20.02 real, 766 MB
+[runlim] sample:		60.73 time, 30.02 real, 851 MB
+[runlim] sample:		80.99 time, 40.02 real, 981 MB
+[runlim] sample:		101.28 time, 50.02 real, 1137 MB
+[runlim] sample:		121.55 time, 60.02 real, 1199 MB
+[runlim] sample:		141.82 time, 70.02 real, 1322 MB
+[runlim] sample:		162.10 time, 80.02 real, 1423 MB
+[runlim] sample:		182.37 time, 90.02 real, 1400 MB
+[runlim] sample:		202.67 time, 100.02 real, 1416 MB
+[runlim] sample:		222.93 time, 110.02 real, 1432 MB
+[runlim] sample:		243.19 time, 120.02 real, 1477 MB
+[runlim] sample:		263.46 time, 130.02 real, 1596 MB
+[runlim] sample:		283.72 time, 140.02 real, 1768 MB
+[runlim] sample:		304.00 time, 150.02 real, 1839 MB
+[runlim] sample:		324.27 time, 160.02 real, 1945 MB
+[runlim] sample:		344.53 time, 170.02 real, 1997 MB
+[runlim] sample:		364.81 time, 180.02 real, 2044 MB
+[runlim] sample:		385.09 time, 190.02 real, 2147 MB
+[runlim] sample:		405.36 time, 200.02 real, 2220 MB
+[runlim] sample:		425.62 time, 210.02 real, 2108 MB
+[runlim] sample:		445.86 time, 220.02 real, 2129 MB
+[runlim] sample:		466.13 time, 230.02 real, 2173 MB
+[runlim] sample:		486.41 time, 240.02 real, 2193 MB
+[runlim] sample:		506.67 time, 250.02 real, 2231 MB
+[runlim] sample:		526.96 time, 260.02 real, 2274 MB
+[runlim] sample:		547.24 time, 270.02 real, 2376 MB
+[runlim] sample:		567.50 time, 280.02 real, 2449 MB
+[runlim] sample:		587.79 time, 290.02 real, 2482 MB
+[runlim] end:			Wed Oct 16 20:48:29 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			297.38 seconds
+[runlim] time:			602.59 seconds
+[runlim] space:			2537 MB
+[runlim] samples:		2973

@@ -1,0 +1,12 @@
+c host: c3n14
+c start: Wed Oct 16 22:57:08 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565074
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/crafted/toy_lock_4/toy_lock_4.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565074.0
+0
+b0
+.
+c done

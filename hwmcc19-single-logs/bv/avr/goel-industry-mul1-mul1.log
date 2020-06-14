@@ -1,0 +1,52 @@
+c host: c3n23
+c start: Fri Oct 18 18:42:24 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567330
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/mul1/mul1.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567330.0
+	(output dir: /tmp//pr_test/work_w8)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(258 / 258 flops initialized)
+	(abstraction: sa8+l5)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 3 s: 3    0s                     0	: 1	: 0 4 s: 4    0s                     0	: 1	: 0 5 s: 5    0s                     0	: 1	: 0 6 s: 6    0s                     0	: 1	: 0 6 s: 6    0s                  
+   0	: 2	: 0 2 4 s: 6    0s                     0	: 2	: 0 2 4 s: 6    0s                  
+   0	: 2	: 0 2 0 s: 2    0s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        0.01          17           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 12126)
+@     0s  (started worker 1 with pid 12127)
+@     0s  (started worker 2 with pid 12128)
+@     0s  (started worker 3 with pid 12129)
+@     0s  (started worker 4 with pid 12130)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 12246)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 150 MB)
+@     2s  (started worker 6 with pid 12302)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 216 MB)
+@     3s  (started worker 7 with pid 12364)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 248 MB)
+@     4s  (started worker 8 with pid 12432)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 277 MB)
+@     4s  (worker 8 finished with result safe) python3 avr.py -l 5 -g 3 -a sa8 --interpol 1 -f 1
+@     4s  (worker 8 output)
+@     4s  (stopping all workers)
+@     4s  (copied results from worker 8 in /tmp//pr_test)
+@     4s  [0;30;47m(proof race finished with answer safe in 4.16 seconds)[m
+unsat
+b0
+c done

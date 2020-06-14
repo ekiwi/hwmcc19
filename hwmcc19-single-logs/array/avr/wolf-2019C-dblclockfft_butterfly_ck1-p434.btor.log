@@ -1,0 +1,169 @@
+c host: c3n25
+c start: Fri Oct 18 22:29:34 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567681
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dblclockfft_butterfly_ck1-p434.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567681.0
+	(output dir: /tmp//pr_test/work_w6)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(3968 / 7166 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     1	: 2	: 0 2 3 s: 5    4s                     1	: 2	: 0 2 3 s: 5    4s                  
+   1	: 3	: 0 2 1 2 s: 5    4s                     1	: 3	: 0 2 1 2 s: 5    4s                  
+   1	: 4	: 0 2 1 1 1 s: 5    4s                     1	: 4	: 0 2 1 1 1 s: 5    4s                  
+   1	: 5	: 0 2 1 1 1 0 s: 5    4s                     2	: 5	: 0 2 1 1 1 0 s: 5    13s                     2	: 5	: 0 2 5 6 3 0 s: 16    14s                     2	: 5	: 0 2 5 8 7 0 s: 22    15s                     2	: 5	: 0 9 29 19 11 0 s: 68    20s                     2	: 5	: 0 11 32 26 15 0 s: 84    21s                     2	: 5	: 0 11 31 32 18 0 s: 92    22s                     2	: 5	: 0 10 33 39 25 0 s: 107    25s                     3	: 5	: 0 11 31 38 37 1 s: 118    48s                     3	: 5	: 0 11 31 38 37 2 s: 119    48s                     3	: 5	: 0 11 31 38 37 3 s: 120    48s                     3	: 5	: 0 11 31 38 36 4 s: 120    48s                     3	: 5	: 0 11 31 38 36 5 s: 121    48s                     4	: 5	: 0 13 31 60 51 8 s: 163    78s                     4	: 5	: 0 13 31 60 51 9 s: 164    78s                     4	: 5	: 0 13 31 60 51 10 s: 165    79s                     5	: 5	: 0 13 33 62 51 13 s: 172    168s                     5	: 5	: 0 13 33 61 51 14 s: 172    169s                     5	: 5	: 0 13 33 61 51 15 s: 173    169s                     6	: 5	: 0 15 34 62 51 15 s: 177    240s                     7	: 5	: 0 15 34 62 51 15 s: 177    307s                     7	: 5	: 0 15 34 62 51 16 s: 178    308s                     8	: 5	: 0 15 34 62 51 16 s: 178    352s                     8	: 5	: 0 15 34 62 51 17 s: 179    352s                     9	: 5	: 0 16 33 63 60 17 s: 189    558s                     10	: 5	: 0 16 33 64 61 17 s: 191    686s                     10	: 5	: 0 16 33 64 61 18 s: 192    686s                     10	: 5	: 0 16 33 64 61 19 s: 193    686s                     10	: 5	: 0 16 33 64 61 20 s: 194    686s                     10	: 5	: 0 16 33 64 61 23 s: 197    688s                     11	: 5	: 0 16 35 53 94 23 s: 221    1010s                     11	: 5	: 0 16 35 53 94 24 s: 222    1010s                     11	: 5	: 0 16 33 57 118 52 s: 276    1030s                     11	: 5	: 0 16 33 57 119 54 s: 279    1030s                     11	: 5	: 0 16 33 59 124 59 s: 291    1033s                     11	: 5	: 0 16 33 59 128 64 s: 300    1035s                     11	: 5	: 0 16 33 59 128 65 s: 301    1035s                     11	: 5	: 0 16 33 59 135 71 s: 314    1039s                     11	: 5	: 0 16 33 59 135 72 s: 315    1039s                     11	: 5	: 0 16 33 59 135 73 s: 316    1039s                     11	: 5	: 0 16 33 59 135 74 s: 317    1039s                     11	: 5	: 0 16 33 59 135 75 s: 318    1039s                     11	: 5	: 0 16 33 59 135 76 s: 319    1040s                     11	: 5	: 0 16 33 59 135 77 s: 320    1040s                     11	: 5	: 0 16 33 59 135 78 s: 321    1040s                     11	: 5	: 0 16 31 54 119 71 s: 291    1045s                     11	: 5	: 0 16 31 54 119 71 s: 291    1045s                  
+   11	: 6	: 0 10 11 35 44 15 162 s: 277    1054s                     11	: 6	: 0 10 11 35 44 15 163 s: 278    1054s                     11	: 6	: 0 10 11 35 44 15 164 s: 279    1054s                     11	: 6	: 0 10 11 35 44 16 165 s: 281    1055s                     11	: 6	: 0 10 11 35 41 13 163 s: 273    1055s                     11	: 6	: 0 10 11 35 41 13 163 s: 273    1055s                  
+   11	: 7	: 0 10 11 35 40 11 4 162 s: 273    1061s                     11	: 7	: 0 10 11 35 40 11 4 162 s: 273    1061s                  
+   11	: 8	: 0 10 11 35 40 11 4 5 157 s: 273    1066s                     11	: 8	: 0 10 11 35 40 11 4 5 157 s: 273    1066s                  
+   11	: 9	: 0 10 11 35 40 11 4 5 46 111 s: 273    1072s                     11	: 9	: 0 10 11 35 40 11 4 5 46 111 s: 273    1072s                  
+   11	: 10	: ... 0 10 11 35 40 11 4 5 46 11 100 s: 273    1076s                     11	: 10	: ... 0 10 11 35 40 11 4 5 46 11 101 s: 274    1077s                     11	: 10	: ... 0 10 11 35 40 11 4 5 46 11 102 s: 275    1077s                     11	: 10	: ... 0 10 11 35 40 11 4 5 46 11 103 s: 276    1078s                     11	: 10	: ... 0 10 11 35 40 11 4 5 46 11 103 s: 276    1078s                  
+   11	: 11	: ... 0 10 11 35 40 11 4 5 46 9 2 103 s: 276    1083s                     11	: 11	: ... 0 10 11 35 40 11 4 5 46 5 2 106 s: 275    1084s                     11	: 11	: ... 0 10 11 35 40 11 4 5 46 5 2 106 s: 275    1084s                  
+   11	: 12	: ... 10 11 35 40 11 4 5 46 1 5 1 106 s: 275    1090s                     11	: 12	: ... 10 11 35 40 11 4 5 46 1 5 1 107 s: 276    1090s                     11	: 12	: ... 11 35 40 11 4 5 46 7 15 11 130 s: 325    1104s                     11	: 12	: ... 11 35 40 11 4 5 46 8 16 20 163 s: 369    1125s                     11	: 12	: ... 11 35 40 11 4 5 46 7 14 17 161 s: 361    1127s                     11	: 12	: ... 11 35 40 11 4 5 46 7 14 17 161 s: 361    1127s                  
+   11	: 12	: ... 10 11 35 40 11 4 5 46 2 0 32 161 s: 357    1130s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h     1131.89        1269          11
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 27295)
+@     0s  (started worker 1 with pid 27296)
+@     0s  (started worker 2 with pid 27297)
+@     0s  (started worker 3 with pid 27298)
+@     0s  (started worker 4 with pid 27299)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 27415)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 489 MB)
+@     2s  (started worker 6 with pid 27471)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 882 MB)
+@     3s  (started worker 7 with pid 27533)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 1171 MB)
+@     4s  (started worker 8 with pid 27601)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 1434 MB)
+@     5s  (started worker 9 with pid 27693)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 1742 MB)
+@     7s  (started worker 10 with pid 27773)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 2299 MB)
+@    15s  (total 11 workers using 3945 MB)
+@    27s  (total 11 workers using 5617 MB)
+@    39s  (total 11 workers using 6549 MB)
+@    50s  (total 11 workers using 7588 MB)
+@    61s  (total 11 workers using 8317 MB)
+@    73s  (total 11 workers using 9018 MB)
+@    84s  (total 11 workers using 10112 MB)
+@    95s  (total 11 workers using 10980 MB)
+@   106s  (total 11 workers using 11799 MB)
+@   117s  (total 11 workers using 12458 MB)
+@   128s  (total 11 workers using 13649 MB)
+@   139s  (total 11 workers using 13710 MB)
+@   150s  (total 11 workers using 14113 MB)
+@   161s  (total 11 workers using 15042 MB)
+@   172s  (total 11 workers using 16169 MB)
+@   183s  (total 11 workers using 16050 MB)
+@   194s  (total 11 workers using 16311 MB)
+@   205s  (total 11 workers using 17252 MB)
+@   216s  (total 11 workers using 17636 MB)
+@   227s  (total 11 workers using 18580 MB)
+@   238s  (total 11 workers using 19307 MB)
+@   250s  (total 11 workers using 20312 MB)
+@   261s  (total 11 workers using 20838 MB)
+@   272s  (total 11 workers using 21508 MB)
+@   283s  (total 11 workers using 21985 MB)
+@   294s  (total 11 workers using 22300 MB)
+@   305s  (total 11 workers using 22637 MB)
+@   316s  (total 11 workers using 23361 MB)
+@   327s  (total 11 workers using 24081 MB)
+@   338s  (total 11 workers using 25118 MB)
+@   349s  (total 11 workers using 25720 MB)
+@   360s  (total 11 workers using 26084 MB)
+@   371s  (total 11 workers using 25480 MB)
+@   382s  (total 11 workers using 25508 MB)
+@   393s  (total 11 workers using 25794 MB)
+@   405s  (total 11 workers using 26169 MB)
+@   415s  (total 11 workers using 26750 MB)
+@   427s  (total 11 workers using 27324 MB)
+@   438s  (total 11 workers using 28870 MB)
+@   449s  (total 11 workers using 29474 MB)
+@   460s  (total 11 workers using 30288 MB)
+@   471s  (total 11 workers using 29066 MB)
+@   482s  (total 11 workers using 29356 MB)
+@   493s  (total 11 workers using 29507 MB)
+@   504s  (total 11 workers using 29705 MB)
+@   515s  (total 11 workers using 29357 MB)
+@   526s  (total 11 workers using 30243 MB)
+@   538s  (total 11 workers using 31024 MB)
+@   549s  (total 11 workers using 31485 MB)
+@   560s  (total 11 workers using 31876 MB)
+@   571s  (total 11 workers using 32439 MB)
+@   582s  (total 11 workers using 33151 MB)
+@   593s  (total 11 workers using 32696 MB)
+@   604s  (total 11 workers using 32559 MB)
+@   615s  (total 11 workers using 33177 MB)
+@   627s  (total 11 workers using 33495 MB)
+@   638s  (total 11 workers using 34165 MB)
+@   649s  (total 11 workers using 34184 MB)
+@   660s  (total 11 workers using 34978 MB)
+@   671s  (total 11 workers using 35106 MB)
+@   682s  (total 11 workers using 35804 MB)
+@   693s  (total 11 workers using 36452 MB)
+@   704s  (total 11 workers using 37033 MB)
+@   716s  (total 11 workers using 36074 MB)
+@   727s  (total 11 workers using 36288 MB)
+@   738s  (total 11 workers using 36837 MB)
+@   749s  (total 11 workers using 36340 MB)
+@   760s  (total 11 workers using 37288 MB)
+@   771s  (total 11 workers using 37581 MB)
+@   782s  (total 11 workers using 38053 MB)
+@   793s  (total 11 workers using 38815 MB)
+@   804s  (total 11 workers using 39215 MB)
+@   815s  (total 11 workers using 38866 MB)
+@   827s  (total 11 workers using 39185 MB)
+@   838s  (total 11 workers using 39466 MB)
+@   849s  (total 11 workers using 39362 MB)
+@   860s  (total 11 workers using 39264 MB)
+@   871s  (total 11 workers using 39688 MB)
+@   882s  (total 11 workers using 39726 MB)
+@   893s  (total 11 workers using 39719 MB)
+@   904s  (total 11 workers using 40498 MB)
+@   916s  (total 11 workers using 40358 MB)
+@   927s  (total 11 workers using 41178 MB)
+@   938s  (total 11 workers using 42035 MB)
+@   949s  (total 11 workers using 42051 MB)
+@   960s  (total 11 workers using 42574 MB)
+@   971s  (total 11 workers using 43339 MB)
+@   982s  (total 11 workers using 43551 MB)
+@   993s  (total 11 workers using 43516 MB)
+@  1005s  (total 11 workers using 43341 MB)
+@  1016s  (total 11 workers using 43730 MB)
+@  1027s  (total 11 workers using 43683 MB)
+@  1038s  (total 11 workers using 43246 MB)
+@  1049s  (total 11 workers using 44173 MB)
+@  1060s  (total 11 workers using 44107 MB)
+@  1071s  (total 11 workers using 44579 MB)
+@  1082s  (total 11 workers using 44427 MB)
+@  1094s  (total 11 workers using 44380 MB)
+@  1105s  (total 11 workers using 44593 MB)
+@  1116s  (total 11 workers using 44015 MB)
+@  1127s  (total 11 workers using 44905 MB)
+@  1136s  (worker 6 finished with result safe) python3 avr.py -a sa --interpol 1 -f 1
+@  1136s  (worker 6 output)
+@  1136s  (stopping all workers)
+@  1136s  (copied results from worker 6 in /tmp//pr_test)
+@  1136s  [0;30;47m(proof race finished with answer safe in 1135.72 seconds)[m
+unsat
+b0
+c done

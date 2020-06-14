@@ -1,0 +1,9 @@
+c host: c3n07
+c start: Wed Oct 16 14:56:59 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564517
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/usb_phy/usb_phy.btor2
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564517.0
+c done

@@ -1,0 +1,9 @@
+c host: c3n28
+c start: Fri Oct 18 01:54:55 CEST 2019
+c arrayjobid: 17562842
+c jobid: 17566762
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/data-integrity/unsafe/shift_register_top_w8_d32_e0.btor2
+c solver: ./run-btormc-master.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566762.0
+c done

@@ -1,0 +1,9 @@
+c host: c3n19
+c start: Wed Oct 16 14:01:51 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564463
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/cal78/cal78.btor2
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564463.0
+c done

@@ -1,0 +1,9 @@
+c host: c3n23
+c start: Thu Oct 17 07:41:40 CEST 2019
+c arrayjobid: 17562839
+c jobid: 17565712
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018A/zipcpu-zipmmu-p03.btor
+c solver: ./run-conps-btormc-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565712.0
+c done

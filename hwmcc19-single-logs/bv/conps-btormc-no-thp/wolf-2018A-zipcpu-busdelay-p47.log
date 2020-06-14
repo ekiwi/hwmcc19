@@ -1,0 +1,9 @@
+c host: c3n23
+c start: Thu Oct 17 15:05:45 CEST 2019
+c arrayjobid: 17562840
+c jobid: 17566145
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018A/zipcpu-busdelay-p47.btor
+c solver: ./run-conps-btormc-no-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566145.0
+c done

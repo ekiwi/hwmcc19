@@ -1,0 +1,9 @@
+c host: c3n28
+c start: Wed Oct 16 19:27:17 CEST 2019
+c arrayjobid: 17562836
+c jobid: 17564748
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/safe/arbitrated_fifos_n2d8w8.btor
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564748.0
+c done

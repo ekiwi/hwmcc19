@@ -1,0 +1,27 @@
+[runlim] version:		1.17
+[runlim] host:			c3n14
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/Ovpmmpl1.btor
+[runlim] start:			Fri Oct 18 22:59:07 2019
+[runlim] child:			22462
+[runlim] sample:		13.54 time, 10.02 real, 336 MB
+[runlim] sample:		20.41 time, 20.02 real, 172 MB
+[runlim] sample:		53.78 time, 30.02 real, 701 MB
+[runlim] sample:		73.90 time, 40.02 real, 837 MB
+[runlim] sample:		93.96 time, 50.02 real, 961 MB
+[runlim] sample:		114.03 time, 60.02 real, 1115 MB
+[runlim] sample:		134.13 time, 70.02 real, 1192 MB
+[runlim] sample:		154.19 time, 80.02 real, 1242 MB
+[runlim] sample:		174.27 time, 90.02 real, 1323 MB
+[runlim] sample:		194.33 time, 100.02 real, 1418 MB
+[runlim] end:			Fri Oct 18 23:00:55 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		260
+[runlim] real:			107.68 seconds
+[runlim] time:			316.81 seconds
+[runlim] space:			1528 MB
+[runlim] samples:		1076

@@ -1,0 +1,35 @@
+[runlim] version:		1.17
+[runlim] host:			c3n14
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc-master.sh
+[runlim] argv[1]:		/tmp/3cxoLuGN.btor2
+[runlim] start:			Fri Oct 18 00:28:21 2019
+[runlim] child:			4935
+warning: unsupported tag 'output'
+[runlim] sample:		10.00 time, 10.02 real, 255 MB
+[runlim] sample:		20.00 time, 20.02 real, 506 MB
+[runlim] sample:		30.00 time, 30.02 real, 650 MB
+[runlim] sample:		40.00 time, 40.02 real, 686 MB
+[runlim] sample:		50.00 time, 50.02 real, 716 MB
+[runlim] sample:		60.00 time, 60.02 real, 743 MB
+[runlim] sample:		69.99 time, 70.02 real, 881 MB
+[runlim] sample:		80.00 time, 80.02 real, 941 MB
+[runlim] sample:		89.99 time, 90.02 real, 1017 MB
+[runlim] sample:		100.00 time, 100.02 real, 1094 MB
+[runlim] sample:		110.00 time, 110.02 real, 1233 MB
+[runlim] sample:		119.99 time, 120.02 real, 1212 MB
+[runlim] sample:		130.00 time, 130.02 real, 1317 MB
+[runlim] sample:		140.00 time, 140.02 real, 1373 MB
+[runlim] sample:		150.00 time, 150.01 real, 1253 MB
+[runlim] sample:		160.00 time, 160.02 real, 1283 MB
+[runlim] sample:		169.99 time, 170.02 real, 1321 MB
+[runlim] end:			Fri Oct 18 00:31:17 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			176.37 seconds
+[runlim] time:			176.29 seconds
+[runlim] space:			1518 MB
+[runlim] samples:		1763

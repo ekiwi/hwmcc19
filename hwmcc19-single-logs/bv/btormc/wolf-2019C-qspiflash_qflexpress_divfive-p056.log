@@ -1,0 +1,11 @@
+c host: c3n16
+c start: Wed Oct 16 09:10:06 CEST 2019
+c arrayjobid: 17562833
+c jobid: 17564075
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/qspiflash_qflexpress_divfive-p056.btor
+c solver: ./run-btormc.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564075.0
+unsat
+b0
+c done

@@ -1,0 +1,46 @@
+c host: c3n23
+c start: Fri Oct 18 18:40:56 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567280
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/cal162/cal162.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567280.0
+	(output dir: /tmp//pr_test/work_w5)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(454 / 454 flops initialized)
+	(abstraction: sa32+l0)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     1	: 2	: 0 1 0 s: 1    0s                     1	: 2	: 0 1 1 s: 2    0s                     1	: 2	: 0 1 1 s: 2    0s                  
+   1	: 2	: 0 1 0 s: 1    0s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        0.74         103           1
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 11001)
+@     0s  (started worker 1 with pid 11002)
+@     0s  (started worker 2 with pid 11003)
+@     0s  (started worker 3 with pid 11004)
+@     0s  (started worker 4 with pid 11005)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     6s  (started worker 5 with pid 11105)
+@     6s  (spawned 1 workers)
+@     6s  (total 6 workers using 91 MB)
+@    19s  (started worker 6 with pid 11166)
+@    19s  (spawned 1 workers)
+@    19s  (total 7 workers using 1613 MB)
+@    20s  (worker 5 finished with result safe) python3 avr.py -b bin_bt_cadical -g 3 -l 0 -a sa32
+@    20s  (worker 5 output)
+@    20s  (stopping all workers)
+@    20s  (copied results from worker 5 in /tmp//pr_test)
+@    20s  [0;30;47m(proof race finished with answer safe in 19.71 seconds)[m
+unsat
+b0
+c done

@@ -1,0 +1,12 @@
+c host: c3n24
+c start: Wed Oct 16 23:09:42 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565137
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vis_arrays_am2910_p1/vis_arrays_am2910_p1.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565137.0
+0
+b0
+.
+c done

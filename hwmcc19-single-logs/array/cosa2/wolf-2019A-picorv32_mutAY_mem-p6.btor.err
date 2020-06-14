@@ -1,0 +1,23 @@
+[runlim] version:		1.17
+[runlim] host:			c3n14
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/Btt70Bxj.btor
+[runlim] start:			Wed Oct 16 19:50:25 2019
+[runlim] child:			29744
+[runlim] sample:		20.19 time, 10.02 real, 179 MB
+[runlim] sample:		40.45 time, 20.02 real, 223 MB
+[runlim] sample:		60.74 time, 30.02 real, 238 MB
+[runlim] sample:		81.01 time, 40.02 real, 289 MB
+[runlim] sample:		101.28 time, 50.02 real, 302 MB
+[runlim] sample:		121.57 time, 60.02 real, 322 MB
+[runlim] end:			Wed Oct 16 19:51:33 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			67.57 seconds
+[runlim] time:			136.59 seconds
+[runlim] space:			324 MB
+[runlim] samples:		675

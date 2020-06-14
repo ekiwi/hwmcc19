@@ -1,0 +1,897 @@
+c host: c3n16
+c start: Fri Oct 18 19:44:38 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567416
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018D/ponylink-slaveTXlen-sat.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567416.0
+	(output dir: /tmp//pr_test/work_w4)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(246 / 2868 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: safe till step 20)
+	(bmc: safe till step 30)
+	(bmc: safe till step 40)
+	(bmc: safe till step 50)
+	(bmc: safe till step 60)
+	(bmc: safe till step 70)
+	(bmc: safe till step 80)
+	(bmc: safe till step 90)
+	(bmc: safe till step 100)
+	(bmc: safe till step 110)
+	(bmc: safe till step 120)
+	(bmc: safe till step 130)
+	(bmc: safe till step 140)
+	(bmc: safe till step 150)
+	(bmc: safe till step 160)
+	(bmc: safe till step 170)
+	(bmc: safe till step 180)
+	(bmc: safe till step 190)
+	(bmc: safe till step 200)
+	(bmc: safe till step 210)
+	(bmc: safe till step 220)
+	(bmc: found cex at step 229)
+   0	: 0	: 0 s: 0    434s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v      434.93        2556           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 30212)
+@     0s  (started worker 1 with pid 30213)
+@     0s  (started worker 2 with pid 30214)
+@     0s  (started worker 3 with pid 30215)
+@     0s  (started worker 4 with pid 30216)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 30332)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 416 MB)
+@     2s  (started worker 6 with pid 30388)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 775 MB)
+@     3s  (started worker 7 with pid 30450)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 1130 MB)
+@     4s  (started worker 8 with pid 30518)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 1592 MB)
+@     5s  (started worker 9 with pid 30610)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 2048 MB)
+@     7s  (started worker 10 with pid 30690)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 2500 MB)
+@    15s  (total 11 workers using 5602 MB)
+@    27s  (total 11 workers using 7621 MB)
+@    39s  (total 11 workers using 9007 MB)
+@    50s  (total 11 workers using 9475 MB)
+@    61s  (total 11 workers using 11093 MB)
+@    73s  (total 11 workers using 12653 MB)
+@    84s  (total 11 workers using 13917 MB)
+@    95s  (total 11 workers using 15049 MB)
+@   106s  (total 11 workers using 17152 MB)
+@   117s  (total 11 workers using 17974 MB)
+@   128s  (total 11 workers using 16531 MB)
+@   139s  (total 11 workers using 17104 MB)
+@   150s  (total 11 workers using 17926 MB)
+@   161s  (total 11 workers using 18905 MB)
+@   172s  (total 11 workers using 19663 MB)
+@   183s  (total 11 workers using 20316 MB)
+@   194s  (total 11 workers using 23731 MB)
+@   205s  (total 11 workers using 24139 MB)
+@   216s  (total 11 workers using 24634 MB)
+@   227s  (total 11 workers using 25233 MB)
+@   238s  (total 11 workers using 25715 MB)
+@   249s  (total 11 workers using 26016 MB)
+@   260s  (total 11 workers using 26559 MB)
+@   271s  (total 11 workers using 27124 MB)
+@   282s  (total 11 workers using 27238 MB)
+@   293s  (total 11 workers using 27536 MB)
+@   304s  (total 11 workers using 28741 MB)
+@   315s  (total 11 workers using 29140 MB)
+@   326s  (total 11 workers using 29326 MB)
+@   337s  (total 11 workers using 30036 MB)
+@   348s  (total 11 workers using 30333 MB)
+@   360s  (total 11 workers using 31212 MB)
+@   370s  (total 11 workers using 31871 MB)
+@   382s  (total 11 workers using 32818 MB)
+@   393s  (total 11 workers using 33100 MB)
+@   404s  (total 11 workers using 33647 MB)
+@   415s  (total 11 workers using 33903 MB)
+@   426s  (total 11 workers using 34376 MB)
+@   437s  (worker 4 finished with result unsafe) python3 avr.py -b bin_y2 --bmc
+@   437s  (worker 4 output)
+@   437s  (stopping all workers)
+@   437s  (copied results from worker 4 in /tmp//pr_test)
+@   437s  [0;30;47m(proof race finished with answer unsafe in 436.58 seconds)[m
+sat
+b0
+#0
+0 1 |_s0_uut.serdes_en_r|#0
+2 0 |_s2_$formal$ponylink-slaveTXlen-sat.sv:2951$1696_CHECK|#0
+3 0 |_s3_$formal$ponylink-slaveTXlen-sat.sv:2951$1696_EN|#0
+4 1 |_s4_uut.pack_8bits.packer.queue_tvalid|#0
+5 0000 |_s5_uut.txrx.reset_counter|#0
+6 000000000 |_s6_uut.pack_8bits.packer.ser_tdata|#0
+7 11011000 |_s7_uut.txrx.in_fifo_iptr|#0
+8 11010100 |_s8_uut.txrx.peer_out_fifo_iptr|#0
+9 0 |_s9_uut.pack_8bits.packer.ser_tvalid|#0
+10 0 |_s10_uut.unpack_8bits.unpacker.ser_tready|#0
+11 11000100 |_s11_uut.txrx.out_fifo_iptr|#0
+12 11000100 |_s12_uut.txrx.out_fifo_optr|#0
+13 1 |_s13_uut.pack_8bits.packer.queue_send_tuser|#0
+14 1 |_s14_uut.pack_8bits.packer.queue_send_tuser2|#0
+15 1 |_s15_uut.pack_8bits.packer.queue_tlast|#0
+16 10000000 |_s16_uut.pack_8bits.packer.queue_tuser|#0
+17 11001001001000011000010110011000 |_s17_uut.pack_8bits.packer.rng|#0
+18 000000000000 |_s18_uut.pack_8bits.packer.rng_counter|#0
+19 00010 |_s19_uut.pack_8bits.packer.rng_cursor|#0
+20 1 |_s20_uut.txrx.encode_1.encoder.serdes_en|#0
+21 0 |_s21_uut.serdes_in_r|#0
+22 0 |_s22_uut.txrx.encode_1.encoder.serdes_out|#0
+23 10110000101000000001110000010000 |_s23_uut.txrx.crc32.lfsr_q|#0
+24 1 |_s24_uut.txrx.checksum_lock|#0
+25 0 |_s25_uut.txrx.send_valid|#0
+26 0 |_s26_uut.txrx.encode_1.encoder.send_ready|#0
+27 1 |_s27_uut.txrx.hd_send_mode|#0
+28 0 |_s28_uut.txrx.decode_1.decoder.recv_word_en|#0
+29 000110100 |_s29_uut.txrx.send_word|#0
+30 0000000000 |_s30_uut.txrx.decode_1.decoder.recv_wbits|#0
+31 0000 |_s31_uut.txrx.decode_1.decoder.cnt|#0
+32 0000 |_s32_uut.txrx.decode_1.decoder.cnt2|#0
+33 0 |_s33_uut.txrx.decode_1.decoder.de8b10b.dispout_q|#0
+34 0000 |_s34_uut.txrx.decode_1.decoder.de8b10b.reset_state|#0
+35 0 |_s35_uut.txrx.decode_1.decoder.de8b10b.rstdetect|#0
+36 0 |_s36_uut.txrx.decode_1.decoder.last_bit|#0
+37 111100101111011 |_s37_uut.txrx.encode_1.encoder.buffer|#0
+38 111111111111111 |_s38_uut.txrx.encode_1.encoder.buffer_en|#0
+39 000 |_s39_uut.txrx.encode_1.encoder.counter|#0
+40 0 |_s40_uut.txrx.encode_1.encoder.send_disp|#0
+41 0 |_s41_uut.txrx.encode_1.encoder.en8b10b.lastbit|#0
+42 0 |_s42_uut.txrx.encode_1.encoder.lastbit|#0
+43 001 |_s43_uut.txrx.encode_1.encoder.max_counter|#0
+44 0 |_s44_uut.txrx.encode_1.encoder.stage2_bits|#0
+45 1 |_s45_uut.txrx.encode_1.encoder.stage2_enable|#0
+46 0 |_s46_uut.txrx.encode_1.encoder.stage2_shift|#0
+47 000 |_s47_uut.txrx.hd_recv_wait|#0
+48 01010 |_s48_uut.txrx.hd_send_wait|#0
+49 0 |_s49_uut.txrx.hd_switch_to_recv|#0
+50 0 |_s50_uut.txrx.hd_switch_to_send|#0
+51 00000000000000000000000000000000 |_s51_uut.txrx.ichecksum|#0
+52 111011101 |_s52_uut.txrx.in_fifo_buffer[0]|#0
+53 001100010 |_s53_uut.txrx.in_fifo_buffer[100]|#0
+54 001100010 |_s54_uut.txrx.in_fifo_buffer[101]|#0
+55 000101111 |_s55_uut.txrx.in_fifo_buffer[102]|#0
+56 001101011 |_s56_uut.txrx.in_fifo_buffer[103]|#0
+57 001100001 |_s57_uut.txrx.in_fifo_buffer[104]|#0
+58 000100101 |_s58_uut.txrx.in_fifo_buffer[105]|#0
+59 000100100 |_s59_uut.txrx.in_fifo_buffer[106]|#0
+60 000000100 |_s60_uut.txrx.in_fifo_buffer[107]|#0
+61 000100011 |_s61_uut.txrx.in_fifo_buffer[108]|#0
+62 001000010 |_s62_uut.txrx.in_fifo_buffer[109]|#0
+63 000100111 |_s63_uut.txrx.in_fifo_buffer[10]|#0
+64 001000010 |_s64_uut.txrx.in_fifo_buffer[110]|#0
+65 001100010 |_s65_uut.txrx.in_fifo_buffer[111]|#0
+66 001101001 |_s66_uut.txrx.in_fifo_buffer[112]|#0
+67 000101001 |_s67_uut.txrx.in_fifo_buffer[113]|#0
+68 000101101 |_s68_uut.txrx.in_fifo_buffer[114]|#0
+69 000101001 |_s69_uut.txrx.in_fifo_buffer[115]|#0
+70 000100110 |_s70_uut.txrx.in_fifo_buffer[116]|#0
+71 001101010 |_s71_uut.txrx.in_fifo_buffer[117]|#0
+72 001001110 |_s72_uut.txrx.in_fifo_buffer[118]|#0
+73 001001010 |_s73_uut.txrx.in_fifo_buffer[119]|#0
+74 000100101 |_s74_uut.txrx.in_fifo_buffer[11]|#0
+75 001100100 |_s75_uut.txrx.in_fifo_buffer[120]|#0
+76 001100100 |_s76_uut.txrx.in_fifo_buffer[121]|#0
+77 001100110 |_s77_uut.txrx.in_fifo_buffer[122]|#0
+78 001100100 |_s78_uut.txrx.in_fifo_buffer[123]|#0
+79 001100100 |_s79_uut.txrx.in_fifo_buffer[124]|#0
+80 001101000 |_s80_uut.txrx.in_fifo_buffer[125]|#0
+81 001101101 |_s81_uut.txrx.in_fifo_buffer[126]|#0
+82 001101001 |_s82_uut.txrx.in_fifo_buffer[127]|#0
+83 000101100 |_s83_uut.txrx.in_fifo_buffer[128]|#0
+84 000101000 |_s84_uut.txrx.in_fifo_buffer[129]|#0
+85 000101000 |_s85_uut.txrx.in_fifo_buffer[12]|#0
+86 001001100 |_s86_uut.txrx.in_fifo_buffer[130]|#0
+87 001001000 |_s87_uut.txrx.in_fifo_buffer[131]|#0
+88 001001000 |_s88_uut.txrx.in_fifo_buffer[132]|#0
+89 100001101 |_s89_uut.txrx.in_fifo_buffer[133]|#0
+90 000001110 |_s90_uut.txrx.in_fifo_buffer[134]|#0
+91 000001100 |_s91_uut.txrx.in_fifo_buffer[135]|#0
+92 000101100 |_s92_uut.txrx.in_fifo_buffer[136]|#0
+93 000101100 |_s93_uut.txrx.in_fifo_buffer[137]|#0
+94 000101110 |_s94_uut.txrx.in_fifo_buffer[138]|#0
+95 000101100 |_s95_uut.txrx.in_fifo_buffer[139]|#0
+96 001101000 |_s96_uut.txrx.in_fifo_buffer[13]|#0
+97 000101110 |_s97_uut.txrx.in_fifo_buffer[140]|#0
+98 000101110 |_s98_uut.txrx.in_fifo_buffer[141]|#0
+99 000101110 |_s99_uut.txrx.in_fifo_buffer[142]|#0
+100 000101110 |_s100_uut.txrx.in_fifo_buffer[143]|#0
+101 000100100 |_s101_uut.txrx.in_fifo_buffer[144]|#0
+102 000101000 |_s102_uut.txrx.in_fifo_buffer[145]|#0
+103 000101110 |_s103_uut.txrx.in_fifo_buffer[146]|#0
+104 000101000 |_s104_uut.txrx.in_fifo_buffer[147]|#0
+105 000101100 |_s105_uut.txrx.in_fifo_buffer[148]|#0
+106 000101000 |_s106_uut.txrx.in_fifo_buffer[149]|#0
+107 001101001 |_s107_uut.txrx.in_fifo_buffer[14]|#0
+108 000000110 |_s108_uut.txrx.in_fifo_buffer[150]|#0
+109 100000001 |_s109_uut.txrx.in_fifo_buffer[151]|#0
+110 011101101 |_s110_uut.txrx.in_fifo_buffer[152]|#0
+111 000000011 |_s111_uut.txrx.in_fifo_buffer[153]|#0
+112 000100011 |_s112_uut.txrx.in_fifo_buffer[154]|#0
+113 000100011 |_s113_uut.txrx.in_fifo_buffer[155]|#0
+114 001000011 |_s114_uut.txrx.in_fifo_buffer[156]|#0
+115 000000011 |_s115_uut.txrx.in_fifo_buffer[157]|#0
+116 000000011 |_s116_uut.txrx.in_fifo_buffer[158]|#0
+117 000100010 |_s117_uut.txrx.in_fifo_buffer[159]|#0
+118 001101001 |_s118_uut.txrx.in_fifo_buffer[15]|#0
+119 000101000 |_s119_uut.txrx.in_fifo_buffer[160]|#0
+120 000101000 |_s120_uut.txrx.in_fifo_buffer[161]|#0
+121 000101010 |_s121_uut.txrx.in_fifo_buffer[162]|#0
+122 000101000 |_s122_uut.txrx.in_fifo_buffer[163]|#0
+123 000101010 |_s123_uut.txrx.in_fifo_buffer[164]|#0
+124 000101110 |_s124_uut.txrx.in_fifo_buffer[165]|#0
+125 000101010 |_s125_uut.txrx.in_fifo_buffer[166]|#0
+126 000101110 |_s126_uut.txrx.in_fifo_buffer[167]|#0
+127 000101100 |_s127_uut.txrx.in_fifo_buffer[168]|#0
+128 000101100 |_s128_uut.txrx.in_fifo_buffer[169]|#0
+129 001101101 |_s129_uut.txrx.in_fifo_buffer[16]|#0
+130 000101110 |_s130_uut.txrx.in_fifo_buffer[170]|#0
+131 000101100 |_s131_uut.txrx.in_fifo_buffer[171]|#0
+132 000101100 |_s132_uut.txrx.in_fifo_buffer[172]|#0
+133 000101110 |_s133_uut.txrx.in_fifo_buffer[173]|#0
+134 000101110 |_s134_uut.txrx.in_fifo_buffer[174]|#0
+135 000101110 |_s135_uut.txrx.in_fifo_buffer[175]|#0
+136 010010111 |_s136_uut.txrx.in_fifo_buffer[176]|#0
+137 110011011 |_s137_uut.txrx.in_fifo_buffer[177]|#0
+138 000100011 |_s138_uut.txrx.in_fifo_buffer[178]|#0
+139 000101000 |_s139_uut.txrx.in_fifo_buffer[179]|#0
+140 001101000 |_s140_uut.txrx.in_fifo_buffer[17]|#0
+141 000100000 |_s141_uut.txrx.in_fifo_buffer[180]|#0
+142 000101110 |_s142_uut.txrx.in_fifo_buffer[181]|#0
+143 000101010 |_s143_uut.txrx.in_fifo_buffer[182]|#0
+144 000001111 |_s144_uut.txrx.in_fifo_buffer[183]|#0
+145 011101001 |_s145_uut.txrx.in_fifo_buffer[184]|#0
+146 000001011 |_s146_uut.txrx.in_fifo_buffer[185]|#0
+147 000101010 |_s147_uut.txrx.in_fifo_buffer[186]|#0
+148 000101000 |_s148_uut.txrx.in_fifo_buffer[187]|#0
+149 000101010 |_s149_uut.txrx.in_fifo_buffer[188]|#0
+150 000101010 |_s150_uut.txrx.in_fifo_buffer[189]|#0
+151 001101000 |_s151_uut.txrx.in_fifo_buffer[18]|#0
+152 000101010 |_s152_uut.txrx.in_fifo_buffer[190]|#0
+153 000101010 |_s153_uut.txrx.in_fifo_buffer[191]|#0
+154 001101000 |_s154_uut.txrx.in_fifo_buffer[192]|#0
+155 001101000 |_s155_uut.txrx.in_fifo_buffer[193]|#0
+156 000101110 |_s156_uut.txrx.in_fifo_buffer[194]|#0
+157 000101000 |_s157_uut.txrx.in_fifo_buffer[195]|#0
+158 001001010 |_s158_uut.txrx.in_fifo_buffer[196]|#0
+159 001001100 |_s159_uut.txrx.in_fifo_buffer[197]|#0
+160 000101010 |_s160_uut.txrx.in_fifo_buffer[198]|#0
+161 000101100 |_s161_uut.txrx.in_fifo_buffer[199]|#0
+162 001101000 |_s162_uut.txrx.in_fifo_buffer[19]|#0
+163 011011001 |_s163_uut.txrx.in_fifo_buffer[1]|#0
+164 001101000 |_s164_uut.txrx.in_fifo_buffer[200]|#0
+165 001101000 |_s165_uut.txrx.in_fifo_buffer[201]|#0
+166 000101000 |_s166_uut.txrx.in_fifo_buffer[202]|#0
+167 010001001 |_s167_uut.txrx.in_fifo_buffer[203]|#0
+168 001101111 |_s168_uut.txrx.in_fifo_buffer[204]|#0
+169 000001100 |_s169_uut.txrx.in_fifo_buffer[205]|#0
+170 110111110 |_s170_uut.txrx.in_fifo_buffer[206]|#0
+171 011111100 |_s171_uut.txrx.in_fifo_buffer[207]|#0
+172 110110100 |_s172_uut.txrx.in_fifo_buffer[208]|#0
+173 001011000 |_s173_uut.txrx.in_fifo_buffer[209]|#0
+174 001101100 |_s174_uut.txrx.in_fifo_buffer[20]|#0
+175 011110101 |_s175_uut.txrx.in_fifo_buffer[210]|#0
+176 001111010 |_s176_uut.txrx.in_fifo_buffer[211]|#0
+177 010110101 |_s177_uut.txrx.in_fifo_buffer[212]|#0
+178 000101000 |_s178_uut.txrx.in_fifo_buffer[213]|#0
+179 101011111 |_s179_uut.txrx.in_fifo_buffer[214]|#0
+180 111110101 |_s180_uut.txrx.in_fifo_buffer[215]|#0
+181 001101000 |_s181_uut.txrx.in_fifo_buffer[216]|#0
+182 001101000 |_s182_uut.txrx.in_fifo_buffer[217]|#0
+183 001101010 |_s183_uut.txrx.in_fifo_buffer[218]|#0
+184 001001000 |_s184_uut.txrx.in_fifo_buffer[219]|#0
+185 001101100 |_s185_uut.txrx.in_fifo_buffer[21]|#0
+186 001101010 |_s186_uut.txrx.in_fifo_buffer[220]|#0
+187 001101000 |_s187_uut.txrx.in_fifo_buffer[221]|#0
+188 000101010 |_s188_uut.txrx.in_fifo_buffer[222]|#0
+189 000101000 |_s189_uut.txrx.in_fifo_buffer[223]|#0
+190 000101000 |_s190_uut.txrx.in_fifo_buffer[224]|#0
+191 000001000 |_s191_uut.txrx.in_fifo_buffer[225]|#0
+192 000101010 |_s192_uut.txrx.in_fifo_buffer[226]|#0
+193 000101000 |_s193_uut.txrx.in_fifo_buffer[227]|#0
+194 001001010 |_s194_uut.txrx.in_fifo_buffer[228]|#0
+195 001001000 |_s195_uut.txrx.in_fifo_buffer[229]|#0
+196 010111001 |_s196_uut.txrx.in_fifo_buffer[22]|#0
+197 000101010 |_s197_uut.txrx.in_fifo_buffer[230]|#0
+198 001101000 |_s198_uut.txrx.in_fifo_buffer[231]|#0
+199 000001000 |_s199_uut.txrx.in_fifo_buffer[232]|#0
+200 111110011 |_s200_uut.txrx.in_fifo_buffer[233]|#0
+201 000001101 |_s201_uut.txrx.in_fifo_buffer[234]|#0
+202 000101100 |_s202_uut.txrx.in_fifo_buffer[235]|#0
+203 110011100 |_s203_uut.txrx.in_fifo_buffer[236]|#0
+204 000011101 |_s204_uut.txrx.in_fifo_buffer[237]|#0
+205 001001001 |_s205_uut.txrx.in_fifo_buffer[238]|#0
+206 100000110 |_s206_uut.txrx.in_fifo_buffer[239]|#0
+207 001101101 |_s207_uut.txrx.in_fifo_buffer[23]|#0
+208 100101000 |_s208_uut.txrx.in_fifo_buffer[240]|#0
+209 000111000 |_s209_uut.txrx.in_fifo_buffer[241]|#0
+210 000011011 |_s210_uut.txrx.in_fifo_buffer[242]|#0
+211 111101010 |_s211_uut.txrx.in_fifo_buffer[243]|#0
+212 001001010 |_s212_uut.txrx.in_fifo_buffer[244]|#0
+213 000001000 |_s213_uut.txrx.in_fifo_buffer[245]|#0
+214 000101010 |_s214_uut.txrx.in_fifo_buffer[246]|#0
+215 000001000 |_s215_uut.txrx.in_fifo_buffer[247]|#0
+216 100111000 |_s216_uut.txrx.in_fifo_buffer[248]|#0
+217 001001000 |_s217_uut.txrx.in_fifo_buffer[249]|#0
+218 000100010 |_s218_uut.txrx.in_fifo_buffer[24]|#0
+219 000101010 |_s219_uut.txrx.in_fifo_buffer[250]|#0
+220 000101000 |_s220_uut.txrx.in_fifo_buffer[251]|#0
+221 001001000 |_s221_uut.txrx.in_fifo_buffer[252]|#0
+222 001001000 |_s222_uut.txrx.in_fifo_buffer[253]|#0
+223 110111010 |_s223_uut.txrx.in_fifo_buffer[254]|#0
+224 011111000 |_s224_uut.txrx.in_fifo_buffer[255]|#0
+225 000101010 |_s225_uut.txrx.in_fifo_buffer[25]|#0
+226 000100010 |_s226_uut.txrx.in_fifo_buffer[26]|#0
+227 000100010 |_s227_uut.txrx.in_fifo_buffer[27]|#0
+228 001101011 |_s228_uut.txrx.in_fifo_buffer[28]|#0
+229 000101001 |_s229_uut.txrx.in_fifo_buffer[29]|#0
+230 011111000 |_s230_uut.txrx.in_fifo_buffer[2]|#0
+231 001101001 |_s231_uut.txrx.in_fifo_buffer[30]|#0
+232 000101001 |_s232_uut.txrx.in_fifo_buffer[31]|#0
+233 001101001 |_s233_uut.txrx.in_fifo_buffer[32]|#0
+234 011011101 |_s234_uut.txrx.in_fifo_buffer[33]|#0
+235 001111101 |_s235_uut.txrx.in_fifo_buffer[34]|#0
+236 001011100 |_s236_uut.txrx.in_fifo_buffer[35]|#0
+237 000101110 |_s237_uut.txrx.in_fifo_buffer[36]|#0
+238 001101010 |_s238_uut.txrx.in_fifo_buffer[37]|#0
+239 001101111 |_s239_uut.txrx.in_fifo_buffer[38]|#0
+240 001101010 |_s240_uut.txrx.in_fifo_buffer[39]|#0
+241 111011010 |_s241_uut.txrx.in_fifo_buffer[3]|#0
+242 000101111 |_s242_uut.txrx.in_fifo_buffer[40]|#0
+243 000101011 |_s243_uut.txrx.in_fifo_buffer[41]|#0
+244 000101010 |_s244_uut.txrx.in_fifo_buffer[42]|#0
+245 000101010 |_s245_uut.txrx.in_fifo_buffer[43]|#0
+246 000101011 |_s246_uut.txrx.in_fifo_buffer[44]|#0
+247 001101010 |_s247_uut.txrx.in_fifo_buffer[45]|#0
+248 001101010 |_s248_uut.txrx.in_fifo_buffer[46]|#0
+249 001101010 |_s249_uut.txrx.in_fifo_buffer[47]|#0
+250 100100101 |_s250_uut.txrx.in_fifo_buffer[48]|#0
+251 001100011 |_s251_uut.txrx.in_fifo_buffer[49]|#0
+252 001001000 |_s252_uut.txrx.in_fifo_buffer[4]|#0
+253 001101011 |_s253_uut.txrx.in_fifo_buffer[50]|#0
+254 001100011 |_s254_uut.txrx.in_fifo_buffer[51]|#0
+255 001101010 |_s255_uut.txrx.in_fifo_buffer[52]|#0
+256 001101010 |_s256_uut.txrx.in_fifo_buffer[53]|#0
+257 001101011 |_s257_uut.txrx.in_fifo_buffer[54]|#0
+258 001101010 |_s258_uut.txrx.in_fifo_buffer[55]|#0
+259 001101010 |_s259_uut.txrx.in_fifo_buffer[56]|#0
+260 001101010 |_s260_uut.txrx.in_fifo_buffer[57]|#0
+261 001101101 |_s261_uut.txrx.in_fifo_buffer[58]|#0
+262 001101011 |_s262_uut.txrx.in_fifo_buffer[59]|#0
+263 001001101 |_s263_uut.txrx.in_fifo_buffer[5]|#0
+264 001101010 |_s264_uut.txrx.in_fifo_buffer[60]|#0
+265 001101010 |_s265_uut.txrx.in_fifo_buffer[61]|#0
+266 000101101 |_s266_uut.txrx.in_fifo_buffer[62]|#0
+267 001101010 |_s267_uut.txrx.in_fifo_buffer[63]|#0
+268 001101011 |_s268_uut.txrx.in_fifo_buffer[64]|#0
+269 001101011 |_s269_uut.txrx.in_fifo_buffer[65]|#0
+270 001001011 |_s270_uut.txrx.in_fifo_buffer[66]|#0
+271 001001011 |_s271_uut.txrx.in_fifo_buffer[67]|#0
+272 001101010 |_s272_uut.txrx.in_fifo_buffer[68]|#0
+273 001101000 |_s273_uut.txrx.in_fifo_buffer[69]|#0
+274 001001100 |_s274_uut.txrx.in_fifo_buffer[6]|#0
+275 001101101 |_s275_uut.txrx.in_fifo_buffer[70]|#0
+276 001101001 |_s276_uut.txrx.in_fifo_buffer[71]|#0
+277 001100111 |_s277_uut.txrx.in_fifo_buffer[72]|#0
+278 001100010 |_s278_uut.txrx.in_fifo_buffer[73]|#0
+279 111101010 |_s279_uut.txrx.in_fifo_buffer[74]|#0
+280 011110010 |_s280_uut.txrx.in_fifo_buffer[75]|#0
+281 011101100 |_s281_uut.txrx.in_fifo_buffer[76]|#0
+282 001000000 |_s282_uut.txrx.in_fifo_buffer[77]|#0
+283 100000000 |_s283_uut.txrx.in_fifo_buffer[78]|#0
+284 111010000 |_s284_uut.txrx.in_fifo_buffer[79]|#0
+285 001001100 |_s285_uut.txrx.in_fifo_buffer[7]|#0
+286 001111101 |_s286_uut.txrx.in_fifo_buffer[80]|#0
+287 001101001 |_s287_uut.txrx.in_fifo_buffer[81]|#0
+288 001101001 |_s288_uut.txrx.in_fifo_buffer[82]|#0
+289 001101001 |_s289_uut.txrx.in_fifo_buffer[83]|#0
+290 101101101 |_s290_uut.txrx.in_fifo_buffer[84]|#0
+291 001100001 |_s291_uut.txrx.in_fifo_buffer[85]|#0
+292 101101101 |_s292_uut.txrx.in_fifo_buffer[86]|#0
+293 001100001 |_s293_uut.txrx.in_fifo_buffer[87]|#0
+294 001110001 |_s294_uut.txrx.in_fifo_buffer[88]|#0
+295 000101101 |_s295_uut.txrx.in_fifo_buffer[89]|#0
+296 001101000 |_s296_uut.txrx.in_fifo_buffer[8]|#0
+297 001110111 |_s297_uut.txrx.in_fifo_buffer[90]|#0
+298 000100101 |_s298_uut.txrx.in_fifo_buffer[91]|#0
+299 001110011 |_s299_uut.txrx.in_fifo_buffer[92]|#0
+300 001000000 |_s300_uut.txrx.in_fifo_buffer[93]|#0
+301 011110001 |_s301_uut.txrx.in_fifo_buffer[94]|#0
+302 001100001 |_s302_uut.txrx.in_fifo_buffer[95]|#0
+303 001100001 |_s303_uut.txrx.in_fifo_buffer[96]|#0
+304 001100101 |_s304_uut.txrx.in_fifo_buffer[97]|#0
+305 001001100 |_s305_uut.txrx.in_fifo_buffer[98]|#0
+306 001000100 |_s306_uut.txrx.in_fifo_buffer[99]|#0
+307 000100100 |_s307_uut.txrx.in_fifo_buffer[9]|#0
+308 11111100 |_s308_uut.txrx.in_fifo_optr|#0
+309 0000 |_s309_uut.txrx.istate|#0
+310 00000000 |_s310_uut.txrx.next_sent_gpio|#0
+311 00110000 |_s311_uut.txrx.next_sent_gpio_at|#0
+312 0000 |_s312_uut.txrx.ostate|#0
+313 0000000 |_s313_uut.txrx.ostate_counter|#0
+314 0 |_s314_uut.txrx.ostate_reset|#0
+315 10110000 |_s315_uut.txrx.peer_out_fifo_iptr_next|#0
+316 100000000 |_s316_uut.txrx.sent_gpio|#0
+317 00000000 |_s317_uut.txrx.work_out_fifo_iptr|#0
+318 0 |_s318_uut.txrx.work_out_fifo_iptr_apply|#0
+319 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 |_s319_xfer_shreg|#0
+@0
+1 0 |_i1_serdes_in|@0
+@1
+1 0 |_i1_serdes_in|@1
+@2
+1 0 |_i1_serdes_in|@2
+@3
+1 0 |_i1_serdes_in|@3
+@4
+1 0 |_i1_serdes_in|@4
+@5
+1 0 |_i1_serdes_in|@5
+@6
+1 0 |_i1_serdes_in|@6
+@7
+1 0 |_i1_serdes_in|@7
+@8
+1 0 |_i1_serdes_in|@8
+@9
+1 0 |_i1_serdes_in|@9
+@10
+1 0 |_i1_serdes_in|@10
+@11
+1 0 |_i1_serdes_in|@11
+@12
+1 0 |_i1_serdes_in|@12
+@13
+1 0 |_i1_serdes_in|@13
+@14
+1 0 |_i1_serdes_in|@14
+@15
+1 0 |_i1_serdes_in|@15
+@16
+1 0 |_i1_serdes_in|@16
+@17
+1 0 |_i1_serdes_in|@17
+@18
+1 0 |_i1_serdes_in|@18
+@19
+1 0 |_i1_serdes_in|@19
+@20
+1 0 |_i1_serdes_in|@20
+@21
+1 0 |_i1_serdes_in|@21
+@22
+1 0 |_i1_serdes_in|@22
+@23
+1 0 |_i1_serdes_in|@23
+@24
+1 0 |_i1_serdes_in|@24
+@25
+1 0 |_i1_serdes_in|@25
+@26
+1 0 |_i1_serdes_in|@26
+@27
+1 0 |_i1_serdes_in|@27
+@28
+1 0 |_i1_serdes_in|@28
+@29
+1 0 |_i1_serdes_in|@29
+@30
+1 0 |_i1_serdes_in|@30
+@31
+1 0 |_i1_serdes_in|@31
+@32
+1 0 |_i1_serdes_in|@32
+@33
+1 0 |_i1_serdes_in|@33
+@34
+1 0 |_i1_serdes_in|@34
+@35
+1 0 |_i1_serdes_in|@35
+@36
+1 0 |_i1_serdes_in|@36
+@37
+1 0 |_i1_serdes_in|@37
+@38
+1 0 |_i1_serdes_in|@38
+@39
+1 0 |_i1_serdes_in|@39
+@40
+1 0 |_i1_serdes_in|@40
+@41
+1 0 |_i1_serdes_in|@41
+@42
+1 0 |_i1_serdes_in|@42
+@43
+1 0 |_i1_serdes_in|@43
+@44
+1 0 |_i1_serdes_in|@44
+@45
+1 0 |_i1_serdes_in|@45
+@46
+1 0 |_i1_serdes_in|@46
+@47
+1 0 |_i1_serdes_in|@47
+@48
+1 0 |_i1_serdes_in|@48
+@49
+1 0 |_i1_serdes_in|@49
+@50
+1 0 |_i1_serdes_in|@50
+@51
+1 0 |_i1_serdes_in|@51
+@52
+1 0 |_i1_serdes_in|@52
+@53
+1 0 |_i1_serdes_in|@53
+@54
+1 0 |_i1_serdes_in|@54
+@55
+1 0 |_i1_serdes_in|@55
+@56
+1 0 |_i1_serdes_in|@56
+@57
+1 0 |_i1_serdes_in|@57
+@58
+1 0 |_i1_serdes_in|@58
+@59
+1 0 |_i1_serdes_in|@59
+@60
+1 0 |_i1_serdes_in|@60
+@61
+1 0 |_i1_serdes_in|@61
+@62
+1 0 |_i1_serdes_in|@62
+@63
+1 0 |_i1_serdes_in|@63
+@64
+1 0 |_i1_serdes_in|@64
+@65
+1 0 |_i1_serdes_in|@65
+@66
+1 0 |_i1_serdes_in|@66
+@67
+1 0 |_i1_serdes_in|@67
+@68
+1 0 |_i1_serdes_in|@68
+@69
+1 0 |_i1_serdes_in|@69
+@70
+1 0 |_i1_serdes_in|@70
+@71
+1 0 |_i1_serdes_in|@71
+@72
+1 0 |_i1_serdes_in|@72
+@73
+1 0 |_i1_serdes_in|@73
+@74
+1 0 |_i1_serdes_in|@74
+@75
+1 0 |_i1_serdes_in|@75
+@76
+1 0 |_i1_serdes_in|@76
+@77
+1 0 |_i1_serdes_in|@77
+@78
+1 0 |_i1_serdes_in|@78
+@79
+1 0 |_i1_serdes_in|@79
+@80
+1 0 |_i1_serdes_in|@80
+@81
+1 0 |_i1_serdes_in|@81
+@82
+1 0 |_i1_serdes_in|@82
+@83
+1 0 |_i1_serdes_in|@83
+@84
+1 0 |_i1_serdes_in|@84
+@85
+1 0 |_i1_serdes_in|@85
+@86
+1 0 |_i1_serdes_in|@86
+@87
+1 0 |_i1_serdes_in|@87
+@88
+1 0 |_i1_serdes_in|@88
+@89
+1 0 |_i1_serdes_in|@89
+@90
+1 0 |_i1_serdes_in|@90
+@91
+1 0 |_i1_serdes_in|@91
+@92
+1 0 |_i1_serdes_in|@92
+@93
+1 0 |_i1_serdes_in|@93
+@94
+1 0 |_i1_serdes_in|@94
+@95
+1 0 |_i1_serdes_in|@95
+@96
+1 0 |_i1_serdes_in|@96
+@97
+1 0 |_i1_serdes_in|@97
+@98
+1 0 |_i1_serdes_in|@98
+@99
+1 0 |_i1_serdes_in|@99
+@100
+1 0 |_i1_serdes_in|@100
+@101
+1 0 |_i1_serdes_in|@101
+@102
+1 0 |_i1_serdes_in|@102
+@103
+1 0 |_i1_serdes_in|@103
+@104
+1 0 |_i1_serdes_in|@104
+@105
+1 0 |_i1_serdes_in|@105
+@106
+1 0 |_i1_serdes_in|@106
+@107
+1 0 |_i1_serdes_in|@107
+@108
+1 0 |_i1_serdes_in|@108
+@109
+1 0 |_i1_serdes_in|@109
+@110
+1 0 |_i1_serdes_in|@110
+@111
+1 0 |_i1_serdes_in|@111
+@112
+1 0 |_i1_serdes_in|@112
+@113
+1 0 |_i1_serdes_in|@113
+@114
+1 0 |_i1_serdes_in|@114
+@115
+1 0 |_i1_serdes_in|@115
+@116
+1 0 |_i1_serdes_in|@116
+@117
+1 0 |_i1_serdes_in|@117
+@118
+1 0 |_i1_serdes_in|@118
+@119
+1 0 |_i1_serdes_in|@119
+@120
+1 0 |_i1_serdes_in|@120
+@121
+1 0 |_i1_serdes_in|@121
+@122
+1 0 |_i1_serdes_in|@122
+@123
+1 0 |_i1_serdes_in|@123
+@124
+1 0 |_i1_serdes_in|@124
+@125
+1 0 |_i1_serdes_in|@125
+@126
+1 0 |_i1_serdes_in|@126
+@127
+1 0 |_i1_serdes_in|@127
+@128
+1 0 |_i1_serdes_in|@128
+@129
+1 0 |_i1_serdes_in|@129
+@130
+1 0 |_i1_serdes_in|@130
+@131
+1 0 |_i1_serdes_in|@131
+@132
+1 0 |_i1_serdes_in|@132
+@133
+1 0 |_i1_serdes_in|@133
+@134
+1 0 |_i1_serdes_in|@134
+@135
+1 0 |_i1_serdes_in|@135
+@136
+1 0 |_i1_serdes_in|@136
+@137
+1 0 |_i1_serdes_in|@137
+@138
+1 0 |_i1_serdes_in|@138
+@139
+1 0 |_i1_serdes_in|@139
+@140
+1 0 |_i1_serdes_in|@140
+@141
+1 0 |_i1_serdes_in|@141
+@142
+1 0 |_i1_serdes_in|@142
+@143
+1 0 |_i1_serdes_in|@143
+@144
+1 0 |_i1_serdes_in|@144
+@145
+1 0 |_i1_serdes_in|@145
+@146
+1 0 |_i1_serdes_in|@146
+@147
+1 0 |_i1_serdes_in|@147
+@148
+1 0 |_i1_serdes_in|@148
+@149
+1 0 |_i1_serdes_in|@149
+@150
+1 0 |_i1_serdes_in|@150
+@151
+1 0 |_i1_serdes_in|@151
+@152
+1 0 |_i1_serdes_in|@152
+@153
+1 0 |_i1_serdes_in|@153
+@154
+1 0 |_i1_serdes_in|@154
+@155
+1 0 |_i1_serdes_in|@155
+@156
+1 0 |_i1_serdes_in|@156
+@157
+1 0 |_i1_serdes_in|@157
+@158
+1 0 |_i1_serdes_in|@158
+@159
+1 0 |_i1_serdes_in|@159
+@160
+1 0 |_i1_serdes_in|@160
+@161
+1 0 |_i1_serdes_in|@161
+@162
+1 0 |_i1_serdes_in|@162
+@163
+1 0 |_i1_serdes_in|@163
+@164
+1 0 |_i1_serdes_in|@164
+@165
+1 0 |_i1_serdes_in|@165
+@166
+1 0 |_i1_serdes_in|@166
+@167
+1 0 |_i1_serdes_in|@167
+@168
+1 0 |_i1_serdes_in|@168
+@169
+1 0 |_i1_serdes_in|@169
+@170
+1 0 |_i1_serdes_in|@170
+@171
+1 0 |_i1_serdes_in|@171
+@172
+1 0 |_i1_serdes_in|@172
+@173
+1 0 |_i1_serdes_in|@173
+@174
+1 0 |_i1_serdes_in|@174
+@175
+1 0 |_i1_serdes_in|@175
+@176
+1 0 |_i1_serdes_in|@176
+@177
+1 0 |_i1_serdes_in|@177
+@178
+1 0 |_i1_serdes_in|@178
+@179
+1 0 |_i1_serdes_in|@179
+@180
+1 0 |_i1_serdes_in|@180
+@181
+1 0 |_i1_serdes_in|@181
+@182
+1 0 |_i1_serdes_in|@182
+@183
+1 0 |_i1_serdes_in|@183
+@184
+1 0 |_i1_serdes_in|@184
+@185
+1 0 |_i1_serdes_in|@185
+@186
+1 0 |_i1_serdes_in|@186
+@187
+1 0 |_i1_serdes_in|@187
+@188
+1 0 |_i1_serdes_in|@188
+@189
+1 0 |_i1_serdes_in|@189
+@190
+1 0 |_i1_serdes_in|@190
+@191
+1 0 |_i1_serdes_in|@191
+@192
+1 0 |_i1_serdes_in|@192
+@193
+1 0 |_i1_serdes_in|@193
+@194
+1 0 |_i1_serdes_in|@194
+@195
+1 0 |_i1_serdes_in|@195
+@196
+1 0 |_i1_serdes_in|@196
+@197
+1 0 |_i1_serdes_in|@197
+@198
+1 0 |_i1_serdes_in|@198
+@199
+1 0 |_i1_serdes_in|@199
+@200
+1 0 |_i1_serdes_in|@200
+@201
+1 0 |_i1_serdes_in|@201
+@202
+1 0 |_i1_serdes_in|@202
+@203
+1 0 |_i1_serdes_in|@203
+@204
+1 0 |_i1_serdes_in|@204
+@205
+1 0 |_i1_serdes_in|@205
+@206
+1 0 |_i1_serdes_in|@206
+@207
+1 0 |_i1_serdes_in|@207
+@208
+1 0 |_i1_serdes_in|@208
+@209
+1 0 |_i1_serdes_in|@209
+@210
+1 0 |_i1_serdes_in|@210
+@211
+1 0 |_i1_serdes_in|@211
+@212
+1 0 |_i1_serdes_in|@212
+@213
+1 0 |_i1_serdes_in|@213
+@214
+1 0 |_i1_serdes_in|@214
+@215
+1 0 |_i1_serdes_in|@215
+@216
+1 0 |_i1_serdes_in|@216
+@217
+1 0 |_i1_serdes_in|@217
+@218
+1 0 |_i1_serdes_in|@218
+@219
+1 0 |_i1_serdes_in|@219
+@220
+1 0 |_i1_serdes_in|@220
+@221
+1 0 |_i1_serdes_in|@221
+@222
+1 0 |_i1_serdes_in|@222
+@223
+1 0 |_i1_serdes_in|@223
+@224
+1 0 |_i1_serdes_in|@224
+@225
+1 0 |_i1_serdes_in|@225
+@226
+1 0 |_i1_serdes_in|@226
+@227
+1 0 |_i1_serdes_in|@227
+@228
+1 0 |_i1_serdes_in|@228
+@229
+.
+c done

@@ -1,0 +1,9 @@
+c host: c3n24
+c start: Thu Oct 17 04:10:22 CEST 2019
+c arrayjobid: 17562838
+c jobid: 17565511
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/safe/analog_estimation_convergence.btor
+c solver: ./run-conps-btormc-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565511.0
+c done

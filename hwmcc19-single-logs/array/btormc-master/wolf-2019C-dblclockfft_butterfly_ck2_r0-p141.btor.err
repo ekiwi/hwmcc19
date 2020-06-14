@@ -1,0 +1,49 @@
+[runlim] version:		1.17
+[runlim] host:			c3n06
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc-master.sh
+[runlim] argv[1]:		/tmp/zARKSCZJ.btor
+[runlim] start:			Fri Oct 18 06:54:38 2019
+[runlim] child:			5975
+[runlim] sample:		10.00 time, 10.01 real, 131 MB
+[runlim] sample:		20.00 time, 20.01 real, 193 MB
+[runlim] sample:		30.00 time, 30.01 real, 280 MB
+[runlim] sample:		40.00 time, 40.01 real, 323 MB
+[runlim] sample:		50.00 time, 50.01 real, 367 MB
+[runlim] sample:		60.00 time, 60.01 real, 458 MB
+[runlim] sample:		70.00 time, 70.01 real, 472 MB
+[runlim] sample:		80.00 time, 80.01 real, 606 MB
+[runlim] sample:		90.00 time, 90.01 real, 577 MB
+[runlim] sample:		100.00 time, 100.01 real, 694 MB
+[runlim] sample:		110.00 time, 110.01 real, 771 MB
+[runlim] sample:		119.99 time, 120.01 real, 765 MB
+[runlim] sample:		130.00 time, 130.01 real, 811 MB
+[runlim] sample:		140.00 time, 140.01 real, 833 MB
+[runlim] sample:		149.99 time, 150.01 real, 928 MB
+[runlim] sample:		160.00 time, 160.01 real, 1029 MB
+[runlim] sample:		170.00 time, 170.01 real, 990 MB
+[runlim] sample:		180.00 time, 180.01 real, 1014 MB
+[runlim] sample:		189.99 time, 190.01 real, 1190 MB
+[runlim] sample:		199.99 time, 200.01 real, 1244 MB
+[runlim] sample:		209.99 time, 210.01 real, 1267 MB
+[runlim] sample:		219.99 time, 220.01 real, 1217 MB
+[runlim] sample:		230.00 time, 230.01 real, 1287 MB
+[runlim] sample:		239.99 time, 240.01 real, 1096 MB
+[runlim] sample:		249.99 time, 250.01 real, 1134 MB
+[runlim] sample:		260.00 time, 260.01 real, 1326 MB
+[runlim] sample:		269.99 time, 270.01 real, 1366 MB
+[runlim] sample:		279.99 time, 280.01 real, 1367 MB
+[runlim] sample:		290.00 time, 290.01 real, 1388 MB
+[runlim] sample:		300.00 time, 300.01 real, 1408 MB
+[runlim] sample:		309.99 time, 310.01 real, 1432 MB
+[runlim] sample:		320.00 time, 320.01 real, 1435 MB
+[runlim] end:			Fri Oct 18 06:59:59 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			320.64 seconds
+[runlim] time:			320.60 seconds
+[runlim] space:			1499 MB
+[runlim] samples:		3206

@@ -1,0 +1,30 @@
+[runlim] version:		1.17
+[runlim] host:			c3n07
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/baxmElEc.btor
+[runlim] start:			Fri Oct 18 21:19:10 2019
+[runlim] child:			20799
+[runlim] sample:		14.40 time, 10.02 real, 268 MB
+[runlim] sample:		34.46 time, 20.02 real, 427 MB
+[runlim] sample:		54.55 time, 30.02 real, 576 MB
+[runlim] sample:		74.64 time, 40.02 real, 665 MB
+[runlim] sample:		94.70 time, 50.02 real, 762 MB
+[runlim] sample:		114.78 time, 60.02 real, 767 MB
+[runlim] sample:		134.83 time, 70.02 real, 808 MB
+[runlim] sample:		154.89 time, 80.02 real, 907 MB
+[runlim] sample:		174.91 time, 90.02 real, 888 MB
+[runlim] sample:		194.99 time, 100.02 real, 987 MB
+[runlim] sample:		215.03 time, 110.02 real, 1060 MB
+[runlim] sample:		235.09 time, 120.02 real, 1083 MB
+[runlim] sample:		255.15 time, 130.02 real, 1255 MB
+[runlim] end:			Fri Oct 18 21:21:20 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		210
+[runlim] real:			130.32 seconds
+[runlim] time:			258.84 seconds
+[runlim] space:			1258 MB
+[runlim] samples:		1303

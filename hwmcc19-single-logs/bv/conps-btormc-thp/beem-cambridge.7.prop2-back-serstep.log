@@ -1,0 +1,9 @@
+c host: c3n18
+c start: Thu Oct 17 01:05:51 CEST 2019
+c arrayjobid: 17562838
+c jobid: 17565375
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/cambridge.7.prop2-back-serstep.btor2
+c solver: ./run-conps-btormc-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565375.0
+c done

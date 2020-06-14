@@ -1,0 +1,487 @@
+c host: c3n21
+c start: Fri Oct 18 19:22:49 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567381
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/data-integrity/unsafe/circular_pointer_top_w8_d32_e0.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567381.0
+	(output dir: /tmp//pr_test/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1 / 303 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: safe till step 20)
+	(bmc: safe till step 30)
+	(bmc: found cex at step 35)
+   0	: 0	: 0 s: 0    1065s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v     1065.94         167           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 9863)
+@     0s  (started worker 1 with pid 9864)
+@     0s  (started worker 2 with pid 9865)
+@     0s  (started worker 3 with pid 9866)
+@     0s  (started worker 4 with pid 9867)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 9983)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 146 MB)
+@     2s  (started worker 6 with pid 10039)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 192 MB)
+@     3s  (started worker 7 with pid 10101)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 248 MB)
+@     4s  (started worker 8 with pid 10169)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 307 MB)
+@     5s  (started worker 9 with pid 10261)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 381 MB)
+@     7s  (started worker 10 with pid 10341)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 440 MB)
+@    15s  (total 11 workers using 701 MB)
+@    22s  (worker 9 finished with result unknown) python3 avr.py -b bin_y2 -s -a sa4 --interpol 1 -f 1
+@    27s  (total 10 workers using 823 MB)
+@    38s  (total 10 workers using 1048 MB)
+@    49s  (total 10 workers using 1235 MB)
+@    60s  (total 10 workers using 1389 MB)
+@    72s  (total 10 workers using 1516 MB)
+@    83s  (total 10 workers using 1692 MB)
+@    94s  (total 10 workers using 1805 MB)
+@   104s  (total 10 workers using 1890 MB)
+@   115s  (total 10 workers using 2077 MB)
+@   126s  (total 10 workers using 2207 MB)
+@   137s  (total 10 workers using 2307 MB)
+@   148s  (total 10 workers using 2413 MB)
+@   159s  (total 10 workers using 2656 MB)
+@   170s  (total 10 workers using 2724 MB)
+@   181s  (total 10 workers using 2759 MB)
+@   192s  (total 10 workers using 2840 MB)
+@   203s  (total 10 workers using 2943 MB)
+@   214s  (total 10 workers using 3031 MB)
+@   225s  (total 10 workers using 3105 MB)
+@   236s  (total 10 workers using 3165 MB)
+@   247s  (total 10 workers using 3297 MB)
+@   257s  (total 10 workers using 3326 MB)
+@   268s  (total 10 workers using 3403 MB)
+@   279s  (total 10 workers using 3429 MB)
+@   290s  (total 10 workers using 3575 MB)
+@   301s  (total 10 workers using 3690 MB)
+@   312s  (total 10 workers using 3734 MB)
+@   323s  (total 10 workers using 3861 MB)
+@   334s  (total 10 workers using 3945 MB)
+@   345s  (total 10 workers using 4104 MB)
+@   356s  (total 10 workers using 4156 MB)
+@   366s  (total 10 workers using 4245 MB)
+@   377s  (total 10 workers using 4272 MB)
+@   388s  (total 10 workers using 4409 MB)
+@   399s  (total 10 workers using 4413 MB)
+@   410s  (total 10 workers using 4474 MB)
+@   421s  (total 10 workers using 4533 MB)
+@   432s  (total 10 workers using 4681 MB)
+@   443s  (total 10 workers using 4770 MB)
+@   454s  (total 10 workers using 4847 MB)
+@   465s  (total 10 workers using 4912 MB)
+@   475s  (total 10 workers using 4975 MB)
+@   487s  (total 10 workers using 5053 MB)
+@   497s  (total 10 workers using 5104 MB)
+@   508s  (total 10 workers using 5147 MB)
+@   519s  (total 10 workers using 5227 MB)
+@   530s  (total 10 workers using 5312 MB)
+@   541s  (total 10 workers using 5358 MB)
+@   552s  (total 10 workers using 5390 MB)
+@   563s  (total 10 workers using 5499 MB)
+@   574s  (total 10 workers using 5553 MB)
+@   585s  (total 10 workers using 5576 MB)
+@   596s  (total 10 workers using 5634 MB)
+@   606s  (total 10 workers using 5661 MB)
+@   617s  (total 10 workers using 5700 MB)
+@   628s  (total 10 workers using 5743 MB)
+@   639s  (total 10 workers using 5841 MB)
+@   650s  (total 10 workers using 5900 MB)
+@   661s  (total 10 workers using 6066 MB)
+@   672s  (total 10 workers using 6084 MB)
+@   683s  (total 10 workers using 6145 MB)
+@   694s  (total 10 workers using 6167 MB)
+@   705s  (total 10 workers using 6234 MB)
+@   715s  (total 10 workers using 6304 MB)
+@   726s  (total 10 workers using 6380 MB)
+@   737s  (total 10 workers using 6464 MB)
+@   748s  (total 10 workers using 6462 MB)
+@   759s  (total 10 workers using 6470 MB)
+@   770s  (total 10 workers using 6537 MB)
+@   781s  (total 10 workers using 6657 MB)
+@   792s  (total 10 workers using 6660 MB)
+@   803s  (total 10 workers using 6683 MB)
+@   814s  (total 10 workers using 6723 MB)
+@   824s  (total 10 workers using 6761 MB)
+@   835s  (total 10 workers using 6780 MB)
+@   846s  (total 10 workers using 6813 MB)
+@   857s  (total 10 workers using 6821 MB)
+@   868s  (total 10 workers using 6859 MB)
+@   879s  (total 10 workers using 6895 MB)
+@   890s  (total 10 workers using 6973 MB)
+@   901s  (total 10 workers using 6973 MB)
+@   912s  (total 10 workers using 7017 MB)
+@   923s  (total 10 workers using 7017 MB)
+@   933s  (total 10 workers using 7019 MB)
+@   944s  (total 10 workers using 7007 MB)
+@   955s  (total 10 workers using 7057 MB)
+@   966s  (total 10 workers using 7072 MB)
+@   977s  (total 10 workers using 7072 MB)
+@   988s  (total 10 workers using 7073 MB)
+@   999s  (total 10 workers using 7093 MB)
+@  1010s  (total 10 workers using 7067 MB)
+@  1020s  (total 10 workers using 7092 MB)
+@  1031s  (total 10 workers using 7172 MB)
+@  1042s  (total 10 workers using 7191 MB)
+@  1053s  (total 10 workers using 7173 MB)
+@  1064s  (total 10 workers using 7193 MB)
+@  1066s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@  1066s  (worker 1 output)
+@  1066s  (stopping all workers)
+@  1066s  (copied results from worker 1 in /tmp//pr_test)
+@  1066s  [0;30;47m(proof race finished with answer unsafe in 1066.47 seconds)[m
+sat
+b0
+#0
+0 00000000 |_s0_f.entry_gen[32].ff_entry_inst.Q|#0
+1 0000000 |_s1_f.ff_rdPtr.Q|#0
+2 00000000 |_s2_f.entry_gen[31].ff_entry_inst.Q|#0
+3 00000000 |_s3_f.entry_gen[30].ff_entry_inst.Q|#0
+4 00000000 |_s4_f.entry_gen[29].ff_entry_inst.Q|#0
+5 00000000 |_s5_f.entry_gen[28].ff_entry_inst.Q|#0
+6 00000000 |_s6_f.entry_gen[27].ff_entry_inst.Q|#0
+7 00000000 |_s7_f.entry_gen[26].ff_entry_inst.Q|#0
+8 00000000 |_s8_f.entry_gen[25].ff_entry_inst.Q|#0
+9 00000000 |_s9_f.entry_gen[24].ff_entry_inst.Q|#0
+10 00000000 |_s10_f.entry_gen[23].ff_entry_inst.Q|#0
+11 00000000 |_s11_f.entry_gen[22].ff_entry_inst.Q|#0
+12 00000000 |_s12_f.entry_gen[21].ff_entry_inst.Q|#0
+13 00000000 |_s13_f.entry_gen[20].ff_entry_inst.Q|#0
+14 00000000 |_s14_f.entry_gen[19].ff_entry_inst.Q|#0
+15 00000000 |_s15_f.entry_gen[18].ff_entry_inst.Q|#0
+16 00000000 |_s16_f.entry_gen[17].ff_entry_inst.Q|#0
+17 00000000 |_s17_f.entry_gen[16].ff_entry_inst.Q|#0
+18 00000000 |_s18_f.entry_gen[15].ff_entry_inst.Q|#0
+19 00000000 |_s19_f.entry_gen[14].ff_entry_inst.Q|#0
+20 00000000 |_s20_f.entry_gen[13].ff_entry_inst.Q|#0
+21 00000000 |_s21_f.entry_gen[12].ff_entry_inst.Q|#0
+22 00000000 |_s22_f.entry_gen[11].ff_entry_inst.Q|#0
+23 00000000 |_s23_f.entry_gen[10].ff_entry_inst.Q|#0
+24 00000000 |_s24_f.entry_gen[9].ff_entry_inst.Q|#0
+25 00000000 |_s25_f.entry_gen[8].ff_entry_inst.Q|#0
+26 00000000 |_s26_f.entry_gen[7].ff_entry_inst.Q|#0
+27 00000000 |_s27_f.entry_gen[6].ff_entry_inst.Q|#0
+28 00000000 |_s28_f.entry_gen[5].ff_entry_inst.Q|#0
+29 00000000 |_s29_f.entry_gen[4].ff_entry_inst.Q|#0
+30 00000000 |_s30_f.entry_gen[3].ff_entry_inst.Q|#0
+31 00000000 |_s31_f.entry_gen[2].ff_entry_inst.Q|#0
+32 00000000 |_s32_f.entry_gen[1].ff_entry_inst.Q|#0
+33 00000000 |_s33_f.entry_gen[0].ff_entry_inst.Q|#0
+34 0000000 |_s34_f.cnt|#0
+35 1 |_s35_sb.ff_en.Q|#0
+36 0 |_s36_sb.ff_magic_packet_exited.Q|#0
+37 0000000 |_s37_sb.mpt.ff_cnt.Q|#0
+38 00000000 |_s38_sb.ff_magic_packet.Q|#0
+39 1 |_s39_initstate|#0
+40 0000000 |_s40_f.ff_wrPtr.Q|#0
+@0
+1 00000000 |_i1_data_in|@0
+2 0 |_i2_pop|@0
+3 0 |_i3_push|@0
+4 1 |_i4_rst|@0
+5 0 |_i5_start|@0
+6 00000000 |_i6_id9|@0
+7 0 |_i7_id231|@0
+@1
+1 00000000 |_i1_data_in|@1
+2 0 |_i2_pop|@1
+3 1 |_i3_push|@1
+4 0 |_i4_rst|@1
+5 0 |_i5_start|@1
+6 00000000 |_i6_id9|@1
+7 0 |_i7_id231|@1
+@2
+1 00000000 |_i1_data_in|@2
+2 1 |_i2_pop|@2
+3 1 |_i3_push|@2
+4 0 |_i4_rst|@2
+5 0 |_i5_start|@2
+6 00000000 |_i6_id9|@2
+7 0 |_i7_id231|@2
+@3
+1 00001101 |_i1_data_in|@3
+2 1 |_i2_pop|@3
+3 1 |_i3_push|@3
+4 0 |_i4_rst|@3
+5 0 |_i5_start|@3
+6 00000000 |_i6_id9|@3
+7 0 |_i7_id231|@3
+@4
+1 00010001 |_i1_data_in|@4
+2 1 |_i2_pop|@4
+3 1 |_i3_push|@4
+4 0 |_i4_rst|@4
+5 0 |_i5_start|@4
+6 11111111 |_i6_id9|@4
+7 0 |_i7_id231|@4
+@5
+1 00000000 |_i1_data_in|@5
+2 1 |_i2_pop|@5
+3 1 |_i3_push|@5
+4 0 |_i4_rst|@5
+5 0 |_i5_start|@5
+6 11111111 |_i6_id9|@5
+7 0 |_i7_id231|@5
+@6
+1 00001000 |_i1_data_in|@6
+2 1 |_i2_pop|@6
+3 1 |_i3_push|@6
+4 0 |_i4_rst|@6
+5 0 |_i5_start|@6
+6 11111111 |_i6_id9|@6
+7 0 |_i7_id231|@6
+@7
+1 10100000 |_i1_data_in|@7
+2 1 |_i2_pop|@7
+3 1 |_i3_push|@7
+4 0 |_i4_rst|@7
+5 0 |_i5_start|@7
+6 11111111 |_i6_id9|@7
+7 0 |_i7_id231|@7
+@8
+1 00000000 |_i1_data_in|@8
+2 1 |_i2_pop|@8
+3 1 |_i3_push|@8
+4 0 |_i4_rst|@8
+5 0 |_i5_start|@8
+6 00000000 |_i6_id9|@8
+7 0 |_i7_id231|@8
+@9
+1 01000000 |_i1_data_in|@9
+2 1 |_i2_pop|@9
+3 1 |_i3_push|@9
+4 0 |_i4_rst|@9
+5 0 |_i5_start|@9
+6 00000000 |_i6_id9|@9
+7 0 |_i7_id231|@9
+@10
+1 10000000 |_i1_data_in|@10
+2 1 |_i2_pop|@10
+3 1 |_i3_push|@10
+4 0 |_i4_rst|@10
+5 0 |_i5_start|@10
+6 11111111 |_i6_id9|@10
+7 0 |_i7_id231|@10
+@11
+1 00000000 |_i1_data_in|@11
+2 1 |_i2_pop|@11
+3 1 |_i3_push|@11
+4 0 |_i4_rst|@11
+5 0 |_i5_start|@11
+6 11111111 |_i6_id9|@11
+7 0 |_i7_id231|@11
+@12
+1 10000000 |_i1_data_in|@12
+2 1 |_i2_pop|@12
+3 1 |_i3_push|@12
+4 0 |_i4_rst|@12
+5 0 |_i5_start|@12
+6 00000000 |_i6_id9|@12
+7 0 |_i7_id231|@12
+@13
+1 10000000 |_i1_data_in|@13
+2 1 |_i2_pop|@13
+3 1 |_i3_push|@13
+4 0 |_i4_rst|@13
+5 0 |_i5_start|@13
+6 00000000 |_i6_id9|@13
+7 0 |_i7_id231|@13
+@14
+1 00000100 |_i1_data_in|@14
+2 1 |_i2_pop|@14
+3 1 |_i3_push|@14
+4 0 |_i4_rst|@14
+5 0 |_i5_start|@14
+6 00000000 |_i6_id9|@14
+7 0 |_i7_id231|@14
+@15
+1 00000000 |_i1_data_in|@15
+2 1 |_i2_pop|@15
+3 1 |_i3_push|@15
+4 0 |_i4_rst|@15
+5 0 |_i5_start|@15
+6 00000000 |_i6_id9|@15
+7 0 |_i7_id231|@15
+@16
+1 00000000 |_i1_data_in|@16
+2 1 |_i2_pop|@16
+3 1 |_i3_push|@16
+4 0 |_i4_rst|@16
+5 0 |_i5_start|@16
+6 11111111 |_i6_id9|@16
+7 0 |_i7_id231|@16
+@17
+1 00100000 |_i1_data_in|@17
+2 1 |_i2_pop|@17
+3 1 |_i3_push|@17
+4 0 |_i4_rst|@17
+5 0 |_i5_start|@17
+6 00000000 |_i6_id9|@17
+7 0 |_i7_id231|@17
+@18
+1 00100100 |_i1_data_in|@18
+2 1 |_i2_pop|@18
+3 1 |_i3_push|@18
+4 0 |_i4_rst|@18
+5 0 |_i5_start|@18
+6 00000000 |_i6_id9|@18
+7 0 |_i7_id231|@18
+@19
+1 10000000 |_i1_data_in|@19
+2 1 |_i2_pop|@19
+3 1 |_i3_push|@19
+4 0 |_i4_rst|@19
+5 0 |_i5_start|@19
+6 11111111 |_i6_id9|@19
+7 0 |_i7_id231|@19
+@20
+1 10000100 |_i1_data_in|@20
+2 1 |_i2_pop|@20
+3 1 |_i3_push|@20
+4 0 |_i4_rst|@20
+5 0 |_i5_start|@20
+6 11111111 |_i6_id9|@20
+7 0 |_i7_id231|@20
+@21
+1 10011011 |_i1_data_in|@21
+2 1 |_i2_pop|@21
+3 1 |_i3_push|@21
+4 0 |_i4_rst|@21
+5 0 |_i5_start|@21
+6 11111111 |_i6_id9|@21
+7 0 |_i7_id231|@21
+@22
+1 10000000 |_i1_data_in|@22
+2 1 |_i2_pop|@22
+3 1 |_i3_push|@22
+4 0 |_i4_rst|@22
+5 0 |_i5_start|@22
+6 11111111 |_i6_id9|@22
+7 0 |_i7_id231|@22
+@23
+1 00000100 |_i1_data_in|@23
+2 1 |_i2_pop|@23
+3 1 |_i3_push|@23
+4 0 |_i4_rst|@23
+5 0 |_i5_start|@23
+6 11111111 |_i6_id9|@23
+7 0 |_i7_id231|@23
+@24
+1 00000000 |_i1_data_in|@24
+2 1 |_i2_pop|@24
+3 1 |_i3_push|@24
+4 0 |_i4_rst|@24
+5 0 |_i5_start|@24
+6 11111111 |_i6_id9|@24
+7 0 |_i7_id231|@24
+@25
+1 11000000 |_i1_data_in|@25
+2 1 |_i2_pop|@25
+3 1 |_i3_push|@25
+4 0 |_i4_rst|@25
+5 0 |_i5_start|@25
+6 00000000 |_i6_id9|@25
+7 0 |_i7_id231|@25
+@26
+1 00000000 |_i1_data_in|@26
+2 1 |_i2_pop|@26
+3 1 |_i3_push|@26
+4 0 |_i4_rst|@26
+5 0 |_i5_start|@26
+6 11111111 |_i6_id9|@26
+7 0 |_i7_id231|@26
+@27
+1 00100100 |_i1_data_in|@27
+2 1 |_i2_pop|@27
+3 1 |_i3_push|@27
+4 0 |_i4_rst|@27
+5 0 |_i5_start|@27
+6 11111111 |_i6_id9|@27
+7 0 |_i7_id231|@27
+@28
+1 00000100 |_i1_data_in|@28
+2 1 |_i2_pop|@28
+3 1 |_i3_push|@28
+4 0 |_i4_rst|@28
+5 0 |_i5_start|@28
+6 11111111 |_i6_id9|@28
+7 0 |_i7_id231|@28
+@29
+1 11010100 |_i1_data_in|@29
+2 1 |_i2_pop|@29
+3 1 |_i3_push|@29
+4 0 |_i4_rst|@29
+5 0 |_i5_start|@29
+6 11111111 |_i6_id9|@29
+7 0 |_i7_id231|@29
+@30
+1 00100100 |_i1_data_in|@30
+2 1 |_i2_pop|@30
+3 1 |_i3_push|@30
+4 0 |_i4_rst|@30
+5 0 |_i5_start|@30
+6 00000000 |_i6_id9|@30
+7 0 |_i7_id231|@30
+@31
+1 00000100 |_i1_data_in|@31
+2 1 |_i2_pop|@31
+3 1 |_i3_push|@31
+4 0 |_i4_rst|@31
+5 0 |_i5_start|@31
+6 11111111 |_i6_id9|@31
+7 0 |_i7_id231|@31
+@32
+1 00100100 |_i1_data_in|@32
+2 1 |_i2_pop|@32
+3 1 |_i3_push|@32
+4 0 |_i4_rst|@32
+5 0 |_i5_start|@32
+6 11111111 |_i6_id9|@32
+7 0 |_i7_id231|@32
+@33
+1 11100111 |_i1_data_in|@33
+2 1 |_i2_pop|@33
+3 1 |_i3_push|@33
+4 0 |_i4_rst|@33
+5 0 |_i5_start|@33
+6 11111111 |_i6_id9|@33
+7 0 |_i7_id231|@33
+@34
+1 00000100 |_i1_data_in|@34
+2 1 |_i2_pop|@34
+3 1 |_i3_push|@34
+4 0 |_i4_rst|@34
+5 1 |_i5_start|@34
+6 00000000 |_i6_id9|@34
+7 0 |_i7_id231|@34
+@35
+2 1 |_i2_pop|@35
+3 1 |_i3_push|@35
+4 0 |_i4_rst|@35
+6 00100100 |_i6_id9|@35
+7 0 |_i7_id231|@35
+.
+c done

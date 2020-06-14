@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n15
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc.sh
+[runlim] argv[1]:		/tmp/kdxWePRe.btor
+[runlim] start:			Wed Oct 16 12:35:51 2019
+[runlim] child:			25122
+[runlim] end:			Wed Oct 16 12:35:52 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.06 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0 MB
+[runlim] samples:		0

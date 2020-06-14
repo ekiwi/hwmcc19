@@ -1,0 +1,9 @@
+c host: c3n27
+c start: Thu Oct 17 10:11:28 CEST 2019
+c arrayjobid: 17562839
+c jobid: 17565916
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/zipcpu_zipcpu_dcache-p399.btor
+c solver: ./run-conps-btormc-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565916.0
+c done

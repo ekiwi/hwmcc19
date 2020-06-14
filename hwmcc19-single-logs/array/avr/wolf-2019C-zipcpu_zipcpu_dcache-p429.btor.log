@@ -1,0 +1,56 @@
+c host: c3n11
+c start: Fri Oct 18 23:37:44 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567800
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/zipcpu_zipcpu_dcache-p429.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567800.0
+	(output dir: /tmp//pr_test/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1496 / 40655 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 2 s: 2    0s                  
+   0	: 2	: 0 2 0 s: 2    0s                     0	: 2	: 0 2 1 s: 3    0s                     0	: 2	: 0 2 2 s: 4    0s                     0	: 2	: 0 2 2 s: 4    0s                  
+   0	: 3	: 0 2 1 1 s: 4    0s                     0	: 3	: 0 2 1 2 s: 5    0s                     0	: 3	: 0 2 1 2 s: 5    0s                  
+   0	: 4	: 0 2 1 2 0 s: 5    0s                     0	: 4	: 0 2 1 2 1 s: 6    0s                     0	: 4	: 0 2 1 2 2 s: 7    0s                     0	: 4	: 0 2 1 2 2 s: 7    0s                  
+   0	: 4	: 0 2 1 2 0 s: 5    1s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        1.17          86           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 31463)
+@     0s  (started worker 1 with pid 31464)
+@     0s  (started worker 2 with pid 31465)
+@     0s  (started worker 3 with pid 31466)
+@     0s  (started worker 4 with pid 31467)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 31585)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 142 MB)
+@     1s  (worker 0 finished with result unknown) python3 avr.py -a sa
+@     1s  (worker 4 finished with result unknown) python3 avr.py -b bin_y2 --bmc
+@     1s  (worker 1 finished with result unknown) python3 avr.py -b bin_bt_cadical -s --bmc
+@     1s  (worker 2 finished with result unknown) python3 avr.py
+@     1s  (worker 5 finished with result unknown) python3 avr.py -b bin_bt_cadical -g 3 -l 0 -a sa32
+@     1s  (started worker 6 with pid 31630)
+@     1s  (spawned 1 workers)
+@     1s  (total 2 workers using 85 MB)
+@     2s  (started worker 7 with pid 31662)
+@     2s  (spawned 1 workers)
+@     2s  (total 3 workers using 0 MB)
+@     2s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@     2s  (worker 3 output)
+@     2s  (stopping all workers)
+@     2s  (copied results from worker 3 in /tmp//pr_test)
+@     2s  [0;30;47m(proof race finished with answer safe in 1.79 seconds)[m
+unsat
+b0
+c done

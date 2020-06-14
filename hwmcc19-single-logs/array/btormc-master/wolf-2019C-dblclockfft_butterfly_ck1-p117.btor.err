@@ -1,0 +1,51 @@
+[runlim] version:		1.17
+[runlim] host:			c3n20
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc-master.sh
+[runlim] argv[1]:		/tmp/GmbSdU4Z.btor
+[runlim] start:			Fri Oct 18 06:42:44 2019
+[runlim] child:			31276
+[runlim] sample:		10.00 time, 10.02 real, 95 MB
+[runlim] sample:		20.00 time, 20.02 real, 212 MB
+[runlim] sample:		30.00 time, 30.02 real, 306 MB
+[runlim] sample:		40.00 time, 40.02 real, 397 MB
+[runlim] sample:		50.00 time, 50.02 real, 507 MB
+[runlim] sample:		60.00 time, 60.02 real, 583 MB
+[runlim] sample:		70.00 time, 70.02 real, 662 MB
+[runlim] sample:		80.00 time, 80.02 real, 749 MB
+[runlim] sample:		90.00 time, 90.02 real, 879 MB
+[runlim] sample:		100.00 time, 100.02 real, 855 MB
+[runlim] sample:		110.00 time, 110.02 real, 985 MB
+[runlim] sample:		120.00 time, 120.02 real, 1043 MB
+[runlim] sample:		130.00 time, 130.02 real, 1088 MB
+[runlim] sample:		140.00 time, 140.02 real, 1044 MB
+[runlim] sample:		150.00 time, 150.02 real, 1153 MB
+[runlim] sample:		160.00 time, 160.02 real, 1268 MB
+[runlim] sample:		170.00 time, 170.02 real, 1325 MB
+[runlim] sample:		180.00 time, 180.01 real, 1340 MB
+[runlim] sample:		189.99 time, 190.02 real, 1266 MB
+[runlim] sample:		199.99 time, 200.01 real, 1454 MB
+[runlim] sample:		209.99 time, 210.02 real, 1577 MB
+[runlim] sample:		219.99 time, 220.02 real, 1605 MB
+[runlim] sample:		229.99 time, 230.02 real, 1657 MB
+[runlim] sample:		239.99 time, 240.02 real, 1586 MB
+[runlim] sample:		250.00 time, 250.02 real, 1528 MB
+[runlim] sample:		260.00 time, 260.02 real, 1726 MB
+[runlim] sample:		269.99 time, 270.02 real, 1745 MB
+[runlim] sample:		280.00 time, 280.02 real, 1749 MB
+[runlim] sample:		289.99 time, 290.02 real, 1777 MB
+[runlim] sample:		300.00 time, 300.02 real, 1782 MB
+[runlim] sample:		309.99 time, 310.02 real, 1817 MB
+[runlim] sample:		320.00 time, 320.02 real, 1786 MB
+[runlim] sample:		330.00 time, 330.02 real, 1991 MB
+[runlim] sample:		339.99 time, 340.02 real, 1879 MB
+[runlim] end:			Fri Oct 18 06:48:32 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			347.58 seconds
+[runlim] time:			347.50 seconds
+[runlim] space:			1996 MB
+[runlim] samples:		3475

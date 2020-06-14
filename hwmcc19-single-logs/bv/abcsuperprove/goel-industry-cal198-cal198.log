@@ -1,0 +1,9 @@
+c host: c3n17
+c start: Wed Oct 16 23:03:14 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565093
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/cal198/cal198.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565093.0
+c done

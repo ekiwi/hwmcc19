@@ -1,0 +1,37 @@
+[runlim] version:		1.17
+[runlim] host:			c3n03
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc.sh
+[runlim] argv[1]:		/tmp/a7SHD4ju.btor
+[runlim] start:			Wed Oct 16 07:44:44 2019
+[runlim] child:			9445
+[runlim] sample:		10.00 time, 10.02 real, 221 MB
+[runlim] sample:		19.99 time, 20.02 real, 285 MB
+[runlim] sample:		30.00 time, 30.02 real, 275 MB
+[runlim] sample:		40.00 time, 40.02 real, 258 MB
+[runlim] sample:		50.00 time, 50.02 real, 258 MB
+[runlim] sample:		60.00 time, 60.02 real, 258 MB
+[runlim] sample:		70.00 time, 70.02 real, 304 MB
+[runlim] sample:		80.00 time, 80.02 real, 316 MB
+[runlim] sample:		90.00 time, 90.02 real, 258 MB
+[runlim] sample:		100.00 time, 100.01 real, 293 MB
+[runlim] sample:		110.00 time, 110.02 real, 258 MB
+[runlim] sample:		120.00 time, 120.02 real, 315 MB
+[runlim] sample:		130.00 time, 130.02 real, 327 MB
+[runlim] sample:		140.00 time, 140.02 real, 327 MB
+[runlim] sample:		150.00 time, 150.02 real, 339 MB
+[runlim] sample:		160.00 time, 160.01 real, 339 MB
+[runlim] sample:		170.00 time, 170.02 real, 356 MB
+[runlim] sample:		180.00 time, 180.02 real, 294 MB
+[runlim] sample:		190.00 time, 190.02 real, 271 MB
+[runlim] sample:		200.00 time, 200.02 real, 284 MB
+[runlim] end:			Wed Oct 16 07:48:12 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			207.27 seconds
+[runlim] time:			207.19 seconds
+[runlim] space:			439 MB
+[runlim] samples:		2072

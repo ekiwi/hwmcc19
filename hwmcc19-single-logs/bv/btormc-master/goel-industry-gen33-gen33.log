@@ -1,0 +1,9 @@
+c host: c3n02
+c start: Fri Oct 18 00:30:19 CEST 2019
+c arrayjobid: 17562842
+c jobid: 17566692
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/gen33/gen33.btor2
+c solver: ./run-btormc-master.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566692.0
+c done

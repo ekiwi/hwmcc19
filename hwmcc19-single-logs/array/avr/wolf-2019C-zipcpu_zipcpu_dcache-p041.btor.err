@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n11
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/jENETlOl.btor
+[runlim] start:			Fri Oct 18 23:37:47 2019
+[runlim] child:			31688
+[runlim] end:			Fri Oct 18 23:37:48 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		39
+[runlim] real:			1.40 seconds
+[runlim] time:			3.31 seconds
+[runlim] space:			205 MB
+[runlim] samples:		13

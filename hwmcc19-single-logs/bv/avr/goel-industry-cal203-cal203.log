@@ -1,0 +1,68 @@
+c host: c3n03
+c start: Fri Oct 18 18:41:44 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567299
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/cal203/cal203.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567299.0
+	(output dir: /tmp//pr_test/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1009 / 1009 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 2 s: 3    0s                     0	: 2	: 0 1 3 s: 4    0s                     0	: 2	: 0 1 4 s: 5    0s                     0	: 2	: 0 1 5 s: 6    0s                     0	: 2	: 0 1 6 s: 7    0s                     0	: 2	: 0 1 7 s: 8    1s                     0	: 2	: 0 1 8 s: 9    1s                     0	: 2	: 0 1 9 s: 10    2s                     0	: 2	: 0 1 10 s: 11    2s                     0	: 2	: 0 1 11 s: 12    2s                     0	: 2	: 0 1 12 s: 13    2s                     0	: 2	: 0 1 13 s: 14    2s                     0	: 2	: 0 1 14 s: 15    2s                     0	: 2	: 0 1 15 s: 16    2s                     0	: 2	: 0 1 16 s: 17    2s                     0	: 2	: 0 1 17 s: 18    2s                     0	: 2	: 0 1 18 s: 19    2s                     0	: 2	: 0 1 19 s: 20    2s                     0	: 2	: 0 1 20 s: 21    2s                     0	: 2	: 0 1 21 s: 22    2s                     0	: 2	: 0 1 22 s: 23    2s                     0	: 2	: 0 1 23 s: 24    2s                     0	: 2	: 0 1 24 s: 25    2s                     0	: 2	: 0 1 25 s: 26    2s                     0	: 2	: 0 1 26 s: 27    2s                     0	: 2	: 0 1 27 s: 28    2s                     0	: 2	: 0 1 28 s: 29    3s                     0	: 2	: 0 1 29 s: 30    3s                     0	: 2	: 0 1 30 s: 31    3s                     0	: 2	: 0 1 31 s: 32    3s                     0	: 2	: 0 1 32 s: 33    3s                     0	: 2	: 0 1 32 s: 33    3s                  
+   0	: 3	: 0 1 17 15 s: 33    4s                     0	: 3	: 0 1 17 16 s: 34    4s                     0	: 3	: 0 1 17 17 s: 35    4s                     0	: 3	: 0 1 17 18 s: 36    4s                     0	: 3	: 0 1 17 19 s: 37    4s                     0	: 3	: 0 1 16 20 s: 37    4s                     0	: 3	: 0 1 15 21 s: 37    4s                     0	: 3	: 0 1 15 22 s: 38    4s                     0	: 3	: 0 1 14 23 s: 38    4s                     0	: 3	: 0 1 13 24 s: 38    4s                     0	: 3	: 0 1 12 25 s: 38    4s                     0	: 3	: 0 1 11 26 s: 38    4s                     0	: 3	: 0 1 10 27 s: 38    4s                     0	: 3	: 0 1 9 28 s: 38    4s                     0	: 3	: 0 1 8 29 s: 38    4s                     0	: 3	: 0 1 7 30 s: 38    4s                     0	: 3	: 0 1 6 31 s: 38    4s                     0	: 3	: 0 1 5 32 s: 38    4s                     0	: 3	: 0 1 5 32 s: 38    5s                  
+   0	: 4	: 0 1 3 14 20 s: 38    5s                     0	: 4	: 0 1 9 17 21 s: 48    5s                     0	: 4	: 0 1 9 17 22 s: 49    5s                     0	: 4	: 0 1 9 16 23 s: 49    5s                     0	: 4	: 0 1 10 17 24 s: 52    6s                     0	: 4	: 0 1 10 16 25 s: 52    6s                     0	: 4	: 0 1 10 15 26 s: 52    6s                     0	: 4	: 0 1 10 14 27 s: 52    6s                     0	: 4	: 0 1 10 13 28 s: 52    6s                     0	: 4	: 0 1 10 12 29 s: 52    6s                     0	: 4	: 0 1 10 11 30 s: 52    6s                     0	: 4	: 0 1 10 10 31 s: 52    6s                     0	: 4	: 0 1 10 9 32 s: 52    6s                     0	: 4	: 0 1 10 8 33 s: 52    6s                     0	: 4	: 0 1 10 7 34 s: 52    6s                     0	: 4	: 0 1 10 7 34 s: 52    6s                  
+   0	: 5	: 0 1 7 5 14 22 s: 49    6s                     0	: 5	: 0 1 13 7 16 23 s: 60    7s                     0	: 5	: 0 1 14 8 19 24 s: 66    8s                     0	: 5	: 0 1 14 8 19 25 s: 67    8s                     0	: 5	: 0 1 14 8 19 26 s: 68    8s                     0	: 5	: 0 1 17 9 20 27 s: 74    8s                     0	: 5	: 0 1 17 9 20 28 s: 75    8s                     0	: 5	: 0 1 17 9 20 29 s: 76    8s                     0	: 5	: 0 1 17 9 20 30 s: 77    9s                     0	: 5	: 0 1 17 9 20 31 s: 78    9s                     0	: 5	: 0 1 17 9 20 32 s: 79    9s                     0	: 5	: 0 1 17 9 20 33 s: 80    9s                     0	: 5	: 0 1 17 9 20 34 s: 81    9s                     0	: 5	: 0 1 17 9 20 35 s: 82    9s                     0	: 5	: 0 1 17 9 20 36 s: 83    9s                     0	: 5	: 0 1 20 8 18 36 s: 83    10s                     0	: 5	: 0 1 22 7 17 36 s: 83    10s                     0	: 5	: 0 1 22 7 17 37 s: 84    10s                     0	: 5	: 0 1 23 6 15 36 s: 81    10s                     0	: 5	: 0 1 23 6 14 36 s: 80    10s                     0	: 5	: 0 1 23 6 13 36 s: 79    10s                     0	: 5	: 0 1 23 6 12 36 s: 78    10s                     0	: 5	: 0 1 23 6 11 36 s: 77    10s                     0	: 5	: 0 1 23 6 10 36 s: 76    10s                     0	: 5	: 0 1 23 6 9 36 s: 75    10s                     0	: 5	: 0 1 23 6 8 36 s: 74    10s                     0	: 5	: 0 1 23 6 7 36 s: 73    10s                     0	: 5	: 0 1 23 6 6 36 s: 72    10s                     0	: 5	: 0 1 23 6 5 36 s: 71    10s                     0	: 5	: 0 1 23 6 4 36 s: 70    10s                     0	: 5	: 0 1 23 6 4 36 s: 70    11s                  
+   0	: 6	: 0 1 17 8 6 14 24 s: 70    12s                     0	: 6	: 0 1 69 13 8 15 25 s: 131    20s                     0	: 6	: 0 1 73 16 10 16 26 s: 142    22s                     0	: 6	: 0 1 74 17 10 16 26 s: 144    22s                     0	: 6	: 0 1 74 17 10 16 27 s: 145    22s                     0	: 6	: 0 1 98 17 10 17 28 s: 171    26s                     0	: 6	: 0 1 98 17 10 17 29 s: 172    26s                     0	: 6	: 0 1 98 17 10 17 30 s: 173    26s                     0	: 6	: 0 1 98 17 10 17 31 s: 174    27s                     0	: 6	: 0 1 98 17 10 17 32 s: 175    27s                     0	: 6	: 0 1 98 17 10 17 33 s: 176    27s                     0	: 6	: 0 1 98 17 10 17 34 s: 177    27s                     0	: 6	: 0 1 98 19 9 16 35 s: 178    28s                     0	: 6	: 0 1 98 20 8 15 35 s: 177    29s                     0	: 6	: 0 1 98 20 8 14 35 s: 176    29s                     0	: 6	: 0 1 98 20 8 13 35 s: 175    29s                     0	: 6	: 0 1 98 20 8 12 35 s: 174    29s                     0	: 6	: 0 1 98 20 8 11 35 s: 173    29s                     0	: 6	: 0 1 98 20 8 10 35 s: 172    29s                     0	: 6	: 0 1 98 20 8 10 36 s: 173    29s                     0	: 6	: 0 1 98 20 8 9 37 s: 173    29s                     0	: 6	: 0 1 98 20 8 8 38 s: 173    29s                     0	: 6	: 0 1 98 20 8 7 39 s: 173    29s                     0	: 6	: 0 1 99 22 7 6 39 s: 174    30s                     0	: 6	: 0 1 99 22 7 5 39 s: 173    30s                     0	: 6	: 0 1 99 22 7 4 39 s: 172    30s                     0	: 6	: 0 1 99 22 7 3 39 s: 171    31s                     0	: 6	: 0 1 99 22 7 3 39 s: 171    31s                  
+   0	: 7	: 0 1 12 11 9 6 15 117 s: 171    38s                     0	: 7	: 0 1 76 11 10 7 16 118 s: 239    49s                     0	: 7	: 0 1 76 11 11 8 17 119 s: 243    51s                     0	: 7	: 0 1 76 11 11 8 17 120 s: 244    51s                     0	: 7	: 0 1 76 11 11 8 17 121 s: 245    51s                     0	: 7	: 0 1 75 11 12 9 18 122 s: 248    52s                     0	: 7	: 0 1 75 11 12 9 18 123 s: 249    52s                     0	: 7	: 0 1 75 11 12 9 18 124 s: 250    52s                     0	: 7	: 0 1 75 11 12 9 18 125 s: 251    52s                     0	: 7	: 0 1 75 11 12 9 18 126 s: 252    52s                     0	: 7	: 0 1 75 11 12 9 18 127 s: 253    52s                     0	: 7	: 0 1 75 10 12 8 17 127 s: 250    53s                     0	: 7	: 0 1 75 9 12 7 16 127 s: 247    53s                     0	: 7	: 0 1 75 9 12 7 15 127 s: 246    53s                     0	: 7	: 0 1 75 9 12 7 14 127 s: 245    53s                     0	: 7	: 0 1 75 9 12 7 13 127 s: 244    53s                     0	: 7	: 0 1 75 9 12 7 12 127 s: 243    53s                     0	: 7	: 0 1 75 9 12 7 11 127 s: 242    53s                     0	: 7	: 0 1 75 9 12 7 10 127 s: 241    53s                     0	: 7	: 0 1 75 9 12 7 9 127 s: 240    53s                     0	: 7	: 0 1 75 8 12 6 8 127 s: 237    53s                     0	: 7	: 0 1 75 8 12 6 7 128 s: 237    53s                     0	: 7	: 0 1 75 8 12 6 6 129 s: 237    53s                     0	: 7	: 0 1 75 8 12 6 5 130 s: 237    53s                     0	: 7	: 0 1 75 8 12 6 4 131 s: 237    53s                     0	: 7	: 0 1 75 8 12 6 4 131 s: 237    53s                  
+   0	: 7	: 0 1 7 0 88 6 4 131 s: 237    61s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h       69.58         177           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 21689)
+@     0s  (started worker 1 with pid 21690)
+@     0s  (started worker 2 with pid 21691)
+@     0s  (started worker 3 with pid 21692)
+@     0s  (started worker 4 with pid 21693)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 21809)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 650 MB)
+@     2s  (started worker 6 with pid 21865)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 1039 MB)
+@     3s  (started worker 7 with pid 21927)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 1247 MB)
+@     4s  (started worker 8 with pid 21995)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 1361 MB)
+@     5s  (started worker 9 with pid 22087)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 1559 MB)
+@     7s  (started worker 10 with pid 22167)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 1790 MB)
+@    15s  (total 11 workers using 2217 MB)
+@    27s  (total 11 workers using 2252 MB)
+@    39s  (total 11 workers using 2374 MB)
+@    50s  (total 11 workers using 2395 MB)
+@    61s  (total 11 workers using 2422 MB)
+@    70s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@    70s  (worker 3 output)
+@    70s  (stopping all workers)
+@    70s  (copied results from worker 3 in /tmp//pr_test)
+@    70s  [0;30;47m(proof race finished with answer safe in 70.33 seconds)[m
+unsat
+b0
+c done

@@ -1,0 +1,26 @@
+[runlim] version:		1.17
+[runlim] host:			c3n20
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/Ck2Kqams.aig
+[runlim] start:			Thu Oct 17 00:19:36 2019
+[runlim] child:			22855
+[runlim] sample:		24.08 time, 10.02 real, 236 MB
+[runlim] sample:		89.12 time, 20.02 real, 262 MB
+[runlim] sample:		154.62 time, 30.02 real, 360 MB
+[runlim] sample:		174.61 time, 40.02 real, 503 MB
+[runlim] sample:		194.61 time, 50.02 real, 617 MB
+[runlim] sample:		723.26 time, 60.02 real, 638 MB
+[runlim] sample:		743.25 time, 70.02 real, 949 MB
+[runlim] sample:		763.25 time, 80.02 real, 1001 MB
+[runlim] sample:		783.25 time, 90.02 real, 1021 MB
+[runlim] end:			Thu Oct 17 00:21:11 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		26
+[runlim] real:			94.87 seconds
+[runlim] time:			1002.18 seconds
+[runlim] space:			1030 MB
+[runlim] samples:		948

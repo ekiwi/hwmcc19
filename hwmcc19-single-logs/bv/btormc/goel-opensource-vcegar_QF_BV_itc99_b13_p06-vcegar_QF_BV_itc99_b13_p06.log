@@ -1,0 +1,11 @@
+c host: c3n25
+c start: Wed Oct 16 05:24:06 CEST 2019
+c arrayjobid: 17562833
+c jobid: 17563885
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vcegar_QF_BV_itc99_b13_p06/vcegar_QF_BV_itc99_b13_p06.btor2
+c solver: ./run-btormc.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17563885.0
+unsat
+b0
+c done

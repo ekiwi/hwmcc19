@@ -1,0 +1,46 @@
+[runlim] version:		1.17
+[runlim] host:			c3n26
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-thp.sh
+[runlim] argv[1]:		/tmp/KmdvoGRf.btor
+[runlim] start:			Thu Oct 17 11:33:58 2019
+[runlim] child:			11870
+[runlim] sample:		9.98 time, 10.02 real, 714 MB
+[runlim] sample:		19.98 time, 20.02 real, 1191 MB
+[runlim] sample:		29.98 time, 30.02 real, 1438 MB
+[runlim] sample:		39.98 time, 40.02 real, 1647 MB
+[runlim] sample:		49.98 time, 50.02 real, 2093 MB
+[runlim] sample:		59.98 time, 60.02 real, 2333 MB
+[runlim] sample:		69.98 time, 70.02 real, 2491 MB
+[runlim] sample:		79.98 time, 80.02 real, 2653 MB
+[runlim] sample:		89.99 time, 90.02 real, 2783 MB
+[runlim] sample:		99.98 time, 100.02 real, 2911 MB
+[runlim] sample:		109.98 time, 110.02 real, 3030 MB
+[runlim] sample:		119.98 time, 120.02 real, 3139 MB
+[runlim] sample:		129.98 time, 130.02 real, 3250 MB
+[runlim] sample:		139.98 time, 140.02 real, 3857 MB
+[runlim] sample:		149.98 time, 150.02 real, 3962 MB
+[runlim] sample:		159.98 time, 160.02 real, 4058 MB
+[runlim] sample:		169.98 time, 170.02 real, 4188 MB
+[runlim] sample:		179.98 time, 180.02 real, 4283 MB
+[runlim] sample:		189.98 time, 190.02 real, 4544 MB
+[runlim] sample:		199.98 time, 200.02 real, 4617 MB
+[runlim] sample:		209.98 time, 210.02 real, 4702 MB
+[runlim] sample:		219.98 time, 220.02 real, 4783 MB
+[runlim] sample:		229.98 time, 230.02 real, 4869 MB
+[runlim] sample:		239.98 time, 240.02 real, 4940 MB
+[runlim] sample:		249.98 time, 250.02 real, 5018 MB
+[runlim] sample:		259.98 time, 260.02 real, 5141 MB
+[runlim] sample:		269.97 time, 270.02 real, 5222 MB
+[runlim] sample:		279.97 time, 280.02 real, 5590 MB
+[runlim] sample:		289.98 time, 290.02 real, 5373 MB
+[runlim] end:			Thu Oct 17 11:38:53 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			294.45 seconds
+[runlim] time:			294.38 seconds
+[runlim] space:			5648 MB
+[runlim] samples:		2944

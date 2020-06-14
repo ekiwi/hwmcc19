@@ -1,0 +1,27 @@
+[runlim] version:		1.17
+[runlim] host:			c3n14
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-thp.sh
+[runlim] argv[1]:		/tmp/omDPyqM2.btor
+[runlim] start:			Thu Oct 17 08:26:10 2019
+[runlim] child:			1631
+[runlim] sample:		9.99 time, 10.02 real, 162 MB
+[runlim] sample:		19.98 time, 20.02 real, 303 MB
+[runlim] sample:		29.98 time, 30.02 real, 455 MB
+[runlim] sample:		39.98 time, 40.02 real, 553 MB
+[runlim] sample:		49.99 time, 50.02 real, 729 MB
+[runlim] sample:		59.99 time, 60.02 real, 774 MB
+[runlim] sample:		69.99 time, 70.02 real, 886 MB
+[runlim] sample:		79.99 time, 80.02 real, 989 MB
+[runlim] sample:		89.98 time, 90.02 real, 999 MB
+[runlim] sample:		99.99 time, 100.02 real, 1110 MB
+[runlim] end:			Thu Oct 17 08:27:58 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			107.72 seconds
+[runlim] time:			107.68 seconds
+[runlim] space:			1183 MB
+[runlim] samples:		1077

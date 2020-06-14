@@ -1,0 +1,47 @@
+[runlim] version:		1.17
+[runlim] host:			c3n09
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/zJ6wfKTM.btor
+[runlim] start:			Wed Oct 16 19:48:47 2019
+[runlim] child:			13569
+[runlim] sample:		20.16 time, 10.02 real, 342 MB
+[runlim] sample:		40.43 time, 20.02 real, 377 MB
+[runlim] sample:		60.71 time, 30.02 real, 374 MB
+[runlim] sample:		81.00 time, 40.02 real, 387 MB
+[runlim] sample:		101.27 time, 50.02 real, 394 MB
+[runlim] sample:		121.54 time, 60.02 real, 442 MB
+[runlim] sample:		141.81 time, 70.02 real, 428 MB
+[runlim] sample:		162.08 time, 80.02 real, 455 MB
+[runlim] sample:		182.36 time, 90.02 real, 464 MB
+[runlim] sample:		202.65 time, 100.02 real, 466 MB
+[runlim] sample:		222.92 time, 110.02 real, 467 MB
+[runlim] sample:		243.21 time, 120.02 real, 490 MB
+[runlim] sample:		263.48 time, 130.02 real, 491 MB
+[runlim] sample:		283.76 time, 140.02 real, 491 MB
+[runlim] sample:		304.02 time, 150.02 real, 493 MB
+[runlim] sample:		324.29 time, 160.02 real, 493 MB
+[runlim] sample:		344.56 time, 170.02 real, 520 MB
+[runlim] sample:		364.84 time, 180.02 real, 523 MB
+[runlim] sample:		385.11 time, 190.02 real, 525 MB
+[runlim] sample:		405.35 time, 200.02 real, 528 MB
+[runlim] sample:		425.63 time, 210.02 real, 549 MB
+[runlim] sample:		445.91 time, 220.02 real, 550 MB
+[runlim] sample:		466.18 time, 230.02 real, 551 MB
+[runlim] sample:		486.46 time, 240.02 real, 546 MB
+[runlim] sample:		506.73 time, 250.02 real, 560 MB
+[runlim] sample:		527.01 time, 260.02 real, 504 MB
+[runlim] sample:		547.28 time, 270.02 real, 510 MB
+[runlim] sample:		567.56 time, 280.02 real, 530 MB
+[runlim] sample:		587.83 time, 290.02 real, 563 MB
+[runlim] sample:		608.11 time, 300.02 real, 578 MB
+[runlim] end:			Wed Oct 16 19:53:50 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			302.89 seconds
+[runlim] time:			613.63 seconds
+[runlim] space:			580 MB
+[runlim] samples:		3028

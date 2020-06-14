@@ -1,0 +1,9 @@
+c host: c3n24
+c start: Wed Oct 16 21:05:19 CEST 2019
+c arrayjobid: 17562836
+c jobid: 17564958
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/zipcpu_zipcpu_dcache-p479.btor
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564958.0
+c done

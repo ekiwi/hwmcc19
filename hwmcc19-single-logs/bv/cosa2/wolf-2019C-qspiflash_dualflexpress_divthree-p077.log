@@ -1,0 +1,13 @@
+c host: c3n27
+c start: Wed Oct 16 19:14:17 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564725
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/qspiflash_dualflexpress_divthree-p077.btor
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564725.0
+unsat
+b0
+
+
+c done

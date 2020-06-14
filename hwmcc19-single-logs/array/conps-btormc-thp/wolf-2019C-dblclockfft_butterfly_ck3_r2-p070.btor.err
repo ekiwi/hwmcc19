@@ -1,0 +1,85 @@
+[runlim] version:		1.17
+[runlim] host:			c3n06
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-thp.sh
+[runlim] argv[1]:		/tmp/HOouJgGx.btor
+[runlim] start:			Thu Oct 17 08:32:29 2019
+[runlim] child:			2024
+[runlim] sample:		9.97 time, 10.01 real, 104 MB
+[runlim] sample:		19.98 time, 20.02 real, 175 MB
+[runlim] sample:		29.98 time, 30.02 real, 213 MB
+[runlim] sample:		39.98 time, 40.01 real, 282 MB
+[runlim] sample:		49.99 time, 50.02 real, 347 MB
+[runlim] sample:		59.98 time, 60.02 real, 362 MB
+[runlim] sample:		69.98 time, 70.01 real, 412 MB
+[runlim] sample:		79.99 time, 80.01 real, 494 MB
+[runlim] sample:		89.98 time, 90.01 real, 505 MB
+[runlim] sample:		99.99 time, 100.02 real, 536 MB
+[runlim] sample:		109.98 time, 110.02 real, 626 MB
+[runlim] sample:		119.98 time, 120.02 real, 630 MB
+[runlim] sample:		129.99 time, 130.02 real, 612 MB
+[runlim] sample:		139.98 time, 140.02 real, 668 MB
+[runlim] sample:		149.98 time, 150.02 real, 744 MB
+[runlim] sample:		159.98 time, 160.01 real, 748 MB
+[runlim] sample:		169.99 time, 170.02 real, 750 MB
+[runlim] sample:		179.98 time, 180.01 real, 702 MB
+[runlim] sample:		189.98 time, 190.02 real, 881 MB
+[runlim] sample:		199.98 time, 200.02 real, 805 MB
+[runlim] sample:		209.98 time, 210.02 real, 875 MB
+[runlim] sample:		219.98 time, 220.02 real, 875 MB
+[runlim] sample:		229.98 time, 230.02 real, 904 MB
+[runlim] sample:		239.98 time, 240.02 real, 905 MB
+[runlim] sample:		249.98 time, 250.02 real, 908 MB
+[runlim] sample:		259.98 time, 260.02 real, 961 MB
+[runlim] sample:		269.98 time, 270.02 real, 944 MB
+[runlim] sample:		279.99 time, 280.02 real, 1030 MB
+[runlim] sample:		289.98 time, 290.02 real, 1020 MB
+[runlim] sample:		299.99 time, 300.02 real, 1052 MB
+[runlim] sample:		309.99 time, 310.02 real, 1021 MB
+[runlim] sample:		319.99 time, 320.02 real, 1055 MB
+[runlim] sample:		329.99 time, 330.02 real, 1055 MB
+[runlim] sample:		339.99 time, 340.02 real, 1056 MB
+[runlim] sample:		349.98 time, 350.01 real, 996 MB
+[runlim] sample:		359.98 time, 360.02 real, 1093 MB
+[runlim] sample:		369.98 time, 370.02 real, 1094 MB
+[runlim] sample:		379.98 time, 380.02 real, 1096 MB
+[runlim] sample:		389.98 time, 390.02 real, 1097 MB
+[runlim] sample:		399.98 time, 400.02 real, 1103 MB
+[runlim] sample:		409.98 time, 410.02 real, 1105 MB
+[runlim] sample:		419.98 time, 420.02 real, 1070 MB
+[runlim] sample:		429.98 time, 430.02 real, 1070 MB
+[runlim] sample:		439.98 time, 440.02 real, 1172 MB
+[runlim] sample:		449.98 time, 450.02 real, 1176 MB
+[runlim] sample:		459.98 time, 460.02 real, 1177 MB
+[runlim] sample:		469.98 time, 470.02 real, 1178 MB
+[runlim] sample:		479.98 time, 480.02 real, 1104 MB
+[runlim] sample:		489.98 time, 490.02 real, 1116 MB
+[runlim] sample:		499.98 time, 500.02 real, 1247 MB
+[runlim] sample:		509.98 time, 510.02 real, 1248 MB
+[runlim] sample:		519.98 time, 520.02 real, 1199 MB
+[runlim] sample:		529.98 time, 530.02 real, 1203 MB
+[runlim] sample:		539.98 time, 540.02 real, 1205 MB
+[runlim] sample:		549.98 time, 550.02 real, 1207 MB
+[runlim] sample:		559.98 time, 560.02 real, 1211 MB
+[runlim] sample:		569.98 time, 570.01 real, 1246 MB
+[runlim] sample:		579.98 time, 580.02 real, 1193 MB
+[runlim] sample:		589.98 time, 590.02 real, 1201 MB
+[runlim] sample:		599.99 time, 600.02 real, 1177 MB
+[runlim] sample:		609.98 time, 610.02 real, 1211 MB
+[runlim] sample:		619.98 time, 620.02 real, 1233 MB
+[runlim] sample:		629.98 time, 630.02 real, 1366 MB
+[runlim] sample:		639.98 time, 640.02 real, 1368 MB
+[runlim] sample:		649.99 time, 650.02 real, 1370 MB
+[runlim] sample:		659.99 time, 660.02 real, 1370 MB
+[runlim] sample:		669.98 time, 670.02 real, 1371 MB
+[runlim] sample:		679.98 time, 680.02 real, 1403 MB
+[runlim] end:			Thu Oct 17 08:43:52 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			682.79 seconds
+[runlim] time:			682.68 seconds
+[runlim] space:			1460 MB
+[runlim] samples:		6827

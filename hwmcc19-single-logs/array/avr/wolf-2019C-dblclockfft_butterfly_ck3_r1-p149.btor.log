@@ -1,0 +1,98 @@
+c host: c3n05
+c start: Fri Oct 18 22:54:54 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567716
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dblclockfft_butterfly_ck3_r1-p149.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567716.0
+	(output dir: /tmp//pr_test/work_w0)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1138 / 3485 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 2 1 s: 3    0s                     0	: 2	: 0 2 1 s: 3    0s                  
+   0	: 3	: 0 2 1 0 s: 3    0s                     0	: 3	: 0 2 1 1 s: 4    0s                     0	: 3	: 0 2 1 1 s: 4    0s                  
+   0	: 4	: 0 2 1 1 0 s: 4    0s                     0	: 4	: 0 2 1 1 1 s: 5    0s                     0	: 4	: 0 2 1 1 1 s: 5    0s                  
+   0	: 5	: 0 2 1 1 1 0 s: 5    0s                     0	: 5	: 0 2 1 1 1 1 s: 6    0s                     0	: 5	: 0 2 1 1 1 1 s: 6    0s                  
+   0	: 6	: 0 2 1 1 1 1 0 s: 6    0s                     0	: 6	: 0 2 1 1 1 1 1 s: 7    0s                     0	: 6	: 0 2 1 1 1 1 1 s: 7    0s                  
+   0	: 7	: 0 2 1 1 1 1 1 0 s: 7    0s                     0	: 7	: 0 2 1 1 1 1 1 1 s: 8    0s                     0	: 7	: 0 2 1 1 1 1 1 1 s: 8    0s                  
+   0	: 8	: 0 2 1 1 1 1 1 1 0 s: 8    0s                     1	: 8	: 0 2 1 1 1 1 1 1 0 s: 8    1s                     2	: 8	: 0 3 2 3 2 2 3 2 0 s: 17    9s                     2	: 8	: 0 3 2 3 2 2 3 2 1 s: 18    9s                     2	: 8	: 0 3 6 18 14 12 6 5 2 s: 66    11s                     3	: 8	: 0 25 38 53 31 21 10 6 2 s: 186    24s                     3	: 8	: 0 25 38 53 31 21 10 6 3 s: 187    24s                     3	: 8	: 0 25 38 53 31 21 10 6 4 s: 188    24s                     3	: 8	: 0 28 42 59 38 30 14 8 5 s: 224    26s                     4	: 8	: 0 28 42 59 38 30 14 8 5 s: 224    30s                     5	: 8	: 0 28 43 62 40 31 20 13 5 s: 242    40s                     6	: 8	: 0 30 45 67 41 32 21 13 5 s: 254    46s                     7	: 8	: 0 30 45 67 41 32 21 13 5 s: 254    51s                     8	: 8	: 0 30 50 74 48 40 29 15 5 s: 291    74s                     9	: 8	: 0 30 50 74 48 40 29 15 5 s: 291    81s                     10	: 8	: 0 30 50 74 48 40 29 15 5 s: 291    90s                     11	: 8	: 0 30 52 75 55 43 36 17 5 s: 313    113s                     12	: 8	: 0 30 52 75 55 43 36 17 5 s: 313    121s                     12	: 8	: 0 30 52 78 63 45 39 19 5 s: 331    123s                     12	: 8	: 0 30 52 78 63 45 39 19 6 s: 332    123s                     12	: 8	: 0 30 51 78 64 65 64 21 6 s: 379    131s                     12	: 8	: 0 30 51 78 64 65 64 21 6 s: 379    131s                  
+   12	: 9	: 0 22 44 55 53 50 46 14 2 80 s: 366    141s                     12	: 9	: 0 22 44 55 53 50 51 36 16 81 s: 408    147s                     12	: 9	: 0 22 44 55 53 50 51 36 16 82 s: 409    148s                     12	: 9	: ... 0 22 44 75 90 153 176 85 25 83 s: 753    230s                     12	: 9	: ... 22 44 81 104 160 173 132 39 84 s: 839    299s                     12	: 9	: ... 22 44 81 104 160 173 132 44 85 s: 845    300s                     12	: 9	: ... 22 44 80 102 162 167 119 46 86 s: 828    311s                     12	: 9	: ... 22 44 80 102 162 167 118 41 82 s: 818    311s                     12	: 9	: ... 22 44 80 102 162 167 118 41 82 s: 818    311s                  
+   12	: 9	: 0 22 44 62 84 113 70 46 27 0 s: 468    354s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h      355.80         526          12
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 27700)
+@     0s  (started worker 1 with pid 27701)
+@     0s  (started worker 2 with pid 27702)
+@     0s  (started worker 3 with pid 27703)
+@     0s  (started worker 4 with pid 27704)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 27820)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 415 MB)
+@     2s  (started worker 6 with pid 27876)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 652 MB)
+@     3s  (started worker 7 with pid 27938)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 837 MB)
+@     4s  (started worker 8 with pid 28006)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 1067 MB)
+@     5s  (started worker 9 with pid 28098)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 1268 MB)
+@     6s  (started worker 10 with pid 28178)
+@     6s  (spawned 1 workers)
+@     6s  (total 11 workers using 1487 MB)
+@    15s  (total 11 workers using 2558 MB)
+@    27s  (total 11 workers using 3218 MB)
+@    39s  (total 11 workers using 3859 MB)
+@    50s  (total 11 workers using 4676 MB)
+@    61s  (worker 9 finished with result unknown) python3 avr.py -b bin_y2 -s -a sa4 --interpol 1 -f 1
+@    61s  (total 10 workers using 5034 MB)
+@    72s  (total 10 workers using 5602 MB)
+@    83s  (total 10 workers using 5934 MB)
+@    94s  (total 10 workers using 6636 MB)
+@   105s  (total 10 workers using 7609 MB)
+@   116s  (total 10 workers using 7662 MB)
+@   127s  (total 10 workers using 8132 MB)
+@   138s  (total 10 workers using 8607 MB)
+@   149s  (total 10 workers using 9261 MB)
+@   160s  (total 10 workers using 9735 MB)
+@   171s  (total 10 workers using 9180 MB)
+@   182s  (total 10 workers using 9321 MB)
+@   193s  (total 10 workers using 10132 MB)
+@   204s  (total 10 workers using 10596 MB)
+@   215s  (total 10 workers using 11094 MB)
+@   226s  (total 10 workers using 12291 MB)
+@   236s  (total 10 workers using 13031 MB)
+@   248s  (total 10 workers using 13130 MB)
+@   258s  (total 10 workers using 13154 MB)
+@   269s  (total 10 workers using 12810 MB)
+@   280s  (total 10 workers using 13180 MB)
+@   291s  (total 10 workers using 13487 MB)
+@   302s  (total 10 workers using 13699 MB)
+@   313s  (total 10 workers using 14431 MB)
+@   324s  (total 10 workers using 14731 MB)
+@   335s  (total 10 workers using 15044 MB)
+@   346s  (total 10 workers using 16096 MB)
+@   357s  (total 10 workers using 16005 MB)
+@   357s  (worker 0 finished with result safe) python3 avr.py -a sa
+@   357s  (worker 0 output)
+@   357s  (stopping all workers)
+@   357s  (copied results from worker 0 in /tmp//pr_test)
+@   357s  [0;30;47m(proof race finished with answer safe in 357.39 seconds)[m
+unsat
+b0
+c done

@@ -1,0 +1,9 @@
+c host: c3n06
+c start: Thu Oct 17 23:08:57 CEST 2019
+c arrayjobid: 17562842
+c jobid: 17566634
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/lamport_nonatomic.5.prop1-func-interl.btor2
+c solver: ./run-btormc-master.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566634.0
+c done

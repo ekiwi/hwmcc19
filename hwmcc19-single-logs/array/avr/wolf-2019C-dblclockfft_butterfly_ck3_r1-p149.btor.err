@@ -1,0 +1,52 @@
+[runlim] version:		1.17
+[runlim] host:			c3n05
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/fC8b4G7m.btor
+[runlim] start:			Fri Oct 18 22:54:54 2019
+[runlim] child:			27693
+[runlim] sample:		13.65 time, 10.02 real, 364 MB
+[runlim] sample:		20.46 time, 20.02 real, 174 MB
+[runlim] sample:		53.91 time, 30.02 real, 871 MB
+[runlim] sample:		74.03 time, 40.02 real, 1226 MB
+[runlim] sample:		50.77 time, 50.02 real, 294 MB
+[runlim] sample:		114.19 time, 60.02 real, 1800 MB
+[runlim] sample:		189.72 time, 70.02 real, 1986 MB
+[runlim] sample:		209.79 time, 80.02 real, 2556 MB
+[runlim] sample:		146.54 time, 90.02 real, 357 MB
+[runlim] sample:		249.93 time, 100.02 real, 3157 MB
+[runlim] sample:		270.02 time, 110.02 real, 3227 MB
+[runlim] sample:		290.09 time, 120.02 real, 3237 MB
+[runlim] sample:		310.15 time, 130.02 real, 3566 MB
+[runlim] sample:		330.20 time, 140.02 real, 3693 MB
+[runlim] sample:		350.22 time, 150.02 real, 4381 MB
+[runlim] sample:		217.00 time, 160.02 real, 409 MB
+[runlim] sample:		390.34 time, 170.02 real, 4261 MB
+[runlim] sample:		410.38 time, 180.02 real, 4063 MB
+[runlim] sample:		430.43 time, 190.02 real, 4571 MB
+[runlim] sample:		450.51 time, 200.02 real, 4671 MB
+[runlim] sample:		470.57 time, 210.02 real, 5154 MB
+[runlim] sample:		490.60 time, 220.02 real, 5816 MB
+[runlim] sample:		287.44 time, 230.02 real, 471 MB
+[runlim] sample:		530.76 time, 240.02 real, 6628 MB
+[runlim] sample:		550.84 time, 250.02 real, 6522 MB
+[runlim] sample:		570.89 time, 260.02 real, 6301 MB
+[runlim] sample:		590.94 time, 270.02 real, 5975 MB
+[runlim] sample:		610.97 time, 280.02 real, 6198 MB
+[runlim] sample:		631.02 time, 290.02 real, 6227 MB
+[runlim] sample:		357.96 time, 300.02 real, 532 MB
+[runlim] sample:		671.17 time, 310.02 real, 6842 MB
+[runlim] sample:		691.22 time, 320.02 real, 7137 MB
+[runlim] sample:		711.23 time, 330.02 real, 7241 MB
+[runlim] sample:		731.29 time, 340.02 real, 7461 MB
+[runlim] sample:		751.34 time, 350.02 real, 7965 MB
+[runlim] end:			Fri Oct 18 23:00:51 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		556
+[runlim] real:			357.49 seconds
+[runlim] time:			1123.00 seconds
+[runlim] space:			10373 MB
+[runlim] samples:		3574

@@ -1,0 +1,9 @@
+c host: c3n22
+c start: Wed Oct 16 22:56:44 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565071
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/leader_election.3.prop1-back-serstep.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565071.0
+c done

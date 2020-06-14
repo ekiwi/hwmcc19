@@ -1,0 +1,29 @@
+[runlim] version:		1.17
+[runlim] host:			c3n11
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc.sh
+[runlim] argv[1]:		/tmp/KFCgLu3d.btor
+[runlim] start:			Wed Oct 16 10:28:02 2019
+[runlim] child:			17183
+[runlim] sample:		10.00 time, 10.02 real, 161 MB
+[runlim] sample:		20.00 time, 20.01 real, 171 MB
+[runlim] sample:		30.00 time, 30.01 real, 183 MB
+[runlim] sample:		40.00 time, 40.01 real, 186 MB
+[runlim] sample:		50.00 time, 50.01 real, 219 MB
+[runlim] sample:		60.00 time, 60.01 real, 204 MB
+[runlim] sample:		70.00 time, 70.01 real, 247 MB
+[runlim] sample:		80.00 time, 80.01 real, 257 MB
+[runlim] sample:		90.00 time, 90.01 real, 197 MB
+[runlim] sample:		100.00 time, 100.01 real, 212 MB
+[runlim] sample:		110.00 time, 110.01 real, 228 MB
+[runlim] sample:		119.99 time, 120.01 real, 228 MB
+[runlim] end:			Wed Oct 16 10:30:03 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			120.46 seconds
+[runlim] time:			120.39 seconds
+[runlim] space:			257 MB
+[runlim] samples:		1204

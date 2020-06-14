@@ -1,0 +1,271 @@
+c host: c3n22
+c start: Fri Oct 18 18:42:27 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567334
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vis_arrays_two_p1/vis_arrays_two_p1.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567334.0
+	(output dir: /tmp//pr_test/work_w9)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(30 / 30 flops initialized)
+	(abstraction: sa4)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 2 s: 2    0s                  
+   0	: 2	: 0 2 0 s: 2    0s                     0	: 2	: 0 2 1 s: 3    0s                     0	: 2	: 0 2 2 s: 4    0s                     0	: 2	: 0 2 2 s: 4    0s                  
+   0	: 3	: 0 2 2 0 s: 4    0s                     0	: 3	: 0 4 6 6 s: 16    0s                     0	: 3	: 0 4 6 6 s: 16    0s                  
+   0	: 4	: 0 4 6 6 0 s: 16    0s                     0	: 4	: 0 4 6 6 1 s: 17    0s                     0	: 4	: 0 4 8 9 6 s: 27    0s                     0	: 4	: 0 4 8 9 6 s: 27    0s                  
+   0	: 5	: 0 4 8 9 6 0 s: 27    0s                     0	: 5	: 0 7 28 79 187 206 s: 507    1s                     0	: 5	: 0 7 28 79 187 206 s: 507    1s                  
+   0	: 6	: 0 7 28 79 186 174 33 s: 507    1s                     0	: 6	: 0 7 28 79 186 174 34 s: 508    2s                     0	: 6	: 0 7 28 79 186 174 35 s: 509    2s                     0	: 6	: 0 7 28 79 186 174 35 s: 509    2s                  
+   0	: 7	: 0 7 28 79 186 174 33 2 s: 509    2s                     0	: 7	: 0 7 29 96 250 305 60 3 s: 750    4s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v        4.15          55           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 20009)
+@     0s  (started worker 1 with pid 20010)
+@     0s  (started worker 2 with pid 20011)
+@     0s  (started worker 3 with pid 20012)
+@     0s  (started worker 4 with pid 20013)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 20130)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 140 MB)
+@     2s  (started worker 6 with pid 20186)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 176 MB)
+@     3s  (started worker 7 with pid 20248)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 212 MB)
+@     4s  (started worker 8 with pid 20316)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 257 MB)
+@     5s  (started worker 9 with pid 20408)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 318 MB)
+@     6s  (started worker 10 with pid 20488)
+@     6s  (spawned 1 workers)
+@     6s  (total 11 workers using 389 MB)
+@     9s  (worker 9 finished with result unsafe) python3 avr.py -b bin_y2 -s -a sa4 --interpol 1 -f 1
+@     9s  (worker 9 output)
+@     9s  (stopping all workers)
+@     9s  (copied results from worker 9 in /tmp//pr_test)
+@     9s  [0;30;47m(proof race finished with answer unsafe in 9.50 seconds)[m
+sat
+b0
+#0
+0 111 |_s0_b[0]|#0
+1 110 |_s1_b[1]|#0
+2 101 |_s2_b[2]|#0
+3 100 |_s3_b[3]|#0
+4 011 |_s4_b[4]|#0
+5 010 |_s5_b[5]|#0
+6 001 |_s6_b[6]|#0
+7 000 |_s7_b[7]|#0
+9 000 |_s9_treg|#0
+@0
+1 110 |_i1_from|@0
+2 111 |_i2_to|@0
+4 000 |_i4_id175|@0
+6 000 |_i6_id192|@0
+@1
+1 101 |_i1_from|@1
+2 110 |_i2_to|@1
+@2
+1 001 |_i1_from|@2
+2 101 |_i2_to|@2
+@3
+1 010 |_i1_from|@3
+2 001 |_i2_to|@3
+@4
+1 110 |_i1_from|@4
+2 010 |_i2_to|@4
+@5
+1 111 |_i1_from|@5
+2 110 |_i2_to|@5
+@6
+1 011 |_i1_from|@6
+2 111 |_i2_to|@6
+@7
+1 010 |_i1_from|@7
+2 011 |_i2_to|@7
+@8
+1 001 |_i1_from|@8
+2 010 |_i2_to|@8
+@9
+1 101 |_i1_from|@9
+2 001 |_i2_to|@9
+@10
+1 110 |_i1_from|@10
+2 101 |_i2_to|@10
+@11
+1 010 |_i1_from|@11
+2 110 |_i2_to|@11
+@12
+1 011 |_i1_from|@12
+2 010 |_i2_to|@12
+@13
+1 111 |_i1_from|@13
+2 011 |_i2_to|@13
+@14
+1 110 |_i1_from|@14
+2 111 |_i2_to|@14
+@15
+1 101 |_i1_from|@15
+2 110 |_i2_to|@15
+@16
+1 001 |_i1_from|@16
+2 101 |_i2_to|@16
+@17
+1 010 |_i1_from|@17
+2 001 |_i2_to|@17
+@18
+1 011 |_i1_from|@18
+2 010 |_i2_to|@18
+@19
+1 111 |_i1_from|@19
+2 011 |_i2_to|@19
+@20
+1 110 |_i1_from|@20
+2 111 |_i2_to|@20
+@21
+1 101 |_i1_from|@21
+2 110 |_i2_to|@21
+@22
+1 001 |_i1_from|@22
+2 101 |_i2_to|@22
+@23
+1 010 |_i1_from|@23
+2 001 |_i2_to|@23
+@24
+1 011 |_i1_from|@24
+2 010 |_i2_to|@24
+@25
+1 111 |_i1_from|@25
+2 011 |_i2_to|@25
+@26
+1 110 |_i1_from|@26
+2 111 |_i2_to|@26
+@27
+1 101 |_i1_from|@27
+2 110 |_i2_to|@27
+@28
+1 100 |_i1_from|@28
+2 101 |_i2_to|@28
+@29
+1 000 |_i1_from|@29
+2 100 |_i2_to|@29
+@30
+1 001 |_i1_from|@30
+2 000 |_i2_to|@30
+@31
+1 010 |_i1_from|@31
+2 001 |_i2_to|@31
+@32
+1 011 |_i1_from|@32
+2 010 |_i2_to|@32
+@33
+1 111 |_i1_from|@33
+2 011 |_i2_to|@33
+@34
+1 110 |_i1_from|@34
+2 111 |_i2_to|@34
+@35
+1 010 |_i1_from|@35
+2 110 |_i2_to|@35
+@36
+1 001 |_i1_from|@36
+2 010 |_i2_to|@36
+@37
+1 101 |_i1_from|@37
+2 001 |_i2_to|@37
+@38
+1 110 |_i1_from|@38
+2 101 |_i2_to|@38
+@39
+1 010 |_i1_from|@39
+2 110 |_i2_to|@39
+@40
+1 001 |_i1_from|@40
+2 010 |_i2_to|@40
+@41
+1 101 |_i1_from|@41
+2 001 |_i2_to|@41
+@42
+1 100 |_i1_from|@42
+2 101 |_i2_to|@42
+@43
+1 000 |_i1_from|@43
+2 100 |_i2_to|@43
+@44
+1 001 |_i1_from|@44
+2 000 |_i2_to|@44
+@45
+1 010 |_i1_from|@45
+2 001 |_i2_to|@45
+@46
+1 110 |_i1_from|@46
+2 010 |_i2_to|@46
+@47
+1 101 |_i1_from|@47
+2 110 |_i2_to|@47
+@48
+1 001 |_i1_from|@48
+2 101 |_i2_to|@48
+@49
+1 010 |_i1_from|@49
+2 001 |_i2_to|@49
+@50
+1 110 |_i1_from|@50
+2 010 |_i2_to|@50
+@51
+1 111 |_i1_from|@51
+2 110 |_i2_to|@51
+@52
+1 011 |_i1_from|@52
+2 111 |_i2_to|@52
+@53
+1 010 |_i1_from|@53
+2 011 |_i2_to|@53
+@54
+1 110 |_i1_from|@54
+2 010 |_i2_to|@54
+@55
+1 101 |_i1_from|@55
+2 110 |_i2_to|@55
+@56
+1 001 |_i1_from|@56
+2 101 |_i2_to|@56
+@57
+1 010 |_i1_from|@57
+2 001 |_i2_to|@57
+@58
+1 110 |_i1_from|@58
+2 010 |_i2_to|@58
+@59
+1 111 |_i1_from|@59
+2 110 |_i2_to|@59
+@60
+1 011 |_i1_from|@60
+2 111 |_i2_to|@60
+@61
+1 010 |_i1_from|@61
+2 011 |_i2_to|@61
+@62
+1 001 |_i1_from|@62
+2 010 |_i2_to|@62
+@63
+1 000 |_i1_from|@63
+2 001 |_i2_to|@63
+@64
+1 000 |_i1_from|@64
+2 000 |_i2_to|@64
+@65
+.
+c done

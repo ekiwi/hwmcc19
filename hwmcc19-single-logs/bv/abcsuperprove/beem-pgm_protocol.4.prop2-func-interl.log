@@ -1,0 +1,9 @@
+c host: c3n27
+c start: Wed Oct 16 22:56:15 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565067
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/pgm_protocol.4.prop2-func-interl.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565067.0
+c done

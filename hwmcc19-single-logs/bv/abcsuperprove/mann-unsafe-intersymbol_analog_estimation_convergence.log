@@ -1,0 +1,30 @@
+c host: c3n29
+c start: Thu Oct 17 00:11:33 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565197
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/unsafe/intersymbol_analog_estimation_convergence.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565197.0
+1
+b0
+1111111111100000000000000001111111111111111111111111111111111111111111111111111111111111111
+0110
+0110
+0100
+0100
+0000
+0000
+0000
+0100
+0100
+0100
+0100
+0100
+0100
+0100
+0100
+0100
+0000
+.
+c done

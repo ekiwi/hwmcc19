@@ -1,0 +1,65 @@
+c host: c3n32
+c start: Fri Oct 18 23:27:48 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567738
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dblclockfft_butterfly_ck3_r0-p126.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567738.0
+	(output dir: /tmp//pr_test/work_w0)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(905 / 3009 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 2 1 s: 3    0s                     0	: 2	: 0 2 1 s: 3    0s                  
+   0	: 3	: 0 2 1 0 s: 3    0s                     0	: 3	: 0 2 1 1 s: 4    0s                     0	: 3	: 0 2 1 1 s: 4    0s                  
+   0	: 4	: 0 2 1 1 0 s: 4    0s                     1	: 4	: 0 3 2 1 0 s: 6    1s                     1	: 4	: 0 4 3 3 1 s: 11    1s                     2	: 4	: 0 4 3 3 1 s: 11    3s                     2	: 4	: 0 6 14 16 2 s: 38    4s                     2	: 4	: 0 6 14 18 3 s: 41    4s                     2	: 4	: 0 6 13 20 4 s: 43    4s                     2	: 4	: 0 6 13 21 4 s: 44    4s                     2	: 4	: 0 6 13 22 5 s: 46    4s                     2	: 4	: 0 6 14 24 6 s: 50    4s                     2	: 4	: 0 9 17 24 7 s: 57    4s                     2	: 4	: 0 9 17 24 8 s: 58    4s                     2	: 4	: 0 9 17 24 9 s: 59    4s                     2	: 4	: 0 9 17 25 10 s: 61    4s                     3	: 4	: 0 9 17 25 10 s: 61    6s                     4	: 4	: 0 12 30 26 10 s: 78    10s                     5	: 4	: 0 12 32 26 10 s: 80    11s                     6	: 4	: 0 13 33 26 10 s: 82    19s                     6	: 4	: 0 13 45 43 11 s: 112    21s                     6	: 4	: 0 13 45 43 12 s: 113    21s                     6	: 4	: 0 13 48 54 13 s: 128    22s                     6	: 4	: 0 13 48 54 14 s: 129    22s                     6	: 4	: 0 13 48 54 15 s: 130    22s                     6	: 4	: 0 13 48 54 16 s: 131    22s                     6	: 4	: 0 13 48 56 17 s: 134    23s                     6	: 4	: 0 13 48 56 18 s: 135    23s                     6	: 4	: 0 13 48 56 19 s: 136    23s                     6	: 4	: 0 13 48 56 20 s: 137    23s                     6	: 4	: 0 13 48 56 21 s: 138    23s                     6	: 4	: 0 13 48 56 22 s: 139    23s                     6	: 4	: 0 13 48 56 23 s: 140    23s                     6	: 4	: 0 13 48 56 24 s: 141    23s                     6	: 4	: 0 13 48 55 25 s: 141    23s                     6	: 4	: 0 13 48 55 26 s: 142    23s                     6	: 4	: 0 13 48 55 27 s: 143    23s                     6	: 4	: 0 13 48 55 28 s: 144    23s                     6	: 4	: 0 13 48 56 29 s: 146    23s                     6	: 4	: 0 13 51 43 19 s: 126    24s                     6	: 4	: 0 13 51 43 19 s: 126    24s                  
+   6	: 5	: 0 13 45 27 10 31 s: 126    25s                     6	: 5	: 0 13 45 27 10 32 s: 127    25s                     6	: 5	: 0 13 45 27 10 33 s: 128    25s                     6	: 5	: 0 13 45 27 10 34 s: 129    25s                     6	: 5	: 0 13 45 27 10 35 s: 130    25s                     6	: 5	: 0 13 45 27 23 36 s: 144    26s                     6	: 5	: 0 13 45 27 23 37 s: 145    26s                     6	: 5	: 0 13 45 27 24 38 s: 147    26s                     6	: 5	: 0 13 45 27 24 39 s: 148    26s                     6	: 5	: 0 13 45 27 24 40 s: 149    27s                     6	: 5	: 0 13 45 27 24 41 s: 150    27s                     6	: 5	: 0 13 45 27 24 42 s: 151    27s                     6	: 5	: 0 13 45 27 24 43 s: 152    27s                     6	: 5	: 0 13 45 27 24 44 s: 153    27s                     6	: 5	: 0 13 45 27 24 45 s: 154    27s                     6	: 5	: 0 13 45 40 27 46 s: 171    28s                     6	: 5	: 0 13 45 34 26 45 s: 163    29s                     6	: 5	: 0 13 45 34 26 45 s: 163    29s                  
+   6	: 6	: 0 13 45 16 10 5 74 s: 163    31s                     6	: 6	: 0 13 45 16 10 5 74 s: 163    31s                  
+   6	: 6	: 0 13 45 16 10 5 0 s: 89    32s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h       32.40         141           6
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 31184)
+@     0s  (started worker 1 with pid 31185)
+@     0s  (started worker 2 with pid 31186)
+@     0s  (started worker 3 with pid 31187)
+@     0s  (started worker 4 with pid 31188)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 31305)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 362 MB)
+@     2s  (started worker 6 with pid 31361)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 588 MB)
+@     3s  (started worker 7 with pid 31421)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 857 MB)
+@     4s  (started worker 8 with pid 31487)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 1104 MB)
+@     5s  (started worker 9 with pid 31580)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 1315 MB)
+@     7s  (started worker 10 with pid 31660)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 1759 MB)
+@     7s  (worker 6 finished with result unknown) python3 avr.py -a sa --interpol 1 -f 1
+@    15s  (total 10 workers using 2228 MB)
+@    27s  (total 10 workers using 3008 MB)
+@    33s  (worker 0 finished with result safe) python3 avr.py -a sa
+@    33s  (worker 0 output)
+@    33s  (stopping all workers)
+@    33s  (copied results from worker 0 in /tmp//pr_test)
+@    33s  [0;30;47m(proof race finished with answer safe in 32.78 seconds)[m
+unsat
+b0
+c done

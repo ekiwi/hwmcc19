@@ -1,0 +1,9 @@
+c host: c3n10
+c start: Fri Oct 18 08:50:08 CEST 2019
+c arrayjobid: 17562843
+c jobid: 17567199
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/zipcpu_zipcpu_piped-p419.btor
+c solver: ./run-btormc-master.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567199.0
+c done

@@ -1,0 +1,46 @@
+[runlim] version:		1.17
+[runlim] host:			c3n09
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-thp.sh
+[runlim] argv[1]:		/tmp/TemIQMX6.btor
+[runlim] start:			Thu Oct 17 06:44:23 2019
+[runlim] child:			16138
+[runlim] sample:		9.98 time, 10.02 real, 90 MB
+[runlim] sample:		19.99 time, 20.01 real, 137 MB
+[runlim] sample:		29.99 time, 30.01 real, 194 MB
+[runlim] sample:		39.98 time, 40.02 real, 204 MB
+[runlim] sample:		49.98 time, 50.02 real, 226 MB
+[runlim] sample:		59.98 time, 60.02 real, 266 MB
+[runlim] sample:		69.99 time, 70.01 real, 303 MB
+[runlim] sample:		79.99 time, 80.02 real, 376 MB
+[runlim] sample:		89.99 time, 90.02 real, 376 MB
+[runlim] sample:		99.99 time, 100.01 real, 376 MB
+[runlim] sample:		109.98 time, 110.02 real, 390 MB
+[runlim] sample:		119.99 time, 120.01 real, 404 MB
+[runlim] sample:		129.99 time, 130.02 real, 425 MB
+[runlim] sample:		139.99 time, 140.01 real, 451 MB
+[runlim] sample:		149.99 time, 150.02 real, 480 MB
+[runlim] sample:		159.98 time, 160.02 real, 475 MB
+[runlim] sample:		169.99 time, 170.02 real, 609 MB
+[runlim] sample:		179.98 time, 180.02 real, 679 MB
+[runlim] sample:		189.99 time, 190.02 real, 781 MB
+[runlim] sample:		199.99 time, 200.02 real, 891 MB
+[runlim] sample:		209.99 time, 210.02 real, 982 MB
+[runlim] sample:		219.99 time, 220.01 real, 1026 MB
+[runlim] sample:		229.98 time, 230.02 real, 1026 MB
+[runlim] sample:		239.99 time, 240.02 real, 1044 MB
+[runlim] sample:		249.98 time, 250.01 real, 1059 MB
+[runlim] sample:		259.98 time, 260.02 real, 1059 MB
+[runlim] sample:		269.98 time, 270.02 real, 1059 MB
+[runlim] sample:		279.99 time, 280.02 real, 1162 MB
+[runlim] sample:		289.99 time, 290.02 real, 1264 MB
+[runlim] end:			Thu Oct 17 06:49:20 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			297.13 seconds
+[runlim] time:			297.09 seconds
+[runlim] space:			1328 MB
+[runlim] samples:		2971

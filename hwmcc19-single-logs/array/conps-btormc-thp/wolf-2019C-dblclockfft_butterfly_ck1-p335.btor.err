@@ -1,0 +1,24 @@
+[runlim] version:		1.17
+[runlim] host:			c3n28
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-thp.sh
+[runlim] argv[1]:		/tmp/SvikhTlR.btor
+[runlim] start:			Thu Oct 17 08:53:34 2019
+[runlim] child:			19515
+[runlim] sample:		9.99 time, 10.02 real, 414 MB
+[runlim] sample:		19.98 time, 20.02 real, 731 MB
+[runlim] sample:		29.99 time, 30.02 real, 903 MB
+[runlim] sample:		39.98 time, 40.02 real, 1209 MB
+[runlim] sample:		49.98 time, 50.01 real, 1417 MB
+[runlim] sample:		59.98 time, 60.02 real, 1539 MB
+[runlim] sample:		69.98 time, 70.02 real, 1764 MB
+[runlim] end:			Thu Oct 17 08:54:48 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			74.10 seconds
+[runlim] time:			73.98 seconds
+[runlim] space:			1798 MB
+[runlim] samples:		740

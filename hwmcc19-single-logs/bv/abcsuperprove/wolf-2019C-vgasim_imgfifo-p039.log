@@ -1,0 +1,9 @@
+c host: c3n06
+c start: Thu Oct 17 00:57:28 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565358
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/vgasim_imgfifo-p039.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565358.0
+c done

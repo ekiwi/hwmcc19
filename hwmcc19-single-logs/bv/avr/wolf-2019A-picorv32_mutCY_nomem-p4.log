@@ -1,0 +1,519 @@
+c host: c3n28
+c start: Fri Oct 18 19:50:37 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567443
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019A/picorv32_mutCY_nomem-p4.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567443.0
+	(output dir: /tmp//pr_test/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(2049 / 3485 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: found cex at step 14)
+   0	: 0	: 0 s: 0    648s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v      648.15         632           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 26609)
+@     0s  (started worker 1 with pid 26610)
+@     0s  (started worker 2 with pid 26611)
+@     0s  (started worker 3 with pid 26612)
+@     0s  (started worker 4 with pid 26613)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 26730)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 376 MB)
+@     2s  (started worker 6 with pid 26786)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 568 MB)
+@     3s  (started worker 7 with pid 26848)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 742 MB)
+@     4s  (started worker 8 with pid 26916)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 939 MB)
+@     5s  (started worker 9 with pid 27009)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 1021 MB)
+@     7s  (started worker 10 with pid 27089)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 1203 MB)
+@    15s  (total 11 workers using 1722 MB)
+@    27s  (total 11 workers using 1941 MB)
+@    39s  (total 11 workers using 2027 MB)
+@    50s  (total 11 workers using 2133 MB)
+@    61s  (total 11 workers using 2321 MB)
+@    73s  (total 11 workers using 2448 MB)
+@    83s  (total 11 workers using 2570 MB)
+@    95s  (total 11 workers using 2686 MB)
+@   106s  (total 11 workers using 2812 MB)
+@   117s  (total 11 workers using 2947 MB)
+@   128s  (total 11 workers using 3109 MB)
+@   139s  (total 11 workers using 3281 MB)
+@   150s  (total 11 workers using 3409 MB)
+@   161s  (total 11 workers using 3627 MB)
+@   172s  (total 11 workers using 3783 MB)
+@   183s  (total 11 workers using 3898 MB)
+@   194s  (total 11 workers using 4084 MB)
+@   205s  (total 11 workers using 4217 MB)
+@   216s  (total 11 workers using 4324 MB)
+@   228s  (total 11 workers using 4424 MB)
+@   239s  (total 11 workers using 4508 MB)
+@   250s  (total 11 workers using 4695 MB)
+@   261s  (total 11 workers using 4825 MB)
+@   272s  (total 11 workers using 4964 MB)
+@   283s  (total 11 workers using 5099 MB)
+@   294s  (total 11 workers using 5185 MB)
+@   305s  (total 11 workers using 5321 MB)
+@   316s  (total 11 workers using 5449 MB)
+@   327s  (total 11 workers using 5604 MB)
+@   338s  (total 11 workers using 5735 MB)
+@   349s  (total 11 workers using 5849 MB)
+@   360s  (total 11 workers using 5945 MB)
+@   371s  (total 11 workers using 6063 MB)
+@   383s  (total 11 workers using 6188 MB)
+@   394s  (total 11 workers using 6339 MB)
+@   405s  (total 11 workers using 6461 MB)
+@   416s  (total 11 workers using 6569 MB)
+@   427s  (total 11 workers using 6671 MB)
+@   438s  (total 11 workers using 6842 MB)
+@   449s  (total 11 workers using 6974 MB)
+@   460s  (total 11 workers using 7085 MB)
+@   471s  (total 11 workers using 7158 MB)
+@   482s  (total 11 workers using 7267 MB)
+@   493s  (total 11 workers using 7388 MB)
+@   504s  (total 11 workers using 7507 MB)
+@   516s  (total 11 workers using 7600 MB)
+@   526s  (total 11 workers using 7790 MB)
+@   538s  (total 11 workers using 7785 MB)
+@   549s  (total 11 workers using 7886 MB)
+@   560s  (total 11 workers using 7993 MB)
+@   571s  (total 11 workers using 8123 MB)
+@   582s  (total 11 workers using 8181 MB)
+@   593s  (total 11 workers using 8287 MB)
+@   604s  (total 11 workers using 8402 MB)
+@   615s  (total 11 workers using 8535 MB)
+@   626s  (total 11 workers using 8645 MB)
+@   637s  (total 11 workers using 8796 MB)
+@   648s  (total 11 workers using 8910 MB)
+@   650s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@   650s  (worker 1 output)
+@   650s  (stopping all workers)
+@   650s  (copied results from worker 1 in /tmp//pr_test)
+@   650s  [0;30;47m(proof race finished with answer unsafe in 649.57 seconds)[m
+sat
+b0
+#0
+0 0 |_s0_ref.trap|#0
+1 0 |_s1_uut.trap|#0
+2 0 |_s2_ref.mem_valid|#0
+3 0 |_s3_uut.mem_valid|#0
+4 0 |_s4_ref.mem_instr|#0
+5 0 |_s5_uut.mem_instr|#0
+6 00000000000000000000000000000000 |_s6_ref.mem_addr|#0
+7 00000000000000000000000000000000 |_s7_uut.mem_addr|#0
+8 0000 |_s8_ref.mem_wstrb|#0
+9 0000 |_s9_uut.mem_wstrb|#0
+10 00000000000000000000000000000000 |_s10_ref.mem_wdata|#0
+11 00000000000000000000000000000000 |_s11_uut.mem_wdata|#0
+12 1 |_s12_id82|#0
+13 00000000000000000000000000000001 |_s13_ref.reg_op1|#0
+14 00000000000000000000000000000000 |_s14_ref.reg_op2|#0
+15 0 |_s15_ref.instr_sub|#0
+16 00000000000000000000000000000000 |_s16_id101|#0
+17 0 |_s17_ref.instr_sra|#0
+18 0 |_s18_ref.instr_srai|#0
+19 0 |_s19_ref.instr_srl|#0
+20 0 |_s20_ref.instr_srli|#0
+21 0 |_s21_ref.instr_sll|#0
+22 0 |_s22_ref.instr_slli|#0
+23 0 |_s23_ref.instr_andi|#0
+24 0 |_s24_ref.instr_and|#0
+25 0 |_s25_ref.instr_ori|#0
+26 0 |_s26_ref.instr_or|#0
+27 0 |_s27_ref.instr_xori|#0
+28 0 |_s28_ref.instr_xor|#0
+29 0 |_s29_id141|#0
+30 0 |_s30_ref.is_sltiu_bltu_sltu|#0
+31 0 |_s31_ref.is_slti_blt_slt|#0
+32 0 |_s32_ref.instr_bgeu|#0
+33 0 |_s33_ref.instr_bge|#0
+34 0 |_s34_ref.instr_bne|#0
+35 0 |_s35_ref.instr_beq|#0
+36 0 |_s36_ref.is_compare|#0
+37 0 |_s37_ref.is_lui_auipc_jal_jalr_addi_add_sub|#0
+38 00000000000000000000000000000000 |_s38_ref.alu_out_q|#0
+39 0 |_s39_ref.prefetched_high_word|#0
+40 0 |_s40_ref.clear_prefetched_high_word_q|#0
+41 1 |_s41_ref.latched_branch|#0
+42 10 |_s42_ref.irq_state|#0
+43 0 |_s43_ref.compressed_instr|#0
+44 0000000000000000000000000000000000000000000000000000000000000000 |_s44_ref.count_cycle|#0
+45 0000000000000000000000000000000000000000000000000000000000000000 |_s45_ref.count_instr|#0
+46 00000000 |_s46_ref.cpu_state|#0
+47 00000000000000000000000000000000 |_s47_ref.cpuregs[0]|#0
+48 00000000000000000000000000000000 |_s48_ref.cpuregs[10]|#0
+49 00000000000000000000000000000000 |_s49_ref.cpuregs[11]|#0
+50 00000000000000000000000000000000 |_s50_ref.cpuregs[12]|#0
+51 00000000000000000000000000000000 |_s51_ref.cpuregs[13]|#0
+52 00000000000000000000000000000000 |_s52_ref.cpuregs[14]|#0
+53 00000000000000000000000000000000 |_s53_ref.cpuregs[15]|#0
+54 00000000000000000000000000000000 |_s54_ref.cpuregs[16]|#0
+55 00000000000000000000000000000000 |_s55_ref.cpuregs[17]|#0
+56 00000000000000000000000000000000 |_s56_ref.cpuregs[18]|#0
+57 00000000000000000000000000000000 |_s57_ref.cpuregs[19]|#0
+58 00000000000000000000000000000000 |_s58_ref.cpuregs[1]|#0
+59 00000000000000000000000000000000 |_s59_ref.cpuregs[20]|#0
+60 00000000000000000000000000000000 |_s60_ref.cpuregs[21]|#0
+61 00000000000000000000000000000000 |_s61_ref.cpuregs[22]|#0
+62 00000000000000000000000000000000 |_s62_ref.cpuregs[23]|#0
+63 00000000000000000000000000000000 |_s63_ref.cpuregs[24]|#0
+64 00000000000000000000000000000000 |_s64_ref.cpuregs[25]|#0
+65 00000000000000000000000000000000 |_s65_ref.cpuregs[26]|#0
+66 00000000000000000000000000000000 |_s66_ref.cpuregs[27]|#0
+67 00000000000000000000000000000000 |_s67_ref.cpuregs[28]|#0
+68 00000000000000000000000000000000 |_s68_ref.cpuregs[29]|#0
+69 00000000000000000000000000000000 |_s69_ref.cpuregs[2]|#0
+70 00000000000000000000000000000000 |_s70_ref.cpuregs[30]|#0
+71 00000000000000000000000000000000 |_s71_ref.cpuregs[31]|#0
+72 00000000000000000000000000000000 |_s72_ref.cpuregs[3]|#0
+73 00000000000000000000000000000000 |_s73_ref.cpuregs[4]|#0
+74 00000000000000000000000000000000 |_s74_ref.cpuregs[5]|#0
+75 00000000000000000000000000000000 |_s75_ref.cpuregs[6]|#0
+76 00000000000000000000000000000000 |_s76_ref.cpuregs[7]|#0
+77 00000000000000000000000000000000 |_s77_ref.cpuregs[8]|#0
+78 00000000000000000000000000000000 |_s78_ref.cpuregs[9]|#0
+79 00000 |_s79_ref.decoded_rs1|#0
+80 00000 |_s80_ref.decoded_rs2|#0
+81 00000000000000000000000000000000 |_s81_id331|#0
+82 00000000000000000000000000000000 |_s82_ref.irq_pending|#0
+83 00000000000000000000000000000110 |_s83_ref.irq_mask|#0
+84 00000000000000000000000000000000 |_s84_ref.reg_next_pc|#0
+85 0 |_s85_ref.latched_compr|#0
+86 00000000000000000000000000000000 |_s86_ref.reg_out|#0
+87 0 |_s87_ref.latched_stalu|#0
+88 0 |_s88_ref.latched_store|#0
+89 00000000000000000000000000000000 |_s89_ref.reg_pc|#0
+90 11111111111111111111111111111111 |_s90_ref.decoded_imm|#0
+91 00000000000000000000000000000000 |_s91_ref.decoded_imm_j|#0
+92 00010 |_s92_ref.decoded_rd|#0
+93 1 |_s93_ref.decoder_pseudo_trigger|#0
+94 1 |_s94_ref.decoder_trigger|#0
+95 1 |_s95_ref.do_waitirq|#0
+96 0 |_s96_ref.instr_add|#0
+97 0 |_s97_ref.instr_addi|#0
+98 1 |_s98_ref.instr_auipc|#0
+99 0 |_s99_ref.instr_blt|#0
+100 0 |_s100_ref.instr_bltu|#0
+101 0 |_s101_ref.instr_jal|#0
+102 1 |_s102_ref.instr_jalr|#0
+103 0 |_s103_ref.instr_lb|#0
+104 0 |_s104_ref.instr_lbu|#0
+105 0 |_s105_ref.instr_lh|#0
+106 0 |_s106_ref.instr_lhu|#0
+107 0 |_s107_ref.instr_lui|#0
+108 0 |_s108_ref.instr_lw|#0
+109 0 |_s109_ref.instr_maskirq|#0
+110 0 |_s110_ref.instr_rdcycle|#0
+111 0 |_s111_ref.instr_rdcycleh|#0
+112 0 |_s112_ref.instr_rdinstr|#0
+113 0 |_s113_ref.instr_rdinstrh|#0
+114 1 |_s114_ref.instr_retirq|#0
+115 0 |_s115_ref.instr_sb|#0
+116 0 |_s116_ref.instr_sh|#0
+117 0 |_s117_ref.instr_slt|#0
+118 0 |_s118_ref.instr_slti|#0
+119 0 |_s119_ref.instr_sltiu|#0
+120 0 |_s120_ref.instr_sltu|#0
+121 0 |_s121_ref.instr_sw|#0
+122 0 |_s122_ref.instr_timer|#0
+123 0 |_s123_ref.instr_waitirq|#0
+124 0 |_s124_ref.irq_active|#0
+125 0 |_s125_ref.irq_delay|#0
+126 0 |_s126_ref.is_alu_reg_imm|#0
+127 0 |_s127_ref.is_alu_reg_reg|#0
+128 0 |_s128_ref.is_beq_bne_blt_bge_bltu_bgeu|#0
+129 0 |_s129_ref.is_jalr_addi_slti_sltiu_xori_ori_andi|#0
+130 0 |_s130_ref.is_lb_lh_lw_lbu_lhu|#0
+131 0 |_s131_ref.is_lbu_lhu_lw|#0
+132 0 |_s132_ref.is_lui_auipc_jal|#0
+133 0 |_s133_ref.is_sb_sh_sw|#0
+134 0 |_s134_ref.is_slli_srli_srai|#0
+135 0 |_s135_ref.last_mem_valid|#0
+136 0 |_s136_ref.latched_is_lb|#0
+137 0 |_s137_ref.latched_is_lh|#0
+138 0 |_s138_ref.latched_is_lu|#0
+139 00000 |_s139_ref.latched_rd|#0
+140 0011100100001011 |_s140_ref.mem_16bit_buffer|#0
+141 1 |_s141_ref.mem_do_prefetch|#0
+142 1 |_s142_ref.mem_do_rdata|#0
+143 0 |_s143_ref.mem_do_rinst|#0
+144 1 |_s144_ref.mem_do_wdata|#0
+145 0 |_s145_ref.mem_la_secondword|#0
+146 11 |_s146_ref.mem_state|#0
+147 00000000000000001001111111111111 |_s147_ref.mem_rdata_q|#0
+148 0 |_s148_ref.mem_la_firstword_reg|#0
+149 00000000000000000000000000000000 |_s149_id601|#0
+150 00 |_s150_ref.mem_wordsize|#0
+151 0000 |_s151_id625|#0
+152 00000000000000000000000000000000 |_s152_id644|#0
+153 00000000 |_s153_id645|#0
+154 0000000000000000 |_s154_id664|#0
+155 00000 |_s155_ref.reg_sh|#0
+156 00000000000000000000000000000001 |_s156_ref.timer|#0
+157 00000000000000000001000000000001 |_s157_uut.reg_op1|#0
+158 00000000000000000001000000000000 |_s158_uut.reg_op2|#0
+159 0 |_s159_uut.instr_sub|#0
+160 00000000000000000000000000000000 |_s160_id702|#0
+161 0 |_s161_uut.instr_sra|#0
+162 0 |_s162_uut.instr_srai|#0
+163 0 |_s163_uut.instr_srl|#0
+164 0 |_s164_uut.instr_srli|#0
+165 0 |_s165_uut.instr_sll|#0
+166 0 |_s166_uut.instr_slli|#0
+167 0 |_s167_uut.instr_andi|#0
+168 0 |_s168_uut.instr_and|#0
+169 0 |_s169_uut.instr_ori|#0
+170 0 |_s170_uut.instr_or|#0
+171 0 |_s171_uut.instr_xori|#0
+172 0 |_s172_uut.instr_xor|#0
+173 0 |_s173_id740|#0
+174 0 |_s174_uut.is_sltiu_bltu_sltu|#0
+175 0 |_s175_uut.is_slti_blt_slt|#0
+176 0 |_s176_uut.instr_bgeu|#0
+177 0 |_s177_uut.instr_bge|#0
+178 0 |_s178_uut.instr_bne|#0
+179 0 |_s179_uut.instr_beq|#0
+180 0 |_s180_uut.is_compare|#0
+181 0 |_s181_uut.is_lui_auipc_jal_jalr_addi_add_sub|#0
+182 00000000000000000000000000000000 |_s182_uut.alu_out_q|#0
+183 0 |_s183_uut.prefetched_high_word|#0
+184 0 |_s184_uut.clear_prefetched_high_word_q|#0
+185 1 |_s185_uut.latched_branch|#0
+186 10 |_s186_uut.irq_state|#0
+187 0 |_s187_uut.compressed_instr|#0
+188 0000000000000000000000000000000000000000000000000000000000000000 |_s188_uut.count_cycle|#0
+189 0000000000000000000000000000000000000000000000000000000000000000 |_s189_uut.count_instr|#0
+190 00000000 |_s190_uut.cpu_state|#0
+191 00000000000000000000000000000000 |_s191_uut.cpuregs[0]|#0
+192 00000000000000000000000000000000 |_s192_uut.cpuregs[10]|#0
+193 00000000000000000000000000000000 |_s193_uut.cpuregs[11]|#0
+194 00000000000000000000000000000000 |_s194_uut.cpuregs[12]|#0
+195 00000000000000000000000000000000 |_s195_uut.cpuregs[13]|#0
+196 00000000000000000000000000000000 |_s196_uut.cpuregs[14]|#0
+197 00000000000000000000000000000000 |_s197_uut.cpuregs[15]|#0
+198 00000000000000000000000000000000 |_s198_uut.cpuregs[16]|#0
+199 00000000000000000000000000000000 |_s199_uut.cpuregs[17]|#0
+200 00000000000000000000000000000000 |_s200_uut.cpuregs[18]|#0
+201 00000000000000000000000000000000 |_s201_uut.cpuregs[19]|#0
+202 00000000000000000000000000000000 |_s202_uut.cpuregs[1]|#0
+203 00000000000000000000000000000000 |_s203_uut.cpuregs[20]|#0
+204 00000000000000000000000000000000 |_s204_uut.cpuregs[21]|#0
+205 00000000000000000000000000000000 |_s205_uut.cpuregs[22]|#0
+206 00000000000000000000000000000000 |_s206_uut.cpuregs[23]|#0
+207 00000000000000000000000000000000 |_s207_uut.cpuregs[24]|#0
+208 00000000000000000000000000000000 |_s208_uut.cpuregs[25]|#0
+209 00000000000000000000000000000000 |_s209_uut.cpuregs[26]|#0
+210 00000000000000000000000000000000 |_s210_uut.cpuregs[27]|#0
+211 00000000000000000000000000000000 |_s211_uut.cpuregs[28]|#0
+212 00000000000000000000000000000000 |_s212_uut.cpuregs[29]|#0
+213 00000000000000000000000000000000 |_s213_uut.cpuregs[2]|#0
+214 00000000000000000000000000000000 |_s214_uut.cpuregs[30]|#0
+215 00000000000000000000000000000000 |_s215_uut.cpuregs[31]|#0
+216 00000000000000000000000000000000 |_s216_uut.cpuregs[3]|#0
+217 00000000000000000000000000000000 |_s217_uut.cpuregs[4]|#0
+218 00000000000000000000000000000000 |_s218_uut.cpuregs[5]|#0
+219 00000000000000000000000000000000 |_s219_uut.cpuregs[6]|#0
+220 00000000000000000000000000000000 |_s220_uut.cpuregs[7]|#0
+221 00000000000000000000000000000000 |_s221_uut.cpuregs[8]|#0
+222 00000000000000000000000000000000 |_s222_uut.cpuregs[9]|#0
+223 00000 |_s223_uut.decoded_rs1|#0
+224 00000 |_s224_uut.decoded_rs2|#0
+225 00000000000000000000000000000000 |_s225_id925|#0
+226 00000000000000000000000000000000 |_s226_uut.irq_pending|#0
+227 00000000000000000000000000000110 |_s227_uut.irq_mask|#0
+228 00000000000000000000000000000000 |_s228_uut.reg_next_pc|#0
+229 0 |_s229_uut.latched_compr|#0
+230 00000000000000000000000000000000 |_s230_uut.reg_out|#0
+231 0 |_s231_uut.latched_stalu|#0
+232 0 |_s232_uut.latched_store|#0
+233 00000000000000000000000000000000 |_s233_uut.reg_pc|#0
+234 11111111111111111111111111111111 |_s234_uut.decoded_imm|#0
+235 00000000000000000000000000000000 |_s235_uut.decoded_imm_j|#0
+236 00000 |_s236_uut.decoded_rd|#0
+237 1 |_s237_uut.decoder_pseudo_trigger|#0
+238 1 |_s238_uut.decoder_trigger|#0
+239 1 |_s239_uut.do_waitirq|#0
+240 0 |_s240_uut.instr_add|#0
+241 0 |_s241_uut.instr_addi|#0
+242 1 |_s242_uut.instr_auipc|#0
+243 0 |_s243_uut.instr_blt|#0
+244 0 |_s244_uut.instr_bltu|#0
+245 0 |_s245_uut.instr_jal|#0
+246 1 |_s246_uut.instr_jalr|#0
+247 0 |_s247_uut.instr_lb|#0
+248 0 |_s248_uut.instr_lbu|#0
+249 0 |_s249_uut.instr_lh|#0
+250 0 |_s250_uut.instr_lhu|#0
+251 0 |_s251_uut.instr_lui|#0
+252 0 |_s252_uut.instr_lw|#0
+253 0 |_s253_uut.instr_maskirq|#0
+254 0 |_s254_uut.instr_rdcycle|#0
+255 0 |_s255_uut.instr_rdcycleh|#0
+256 0 |_s256_uut.instr_rdinstr|#0
+257 0 |_s257_uut.instr_rdinstrh|#0
+258 1 |_s258_uut.instr_retirq|#0
+259 0 |_s259_uut.instr_sb|#0
+260 0 |_s260_uut.instr_sh|#0
+261 0 |_s261_uut.instr_slt|#0
+262 0 |_s262_uut.instr_slti|#0
+263 0 |_s263_uut.instr_sltiu|#0
+264 0 |_s264_uut.instr_sltu|#0
+265 0 |_s265_uut.instr_sw|#0
+266 0 |_s266_uut.instr_timer|#0
+267 0 |_s267_uut.instr_waitirq|#0
+268 0 |_s268_uut.irq_active|#0
+269 0 |_s269_uut.irq_delay|#0
+270 0 |_s270_uut.is_alu_reg_imm|#0
+271 0 |_s271_uut.is_alu_reg_reg|#0
+272 0 |_s272_uut.is_beq_bne_blt_bge_bltu_bgeu|#0
+273 0 |_s273_uut.is_jalr_addi_slti_sltiu_xori_ori_andi|#0
+274 0 |_s274_uut.is_lb_lh_lw_lbu_lhu|#0
+275 0 |_s275_uut.is_lbu_lhu_lw|#0
+276 0 |_s276_uut.is_lui_auipc_jal|#0
+277 0 |_s277_uut.is_sb_sh_sw|#0
+278 0 |_s278_uut.is_slli_srli_srai|#0
+279 0 |_s279_uut.last_mem_valid|#0
+280 0 |_s280_uut.latched_is_lb|#0
+281 0 |_s281_uut.latched_is_lh|#0
+282 0 |_s282_uut.latched_is_lu|#0
+283 00000 |_s283_uut.latched_rd|#0
+284 0011100100001011 |_s284_uut.mem_16bit_buffer|#0
+285 1 |_s285_uut.mem_do_prefetch|#0
+286 1 |_s286_uut.mem_do_rdata|#0
+287 0 |_s287_uut.mem_do_rinst|#0
+288 1 |_s288_uut.mem_do_wdata|#0
+289 0 |_s289_uut.mem_la_secondword|#0
+290 11 |_s290_uut.mem_state|#0
+291 00000000000000000000000000000000 |_s291_uut.mem_rdata_q|#0
+292 0 |_s292_uut.mem_la_firstword_reg|#0
+293 00000000000000000000000000000000 |_s293_id1154|#0
+294 00 |_s294_uut.mem_wordsize|#0
+295 0000 |_s295_id1178|#0
+296 00000000000000000000000000000000 |_s296_id1196|#0
+297 00000000 |_s297_id1197|#0
+298 0000000000000000 |_s298_id1210|#0
+299 00000 |_s299_uut.reg_sh|#0
+300 00000000000000000000000000000001 |_s300_uut.timer|#0
+301 00000000000000000000000000000000 |_s301_id1364|#0
+302 00000000000000000000000000000000 |_s302_id1392|#0
+303 0 |_s303_id2035|#0
+304 0 |_s304_id2063|#0
+305 000000000000000000000000000000 |_s305_id2077|#0
+306 00000000000000000000000000000000 |_s306_id2127|#0
+307 00000000000000000000000000000000 |_s307_id2128|#0
+308 00000000000000000000000000000000 |_s308_id2218|#0
+309 00000000000000000000000000000000 |_s309_id2224|#0
+310 0 |_s310_id2257|#0
+311 0 |_s311_id2855|#0
+312 0 |_s312_id2889|#0
+313 0 |_s313_id2904|#0
+314 00000 |_s314_id3198|#0
+315 00000000000000000000000000000000 |_s315_id3267|#0
+316 00000000000000000000000000000000 |_s316_id3292|#0
+317 0 |_s317_id3915|#0
+318 0 |_s318_id3942|#0
+319 000000000000000000000000000000 |_s319_id3956|#0
+320 00000000000000000000000000000000 |_s320_id4005|#0
+321 00000000000000000000000000000000 |_s321_id4006|#0
+322 00000000000000000000000000000000 |_s322_id4096|#0
+323 00000000000000000000000000000000 |_s323_id4102|#0
+324 0 |_s324_id4135|#0
+325 0 |_s325_id4716|#0
+326 0 |_s326_id4750|#0
+327 0 |_s327_id4765|#0
+328 00000 |_s328_id5056|#0
+@0
+1 00000000000000000000000000000000 |_i1_irq|@0
+2 00000000000000000000000000000000 |_i2_mem_rdata|@0
+3 1 |_i3_mem_ready|@0
+4 0 |_i4_resetn|@0
+@1
+1 00000000000000000000000000000000 |_i1_irq|@1
+2 00000000000000000000000000000000 |_i2_mem_rdata|@1
+3 1 |_i3_mem_ready|@1
+4 1 |_i4_resetn|@1
+@2
+1 00000000000000000000000000000000 |_i1_irq|@2
+2 00000000000000000000000000000000 |_i2_mem_rdata|@2
+3 1 |_i3_mem_ready|@2
+4 1 |_i4_resetn|@2
+@3
+1 00000000000000000000000000000000 |_i1_irq|@3
+2 00000110000000000010110100001011 |_i2_mem_rdata|@3
+3 1 |_i3_mem_ready|@3
+4 1 |_i4_resetn|@3
+@4
+1 00000000000000000000000000000000 |_i1_irq|@4
+2 00000110000000110000000000000011 |_i2_mem_rdata|@4
+3 1 |_i3_mem_ready|@4
+4 1 |_i4_resetn|@4
+@5
+1 00000000000000000000000000000000 |_i1_irq|@5
+2 00001000001110110000000000000000 |_i2_mem_rdata|@5
+3 1 |_i3_mem_ready|@5
+4 1 |_i4_resetn|@5
+@6
+1 00000000000000000000000000000000 |_i1_irq|@6
+2 00001000011011110000000001100001 |_i2_mem_rdata|@6
+3 1 |_i3_mem_ready|@6
+4 1 |_i4_resetn|@6
+@7
+1 00000000000001000000000000000000 |_i1_irq|@7
+2 00001000011011110110101010000001 |_i2_mem_rdata|@7
+3 1 |_i3_mem_ready|@7
+4 1 |_i4_resetn|@7
+@8
+1 00000000000000000000000000000000 |_i1_irq|@8
+2 00000100111111111100010110001001 |_i2_mem_rdata|@8
+3 1 |_i3_mem_ready|@8
+4 1 |_i4_resetn|@8
+@9
+1 00000000000000000000000000000000 |_i1_irq|@9
+2 11110111101011000101111001110110 |_i2_mem_rdata|@9
+3 0 |_i3_mem_ready|@9
+4 1 |_i4_resetn|@9
+@10
+1 00000000000000000000000000000010 |_i1_irq|@10
+2 10000111111011111111011111010111 |_i2_mem_rdata|@10
+3 0 |_i3_mem_ready|@10
+4 1 |_i4_resetn|@10
+@11
+1 00000000000000000000000000000000 |_i1_irq|@11
+2 00001001100001110100100100001011 |_i2_mem_rdata|@11
+3 1 |_i3_mem_ready|@11
+4 1 |_i4_resetn|@11
+@12
+1 00000000000000000000000000000000 |_i1_irq|@12
+2 00000010000000110000001000000000 |_i2_mem_rdata|@12
+3 1 |_i3_mem_ready|@12
+4 1 |_i4_resetn|@12
+@13
+1 00000000000000000000000000000000 |_i1_irq|@13
+2 00000000000000000000000000000000 |_i2_mem_rdata|@13
+3 1 |_i3_mem_ready|@13
+4 1 |_i4_resetn|@13
+@14
+4 1 |_i4_resetn|@14
+.
+c done

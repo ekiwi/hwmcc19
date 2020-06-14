@@ -1,0 +1,9 @@
+c host: c3n04
+c start: Wed Oct 16 14:55:57 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564511
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vcegar_QF_BV_usb_phy_1/vcegar_QF_BV_usb_phy_1.btor2
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564511.0
+c done

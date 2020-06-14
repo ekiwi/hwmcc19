@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n08
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/FsdI229g.btor
+[runlim] start:			Fri Oct 18 20:42:34 2019
+[runlim] child:			28007
+[runlim] end:			Fri Oct 18 20:42:41 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		36
+[runlim] real:			7.40 seconds
+[runlim] time:			11.49 seconds
+[runlim] space:			177 MB
+[runlim] samples:		73

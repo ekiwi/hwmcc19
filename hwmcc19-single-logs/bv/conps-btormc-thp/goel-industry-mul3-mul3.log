@@ -1,0 +1,9 @@
+c host: c3n12
+c start: Thu Oct 17 02:54:30 CEST 2019
+c arrayjobid: 17562838
+c jobid: 17565446
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/mul3/mul3.btor2
+c solver: ./run-conps-btormc-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565446.0
+c done

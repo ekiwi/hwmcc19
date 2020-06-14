@@ -1,0 +1,32 @@
+[runlim] version:		1.17
+[runlim] host:			c3n31
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-no-thp.sh
+[runlim] argv[1]:		/tmp/NoDvqtNC.btor
+[runlim] start:			Thu Oct 17 19:31:22 2019
+[runlim] child:			31095
+[runlim] sample:		9.98 time, 10.02 real, 293 MB
+[runlim] sample:		19.98 time, 20.02 real, 418 MB
+[runlim] sample:		29.98 time, 30.02 real, 550 MB
+[runlim] sample:		39.98 time, 40.02 real, 632 MB
+[runlim] sample:		49.98 time, 50.02 real, 703 MB
+[runlim] sample:		59.98 time, 60.02 real, 765 MB
+[runlim] sample:		69.97 time, 70.02 real, 800 MB
+[runlim] sample:		79.98 time, 80.02 real, 842 MB
+[runlim] sample:		89.98 time, 90.02 real, 891 MB
+[runlim] sample:		99.98 time, 100.02 real, 1036 MB
+[runlim] sample:		109.98 time, 110.02 real, 1088 MB
+[runlim] sample:		119.98 time, 120.02 real, 1102 MB
+[runlim] sample:		129.98 time, 130.02 real, 1157 MB
+[runlim] sample:		139.98 time, 140.02 real, 1182 MB
+[runlim] sample:		149.97 time, 150.02 real, 1236 MB
+[runlim] end:			Thu Oct 17 19:33:57 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			154.91 seconds
+[runlim] time:			154.77 seconds
+[runlim] space:			1276 MB
+[runlim] samples:		1548

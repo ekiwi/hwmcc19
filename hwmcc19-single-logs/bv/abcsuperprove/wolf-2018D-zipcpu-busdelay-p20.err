@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n20
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/l8oadUto.aig
+[runlim] start:			Thu Oct 17 00:21:11 2019
+[runlim] child:			22987
+[runlim] end:			Thu Oct 17 00:21:13 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		14
+[runlim] real:			2.01 seconds
+[runlim] time:			15.51 seconds
+[runlim] space:			179 MB
+[runlim] samples:		19

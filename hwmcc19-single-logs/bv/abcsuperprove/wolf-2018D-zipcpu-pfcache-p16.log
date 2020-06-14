@@ -1,0 +1,12 @@
+c host: c3n03
+c start: Thu Oct 17 00:21:20 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565221
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018D/zipcpu-pfcache-p16.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565221.0
+0
+b0
+.
+c done

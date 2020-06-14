@@ -1,0 +1,9 @@
+c host: c3n21
+c start: Wed Oct 16 22:54:47 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565060
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/lann.4.prop1-back-serstep.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565060.0
+c done

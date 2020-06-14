@@ -1,0 +1,45 @@
+c host: c3n22
+c start: Fri Oct 18 18:42:17 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567317
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/cal182/cal182.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567317.0
+	(output dir: /tmp//pr_test/work_w2)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(3781 / 3781 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 2 s: 3    0s                     0	: 2	: 0 1 3 s: 4    0s                     0	: 2	: 0 1 4 s: 5    0s                     0	: 2	: 0 1 5 s: 6    0s                     0	: 2	: 0 1 6 s: 7    0s                     0	: 2	: 0 1 7 s: 8    0s                     0	: 2	: 0 1 8 s: 9    0s                     0	: 2	: 0 1 9 s: 10    0s                     0	: 2	: 0 1 10 s: 11    0s                     0	: 2	: 0 1 11 s: 12    0s                     0	: 2	: 0 1 12 s: 13    0s                     0	: 2	: 0 1 13 s: 14    0s                     0	: 2	: 0 1 14 s: 15    0s                     0	: 2	: 0 1 14 s: 15    0s                  
+   0	: 3	: 0 1 8 6 s: 15    0s                     0	: 3	: 0 1 8 7 s: 16    0s                     0	: 3	: 0 1 8 8 s: 17    0s                     0	: 3	: 0 1 8 9 s: 18    0s                     0	: 3	: 0 1 8 10 s: 19    0s                     0	: 3	: 0 1 8 11 s: 20    0s                     0	: 3	: 0 1 8 12 s: 21    0s                     0	: 3	: 0 1 8 13 s: 22    0s                     0	: 3	: 0 1 8 14 s: 23    0s                     0	: 3	: 0 1 8 15 s: 24    0s                     0	: 3	: 0 1 8 16 s: 25    0s                     0	: 3	: 0 1 8 17 s: 26    0s                     0	: 3	: 0 1 8 18 s: 27    0s                     0	: 3	: 0 1 8 18 s: 27    0s                  
+   0	: 4	: 0 1 6 1 19 s: 27    0s                     0	: 4	: 0 1 6 1 19 s: 27    0s                  
+   0	: 4	: 0 1 6 1 0 s: 8    0s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        0.30          61           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 18827)
+@     0s  (started worker 1 with pid 18828)
+@     0s  (started worker 2 with pid 18829)
+@     0s  (started worker 3 with pid 18830)
+@     0s  (started worker 4 with pid 18831)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 18950)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 394 MB)
+@     1s  (worker 2 finished with result safe) python3 avr.py
+@     1s  (worker 2 output)
+@     1s  (stopping all workers)
+@     1s  (copied results from worker 2 in /tmp//pr_test)
+@     1s  [0;30;47m(proof race finished with answer safe in 0.84 seconds)[m
+unsat
+b0
+c done

@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n25
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/OinzoWED.aig
+[runlim] start:			Wed Oct 16 23:10:05 2019
+[runlim] child:			16514
+[runlim] end:			Wed Oct 16 23:10:05 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		6
+[runlim] real:			0.45 seconds
+[runlim] time:			0.48 seconds
+[runlim] space:			120 MB
+[runlim] samples:		4

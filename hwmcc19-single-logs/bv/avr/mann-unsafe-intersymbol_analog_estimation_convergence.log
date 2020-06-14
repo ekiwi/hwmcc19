@@ -1,0 +1,122 @@
+c host: c3n32
+c start: Fri Oct 18 19:42:03 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567396
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/unsafe/intersymbol_analog_estimation_convergence.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567396.0
+	(output dir: /tmp//pr_test/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(16 / 91 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: found cex at step 16)
+   0	: 0	: 0 s: 0    37s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v       37.35          50           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 3298)
+@     0s  (started worker 1 with pid 3299)
+@     0s  (started worker 2 with pid 3300)
+@     0s  (started worker 3 with pid 3301)
+@     0s  (started worker 4 with pid 3302)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 3418)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 154 MB)
+@     2s  (started worker 6 with pid 3474)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 221 MB)
+@     3s  (started worker 7 with pid 3536)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 287 MB)
+@     4s  (started worker 8 with pid 3604)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 412 MB)
+@     5s  (started worker 9 with pid 3696)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 463 MB)
+@     6s  (started worker 10 with pid 3776)
+@     6s  (spawned 1 workers)
+@     6s  (total 11 workers using 549 MB)
+@    15s  (total 11 workers using 902 MB)
+@    27s  (total 11 workers using 1402 MB)
+@    33s  (worker 6 finished with result unknown) python3 avr.py -a sa --interpol 1 -f 1
+@    38s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@    38s  (worker 1 output)
+@    38s  (stopping all workers)
+@    38s  (copied results from worker 1 in /tmp//pr_test)
+@    38s  [0;30;47m(proof race finished with answer unsafe in 37.59 seconds)[m
+sat
+b0
+#0
+0 1 |_s0_fair_instance.fair|#0
+1 0 |_s1_prev|#0
+2 00000000000000000000000000000000 |_s2_dut.beta|#0
+3 0 |_s3_dut.prev|#0
+4 0000000000000000 |_s4_state_counter|#0
+5 0000 |_s5_fair_instance.one_counter|#0
+6 0000 |_s6_fair_instance.bit_counter|#0
+7 00000000000000000000000000000000 |_s7_dut.alpha|#0
+@0
+1 1 |_i1_in|@0
+2 1 |_i2_rst|@0
+@1
+1 1 |_i1_in|@1
+2 1 |_i2_rst|@1
+@2
+1 1 |_i1_in|@2
+2 0 |_i2_rst|@2
+@3
+1 0 |_i1_in|@3
+2 0 |_i2_rst|@3
+@4
+1 0 |_i1_in|@4
+2 0 |_i2_rst|@4
+@5
+1 0 |_i1_in|@5
+2 0 |_i2_rst|@5
+@6
+1 1 |_i1_in|@6
+2 0 |_i2_rst|@6
+@7
+1 0 |_i1_in|@7
+2 0 |_i2_rst|@7
+@8
+1 0 |_i1_in|@8
+2 0 |_i2_rst|@8
+@9
+1 1 |_i1_in|@9
+2 0 |_i2_rst|@9
+@10
+1 1 |_i1_in|@10
+2 0 |_i2_rst|@10
+@11
+1 1 |_i1_in|@11
+2 0 |_i2_rst|@11
+@12
+1 0 |_i1_in|@12
+2 0 |_i2_rst|@12
+@13
+1 0 |_i1_in|@13
+2 0 |_i2_rst|@13
+@14
+1 0 |_i1_in|@14
+2 0 |_i2_rst|@14
+@15
+1 0 |_i1_in|@15
+2 0 |_i2_rst|@15
+@16
+1 1 |_i1_in|@16
+2 0 |_i2_rst|@16
+.
+c done

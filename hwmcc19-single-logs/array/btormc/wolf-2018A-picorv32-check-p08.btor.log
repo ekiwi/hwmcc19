@@ -1,0 +1,9 @@
+c host: c3n03
+c start: Wed Oct 16 10:05:17 CEST 2019
+c arrayjobid: 17562834
+c jobid: 17564127
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018A/picorv32-check-p08.btor
+c solver: ./run-btormc.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564127.0
+c done

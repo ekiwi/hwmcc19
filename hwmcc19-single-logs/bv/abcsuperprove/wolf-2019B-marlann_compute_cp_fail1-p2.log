@@ -1,0 +1,12 @@
+c host: c3n23
+c start: Thu Oct 17 00:39:13 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565262
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019B/marlann_compute_cp_fail1-p2.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565262.0
+0
+b0
+.
+c done

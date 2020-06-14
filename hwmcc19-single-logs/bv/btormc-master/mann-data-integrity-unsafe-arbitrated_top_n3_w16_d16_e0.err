@@ -1,0 +1,22 @@
+[runlim] version:		1.17
+[runlim] host:			c3n01
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc-master.sh
+[runlim] argv[1]:		/tmp/WTrcURls.btor2
+[runlim] start:			Fri Oct 18 01:10:44 2019
+[runlim] child:			13097
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+[runlim] sample:		10.00 time, 10.01 real, 18 MB
+[runlim] sample:		20.00 time, 20.01 real, 21 MB
+[runlim] end:			Fri Oct 18 01:11:04 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			20.71 seconds
+[runlim] time:			20.60 seconds
+[runlim] space:			21 MB
+[runlim] samples:		206

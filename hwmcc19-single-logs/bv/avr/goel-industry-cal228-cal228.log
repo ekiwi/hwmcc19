@@ -1,0 +1,236 @@
+c host: c3n29
+c start: Fri Oct 18 18:40:57 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567286
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/cal228/cal228.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567286.0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 31592)
+@     0s  (started worker 1 with pid 31593)
+@     0s  (started worker 2 with pid 31594)
+@     0s  (started worker 3 with pid 31595)
+@     0s  (started worker 4 with pid 31596)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 31597)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 0 MB)
+@     1s  (started worker 6 with pid 31603)
+@     1s  (spawned 1 workers)
+@     1s  (total 7 workers using 0 MB)
+@     2s  (started worker 7 with pid 31620)
+@     2s  (spawned 1 workers)
+@     2s  (total 8 workers using 0 MB)
+@     2s  (started worker 8 with pid 31629)
+@     2s  (spawned 1 workers)
+@     2s  (total 9 workers using 0 MB)
+@     3s  (started worker 9 with pid 31641)
+@     3s  (spawned 1 workers)
+@     3s  (total 10 workers using 0 MB)
+@     3s  (started worker 10 with pid 31643)
+@     3s  (spawned 1 workers)
+@     3s  (total 11 workers using 0 MB)
+@    25s  (total 11 workers using 721 MB)
+@    46s  (total 11 workers using 831 MB)
+@    58s  (total 11 workers using 2295 MB)
+@    69s  (total 11 workers using 2613 MB)
+@    80s  (total 11 workers using 2800 MB)
+@    92s  (total 11 workers using 2966 MB)
+@   103s  (total 11 workers using 3108 MB)
+@   114s  (total 11 workers using 3142 MB)
+@   125s  (total 11 workers using 3264 MB)
+@   136s  (total 11 workers using 3305 MB)
+@   147s  (total 11 workers using 3351 MB)
+@   159s  (total 11 workers using 3357 MB)
+@   170s  (total 11 workers using 3386 MB)
+@   181s  (total 11 workers using 3448 MB)
+@   192s  (total 11 workers using 3510 MB)
+@   203s  (total 11 workers using 3511 MB)
+@   214s  (total 11 workers using 3549 MB)
+@   225s  (total 11 workers using 3538 MB)
+@   236s  (total 11 workers using 3583 MB)
+@   247s  (total 11 workers using 3616 MB)
+@   258s  (total 11 workers using 3623 MB)
+@   270s  (total 11 workers using 3685 MB)
+@   280s  (total 11 workers using 3779 MB)
+@   292s  (total 11 workers using 3842 MB)
+@   303s  (total 11 workers using 3858 MB)
+@   314s  (total 11 workers using 3872 MB)
+@   325s  (total 11 workers using 3883 MB)
+@   336s  (total 11 workers using 3896 MB)
+@   347s  (total 11 workers using 3939 MB)
+@   358s  (total 11 workers using 3968 MB)
+@   369s  (total 11 workers using 3991 MB)
+@   380s  (total 11 workers using 4025 MB)
+@   391s  (total 11 workers using 4066 MB)
+@   402s  (total 11 workers using 4074 MB)
+@   413s  (total 11 workers using 4098 MB)
+@   424s  (total 11 workers using 4128 MB)
+@   435s  (total 11 workers using 4145 MB)
+@   446s  (total 11 workers using 4168 MB)
+@   457s  (total 11 workers using 4170 MB)
+@   468s  (total 11 workers using 4211 MB)
+@   479s  (total 11 workers using 4266 MB)
+@   491s  (total 11 workers using 4318 MB)
+@   502s  (total 11 workers using 4349 MB)
+@   513s  (total 11 workers using 4308 MB)
+@   524s  (total 11 workers using 4365 MB)
+@   535s  (total 11 workers using 4390 MB)
+@   546s  (total 11 workers using 4371 MB)
+@   557s  (total 11 workers using 4412 MB)
+@   568s  (total 11 workers using 4401 MB)
+@   580s  (total 11 workers using 4432 MB)
+@   590s  (total 11 workers using 4507 MB)
+@   602s  (total 11 workers using 4555 MB)
+@   613s  (total 11 workers using 4550 MB)
+@   624s  (total 11 workers using 4569 MB)
+@   635s  (total 11 workers using 4612 MB)
+@   646s  (total 11 workers using 4597 MB)
+@   657s  (total 11 workers using 4614 MB)
+@   668s  (total 11 workers using 4673 MB)
+@   679s  (total 11 workers using 4697 MB)
+@   691s  (total 11 workers using 4794 MB)
+@   702s  (total 11 workers using 4826 MB)
+@   713s  (total 11 workers using 4899 MB)
+@   724s  (total 11 workers using 4891 MB)
+@   735s  (total 11 workers using 4851 MB)
+@   746s  (total 11 workers using 4876 MB)
+@   757s  (total 11 workers using 4922 MB)
+@   768s  (total 11 workers using 5017 MB)
+@   780s  (total 11 workers using 5012 MB)
+@   791s  (total 11 workers using 5029 MB)
+@   802s  (total 11 workers using 5050 MB)
+@   813s  (total 11 workers using 5065 MB)
+@   824s  (total 11 workers using 5076 MB)
+@   835s  (total 11 workers using 5091 MB)
+@   846s  (total 11 workers using 5134 MB)
+@   857s  (total 11 workers using 5193 MB)
+@   869s  (total 11 workers using 5219 MB)
+@   880s  (total 11 workers using 5221 MB)
+@   891s  (total 11 workers using 5265 MB)
+@   902s  (total 11 workers using 5282 MB)
+@   913s  (total 11 workers using 5285 MB)
+@   924s  (total 11 workers using 5353 MB)
+@   935s  (total 11 workers using 5387 MB)
+@   946s  (total 11 workers using 5404 MB)
+@   958s  (total 11 workers using 5451 MB)
+@   969s  (total 11 workers using 5513 MB)
+@   980s  (total 11 workers using 5513 MB)
+@   991s  (total 11 workers using 5547 MB)
+@  1002s  (total 11 workers using 5590 MB)
+@  1013s  (total 11 workers using 5610 MB)
+@  1025s  (total 11 workers using 5638 MB)
+@  1035s  (total 11 workers using 5689 MB)
+@  1047s  (total 11 workers using 5716 MB)
+@  1058s  (total 11 workers using 5734 MB)
+@  1069s  (total 11 workers using 5752 MB)
+@  1080s  (total 11 workers using 5776 MB)
+@  1091s  (total 11 workers using 5794 MB)
+@  1102s  (total 11 workers using 5771 MB)
+@  1113s  (total 11 workers using 5790 MB)
+@  1124s  (total 11 workers using 5819 MB)
+@  1136s  (total 11 workers using 5843 MB)
+@  1146s  (total 11 workers using 5854 MB)
+@  1158s  (total 11 workers using 5869 MB)
+@  1169s  (total 11 workers using 5879 MB)
+@  1180s  (total 11 workers using 5893 MB)
+@  1191s  (total 11 workers using 5908 MB)
+@  1202s  (total 11 workers using 5927 MB)
+@  1213s  (total 11 workers using 5946 MB)
+@  1224s  (total 11 workers using 5993 MB)
+@  1235s  (total 11 workers using 5988 MB)
+@  1247s  (total 11 workers using 6010 MB)
+@  1258s  (total 11 workers using 6063 MB)
+@  1269s  (total 11 workers using 6049 MB)
+@  1280s  (total 11 workers using 6101 MB)
+@  1291s  (total 11 workers using 6096 MB)
+@  1302s  (total 11 workers using 6117 MB)
+@  1313s  (total 11 workers using 6198 MB)
+@  1324s  (total 11 workers using 6190 MB)
+@  1336s  (total 11 workers using 6217 MB)
+@  1347s  (total 11 workers using 6242 MB)
+@  1358s  (total 11 workers using 6278 MB)
+@  1369s  (total 11 workers using 6310 MB)
+@  1380s  (total 11 workers using 6336 MB)
+@  1391s  (total 11 workers using 6387 MB)
+@  1402s  (total 11 workers using 6376 MB)
+@  1413s  (total 11 workers using 6413 MB)
+@  1425s  (total 11 workers using 6435 MB)
+@  1436s  (total 11 workers using 6467 MB)
+@  1447s  (total 11 workers using 6547 MB)
+@  1458s  (total 11 workers using 6583 MB)
+@  1469s  (total 11 workers using 6653 MB)
+@  1480s  (total 11 workers using 6676 MB)
+@  1491s  (total 11 workers using 6707 MB)
+@  1502s  (total 11 workers using 6756 MB)
+@  1513s  (total 11 workers using 6752 MB)
+@  1524s  (total 11 workers using 6780 MB)
+@  1536s  (total 11 workers using 6804 MB)
+@  1547s  (total 11 workers using 6820 MB)
+@  1558s  (total 11 workers using 6860 MB)
+@  1569s  (total 11 workers using 6881 MB)
+@  1580s  (total 11 workers using 6949 MB)
+@  1591s  (total 11 workers using 6975 MB)
+@  1603s  (total 11 workers using 7013 MB)
+@  1614s  (total 11 workers using 7036 MB)
+@  1625s  (total 11 workers using 7057 MB)
+@  1636s  (total 11 workers using 7108 MB)
+@  1647s  (total 11 workers using 7107 MB)
+@  1658s  (total 11 workers using 7210 MB)
+@  1669s  (total 11 workers using 7260 MB)
+@  1680s  (total 11 workers using 7357 MB)
+@  1691s  (total 11 workers using 7421 MB)
+@  1702s  (total 11 workers using 7436 MB)
+@  1714s  (total 11 workers using 7498 MB)
+@  1725s  (total 11 workers using 7589 MB)
+@  1736s  (total 11 workers using 7578 MB)
+@  1747s  (total 11 workers using 7645 MB)
+@  1758s  (total 11 workers using 7675 MB)
+@  1769s  (total 11 workers using 7719 MB)
+@  1780s  (total 11 workers using 7742 MB)
+@  1791s  (total 11 workers using 7759 MB)
+@  1803s  (total 11 workers using 7772 MB)
+@  1813s  (total 11 workers using 7789 MB)
+@  1825s  (total 11 workers using 7807 MB)
+@  1836s  (total 11 workers using 7826 MB)
+@  1847s  (total 11 workers using 7888 MB)	(output dir: /tmp//pr_test/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(3786 / 3786 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 2 s: 3    0s                     0	: 2	: 0 1 3 s: 4    0s                     0	: 2	: 0 1 4 s: 5    0s                     0	: 2	: 0 1 5 s: 6    0s                     0	: 2	: 0 1 6 s: 7    0s                     0	: 2	: 0 1 7 s: 8    0s                     0	: 2	: 0 1 8 s: 9    0s                     0	: 2	: 0 1 9 s: 10    0s                     0	: 2	: 0 1 10 s: 11    0s                     0	: 2	: 0 1 11 s: 12    0s                     0	: 2	: 0 1 12 s: 13    0s                     0	: 2	: 0 1 13 s: 14    0s                     0	: 2	: 0 1 14 s: 15    0s                     0	: 2	: 0 1 15 s: 16    0s                     0	: 2	: 0 1 16 s: 17    0s                     0	: 2	: 0 1 17 s: 18    0s                     0	: 2	: 0 1 18 s: 19    0s                     0	: 2	: 0 1 19 s: 20    0s                     0	: 2	: 0 1 20 s: 21    0s                     0	: 2	: 0 1 21 s: 22    0s                     0	: 2	: 0 1 22 s: 23    0s                     0	: 2	: 0 1 23 s: 24    0s                     0	: 2	: 0 1 24 s: 25    0s                     0	: 2	: 0 1 25 s: 26    0s                     0	: 2	: 0 1 26 s: 27    0s                     0	: 2	: 0 1 27 s: 28    0s                     0	: 2	: 0 1 28 s: 29    0s                     0	: 2	: 0 1 29 s: 30    0s                     0	: 2	: 0 1 30 s: 31    0s                     0	: 2	: 0 1 31 s: 32    0s                     0	: 2	: 0 1 32 s: 33    0s                     0	: 2	: 0 1 33 s: 34    0s                     0	: 2	: 0 1 34 s: 35    0s                     0	: 2	: 0 1 35 s: 36    0s                     0	: 2	: 0 1 36 s: 37    0s                     0	: 2	: 0 1 37 s: 38    0s                     0	: 2	: 0 1 38 s: 39    0s                     0	: 2	: 0 1 38 s: 39    0s                  
+   0	: 3	: 0 1 6 32 s: 39    0s                     0	: 3	: 0 1 6 33 s: 40    0s                     0	: 3	: 0 1 6 34 s: 41    0s                     0	: 3	: 0 1 6 35 s: 42    0s                     0	: 3	: 0 1 6 36 s: 43    0s                     0	: 3	: 0 1 6 37 s: 44    0s                     0	: 3	: 0 1 6 38 s: 45    0s                     0	: 3	: 0 1 7 39 s: 47    0s                     0	: 3	: 0 1 7 40 s: 48    0s                     0	: 3	: 0 1 7 41 s: 49    0s                     0	: 3	: 0 1 7 41 s: 49    0s                     0	: 3	: 0 1 7 42 s: 50    0s                     0	: 3	: 0 1 7 43 s: 51    0s                     0	: 3	: 0 1 7 44 s: 52    0s                     0	: 3	: 0 1 7 45 s: 53    0s                     0	: 3	: 0 1 7 44 s: 52    0s                     0	: 3	: 0 1 6 43 s: 50    0s                     0	: 3	: 0 1 6 42 s: 49    0s                     0	: 3	: 0 1 6 43 s: 50    0s                     0	: 3	: 0 1 6 44 s: 51    0s                     0	: 3	: 0 1 6 45 s: 52    0s                     0	: 3	: 0 1 6 46 s: 53    0s                     0	: 3	: 0 1 6 47 s: 54    0s                     0	: 3	: 0 1 6 48 s: 55    0s                     0	: 3	: 0 1 7 45 s: 53    0s                     0	: 3	: 0 1 6 45 s: 52    0s                     0	: 3	: 0 1 6 45 s: 52    0s                  
+   0	: 4	: 0 1 3 8 34 s: 46    0s                     0	: 4	: 0 1 3 8 35 s: 47    0s                     0	: 4	: 0 1 3 8 36 s: 48    0s                     0	: 4	: 0 1 3 8 37 s: 49    0s                     0	: 4	: 0 1 3 8 38 s: 50    0s                     0	: 4	: 0 1 3 8 39 s: 51    0s                     0	: 4	: 0 1 3 8 40 s: 52    0s                     0	: 4	: 0 1 3 8 41 s: 53    0s                     0	: 4	: 0 1 3 8 42 s: 54    0s                     0	: 4	: 0 1 3 8 43 s: 55    0s                     0	: 4	: 0 1 3 8 44 s: 56    0s                     0	: 4	: 0 1 3 8 45 s: 57    0s                     0	: 4	: 0 1 3 8 46 s: 58    0s                     0	: 4	: 0 1 3 8 47 s: 59    0s                     0	: 4	: 0 1 3 8 48 s: 60    0s                     0	: 4	: 0 1 3 8 49 s: 61    0s                     0	: 4	: 0 1 3 8 50 s: 62    0s                     0	: 4	: 0 1 3 8 51 s: 63    0s                     0	: 4	: 0 1 6 9 51 s: 67    0s                     0	: 4	: 0 1 5 9 47 s: 62    0s                     0	: 4	: 0 1 5 8 45 s: 59    0s                     0	: 4	: 0 1 5 7 46 s: 59    0s                     0	: 4	: 0 1 22 8 47 s: 78    0s                     0	: 4	: 0 1 22 9 48 s: 80    1s                     0	: 4	: 0 1 22 9 49 s: 81    1s                     0	: 4	: 0 1 22 11 48 s: 82    1s                     0	: 4	: 0 1 22 11 49 s: 83    1s                     0	: 4	: 0 1 22 11 50 s: 84    1s                     0	: 4	: 0 1 22 11 51 s: 85    1s                     0	: 4	: 0 1 24 9 49 s: 83    1s                     0	: 4	: 0 1 24 9 49 s: 83    1s                  
+   0	: 5	: 0 1 19 10 11 38 s: 79    1s                     0	: 5	: 0 1 19 10 11 39 s: 80    1s                     0	: 5	: 0 1 19 10 11 40 s: 81    1s                     0	: 5	: 0 1 19 10 11 41 s: 82    1s                     0	: 5	: 0 1 19 10 11 42 s: 83    1s                     0	: 5	: 0 1 19 10 11 43 s: 84    1s                     0	: 5	: 0 1 19 11 11 42 s: 84    1s                     0	: 5	: 0 1 19 11 11 43 s: 85    1s                     0	: 5	: 0 1 19 11 11 44 s: 86    1s                     0	: 5	: 0 1 19 11 11 45 s: 87    1s                     0	: 5	: 0 1 19 11 11 46 s: 88    1s                     0	: 5	: 0 1 19 11 11 47 s: 89    1s                     0	: 5	: 0 1 19 11 10 48 s: 89    1s                     0	: 5	: 0 1 19 11 10 49 s: 90    1s                     0	: 5	: 0 1 19 11 10 50 s: 91    1s                     0	: 5	: 0 1 19 11 10 51 s: 92    1s                     0	: 5	: 0 1 19 11 10 52 s: 93    1s                     0	: 5	: 0 1 19 10 11 53 s: 94    1s                     0	: 5	: 0 1 66 35 12 54 s: 168    2s                     0	: 5	: 0 1 66 35 12 55 s: 169    2s                     0	: 5	: 0 1 77 37 11 54 s: 180    3s                     0	: 5	: 0 1 77 37 10 50 s: 175    3s                     0	: 5	: 0 1 77 37 10 45 s: 170    3s                     0	: 5	: 0 1 77 37 10 45 s: 170    3s                  
+   0	: 6	: 0 1 44 43 18 13 34 s: 153    3s                     0	: 6	: 0 1 44 43 18 13 35 s: 154    3s                     0	: 6	: 0 1 44 43 18 13 36 s: 155    3s                     0	: 6	: 0 1 44 43 18 13 37 s: 156    3s                     0	: 6	: 0 1 44 43 18 13 38 s: 157    3s                     0	: 6	: 0 1 44 43 18 13 39 s: 158    3s                     0	: 6	: 0 1 44 43 18 13 40 s: 159    3s                     0	: 6	: 0 1 44 43 18 13 41 s: 160    3s                     0	: 6	: 0 1 44 43 19 14 42 s: 163    3s                     0	: 6	: 0 1 44 43 19 14 43 s: 164    3s                     0	: 6	: 0 1 44 43 18 14 42 s: 162    3s                     0	: 6	: 0 1 44 43 18 13 42 s: 161    3s                     0	: 6	: 0 1 44 43 18 12 42 s: 160    3s                     0	: 6	: 0 1 44 43 18 11 41 s: 158    3s                     0	: 6	: 0 1 44 43 18 10 42 s: 158    3s                     0	: 6	: 0 1 202 69 38 12 43 s: 365    26s                     0	: 6	: 0 1 202 69 38 12 44 s: 366    26s                     0	: 6	: 0 1 202 69 39 12 43 s: 366    26s                     0	: 6	: 0 1 202 69 39 13 44 s: 368    26s                     0	: 6	: 0 1 202 69 39 13 45 s: 369    26s                     0	: 6	: 0 1 202 69 39 13 46 s: 370    26s                     0	: 6	: 0 1 202 69 39 13 47 s: 371    26s                     0	: 6	: 0 1 202 69 39 13 48 s: 372    26s                     0	: 6	: 0 1 202 69 39 13 49 s: 373    26s                     0	: 6	: 0 1 203 77 45 11 46 s: 383    50s                     0	: 6	: 0 1 203 77 45 11 46 s: 383    50s                  
+   0	: 7	: 0 1 124 121 64 15 16 38 s: 379    54s                     0	: 7	: 0 1 124 121 64 15 16 39 s: 380    54s                     0	: 7	: 0 1 124 121 64 15 16 40 s: 381    54s                     0	: 7	: 0 1 124 121 64 15 16 41 s: 382    54s                     0	: 7	: 0 1 124 121 64 15 16 42 s: 383    54s                     0	: 7	: 0 1 124 121 64 15 16 43 s: 384    54s                     0	: 7	: 0 1 124 121 64 15 16 44 s: 385    54s                     0	: 7	: 0 1 154 271 125 58 22 45 s: 676    99s                     0	: 7	: 0 1 154 271 125 58 22 46 s: 677    99s                     0	: 7	: 0 1 154 271 125 58 22 47 s: 678    99s                     0	: 7	: 0 1 154 271 125 58 22 48 s: 679    99s                     0	: 7	: 0 1 154 271 125 58 22 49 s: 680    99s                     0	: 7	: 0 1 154 271 125 58 22 50 s: 681    99s                     0	: 7	: 0 1 153 263 137 58 21 49 s: 682    120s                     0	: 7	: 0 1 153 263 137 58 21 50 s: 683    120s                     0	: 7	: 0 1 153 263 137 58 21 51 s: 684    120s                     0	: 7	: 0 1 153 263 137 58 21 52 s: 685    120s                     0	: 7	: 0 1 153 263 137 58 21 53 s: 686    120s                     0	: 7	: 0 1 153 263 137 58 21 54 s: 687    120s                     0	: 7	: 0 1 153 263 137 58 21 55 s: 688    120s                     0	: 7	: 0 1 153 263 137 58 21 56 s: 689    120s                     0	: 7	: 0 1 153 263 137 58 21 57 s: 690    120s                     0	: 7	: 0 1 153 263 137 58 21 58 s: 691    120s                     0	: 7	: 0 1 153 263 137 58 21 59 s: 692    120s                     0	: 7	: 0 1 153 263 137 58 21 60 s: 693    120s                     0	: 7	: 0 1 153 263 137 58 21 61 s: 694    120s                     0	: 7	: 0 1 153 263 137 58 21 62 s: 695    120s                     0	: 7	: 0 1 153 263 137 58 21 63 s: 696    120s                     0	: 7	: 0 1 153 263 137 58 21 64 s: 697    120s                     0	: 7	: 0 1 153 263 137 58 21 65 s: 698    120s                     0	: 7	: 0 1 153 263 137 58 21 66 s: 699    120s                     0	: 7	: 0 1 153 263 137 58 21 67 s: 700    120s                     0	: 7	: 0 1 151 263 137 59 21 62 s: 694    120s                     0	: 7	: 0 1 151 263 137 59 21 62 s: 694    120s                     0	: 7	: 0 1 151 263 137 59 20 57 s: 688    120s                     0	: 7	: 0 1 151 263 137 58 20 54 s: 684    120s                     0	: 7	: 0 1 151 263 137 58 20 54 s: 684    120s                  
+   0	: 8	: 0 1 79 104 159 127 41 24 96 s: 631    130s                     0	: 8	: 0 1 79 104 159 127 41 24 97 s: 632    130s                     0	: 8	: 0 1 79 104 159 127 41 24 98 s: 633    130s                     0	: 8	: 0 1 79 104 159 127 41 24 99 s: 634    130s                     0	: 8	: 0 1 116 144 219 166 79 25 100 s: 850    335s                     0	: 8	: 0 1 112 120 214 172 83 24 97 s: 823    346s                     0	: 8	: 0 1 112 120 214 172 83 24 97 s: 823    346s                  
+   0	: 9	: 0 1 35 38 46 61 81 77 21 290 s: 650    372s                     0	: 9	: 0 1 41 47 58 97 92 90 22 291 s: 739    424s                     0	: 9	: 0 1 41 47 58 97 92 90 22 292 s: 740    424s                     0	: 9	: 0 1 41 47 58 97 92 90 22 293 s: 741    424s                     0	: 9	: 0 1 41 47 56 95 93 92 21 291 s: 737    425s                     0	: 9	: 0 1 41 47 56 95 93 92 21 291 s: 737    425s                  
+   0	: 10	: ... 0 1 23 24 26 22 24 14 90 65 357 s: 646    441s                     0	: 10	: ... 0 1 17 31 56 57 61 14 91 66 358 s: 752    685s                     0	: 10	: ... 0 1 17 31 56 57 60 14 91 65 358 s: 750    686s                     0	: 10	: ... 0 1 17 31 56 57 60 14 91 65 358 s: 750    686s                  
+   0	: 11	: ... 1 6 28 20 20 20 4 34 92 76 361 s: 662    693s                     0	: 11	: ... 24 14 22 24 29 25 34 93 77 362 s: 705    863s                     0	: 11	: ... 24 14 22 24 29 24 34 93 76 362 s: 703    867s                     0	: 11	: ... 24 14 22 24 29 24 34 93 76 362 s: 703    867s                  
+   0	: 12	: ... 22 4 23 25 20 20 4 34 92 76 365 s: 686    874s                     0	: 12	: ... 22 22 7 26 29 34 29 34 92 78 366 s: 740    1063s                     0	: 12	: ... 22 22 7 26 29 34 28 34 92 77 366 s: 738    1063s                     0	: 12	: ... 22 22 7 26 29 34 28 34 92 77 366 s: 738    1063s                  
+   0	: 13	: ... 22 4 23 25 20 20 4 34 92 76 365 s: 708    1070s                     0	: 13	: ... 22 23 7 27 25 27 26 34 93 77 366 s: 750    1342s                     0	: 13	: ... 22 23 7 27 25 27 25 34 93 76 366 s: 748    1345s                     0	: 13	: ... 22 23 7 27 25 27 25 34 93 76 366 s: 748    1345s                  
+   0	: 14	: ... 2 2 22 23 25 20 4 34 112 96 386 s: 731    1357s                     0	: 14	: ... 2 2 4 26 35 35 31 34 113 97 387 s: 771    1558s                     0	: 14	: ... 2 2 4 26 35 35 31 34 113 97 388 s: 772    1558s                     0	: 14	: ... 2 2 4 26 35 35 31 34 113 97 389 s: 773    1558s                     0	: 14	: ... 2 2 4 26 35 35 30 34 113 96 387 s: 769    1567s                     0	: 14	: ... 2 2 4 26 35 35 30 34 113 96 387 s: 769    1567s                  
+   0	: 15	: ... 2 2 22 23 25 20 4 34 112 96 386 s: 733    1575s                     0	: 15	: ... 2 2 4 24 31 29 28 34 113 97 387 s: 758    1741s                     0	: 15	: ... 2 2 4 24 31 29 28 34 113 97 388 s: 759    1741s                     0	: 15	: ... 2 2 4 24 31 29 28 34 113 97 389 s: 760    1741s                     0	: 15	: ... 2 2 4 24 31 29 27 34 113 96 387 s: 756    1751s                     0	: 15	: ... 2 2 4 24 31 29 27 34 113 96 387 s: 756    1751s                  
+   0	: 15	: ... 2 2 4 24 31 29 27 34 113 96 387 s: 756    1751s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h     1816.56         852           0
+
+@  1858s  (total 11 workers using 7934 MB)
+@  1866s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@  1866s  (worker 3 output)
+@  1866s  (stopping all workers)
+@  1866s  (copied results from worker 3 in /tmp//pr_test)
+@  1866s  [0;30;47m(proof race finished with answer safe in 1865.63 seconds)[m
+unsat
+b0
+c done

@@ -1,0 +1,9 @@
+c host: c3n22
+c start: Wed Oct 16 13:12:13 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564433
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/lann.4.prop1-back-serstep.btor2
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564433.0
+c done

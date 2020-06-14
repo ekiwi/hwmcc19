@@ -1,0 +1,54 @@
+c host: c3n11
+c start: Fri Oct 18 23:37:29 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567797
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/zipcpu_zipcpu_dcache-p167.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567797.0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 30723)
+@     0s  (started worker 1 with pid 30724)
+@     0s  (started worker 2 with pid 30725)
+@     0s  (started worker 3 with pid 30726)
+@     0s  (started worker 4 with pid 30727)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 30845)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 142 MB)
+@     1s  (worker 0 finished with result unknown) python3 avr.py -a sa
+@     1s  (worker 4 finished with result unknown) python3 avr.py -b bin_y2 --bmc
+@     1s  (worker 1 finished with result unknown) python3 avr.py -b bin_bt_cadical -s --bmc
+@     1s  (worker 5 finished with result unknown) python3 avr.py -b bin_bt_cadical -g 3 -l 0 -a sa32
+@     1s  (started worker 6 with pid 30889)
+@     1s  (spawned 1 workers)
+@     1s  (total 3 workers using 157 MB)
+@     2s  (worker 6 finished with result unknown) python3 avr.py -a sa --interpol 1 -f 1
+@     2s  (started worker 7 with pid 30926)
+@     2s  (spawned 1 workers)
+@     2s  (total 3 workers using 163 MB)
+@     2s  (worker 2 finished with result unknown) python3 avr.py
+@     3s  (started worker 8 with pid 30963)
+@     3s  (spawned 1 workers)
+@     3s  (total 3 workers using 171 MB)
+@     3s  (worker 8 finished with result unknown) python3 avr.py -l 5 -g 3 -a sa8 --interpol 1 -f 1
+@     3s  (started worker 9 with pid 31004)
+@     3s  (spawned 1 workers)
+@     3s  (total 3 workers using 178 MB)
+@     4s  (started worker 10 with pid 31043)
+@     4s  (spawned 1 workers)
+@     4s  (total 4 workers using 181 MB)
+@     4s  (worker 9 finished with result unknown) python3 avr.py -b bin_y2 -s -a sa4 --interpol 1 -f 1
+@     4s  (worker 10 finished with result unknown) python3 avr.py --bmc
+@     9s  (worker 3 finished with result unknown) python3 avr.py -b bin_y2 -s
+@    11s  (total 1 workers using 0 MB)
+@    11s  (worker 7 finished with result unknown) python3 avr.py -s -l 0
+@    11s  (copied results from worker 0 in /tmp//pr_test)
+@    11s  [0;30;47m(proof race finished with answer unknown in 11.16 seconds)[m
+unknown
+c done

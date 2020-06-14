@@ -1,0 +1,464 @@
+c host: c3n27
+c start: Fri Oct 18 19:51:38 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567445
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019A/picorv32_mutAX_nomem-p4.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567445.0
+	(output dir: /tmp//pr_test/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(2049 / 3485 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: found cex at step 12)
+   0	: 0	: 0 s: 0    118s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v      118.15         658           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 30119)
+@     0s  (started worker 1 with pid 30120)
+@     0s  (started worker 2 with pid 30121)
+@     0s  (started worker 3 with pid 30122)
+@     0s  (started worker 4 with pid 30123)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 30239)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 522 MB)
+@     2s  (started worker 6 with pid 30295)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 737 MB)
+@     3s  (started worker 7 with pid 30357)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 1005 MB)
+@     4s  (started worker 8 with pid 30425)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 1173 MB)
+@     5s  (started worker 9 with pid 30517)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 1353 MB)
+@     7s  (started worker 10 with pid 30597)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 1525 MB)
+@    15s  (total 11 workers using 2084 MB)
+@    27s  (total 11 workers using 2539 MB)
+@    39s  (total 11 workers using 2684 MB)
+@    50s  (total 11 workers using 2768 MB)
+@    61s  (total 11 workers using 2814 MB)
+@    73s  (total 11 workers using 2826 MB)
+@    84s  (total 11 workers using 2893 MB)
+@    95s  (total 11 workers using 2913 MB)
+@   106s  (total 11 workers using 2935 MB)
+@   117s  (total 11 workers using 2993 MB)
+@   120s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@   120s  (worker 1 output)
+@   120s  (stopping all workers)
+@   120s  (copied results from worker 1 in /tmp//pr_test)
+@   120s  [0;30;47m(proof race finished with answer unsafe in 120.00 seconds)[m
+sat
+b0
+#0
+0 0 |_s0_ref_uut.trap_gold|#0
+1 0 |_s1_ref_uut.trap_gate|#0
+2 0 |_s2_ref_uut.mem_valid_gold|#0
+3 1 |_s3_ref_uut.mem_valid_gate|#0
+4 0 |_s4_ref_uut.mem_instr_gold|#0
+5 0 |_s5_ref_uut.mem_instr_gate|#0
+6 00000000000000000000000000000000 |_s6_ref_uut.mem_addr_gold|#0
+7 00000000000000000000000000000000 |_s7_ref_uut.mem_addr_gate|#0
+8 1100 |_s8_ref_uut.mem_wstrb_gold|#0
+9 0000 |_s9_ref_uut.mem_wstrb_gate|#0
+10 00000000000000000000000000000000 |_s10_ref_uut.mem_wdata_gold|#0
+11 00000000000000000000000000000000 |_s11_ref_uut.mem_wdata_gate|#0
+12 1 |_s12_id82|#0
+13 11000000000000000000000000000010 |_s13_ref_uut.reg_next_pc_gold|#0
+14 11 |_s14_ref_uut.irq_state_gold|#0
+15 11111111111111111111111111111110 |_s15_ref_uut.reg_out_gold|#0
+16 00011101100110011001100110011000 |_s16_ref_uut.alu_out_q_gold|#0
+17 1 |_s17_ref_uut.latched_stalu_gold|#0
+18 1 |_s18_ref_uut.latched_store_gold|#0
+19 1 |_s19_ref_uut.latched_branch_gold|#0
+20 0 |_s20_ref_uut.compressed_instr_gold|#0
+21 11000000000000000000000000000010 |_s21_ref_uut.reg_next_pc_gate|#0
+22 11 |_s22_ref_uut.irq_state_gate|#0
+23 11111111111111111111111111111110 |_s23_ref_uut.reg_out_gate|#0
+24 00011101100110011001100110011000 |_s24_ref_uut.alu_out_q_gate|#0
+25 1 |_s25_ref_uut.latched_stalu_gate|#0
+26 1 |_s26_ref_uut.latched_store_gate|#0
+27 1 |_s27_ref_uut.latched_branch_gate|#0
+28 0 |_s28_ref_uut.compressed_instr_gate|#0
+29 0 |_s29_ref_uut.mem_do_prefetch_gold|#0
+30 0 |_s30_ref_uut.mem_do_rinst_gold|#0
+31 0 |_s31_ref_uut.mem_la_secondword_gold|#0
+32 0 |_s32_ref_uut.prefetched_high_word_gold|#0
+33 0 |_s33_ref_uut.clear_prefetched_high_word_q_gold|#0
+34 0 |_s34_ref_uut.mem_la_firstword_reg_gold|#0
+35 1 |_s35_ref_uut.last_mem_valid_gold|#0
+36 0 |_s36_ref_uut.mem_do_prefetch_gate|#0
+37 0 |_s37_ref_uut.mem_do_rinst_gate|#0
+38 0 |_s38_ref_uut.mem_la_secondword_gate|#0
+39 0 |_s39_ref_uut.prefetched_high_word_gate|#0
+40 0 |_s40_ref_uut.clear_prefetched_high_word_q_gate|#0
+41 1 |_s41_ref_uut.mem_la_firstword_reg_gate|#0
+42 1 |_s42_ref_uut.last_mem_valid_gate|#0
+43 0000 |_s43_id213|#0
+44 00000000000000000000000000010000 |_s44_ref_uut.reg_op1_gold|#0
+45 01 |_s45_ref_uut.mem_wordsize_gold|#0
+46 01 |_s46_ref_uut.mem_state_gold|#0
+47 1 |_s47_ref_uut.mem_do_wdata_gold|#0
+48 0000 |_s48_id245|#0
+49 00000000000000000000000000000000 |_s49_ref_uut.reg_op1_gate|#0
+50 01 |_s50_ref_uut.mem_wordsize_gate|#0
+51 01 |_s51_ref_uut.mem_state_gate|#0
+52 1 |_s52_ref_uut.mem_do_wdata_gate|#0
+53 10011111111101010111000100101111 |_s53_ref_uut.mem_rdata_q_gold|#0
+54 1001011000000011 |_s54_ref_uut.mem_16bit_buffer_gold|#0
+55 01110000000010100011101110000001 |_s55_ref_uut.mem_rdata_q_gate|#0
+56 1001011000000011 |_s56_ref_uut.mem_16bit_buffer_gate|#0
+57 11000000 |_s57_ref_uut.cpu_state_gold|#0
+58 00100000 |_s58_ref_uut.cpu_state_gate|#0
+59 10100000000000000000000000000001 |_s59_ref_uut.timer_gold|#0
+60 01010000000000000000000000000001 |_s60_ref_uut.timer_gate|#0
+61 0 |_s61_ref_uut.is_alu_reg_imm_gold|#0
+62 0 |_s62_ref_uut.is_alu_reg_imm_gate|#0
+63 0 |_s63_ref_uut.is_alu_reg_reg_gold|#0
+64 0 |_s64_ref_uut.is_alu_reg_reg_gate|#0
+65 1 |_s65_ref_uut.decoder_trigger_gold|#0
+66 1 |_s66_ref_uut.do_waitirq_gold|#0
+67 1 |_s67_ref_uut.decoder_trigger_gate|#0
+68 0 |_s68_ref_uut.do_waitirq_gate|#0
+69 0 |_s69_ref_uut.irq_active_gold|#0
+70 1 |_s70_ref_uut.irq_delay_gold|#0
+71 1 |_s71_ref_uut.irq_active_gate|#0
+72 0 |_s72_ref_uut.irq_delay_gate|#0
+73 00000000000000000000000000000000 |_s73_ref_uut.irq_pending_gold|#0
+74 00000000000000000000000000000110 |_s74_ref_uut.irq_mask_gold|#0
+75 00000000000000000000000000000000 |_s75_ref_uut.irq_pending_gate|#0
+76 00000000000000000000000000000110 |_s76_ref_uut.irq_mask_gate|#0
+77 0 |_s77_ref_uut.instr_jalr_gold|#0
+78 0 |_s78_ref_uut.instr_retirq_gold|#0
+79 0 |_s79_ref_uut.instr_jalr_gate|#0
+80 0 |_s80_ref_uut.instr_retirq_gate|#0
+81 1 |_s81_ref_uut.mem_do_rdata_gold|#0
+82 1 |_s82_ref_uut.mem_do_rdata_gate|#0
+83 00000000000000000000000000001100 |_s83_ref_uut.reg_op2_gold|#0
+84 00000000000000000000000000000000 |_s84_ref_uut.reg_op2_gate|#0
+85 0 |_s85_ref_uut.instr_timer_gold|#0
+86 0 |_s86_ref_uut.instr_waitirq_gold|#0
+87 0 |_s87_ref_uut.instr_maskirq_gold|#0
+88 0 |_s88_ref_uut.instr_rdinstrh_gold|#0
+89 0 |_s89_ref_uut.instr_rdinstr_gold|#0
+90 0 |_s90_ref_uut.instr_rdcycleh_gold|#0
+91 0 |_s91_ref_uut.instr_rdcycle_gold|#0
+92 0 |_s92_ref_uut.instr_and_gold|#0
+93 0 |_s93_ref_uut.instr_or_gold|#0
+94 1 |_s94_ref_uut.instr_sra_gold|#0
+95 0 |_s95_ref_uut.instr_srl_gold|#0
+96 0 |_s96_ref_uut.instr_xor_gold|#0
+97 0 |_s97_ref_uut.instr_sltu_gold|#0
+98 0 |_s98_ref_uut.instr_slt_gold|#0
+99 1 |_s99_ref_uut.instr_sll_gold|#0
+100 0 |_s100_ref_uut.instr_sub_gold|#0
+101 0 |_s101_ref_uut.instr_add_gold|#0
+102 0 |_s102_ref_uut.instr_srai_gold|#0
+103 1 |_s103_ref_uut.instr_srli_gold|#0
+104 0 |_s104_ref_uut.instr_slli_gold|#0
+105 0 |_s105_ref_uut.instr_andi_gold|#0
+106 0 |_s106_ref_uut.instr_ori_gold|#0
+107 0 |_s107_ref_uut.instr_xori_gold|#0
+108 0 |_s108_ref_uut.instr_sltiu_gold|#0
+109 0 |_s109_ref_uut.instr_slti_gold|#0
+110 0 |_s110_ref_uut.instr_addi_gold|#0
+111 0 |_s111_ref_uut.instr_sw_gold|#0
+112 0 |_s112_ref_uut.instr_sh_gold|#0
+113 0 |_s113_ref_uut.instr_sb_gold|#0
+114 0 |_s114_ref_uut.instr_lhu_gold|#0
+115 0 |_s115_ref_uut.instr_lbu_gold|#0
+116 0 |_s116_ref_uut.instr_lw_gold|#0
+117 0 |_s117_ref_uut.instr_lh_gold|#0
+118 0 |_s118_ref_uut.instr_lb_gold|#0
+119 0 |_s119_ref_uut.instr_bgeu_gold|#0
+120 0 |_s120_ref_uut.instr_bltu_gold|#0
+121 0 |_s121_ref_uut.instr_bge_gold|#0
+122 0 |_s122_ref_uut.instr_blt_gold|#0
+123 0 |_s123_ref_uut.instr_bne_gold|#0
+124 0 |_s124_ref_uut.instr_beq_gold|#0
+125 1 |_s125_ref_uut.instr_jal_gold|#0
+126 1 |_s126_ref_uut.instr_auipc_gold|#0
+127 0 |_s127_ref_uut.instr_lui_gold|#0
+128 0 |_s128_ref_uut.instr_timer_gate|#0
+129 1 |_s129_ref_uut.instr_waitirq_gate|#0
+130 0 |_s130_ref_uut.instr_maskirq_gate|#0
+131 0 |_s131_ref_uut.instr_rdinstrh_gate|#0
+132 0 |_s132_ref_uut.instr_rdinstr_gate|#0
+133 0 |_s133_ref_uut.instr_rdcycleh_gate|#0
+134 0 |_s134_ref_uut.instr_rdcycle_gate|#0
+135 0 |_s135_ref_uut.instr_and_gate|#0
+136 0 |_s136_ref_uut.instr_or_gate|#0
+137 1 |_s137_ref_uut.instr_sra_gate|#0
+138 0 |_s138_ref_uut.instr_srl_gate|#0
+139 0 |_s139_ref_uut.instr_xor_gate|#0
+140 0 |_s140_ref_uut.instr_sltu_gate|#0
+141 0 |_s141_ref_uut.instr_slt_gate|#0
+142 1 |_s142_ref_uut.instr_sll_gate|#0
+143 0 |_s143_ref_uut.instr_sub_gate|#0
+144 0 |_s144_ref_uut.instr_add_gate|#0
+145 0 |_s145_ref_uut.instr_srai_gate|#0
+146 1 |_s146_ref_uut.instr_srli_gate|#0
+147 0 |_s147_ref_uut.instr_slli_gate|#0
+148 0 |_s148_ref_uut.instr_andi_gate|#0
+149 0 |_s149_ref_uut.instr_ori_gate|#0
+150 0 |_s150_ref_uut.instr_xori_gate|#0
+151 0 |_s151_ref_uut.instr_sltiu_gate|#0
+152 0 |_s152_ref_uut.instr_slti_gate|#0
+153 0 |_s153_ref_uut.instr_addi_gate|#0
+154 0 |_s154_ref_uut.instr_sw_gate|#0
+155 0 |_s155_ref_uut.instr_sh_gate|#0
+156 0 |_s156_ref_uut.instr_sb_gate|#0
+157 0 |_s157_ref_uut.instr_lhu_gate|#0
+158 0 |_s158_ref_uut.instr_lbu_gate|#0
+159 0 |_s159_ref_uut.instr_lw_gate|#0
+160 0 |_s160_ref_uut.instr_lh_gate|#0
+161 0 |_s161_ref_uut.instr_lb_gate|#0
+162 0 |_s162_ref_uut.instr_bgeu_gate|#0
+163 0 |_s163_ref_uut.instr_bltu_gate|#0
+164 0 |_s164_ref_uut.instr_bge_gate|#0
+165 0 |_s165_ref_uut.instr_blt_gate|#0
+166 0 |_s166_ref_uut.instr_bne_gate|#0
+167 0 |_s167_ref_uut.instr_beq_gate|#0
+168 1 |_s168_ref_uut.instr_jal_gate|#0
+169 1 |_s169_ref_uut.instr_auipc_gate|#0
+170 0 |_s170_ref_uut.instr_lui_gate|#0
+171 0 |_s171_id3555|#0
+172 0 |_s172_id3573|#0
+173 000000000000000000000000000000 |_s173_id3581|#0
+174 00000000000000000000000000000000 |_s174_ref_uut.reg_pc_gold|#0
+175 0 |_s175_id3605|#0
+176 0 |_s176_id3622|#0
+177 000000000000000000000000000000 |_s177_id3630|#0
+178 00000000000000000000000000000000 |_s178_ref_uut.reg_pc_gate|#0
+179 0 |_s179_id3724|#0
+180 0 |_s180_ref_uut.is_sltiu_bltu_sltu_gold|#0
+181 0 |_s181_ref_uut.is_slti_blt_slt_gold|#0
+182 0 |_s182_ref_uut.is_beq_bne_blt_bge_bltu_bgeu_gold|#0
+183 0 |_s183_id3738|#0
+184 0 |_s184_ref_uut.is_sltiu_bltu_sltu_gate|#0
+185 0 |_s185_ref_uut.is_slti_blt_slt_gate|#0
+186 0 |_s186_ref_uut.is_beq_bne_blt_bge_bltu_bgeu_gate|#0
+187 00100 |_s187_ref_uut.reg_sh_gold|#0
+188 00110 |_s188_ref_uut.reg_sh_gate|#0
+189 0 |_s189_ref_uut.is_sb_sh_sw_gold|#0
+190 0 |_s190_ref_uut.is_jalr_addi_slti_sltiu_xori_ori_andi_gold|#0
+191 0 |_s191_ref_uut.is_lui_auipc_jal_gold|#0
+192 0 |_s192_ref_uut.is_slli_srli_srai_gold|#0
+193 0 |_s193_ref_uut.is_lb_lh_lw_lbu_lhu_gold|#0
+194 0 |_s194_ref_uut.is_sb_sh_sw_gate|#0
+195 0 |_s195_ref_uut.is_jalr_addi_slti_sltiu_xori_ori_andi_gate|#0
+196 0 |_s196_ref_uut.is_lui_auipc_jal_gate|#0
+197 0 |_s197_ref_uut.is_slli_srli_srai_gate|#0
+198 0 |_s198_ref_uut.is_lb_lh_lw_lbu_lhu_gate|#0
+199 00000000000000000000000000000000 |_s199_$memory\ref_uut.cpuregs_gold[0]$q$7839|#0
+200 00000000000000000000000000000000 |_s200_$memory\ref_uut.cpuregs_gold[1]$q$7842|#0
+201 00000 |_s201_ref_uut.decoded_rs1_gold|#0
+202 00000000000000000000000000000000 |_s202_$memory\ref_uut.cpuregs_gold[2]$q$7845|#0
+203 00000000000000000000000000000000 |_s203_$memory\ref_uut.cpuregs_gold[3]$q$7848|#0
+204 00000000000000000000000000000000 |_s204_$memory\ref_uut.cpuregs_gold[4]$q$7851|#0
+205 00000000000000000000000000000000 |_s205_$memory\ref_uut.cpuregs_gold[5]$q$7854|#0
+206 00000000000000000000000000000000 |_s206_$memory\ref_uut.cpuregs_gold[6]$q$7857|#0
+207 00000000000000000000000000000000 |_s207_$memory\ref_uut.cpuregs_gold[7]$q$7860|#0
+208 00000000000000000000000000000000 |_s208_$memory\ref_uut.cpuregs_gold[8]$q$7863|#0
+209 00000000000000000000000000000000 |_s209_$memory\ref_uut.cpuregs_gold[9]$q$7866|#0
+210 00000000000000000000000000000000 |_s210_$memory\ref_uut.cpuregs_gold[10]$q$7869|#0
+211 00000000000000000000000000000000 |_s211_$memory\ref_uut.cpuregs_gold[11]$q$7872|#0
+212 00000000000000000000000000000000 |_s212_$memory\ref_uut.cpuregs_gold[12]$q$7875|#0
+213 00000000000000000000000000000000 |_s213_$memory\ref_uut.cpuregs_gold[13]$q$7878|#0
+214 00000000000000000000000000000000 |_s214_$memory\ref_uut.cpuregs_gold[14]$q$7881|#0
+215 00000000000000000000000000000000 |_s215_$memory\ref_uut.cpuregs_gold[15]$q$7884|#0
+216 00000000000000000000000000000000 |_s216_$memory\ref_uut.cpuregs_gold[16]$q$7887|#0
+217 00000000000000000000000000000000 |_s217_$memory\ref_uut.cpuregs_gold[17]$q$7890|#0
+218 00000000000000000000000000000000 |_s218_$memory\ref_uut.cpuregs_gold[18]$q$7893|#0
+219 00000000000000000000000000000000 |_s219_$memory\ref_uut.cpuregs_gold[19]$q$7896|#0
+220 00000000000000000000000000000000 |_s220_$memory\ref_uut.cpuregs_gold[20]$q$7899|#0
+221 00000000000000000000000000000000 |_s221_$memory\ref_uut.cpuregs_gold[21]$q$7902|#0
+222 00000000000000000000000000000000 |_s222_$memory\ref_uut.cpuregs_gold[22]$q$7905|#0
+223 00000000000000000000000000000000 |_s223_$memory\ref_uut.cpuregs_gold[23]$q$7908|#0
+224 00000000000000000000000000000000 |_s224_$memory\ref_uut.cpuregs_gold[24]$q$7911|#0
+225 00000000000000000000000000000000 |_s225_$memory\ref_uut.cpuregs_gold[25]$q$7914|#0
+226 00000000000000000000000000000000 |_s226_$memory\ref_uut.cpuregs_gold[26]$q$7917|#0
+227 00000000000000000000000000000000 |_s227_$memory\ref_uut.cpuregs_gold[27]$q$7920|#0
+228 00000000000000000000000000000000 |_s228_$memory\ref_uut.cpuregs_gold[28]$q$7923|#0
+229 00000000000000000000000000000000 |_s229_$memory\ref_uut.cpuregs_gold[29]$q$7926|#0
+230 00000000000000000000000000000000 |_s230_$memory\ref_uut.cpuregs_gold[30]$q$7929|#0
+231 00000000000000000000000000000000 |_s231_$memory\ref_uut.cpuregs_gold[31]$q$7932|#0
+232 00000000000000000000000000000000 |_s232_ref_uut.cpuregs[0]|#0
+233 00000000000000000000000000000000 |_s233_ref_uut.cpuregs[1]|#0
+234 00000 |_s234_ref_uut.decoded_rs1_gate|#0
+235 00000000000000000000000000000000 |_s235_ref_uut.cpuregs[2]|#0
+236 00000000000000000000000000000000 |_s236_ref_uut.cpuregs[3]|#0
+237 00000000000000000000000000000000 |_s237_ref_uut.cpuregs[4]|#0
+238 00000000000000000000000000000000 |_s238_ref_uut.cpuregs[5]|#0
+239 00000000000000000000000000000000 |_s239_ref_uut.cpuregs[6]|#0
+240 00000000000000000000000000000000 |_s240_ref_uut.cpuregs[7]|#0
+241 00000000000000000000000000000000 |_s241_ref_uut.cpuregs[8]|#0
+242 00000000000000000000000000000000 |_s242_ref_uut.cpuregs[9]|#0
+243 00000000000000000000000000000000 |_s243_ref_uut.cpuregs[10]|#0
+244 00000000000000000000000000000000 |_s244_ref_uut.cpuregs[11]|#0
+245 00000000000000000000000000000000 |_s245_ref_uut.cpuregs[12]|#0
+246 00000000000000000000000000000000 |_s246_ref_uut.cpuregs[13]|#0
+247 00000000000000000000000000000000 |_s247_ref_uut.cpuregs[14]|#0
+248 00000000000000000000000000000000 |_s248_ref_uut.cpuregs[15]|#0
+249 00000000000000000000000000000000 |_s249_ref_uut.cpuregs[16]|#0
+250 00000000000000000000000000000000 |_s250_ref_uut.cpuregs[17]|#0
+251 00000000000000000000000000000000 |_s251_ref_uut.cpuregs[18]|#0
+252 00000000000000000000000000000000 |_s252_ref_uut.cpuregs[19]|#0
+253 00000000000000000000000000000000 |_s253_ref_uut.cpuregs[20]|#0
+254 00000000000000000000000000000000 |_s254_ref_uut.cpuregs[21]|#0
+255 00000000000000000000000000000000 |_s255_ref_uut.cpuregs[22]|#0
+256 00000000000000000000000000000000 |_s256_ref_uut.cpuregs[23]|#0
+257 00000000000000000000000000000000 |_s257_ref_uut.cpuregs[24]|#0
+258 00000000000000000000000000000000 |_s258_ref_uut.cpuregs[25]|#0
+259 00000000000000000000000000000000 |_s259_ref_uut.cpuregs[26]|#0
+260 00000000000000000000000000000000 |_s260_ref_uut.cpuregs[27]|#0
+261 00000000000000000000000000000000 |_s261_ref_uut.cpuregs[28]|#0
+262 00000000000000000000000000000000 |_s262_ref_uut.cpuregs[29]|#0
+263 00000000000000000000000000000000 |_s263_ref_uut.cpuregs[30]|#0
+264 00000000000000000000000000000000 |_s264_ref_uut.cpuregs[31]|#0
+265 11011110011001100110011001100100 |_s265_ref_uut.decoded_imm_j_gold|#0
+266 11100110011001100110011001101101 |_s266_ref_uut.decoded_imm_j_gate|#0
+267 00000000000000000000000000000000 |_s267_id4406|#0
+268 0 |_s268_ref_uut.is_compare_gate|#0
+269 0 |_s269_ref_uut.is_lui_auipc_jal_jalr_addi_add_sub_gate|#0
+270 00000000000000000000000000000000 |_s270_id4436|#0
+271 0 |_s271_ref_uut.is_compare_gold|#0
+272 0 |_s272_ref_uut.is_lui_auipc_jal_jalr_addi_add_sub_gold|#0
+273 0000000000000000000000000000000000000000000000000000000000000000 |_s273_ref_uut.count_cycle_gate|#0
+274 0000000000000000000000000000000000000000000000000000000000000000 |_s274_ref_uut.count_cycle_gold|#0
+275 0000000000000000000000000000000000000000000000000000000000000000 |_s275_ref_uut.count_instr_gate|#0
+276 0000000000000000000000000000000000000000000000000000000000000000 |_s276_ref_uut.count_instr_gold|#0
+277 00000 |_s277_ref_uut.decoded_rs2_gate|#0
+278 00000 |_s278_ref_uut.decoded_rs2_gold|#0
+279 00000000000000000000000000000000 |_s279_id4560|#0
+280 0 |_s280_ref_uut.latched_compr_gate|#0
+281 00000000000000000000000000000000 |_s281_id4577|#0
+282 0 |_s282_ref_uut.latched_compr_gold|#0
+283 11111111111111111111111111111111 |_s283_ref_uut.decoded_imm_gate|#0
+284 11111111111111111111111111111111 |_s284_ref_uut.decoded_imm_gold|#0
+285 00000 |_s285_ref_uut.decoded_rd_gate|#0
+286 00000 |_s286_ref_uut.decoded_rd_gold|#0
+287 1 |_s287_ref_uut.decoder_pseudo_trigger_gate|#0
+288 1 |_s288_ref_uut.decoder_pseudo_trigger_gold|#0
+289 0 |_s289_ref_uut.is_lbu_lhu_lw_gate|#0
+290 0 |_s290_ref_uut.is_lbu_lhu_lw_gold|#0
+291 0 |_s291_ref_uut.latched_is_lb_gate|#0
+292 0 |_s292_ref_uut.latched_is_lb_gold|#0
+293 0 |_s293_ref_uut.latched_is_lh_gate|#0
+294 0 |_s294_ref_uut.latched_is_lh_gold|#0
+295 0 |_s295_ref_uut.latched_is_lu_gate|#0
+296 0 |_s296_ref_uut.latched_is_lu_gold|#0
+297 00000 |_s297_ref_uut.latched_rd_gate|#0
+298 00000 |_s298_ref_uut.latched_rd_gold|#0
+299 00000000000000000000000000000000 |_s299_id4672|#0
+300 00000000000000000000000000000000 |_s300_id4687|#0
+301 00000000000000000000000000000000 |_s301_id4712|#0
+302 00000000 |_s302_id4713|#0
+303 0000000000000000 |_s303_id4731|#0
+304 00000000000000000000000000000000 |_s304_id4741|#0
+305 00000000 |_s305_id4742|#0
+306 0000000000000000 |_s306_id4755|#0
+307 00000000000000000000000000000000 |_s307_id4826|#0
+308 00000000000000000000000000000000 |_s308_id4827|#0
+309 00000000000000000000000000000000 |_s309_id4917|#0
+310 00000000000000000000000000000000 |_s310_id4923|#0
+311 00000000000000000000000000000000 |_s311_id4977|#0
+312 00000000000000000000000000000000 |_s312_id4978|#0
+313 00000000000000000000000000000000 |_s313_id5068|#0
+314 00000000000000000000000000000000 |_s314_id5074|#0
+315 0 |_s315_id5142|#0
+316 0 |_s316_id5194|#0
+317 00000000000000000000000000000000 |_s317_id5227|#0
+318 0 |_s318_id5253|#0
+319 00000000000000000000000000000000 |_s319_id5270|#0
+320 0 |_s320_id5296|#0
+321 0 |_s321_id5413|#0
+322 0 |_s322_id5422|#0
+323 00000000000000000000000000000000 |_s323_id5437|#0
+324 00000000000000000000000000000000 |_s324_id5458|#0
+325 10001 |_s325_id5766|#0
+326 00011 |_s326_id5771|#0
+327 1 |_s327_id6289|#0
+328 1 |_s328_id6436|#0
+@0
+1 11111111111111111111111111111111 |_i1_irq|@0
+2 00110000000001101000111111111110 |_i2_mem_rdata|@0
+3 1 |_i3_mem_ready|@0
+4 0 |_i4_resetn|@0
+@1
+1 00000000000000000000000000000000 |_i1_irq|@1
+2 00000000000000000000000000000000 |_i2_mem_rdata|@1
+3 1 |_i3_mem_ready|@1
+4 1 |_i4_resetn|@1
+@2
+1 00000000000000000000000000000000 |_i1_irq|@2
+2 00000000000000000000000000000000 |_i2_mem_rdata|@2
+3 1 |_i3_mem_ready|@2
+4 1 |_i4_resetn|@2
+@3
+1 00000000000000000000000000000000 |_i1_irq|@3
+2 00000110000000011010000000001011 |_i2_mem_rdata|@3
+3 1 |_i3_mem_ready|@3
+4 1 |_i4_resetn|@3
+@4
+1 00000000000000000000000000000000 |_i1_irq|@4
+2 00000100000010000000000000000011 |_i2_mem_rdata|@4
+3 1 |_i3_mem_ready|@4
+4 1 |_i4_resetn|@4
+@5
+1 00000000000000000000000000000000 |_i1_irq|@5
+2 00000000001100110111110010010111 |_i2_mem_rdata|@5
+3 1 |_i3_mem_ready|@5
+4 1 |_i4_resetn|@5
+@6
+1 00000000000000000000000000000000 |_i1_irq|@6
+2 00000000000000110101000000000010 |_i2_mem_rdata|@6
+3 1 |_i3_mem_ready|@6
+4 1 |_i4_resetn|@6
+@7
+1 00000000000000000000000000000000 |_i1_irq|@7
+2 00000100001000100000100000001011 |_i2_mem_rdata|@7
+3 1 |_i3_mem_ready|@7
+4 1 |_i4_resetn|@7
+@8
+1 00000000000000000000000000000000 |_i1_irq|@8
+2 00000100100000100000100011101110 |_i2_mem_rdata|@8
+3 1 |_i3_mem_ready|@8
+4 1 |_i4_resetn|@8
+@9
+1 00000000000000000000000000000000 |_i1_irq|@9
+2 00001001111111110000100010001010 |_i2_mem_rdata|@9
+3 0 |_i3_mem_ready|@9
+4 1 |_i4_resetn|@9
+@10
+1 00000000000000000000000000000101 |_i1_irq|@10
+2 00000000000000110000000000000001 |_i2_mem_rdata|@10
+3 1 |_i3_mem_ready|@10
+4 1 |_i4_resetn|@10
+@11
+1 01111111111111111111111111011100 |_i1_irq|@11
+2 11111101111111111111111111111100 |_i2_mem_rdata|@11
+3 1 |_i3_mem_ready|@11
+4 1 |_i4_resetn|@11
+@12
+1 00000000000000000000000000000000 |_i1_irq|@12
+2 11111111111111000000000000000011 |_i2_mem_rdata|@12
+3 0 |_i3_mem_ready|@12
+4 1 |_i4_resetn|@12
+.
+c done

@@ -1,0 +1,26 @@
+[runlim] version:		1.17
+[runlim] host:			c3n05
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/3DVCABTy.btor
+[runlim] start:			Wed Oct 16 20:25:51 2019
+[runlim] child:			12516
+[runlim] sample:		20.20 time, 10.01 real, 414 MB
+[runlim] sample:		40.43 time, 20.02 real, 561 MB
+[runlim] sample:		60.71 time, 30.02 real, 715 MB
+[runlim] sample:		80.97 time, 40.02 real, 786 MB
+[runlim] sample:		101.24 time, 50.01 real, 854 MB
+[runlim] sample:		121.51 time, 60.02 real, 955 MB
+[runlim] sample:		141.78 time, 70.02 real, 1110 MB
+[runlim] sample:		162.05 time, 80.02 real, 1200 MB
+[runlim] sample:		182.31 time, 90.02 real, 1282 MB
+[runlim] end:			Wed Oct 16 20:27:26 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			95.46 seconds
+[runlim] time:			193.26 seconds
+[runlim] space:			1313 MB
+[runlim] samples:		954

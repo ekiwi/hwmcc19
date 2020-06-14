@@ -1,0 +1,24 @@
+[runlim] version:		1.17
+[runlim] host:			c3n09
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-no-thp.sh
+[runlim] argv[1]:		/tmp/lGelPCto.btor
+[runlim] start:			Thu Oct 17 16:01:48 2019
+[runlim] child:			17903
+[runlim] sample:		9.98 time, 10.02 real, 86 MB
+[runlim] sample:		19.98 time, 20.02 real, 158 MB
+[runlim] sample:		29.98 time, 30.02 real, 188 MB
+[runlim] sample:		39.98 time, 40.02 real, 229 MB
+[runlim] sample:		49.98 time, 50.02 real, 271 MB
+[runlim] sample:		59.98 time, 60.02 real, 290 MB
+[runlim] sample:		69.98 time, 70.02 real, 301 MB
+[runlim] end:			Thu Oct 17 16:03:05 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			77.37 seconds
+[runlim] time:			77.29 seconds
+[runlim] space:			334 MB
+[runlim] samples:		773

@@ -1,0 +1,9 @@
+c host: c3n24
+c start: Wed Oct 16 23:09:47 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565140
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vcegar_arrays_itc99_b12_p2/vcegar_arrays_itc99_b12_p2.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565140.0
+c done

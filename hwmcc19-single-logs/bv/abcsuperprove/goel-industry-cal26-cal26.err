@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n05
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/AuoXiRHf.aig
+[runlim] start:			Wed Oct 16 23:05:02 2019
+[runlim] child:			13097
+[runlim] end:			Wed Oct 16 23:05:03 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			0.77 seconds
+[runlim] time:			0.40 seconds
+[runlim] space:			95 MB
+[runlim] samples:		7

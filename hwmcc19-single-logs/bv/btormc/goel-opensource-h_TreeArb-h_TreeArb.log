@@ -1,0 +1,11 @@
+c host: c3n16
+c start: Wed Oct 16 05:24:07 CEST 2019
+c arrayjobid: 17562833
+c jobid: 17563888
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/h_TreeArb/h_TreeArb.btor2
+c solver: ./run-btormc.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17563888.0
+unsat
+b0
+c done

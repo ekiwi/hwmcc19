@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n29
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc.sh
+[runlim] argv[1]:		/tmp/UyzRTTO2.btor
+[runlim] start:			Wed Oct 16 08:50:18 2019
+[runlim] child:			19795
+[runlim] end:			Wed Oct 16 08:50:18 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.02 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0 MB
+[runlim] samples:		0

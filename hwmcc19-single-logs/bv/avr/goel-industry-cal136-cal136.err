@@ -1,0 +1,23 @@
+[runlim] version:		1.17
+[runlim] host:			c3n28
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/GevIXYKX.btor2
+[runlim] start:			Fri Oct 18 18:40:57 2019
+[runlim] child:			24166
+[runlim] sample:		0.59 time, 13.41 real, 64 MB
+[runlim] sample:		1.13 time, 23.82 real, 89 MB
+[runlim] sample:		1.18 time, 33.82 real, 89 MB
+[runlim] sample:		1.24 time, 43.82 real, 89 MB
+[runlim] sample:		11.03 time, 53.82 real, 388 MB
+[runlim] sample:		31.15 time, 63.82 real, 459 MB
+[runlim] end:			Fri Oct 18 18:42:10 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		259
+[runlim] real:			73.60 seconds
+[runlim] time:			50.62 seconds
+[runlim] space:			538 MB
+[runlim] samples:		697

@@ -1,0 +1,40 @@
+[runlim] version:		1.17
+[runlim] host:			c3n08
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-thp.sh
+[runlim] argv[1]:		/tmp/Owl2YnUV.btor
+[runlim] start:			Thu Oct 17 04:46:16 2019
+[runlim] child:			31830
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+[runlim] sample:		9.98 time, 10.01 real, 146 MB
+[runlim] sample:		19.99 time, 20.02 real, 193 MB
+[runlim] sample:		29.98 time, 30.02 real, 273 MB
+[runlim] sample:		39.98 time, 40.01 real, 487 MB
+[runlim] sample:		49.98 time, 50.01 real, 487 MB
+[runlim] sample:		59.98 time, 60.02 real, 489 MB
+[runlim] sample:		69.98 time, 70.02 real, 491 MB
+[runlim] sample:		79.98 time, 80.02 real, 575 MB
+[runlim] sample:		89.98 time, 90.01 real, 655 MB
+[runlim] sample:		99.98 time, 100.01 real, 655 MB
+[runlim] sample:		109.98 time, 110.02 real, 695 MB
+[runlim] sample:		119.98 time, 120.01 real, 715 MB
+[runlim] sample:		129.98 time, 130.02 real, 732 MB
+[runlim] sample:		139.98 time, 140.02 real, 830 MB
+[runlim] end:			Thu Oct 17 04:48:37 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			140.76 seconds
+[runlim] time:			140.68 seconds
+[runlim] space:			830 MB
+[runlim] samples:		1407

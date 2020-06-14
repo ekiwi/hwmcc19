@@ -1,0 +1,110 @@
+c host: c3n14
+c start: Fri Oct 18 22:50:48 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567709
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dblclockfft_butterfly_ck3_r1-p147.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567709.0
+	(output dir: /tmp//pr_test/work_w0)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1138 / 3485 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 2 1 s: 3    0s                     0	: 2	: 0 2 1 s: 3    0s                  
+   0	: 3	: 0 2 1 0 s: 3    0s                     0	: 3	: 0 2 1 1 s: 4    0s                     0	: 3	: 0 2 1 1 s: 4    0s                  
+   0	: 4	: 0 2 1 1 0 s: 4    0s                     0	: 4	: 0 2 1 1 1 s: 5    0s                     0	: 4	: 0 2 1 1 1 s: 5    0s                  
+   0	: 5	: 0 2 1 1 1 0 s: 5    0s                     0	: 5	: 0 2 1 1 1 1 s: 6    0s                     0	: 5	: 0 2 1 1 1 1 s: 6    0s                  
+   0	: 6	: 0 2 1 1 1 1 0 s: 6    0s                     0	: 6	: 0 2 1 1 1 1 1 s: 7    0s                     0	: 6	: 0 2 1 1 1 1 1 s: 7    0s                  
+   0	: 7	: 0 2 1 1 1 1 1 0 s: 7    0s                     1	: 7	: 0 3 2 1 1 1 1 0 s: 9    1s                     1	: 7	: 0 4 3 3 3 4 3 1 s: 21    1s                     2	: 7	: 0 4 3 3 3 4 3 1 s: 21    7s                     3	: 7	: 0 18 25 24 23 6 5 1 s: 102    16s                     3	: 7	: 0 18 25 24 23 6 7 2 s: 105    16s                     4	: 7	: 0 18 27 27 27 9 8 2 s: 118    21s                     5	: 7	: 0 18 28 27 27 12 9 2 s: 123    34s                     6	: 7	: 0 19 31 28 27 12 9 2 s: 128    44s                     7	: 7	: 0 21 33 30 28 13 10 2 s: 137    61s                     7	: 7	: 0 21 33 30 28 14 12 3 s: 141    62s                     8	: 7	: 0 21 34 38 30 14 12 3 s: 152    117s                     9	: 7	: 0 21 35 41 31 14 13 3 s: 158    178s                     10	: 7	: 0 21 35 43 31 14 13 3 s: 160    239s                     10	: 7	: 0 21 35 43 31 14 13 4 s: 161    239s                     10	: 7	: 0 21 35 43 31 14 17 5 s: 166    240s                     11	: 7	: 0 21 37 44 31 17 19 5 s: 174    276s                     12	: 7	: 0 22 44 59 39 42 23 5 s: 234    307s                     12	: 7	: 0 22 44 60 41 46 28 6 s: 247    310s                     12	: 7	: 0 22 44 60 41 46 28 7 s: 248    310s                     12	: 7	: 0 22 44 60 41 46 29 8 s: 250    310s                     12	: 7	: 0 22 44 60 41 46 30 8 s: 251    311s                     12	: 7	: 0 22 44 59 45 44 37 9 s: 260    314s                     12	: 7	: 0 22 44 59 45 44 37 10 s: 261    314s                     12	: 7	: 0 22 44 59 45 44 37 11 s: 262    314s                     12	: 7	: 0 22 44 59 45 45 37 12 s: 264    315s                     12	: 7	: 0 22 44 59 45 45 37 8 s: 260    315s                     12	: 7	: 0 22 44 59 45 45 37 8 s: 260    315s                  
+   12	: 8	: 0 14 38 56 39 37 26 7 40 s: 257    323s                     12	: 8	: 0 14 38 56 39 37 26 7 41 s: 258    323s                     12	: 8	: 0 14 38 56 39 37 26 7 42 s: 259    324s                     12	: 8	: 0 14 38 56 39 37 26 7 43 s: 260    324s                     12	: 8	: 0 14 38 56 39 37 26 7 44 s: 261    324s                     12	: 8	: 0 14 38 56 39 37 26 7 45 s: 262    324s                     12	: 8	: 0 14 38 56 39 37 26 7 46 s: 263    324s                     12	: 8	: 0 14 38 56 39 37 26 7 47 s: 264    324s                     12	: 8	: 0 14 38 56 39 37 26 7 48 s: 265    324s                     12	: 8	: 0 14 38 56 39 37 26 7 49 s: 266    324s                     12	: 8	: 0 14 38 56 39 37 26 7 50 s: 267    324s                     12	: 8	: 0 14 38 56 39 37 26 7 51 s: 268    324s                     12	: 8	: 0 14 38 56 39 37 26 7 52 s: 269    324s                     12	: 8	: 0 14 38 56 39 37 26 7 53 s: 270    325s                     12	: 8	: 0 14 38 56 39 37 26 7 54 s: 271    325s                     12	: 8	: 0 14 38 56 39 37 26 9 55 s: 274    325s                     12	: 8	: 0 14 38 56 39 37 26 9 56 s: 275    325s                     12	: 8	: 0 14 38 56 39 37 26 9 57 s: 276    325s                     12	: 8	: 0 14 38 56 39 37 26 12 58 s: 280    326s                     12	: 8	: 0 14 38 56 39 37 26 12 59 s: 281    326s                     12	: 8	: 0 14 38 56 39 37 26 12 60 s: 282    326s                     12	: 8	: 0 14 38 56 39 37 26 12 61 s: 283    326s                     12	: 8	: 0 14 38 56 39 37 26 12 62 s: 284    326s                     12	: 8	: 0 14 38 56 39 37 26 12 63 s: 285    326s                     12	: 8	: 0 14 38 56 39 37 26 12 64 s: 286    326s                     12	: 8	: 0 14 38 56 39 37 26 12 65 s: 287    326s                     12	: 8	: 0 14 38 56 39 38 67 85 66 s: 403    346s                     12	: 8	: 0 14 38 56 39 42 78 104 67 s: 438    354s                     12	: 8	: 0 14 38 56 46 46 80 116 68 s: 464    358s                     12	: 8	: 0 14 38 56 47 49 91 135 69 s: 499    364s                     12	: 8	: 0 14 38 56 50 47 83 128 62 s: 478    366s                     12	: 8	: 0 19 61 95 100 127 118 132 63 s: 715    419s                     12	: 8	: 0 19 61 95 100 127 118 132 64 s: 716    419s                     12	: 8	: 0 19 61 95 100 127 118 132 65 s: 717    419s                     12	: 8	: 0 19 61 95 100 127 118 132 66 s: 718    419s                     12	: 8	: 0 19 61 95 100 127 118 131 67 s: 718    419s                     12	: 8	: 0 19 61 95 100 127 118 131 68 s: 719    419s                     12	: 8	: 0 19 61 95 100 127 118 131 69 s: 720    419s                     12	: 8	: 0 19 61 95 100 126 120 123 65 s: 709    422s                     12	: 8	: 0 19 61 95 100 126 120 124 66 s: 711    422s                     12	: 8	: 0 19 61 95 100 126 120 124 67 s: 712    422s                     12	: 8	: 0 19 61 95 100 126 120 124 68 s: 713    422s                     12	: 8	: 0 19 61 95 103 131 144 128 69 s: 750    430s                     12	: 8	: 0 19 61 95 103 131 144 128 70 s: 751    430s                     12	: 8	: 0 19 61 95 103 131 144 128 71 s: 752    430s                     12	: 8	: 0 19 61 92 100 128 130 122 68 s: 720    436s                     12	: 8	: 0 19 61 92 100 128 130 122 68 s: 720    436s                  
+   12	: 9	: 0 17 40 62 68 75 32 19 2 322 s: 637    470s                     12	: 9	: 0 17 40 62 68 75 32 19 4 323 s: 640    471s                     12	: 9	: 0 17 40 62 68 75 32 19 4 324 s: 641    471s                     12	: 9	: 0 17 40 62 68 75 32 19 4 325 s: 642    471s                     12	: 9	: 0 17 40 62 68 75 32 19 4 326 s: 643    471s                     12	: 9	: 0 17 40 62 68 75 45 38 15 327 s: 687    480s                     12	: 9	: 0 17 40 62 68 75 45 38 18 327 s: 690    481s                     12	: 9	: 0 17 40 62 68 75 45 38 20 327 s: 692    482s                     12	: 9	: 0 17 40 62 68 78 44 37 18 323 s: 687    484s                     12	: 9	: 0 17 40 62 68 78 44 37 18 323 s: 687    484s                  
+   12	: 9	: 0 17 40 62 68 73 23 15 0 362 s: 660    496s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h      497.31         550          12
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 18560)
+@     0s  (started worker 1 with pid 18561)
+@     0s  (started worker 2 with pid 18562)
+@     0s  (started worker 3 with pid 18563)
+@     0s  (started worker 4 with pid 18564)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 18681)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 424 MB)
+@     2s  (started worker 6 with pid 18737)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 643 MB)
+@     3s  (started worker 7 with pid 18799)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 839 MB)
+@     4s  (started worker 8 with pid 18865)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 1078 MB)
+@     5s  (started worker 9 with pid 18957)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 1285 MB)
+@     6s  (started worker 10 with pid 19037)
+@     6s  (spawned 1 workers)
+@     6s  (total 11 workers using 1477 MB)
+@    15s  (total 11 workers using 2410 MB)
+@    27s  (total 11 workers using 3153 MB)
+@    38s  (total 11 workers using 3880 MB)
+@    41s  (worker 9 finished with result unknown) python3 avr.py -b bin_y2 -s -a sa4 --interpol 1 -f 1
+@    50s  (total 10 workers using 4290 MB)
+@    61s  (total 10 workers using 4946 MB)
+@    72s  (total 10 workers using 5521 MB)
+@    83s  (total 10 workers using 6017 MB)
+@    94s  (total 10 workers using 6828 MB)
+@   105s  (total 10 workers using 7846 MB)
+@   116s  (total 10 workers using 7829 MB)
+@   127s  (total 10 workers using 8364 MB)
+@   138s  (total 10 workers using 9225 MB)
+@   149s  (total 10 workers using 9611 MB)
+@   160s  (total 10 workers using 9414 MB)
+@   170s  (total 10 workers using 9635 MB)
+@   182s  (total 10 workers using 10269 MB)
+@   192s  (total 10 workers using 10837 MB)
+@   203s  (total 10 workers using 11481 MB)
+@   214s  (total 10 workers using 12146 MB)
+@   225s  (total 10 workers using 12547 MB)
+@   236s  (total 10 workers using 12911 MB)
+@   247s  (total 10 workers using 13263 MB)
+@   258s  (total 10 workers using 13121 MB)
+@   269s  (total 10 workers using 13356 MB)
+@   280s  (total 10 workers using 13468 MB)
+@   291s  (total 10 workers using 13886 MB)
+@   302s  (total 10 workers using 14396 MB)
+@   313s  (total 10 workers using 14500 MB)
+@   324s  (total 10 workers using 15226 MB)
+@   335s  (total 10 workers using 16129 MB)
+@   346s  (total 10 workers using 16356 MB)
+@   357s  (total 10 workers using 17179 MB)
+@   368s  (total 10 workers using 17584 MB)
+@   379s  (total 10 workers using 17484 MB)
+@   390s  (total 10 workers using 17816 MB)
+@   401s  (total 10 workers using 18980 MB)
+@   412s  (total 10 workers using 19206 MB)
+@   423s  (total 10 workers using 17504 MB)
+@   434s  (total 10 workers using 17943 MB)
+@   445s  (total 10 workers using 18543 MB)
+@   456s  (total 10 workers using 18487 MB)
+@   467s  (total 10 workers using 18807 MB)
+@   478s  (total 10 workers using 18749 MB)
+@   489s  (total 10 workers using 19362 MB)
+@   498s  (worker 0 finished with result safe) python3 avr.py -a sa
+@   498s  (worker 0 output)
+@   498s  (stopping all workers)
+@   498s  (copied results from worker 0 in /tmp//pr_test)
+@   498s  [0;30;47m(proof race finished with answer safe in 498.28 seconds)[m
+unsat
+b0
+c done

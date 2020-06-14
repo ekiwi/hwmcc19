@@ -1,0 +1,23 @@
+[runlim] version:		1.17
+[runlim] host:			c3n32
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/amadugJW.btor2
+[runlim] start:			Wed Oct 16 13:55:47 2019
+[runlim] child:			30660
+[runlim] sample:		19.94 time, 10.02 real, 83 MB
+[runlim] sample:		40.22 time, 20.02 real, 113 MB
+[runlim] sample:		60.49 time, 30.02 real, 131 MB
+[runlim] sample:		80.76 time, 40.02 real, 144 MB
+[runlim] sample:		101.05 time, 50.02 real, 184 MB
+[runlim] sample:		121.31 time, 60.02 real, 182 MB
+[runlim] end:			Wed Oct 16 13:56:51 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			63.84 seconds
+[runlim] time:			129.02 seconds
+[runlim] space:			198 MB
+[runlim] samples:		638

@@ -1,0 +1,224 @@
+c host: c3n21
+c start: Wed Oct 16 19:30:04 CEST 2019
+c arrayjobid: 17562836
+c jobid: 17564750
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/unsafe/arbitrated_fifos_n2d8w8.btor
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564750.0
+sat
+b0
+#0
+0 [001] 00000000 af.gen_fifos[1].f.entries@0
+0 [000] 11111111 af.gen_fifos[1].f.entries@0
+0 [111] 11111111 af.gen_fifos[1].f.entries@0
+1 1111 af.gen_fifos[1].f.ff_wrPtr.Q@0
+2 1110 af.gen_fifos[1].f.ff_rdPtr.Q@0
+3 00000000 af.arb.deficit_counters[1].ff_defcnt.Q@0
+4 0 af.arb.ff_rrcnt.Q@0
+5 [111] 11111111 af.gen_fifos[0].f.entries@0
+5 [110] 01101001 af.gen_fifos[0].f.entries@0
+5 [101] 01000001 af.gen_fifos[0].f.entries@0
+5 [100] 01010011 af.gen_fifos[0].f.entries@0
+5 [010] 11111111 af.gen_fifos[0].f.entries@0
+5 [001] 00111110 af.gen_fifos[0].f.entries@0
+5 [000] 01000111 af.gen_fifos[0].f.entries@0
+5 [011] 11111111 af.gen_fifos[0].f.entries@0
+6 1011 af.gen_fifos[0].f.ff_wrPtr.Q@0
+7 1010 af.gen_fifos[0].f.ff_rdPtr.Q@0
+8 00000000 af.arb.deficit_counters[0].ff_defcnt.Q@0
+9 0 sb.ff_en.Q@0
+10 0 sb.ff_magic_packet_exited.Q@0
+11 0000 sb.mpt.ff_cnt.Q@0
+12 00000000 sb.ff_magic_packet.Q@0
+13 1 initstate@0
+14 0 state331@0
+15 0 state332@0
+16 0 state333@0
+17 0 state334@0
+18 0 state335@0
+19 0 state336@0
+20 0 state337@0
+21 0 state338@0
+@0
+0 0 clk@0
+1 0000000011111111 flat_data_in@0
+2 11 push@0
+3 0000000000000000 quantums@0
+4 11 reqs@0
+5 1 rst@0
+6 0 start@0
+#1
+14 0 state331@1
+15 0 state332@1
+16 0 state333@1
+17 0 state334@1
+18 0 state335@1
+19 0 state336@1
+20 0 state337@1
+21 0 state338@1
+@1
+0 0 clk@1
+1 1111111101010000 flat_data_in@1
+2 11 push@1
+3 0000000000000000 quantums@1
+4 00 reqs@1
+5 0 rst@1
+6 1 start@1
+#2
+14 0 state331@2
+15 0 state332@2
+16 0 state333@2
+17 0 state334@2
+18 0 state335@2
+19 0 state336@2
+20 0 state337@2
+21 0 state338@2
+@2
+0 0 clk@2
+1 1111111101000000 flat_data_in@2
+2 01 push@2
+3 1111110100000000 quantums@2
+4 01 reqs@2
+5 0 rst@2
+6 1 start@2
+#3
+14 0 state331@3
+15 0 state332@3
+16 0 state333@3
+17 0 state334@3
+18 0 state335@3
+19 0 state336@3
+20 0 state337@3
+21 0 state338@3
+@3
+0 0 clk@3
+1 1111100001110000 flat_data_in@3
+2 01 push@3
+3 0000010000000001 quantums@3
+4 01 reqs@3
+5 0 rst@3
+6 1 start@3
+#4
+14 0 state331@4
+15 0 state332@4
+16 0 state333@4
+17 0 state334@4
+18 0 state335@4
+19 0 state336@4
+20 0 state337@4
+21 0 state338@4
+@4
+0 0 clk@4
+1 1111111101010000 flat_data_in@4
+2 01 push@4
+3 0001000011111111 quantums@4
+4 01 reqs@4
+5 0 rst@4
+6 0 start@4
+#5
+14 0 state331@5
+15 0 state332@5
+16 0 state333@5
+17 0 state334@5
+18 0 state335@5
+19 0 state336@5
+20 0 state337@5
+21 0 state338@5
+@5
+0 0 clk@5
+1 1111111101000001 flat_data_in@5
+2 01 push@5
+3 1000000000001000 quantums@5
+4 11 reqs@5
+5 0 rst@5
+6 0 start@5
+#6
+14 0 state331@6
+15 0 state332@6
+16 0 state333@6
+17 0 state334@6
+18 0 state335@6
+19 0 state336@6
+20 0 state337@6
+21 0 state338@6
+@6
+0 0 clk@6
+1 1111111101010000 flat_data_in@6
+2 01 push@6
+3 1000100000000000 quantums@6
+4 01 reqs@6
+5 0 rst@6
+6 0 start@6
+#7
+14 0 state331@7
+15 0 state332@7
+16 0 state333@7
+17 0 state334@7
+18 0 state335@7
+19 0 state336@7
+20 0 state337@7
+21 0 state338@7
+@7
+0 0 clk@7
+1 0000000001001000 flat_data_in@7
+2 01 push@7
+3 1100000000000000 quantums@7
+4 01 reqs@7
+5 0 rst@7
+6 0 start@7
+#8
+14 0 state331@8
+15 0 state332@8
+16 0 state333@8
+17 0 state334@8
+18 0 state335@8
+19 0 state336@8
+20 0 state337@8
+21 0 state338@8
+@8
+0 0 clk@8
+1 0000000001100000 flat_data_in@8
+2 01 push@8
+3 1000100000111000 quantums@8
+4 01 reqs@8
+5 0 rst@8
+6 0 start@8
+#9
+14 0 state331@9
+15 0 state332@9
+16 0 state333@9
+17 0 state334@9
+18 0 state335@9
+19 0 state336@9
+20 0 state337@9
+21 0 state338@9
+@9
+0 0 clk@9
+1 0000000001000000 flat_data_in@9
+2 01 push@9
+3 1000000011000111 quantums@9
+4 10 reqs@9
+5 0 rst@9
+6 0 start@9
+#10
+14 0 state331@10
+15 0 state332@10
+16 0 state333@10
+17 0 state334@10
+18 0 state335@10
+19 0 state336@10
+20 0 state337@10
+21 0 state338@10
+@10
+0 0 clk@10
+1 0000000000000000 flat_data_in@10
+2 11 push@10
+3 0000000000000000 quantums@10
+4 11 reqs@10
+5 0 rst@10
+6 0 start@10
+.
+
+
+c done

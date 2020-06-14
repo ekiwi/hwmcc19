@@ -1,0 +1,49 @@
+[runlim] version:		1.17
+[runlim] host:			c3n26
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc-master.sh
+[runlim] argv[1]:		/tmp/hmU6VPLM.btor
+[runlim] start:			Fri Oct 18 02:39:29 2019
+[runlim] child:			14718
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+[runlim] sample:		10.00 time, 10.01 real, 105 MB
+[runlim] sample:		20.00 time, 20.01 real, 207 MB
+[runlim] sample:		30.00 time, 30.01 real, 238 MB
+[runlim] sample:		40.00 time, 40.01 real, 294 MB
+[runlim] sample:		50.00 time, 50.01 real, 306 MB
+[runlim] sample:		60.00 time, 60.01 real, 335 MB
+[runlim] sample:		70.00 time, 70.01 real, 382 MB
+[runlim] sample:		80.00 time, 80.01 real, 348 MB
+[runlim] sample:		90.00 time, 90.01 real, 410 MB
+[runlim] sample:		100.00 time, 100.01 real, 483 MB
+[runlim] sample:		109.99 time, 110.01 real, 456 MB
+[runlim] sample:		120.00 time, 120.01 real, 506 MB
+[runlim] sample:		129.99 time, 130.01 real, 455 MB
+[runlim] sample:		140.00 time, 140.01 real, 557 MB
+[runlim] sample:		150.00 time, 150.01 real, 640 MB
+[runlim] sample:		160.00 time, 160.01 real, 712 MB
+[runlim] sample:		169.99 time, 170.01 real, 709 MB
+[runlim] sample:		180.00 time, 180.01 real, 735 MB
+[runlim] sample:		189.99 time, 190.01 real, 733 MB
+[runlim] sample:		200.00 time, 200.01 real, 740 MB
+[runlim] sample:		209.99 time, 210.01 real, 693 MB
+[runlim] sample:		220.00 time, 220.01 real, 639 MB
+[runlim] sample:		230.00 time, 230.01 real, 788 MB
+[runlim] end:			Fri Oct 18 02:43:23 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			233.90 seconds
+[runlim] time:			233.79 seconds
+[runlim] space:			829 MB
+[runlim] samples:		2338

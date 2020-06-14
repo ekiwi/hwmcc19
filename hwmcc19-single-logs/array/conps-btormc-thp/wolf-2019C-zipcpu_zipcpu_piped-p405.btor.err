@@ -1,0 +1,46 @@
+[runlim] version:		1.17
+[runlim] host:			c3n10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-conps-btormc-thp.sh
+[runlim] argv[1]:		/tmp/wtKhnSxx.btor
+[runlim] start:			Thu Oct 17 11:32:34 2019
+[runlim] child:			531
+[runlim] sample:		9.99 time, 10.02 real, 713 MB
+[runlim] sample:		19.98 time, 20.02 real, 1192 MB
+[runlim] sample:		29.98 time, 30.02 real, 1439 MB
+[runlim] sample:		39.99 time, 40.02 real, 1649 MB
+[runlim] sample:		49.98 time, 50.02 real, 2131 MB
+[runlim] sample:		59.98 time, 60.02 real, 2335 MB
+[runlim] sample:		69.98 time, 70.02 real, 2555 MB
+[runlim] sample:		79.98 time, 80.02 real, 2656 MB
+[runlim] sample:		89.99 time, 90.02 real, 2793 MB
+[runlim] sample:		99.98 time, 100.02 real, 2931 MB
+[runlim] sample:		109.98 time, 110.02 real, 3143 MB
+[runlim] sample:		119.98 time, 120.02 real, 3143 MB
+[runlim] sample:		129.98 time, 130.02 real, 3255 MB
+[runlim] sample:		139.98 time, 140.02 real, 3932 MB
+[runlim] sample:		149.98 time, 150.02 real, 3967 MB
+[runlim] sample:		159.98 time, 160.02 real, 4072 MB
+[runlim] sample:		169.98 time, 170.02 real, 4194 MB
+[runlim] sample:		179.98 time, 180.02 real, 4289 MB
+[runlim] sample:		189.98 time, 190.02 real, 4548 MB
+[runlim] sample:		199.98 time, 200.02 real, 4620 MB
+[runlim] sample:		209.98 time, 210.02 real, 4893 MB
+[runlim] sample:		219.98 time, 220.02 real, 4789 MB
+[runlim] sample:		229.97 time, 230.02 real, 4874 MB
+[runlim] sample:		239.98 time, 240.02 real, 4948 MB
+[runlim] sample:		249.98 time, 250.02 real, 5028 MB
+[runlim] sample:		259.98 time, 260.02 real, 5103 MB
+[runlim] sample:		269.97 time, 270.02 real, 5234 MB
+[runlim] sample:		279.98 time, 280.02 real, 5306 MB
+[runlim] sample:		289.98 time, 290.02 real, 5375 MB
+[runlim] end:			Thu Oct 17 11:37:27 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		3
+[runlim] real:			293.15 seconds
+[runlim] time:			293.08 seconds
+[runlim] space:			5641 MB
+[runlim] samples:		2931

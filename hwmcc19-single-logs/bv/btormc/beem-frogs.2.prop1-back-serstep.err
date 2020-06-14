@@ -1,0 +1,18 @@
+[runlim] version:		1.17
+[runlim] host:			c3n01
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc.sh
+[runlim] argv[1]:		/tmp/MxOGaptx.btor2
+[runlim] start:			Wed Oct 16 03:26:50 2019
+[runlim] child:			3017
+[runlim] sample:		9.97 time, 10.02 real, 48 MB
+[runlim] end:			Wed Oct 16 03:27:09 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			18.72 seconds
+[runlim] time:			18.67 seconds
+[runlim] space:			65 MB
+[runlim] samples:		187

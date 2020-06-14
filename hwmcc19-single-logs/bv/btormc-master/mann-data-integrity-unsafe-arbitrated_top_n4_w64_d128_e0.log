@@ -1,0 +1,9 @@
+c host: c3n10
+c start: Fri Oct 18 01:03:56 CEST 2019
+c arrayjobid: 17562842
+c jobid: 17566717
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/data-integrity/unsafe/arbitrated_top_n4_w64_d128_e0.btor2
+c solver: ./run-btormc-master.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566717.0
+c done

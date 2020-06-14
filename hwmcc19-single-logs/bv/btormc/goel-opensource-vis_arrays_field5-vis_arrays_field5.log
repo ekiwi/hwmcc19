@@ -1,0 +1,9 @@
+c host: c3n17
+c start: Wed Oct 16 05:15:59 CEST 2019
+c arrayjobid: 17562833
+c jobid: 17563879
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vis_arrays_field5/vis_arrays_field5.btor2
+c solver: ./run-btormc.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17563879.0
+c done

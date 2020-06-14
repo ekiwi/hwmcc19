@@ -1,0 +1,9 @@
+c host: c3n09
+c start: Thu Oct 17 11:56:57 CEST 2019
+c arrayjobid: 17562840
+c jobid: 17566009
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/beem/synapse.7.prop1-func-interl.btor2
+c solver: ./run-conps-btormc-no-thp.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566009.0
+c done

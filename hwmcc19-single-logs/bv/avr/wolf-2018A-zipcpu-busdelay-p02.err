@@ -1,0 +1,39 @@
+[runlim] version:		1.17
+[runlim] host:			c3n17
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-avr.sh
+[runlim] argv[1]:		/tmp/OZ6fxzFU.btor
+[runlim] start:			Fri Oct 18 19:42:12 2019
+[runlim] child:			13168
+[runlim] sample:		13.62 time, 10.02 real, 223 MB
+[runlim] sample:		33.75 time, 20.02 real, 282 MB
+[runlim] sample:		53.88 time, 30.02 real, 325 MB
+[runlim] sample:		74.01 time, 40.02 real, 361 MB
+[runlim] sample:		50.74 time, 50.02 real, 234 MB
+[runlim] sample:		114.21 time, 60.02 real, 407 MB
+[runlim] sample:		134.30 time, 70.02 real, 443 MB
+[runlim] sample:		154.39 time, 80.02 real, 464 MB
+[runlim] sample:		174.47 time, 90.02 real, 467 MB
+[runlim] sample:		194.59 time, 100.02 real, 514 MB
+[runlim] sample:		214.68 time, 110.02 real, 529 MB
+[runlim] sample:		234.76 time, 120.02 real, 546 MB
+[runlim] sample:		131.49 time, 130.02 real, 387 MB
+[runlim] sample:		274.93 time, 140.02 real, 574 MB
+[runlim] sample:		151.63 time, 150.02 real, 421 MB
+[runlim] sample:		315.08 time, 160.02 real, 624 MB
+[runlim] sample:		335.16 time, 170.02 real, 651 MB
+[runlim] sample:		355.25 time, 180.02 real, 642 MB
+[runlim] sample:		375.32 time, 190.02 real, 704 MB
+[runlim] sample:		395.38 time, 200.02 real, 718 MB
+[runlim] sample:		415.48 time, 210.02 real, 719 MB
+[runlim] sample:		435.57 time, 220.02 real, 733 MB
+[runlim] end:			Fri Oct 18 19:46:01 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		419
+[runlim] real:			229.20 seconds
+[runlim] time:			677.49 seconds
+[runlim] space:			809 MB
+[runlim] samples:		2291

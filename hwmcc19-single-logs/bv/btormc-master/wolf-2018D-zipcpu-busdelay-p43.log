@@ -1,0 +1,9 @@
+c host: c3n16
+c start: Fri Oct 18 02:44:48 CEST 2019
+c arrayjobid: 17562842
+c jobid: 17566802
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2018D/zipcpu-busdelay-p43.btor
+c solver: ./run-btormc-master.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17566802.0
+c done

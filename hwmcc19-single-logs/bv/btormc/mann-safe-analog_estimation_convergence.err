@@ -1,0 +1,19 @@
+[runlim] version:		1.17
+[runlim] host:			c3n24
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc.sh
+[runlim] argv[1]:		/tmp/fGd2YSKZ.btor
+[runlim] start:			Wed Oct 16 06:24:07 2019
+[runlim] child:			27802
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+[runlim] end:			Wed Oct 16 06:24:12 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			5.14 seconds
+[runlim] time:			5.10 seconds
+[runlim] space:			25 MB
+[runlim] samples:		51

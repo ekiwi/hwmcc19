@@ -1,0 +1,26 @@
+[runlim] version:		1.17
+[runlim] host:			c3n22
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/N3niBoai.btor
+[runlim] start:			Wed Oct 16 20:44:54 2019
+[runlim] child:			8525
+[runlim] sample:		20.16 time, 10.02 real, 406 MB
+[runlim] sample:		40.44 time, 20.02 real, 568 MB
+[runlim] sample:		60.70 time, 30.02 real, 673 MB
+[runlim] sample:		80.99 time, 40.02 real, 828 MB
+[runlim] sample:		101.26 time, 50.02 real, 944 MB
+[runlim] sample:		121.54 time, 60.02 real, 967 MB
+[runlim] sample:		141.83 time, 70.02 real, 1047 MB
+[runlim] sample:		162.10 time, 80.02 real, 1136 MB
+[runlim] sample:		182.38 time, 90.02 real, 1233 MB
+[runlim] end:			Wed Oct 16 20:46:27 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			92.98 seconds
+[runlim] time:			188.25 seconds
+[runlim] space:			1249 MB
+[runlim] samples:		929

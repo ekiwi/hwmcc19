@@ -1,0 +1,23 @@
+[runlim] version:		1.17
+[runlim] host:			c3n03
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-btormc-master.sh
+[runlim] argv[1]:		/tmp/djchxEA1.btor2
+[runlim] start:			Fri Oct 18 00:44:29 2019
+[runlim] child:			18974
+warning: unsupported tag 'output'
+[runlim] sample:		10.00 time, 10.01 real, 15 MB
+[runlim] sample:		20.00 time, 20.01 real, 18 MB
+[runlim] sample:		30.00 time, 30.01 real, 25 MB
+[runlim] sample:		40.00 time, 40.01 real, 26 MB
+[runlim] sample:		50.00 time, 50.01 real, 30 MB
+[runlim] end:			Fri Oct 18 00:45:21 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		2
+[runlim] real:			51.36 seconds
+[runlim] time:			51.29 seconds
+[runlim] space:			31 MB
+[runlim] samples:		513

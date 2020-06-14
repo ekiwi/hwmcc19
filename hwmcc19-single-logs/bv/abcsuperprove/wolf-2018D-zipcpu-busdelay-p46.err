@@ -1,0 +1,17 @@
+[runlim] version:		1.17
+[runlim] host:			c3n20
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/FwLGOAmR.aig
+[runlim] start:			Thu Oct 17 00:21:18 2019
+[runlim] child:			23173
+[runlim] end:			Thu Oct 17 00:21:22 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		16
+[runlim] real:			3.86 seconds
+[runlim] time:			16.86 seconds
+[runlim] space:			158 MB
+[runlim] samples:		38

@@ -1,0 +1,158 @@
+c host: c3n20
+c start: Fri Oct 18 18:40:56 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567277
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/industry/cal226/cal226.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567277.0
+	(output dir: /tmp//pr_test/work_w2)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(7249 / 7249 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 2 s: 3    0s                     0	: 2	: 0 1 3 s: 4    0s                     0	: 2	: 0 1 4 s: 5    0s                     0	: 2	: 0 1 5 s: 6    0s                     0	: 2	: 0 1 6 s: 7    0s                     0	: 2	: 0 1 6 s: 7    0s                  
+   0	: 3	: 0 1 6 0 s: 7    0s                     0	: 3	: 0 1 11 1 s: 13    0s                     0	: 3	: 0 1 84 2 s: 87    2s                     0	: 3	: 0 1 84 3 s: 88    2s                     0	: 3	: 0 1 87 4 s: 92    2s                     0	: 3	: 0 1 86 5 s: 92    2s                     0	: 3	: 0 1 86 6 s: 93    2s                     0	: 3	: 0 1 86 7 s: 94    2s                     0	: 3	: 0 1 86 7 s: 94    2s                  
+   0	: 4	: 0 1 80 13 0 s: 94    2s                     0	: 4	: 0 1 85 28 1 s: 115    2s                     0	: 4	: 0 1 61 101 2 s: 165    14s                     0	: 4	: 0 1 61 101 3 s: 166    14s                     0	: 4	: 0 1 61 107 4 s: 173    14s                     0	: 4	: 0 1 61 107 5 s: 174    14s                     0	: 4	: 0 1 62 108 6 s: 177    14s                     0	: 4	: 0 1 63 108 7 s: 179    14s                     0	: 4	: 0 1 63 108 7 s: 179    14s                  
+   0	: 5	: 0 1 26 108 15 17 s: 167    15s                     0	: 5	: 0 1 34 111 16 18 s: 180    16s                     0	: 5	: 0 1 34 106 20 19 s: 180    16s                     0	: 5	: 0 1 63 134 87 20 s: 305    34s                     0	: 5	: 0 1 63 134 86 21 s: 305    34s                     0	: 5	: 0 1 63 134 86 21 s: 305    34s                  
+   0	: 6	: 0 1 29 113 108 1 52 s: 304    35s                     0	: 6	: 0 1 26 113 739 139 53 s: 1071    84s                     0	: 6	: 0 1 26 113 739 139 53 s: 1071    84s                  
+   0	: 7	: 0 1 14 81 180 719 6 68 s: 1069    91s                     0	: 7	: 0 1 34 21 138 873 121 69 s: 1257    147s                     0	: 7	: 0 1 34 21 138 873 121 69 s: 1257    147s                  
+   0	: 8	: 0 1 23 15 11 43 47 25 135 s: 300    152s                     0	: 8	: 0 1 50 77 15 33 65 30 136 s: 407    194s                     0	: 8	: 0 1 50 77 15 33 65 30 136 s: 407    194s                  
+   0	: 9	: 0 1 26 21 31 43 61 47 26 144 s: 400    200s                     0	: 9	: 0 1 37 84 36 54 53 64 31 145 s: 505    310s                     0	: 9	: 0 1 37 84 36 54 53 64 31 145 s: 505    310s                  
+   0	: 10	: ... 0 1 21 40 25 32 50 95 48 30 152 s: 494    318s                     0	: 10	: ... 1 41 84 152 32 55 80 65 35 153 s: 698    481s                     0	: 10	: ... 1 41 84 152 32 55 80 65 35 153 s: 698    481s                  
+   0	: 11	: ... 15 30 96 23 42 48 95 48 30 241 s: 669    498s                     0	: 11	: ... 26 68 130 154 55 53 80 67 35 242 s: 911    735s                     0	: 11	: ... 26 68 130 154 55 53 80 67 35 242 s: 911    735s                  
+   0	: 12	: ... 22 29 154 42 39 54 33 89 40 332 s: 845    761s                     0	: 12	: ... 56 165 182 44 62 32 100 45 333 s: 1052    961s                     0	: 12	: ... 56 165 182 44 62 32 100 45 333 s: 1052    961s                  
+   0	: 12	: ... 56 165 182 44 62 32 100 45 333 s: 1052    962s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h      976.88         739           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 32296)
+@     0s  (started worker 1 with pid 32297)
+@     0s  (started worker 2 with pid 32298)
+@     0s  (started worker 3 with pid 32299)
+@     0s  (started worker 4 with pid 32300)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 32301)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 0 MB)
+@     1s  (started worker 6 with pid 32306)
+@     1s  (spawned 1 workers)
+@     1s  (total 7 workers using 0 MB)
+@     2s  (started worker 7 with pid 32313)
+@     2s  (spawned 1 workers)
+@     2s  (total 8 workers using 0 MB)
+@     2s  (started worker 8 with pid 32324)
+@     2s  (spawned 1 workers)
+@     2s  (total 9 workers using 0 MB)
+@     3s  (started worker 9 with pid 32332)
+@     3s  (spawned 1 workers)
+@     3s  (total 10 workers using 0 MB)
+@     3s  (started worker 10 with pid 32338)
+@     3s  (spawned 1 workers)
+@     3s  (total 11 workers using 0 MB)
+@    22s  (total 11 workers using 0 MB)
+@    45s  (total 11 workers using 17 MB)
+@    58s  (total 11 workers using 3087 MB)
+@    70s  (total 11 workers using 3435 MB)
+@    81s  (total 11 workers using 3821 MB)
+@    92s  (total 11 workers using 3894 MB)
+@   103s  (total 11 workers using 4003 MB)
+@   114s  (total 11 workers using 4212 MB)
+@   125s  (total 11 workers using 4361 MB)
+@   136s  (total 11 workers using 4375 MB)
+@   147s  (total 11 workers using 4356 MB)
+@   159s  (total 11 workers using 4410 MB)
+@   169s  (total 11 workers using 4461 MB)
+@   181s  (total 11 workers using 4489 MB)
+@   192s  (total 11 workers using 4540 MB)
+@   203s  (total 11 workers using 4552 MB)
+@   214s  (total 11 workers using 4566 MB)
+@   225s  (total 11 workers using 4549 MB)
+@   236s  (total 11 workers using 4647 MB)
+@   247s  (total 11 workers using 4829 MB)
+@   258s  (total 11 workers using 4923 MB)
+@   269s  (total 11 workers using 5086 MB)
+@   280s  (total 11 workers using 5113 MB)
+@   291s  (total 11 workers using 5076 MB)
+@   302s  (total 11 workers using 5076 MB)
+@   313s  (total 11 workers using 5105 MB)
+@   324s  (total 11 workers using 5201 MB)
+@   335s  (total 11 workers using 5264 MB)
+@   346s  (total 11 workers using 5280 MB)
+@   357s  (total 11 workers using 5296 MB)
+@   368s  (total 11 workers using 5352 MB)
+@   379s  (total 11 workers using 5390 MB)
+@   390s  (total 11 workers using 5456 MB)
+@   402s  (total 11 workers using 5472 MB)
+@   412s  (total 11 workers using 5501 MB)
+@   424s  (total 11 workers using 5512 MB)
+@   435s  (total 11 workers using 5510 MB)
+@   446s  (total 11 workers using 5572 MB)
+@   457s  (total 11 workers using 5661 MB)
+@   468s  (total 11 workers using 5734 MB)
+@   479s  (total 11 workers using 5861 MB)
+@   490s  (total 11 workers using 5992 MB)
+@   501s  (total 11 workers using 6103 MB)
+@   512s  (total 11 workers using 6179 MB)
+@   523s  (total 11 workers using 6254 MB)
+@   534s  (total 11 workers using 6351 MB)
+@   545s  (total 11 workers using 6379 MB)
+@   557s  (total 11 workers using 6475 MB)
+@   568s  (total 11 workers using 6522 MB)
+@   579s  (total 11 workers using 6655 MB)
+@   590s  (total 11 workers using 6803 MB)
+@   601s  (total 11 workers using 6827 MB)
+@   612s  (total 11 workers using 6893 MB)
+@   623s  (total 11 workers using 6895 MB)
+@   634s  (total 11 workers using 6935 MB)
+@   645s  (total 11 workers using 6990 MB)
+@   656s  (total 11 workers using 7032 MB)
+@   667s  (total 11 workers using 7059 MB)
+@   678s  (total 11 workers using 7096 MB)
+@   689s  (total 11 workers using 7208 MB)
+@   700s  (total 11 workers using 7253 MB)
+@   711s  (total 11 workers using 7280 MB)
+@   722s  (total 11 workers using 7289 MB)
+@   734s  (total 11 workers using 7301 MB)
+@   745s  (total 11 workers using 7311 MB)
+@   756s  (total 11 workers using 7336 MB)
+@   767s  (total 11 workers using 7368 MB)
+@   778s  (total 11 workers using 7399 MB)
+@   789s  (total 11 workers using 7394 MB)
+@   800s  (total 11 workers using 7388 MB)
+@   811s  (total 11 workers using 7390 MB)
+@   822s  (total 11 workers using 7437 MB)
+@   833s  (total 11 workers using 7440 MB)
+@   844s  (total 11 workers using 7475 MB)
+@   855s  (total 11 workers using 7648 MB)
+@   866s  (total 11 workers using 7693 MB)
+@   877s  (total 11 workers using 7697 MB)
+@   888s  (total 11 workers using 7715 MB)
+@   899s  (total 11 workers using 7760 MB)
+@   910s  (total 11 workers using 7769 MB)
+@   921s  (total 11 workers using 7785 MB)
+@   932s  (total 11 workers using 7817 MB)
+@   943s  (total 11 workers using 7848 MB)
+@   955s  (total 11 workers using 7879 MB)
+@   965s  (total 11 workers using 7935 MB)
+@   977s  (total 11 workers using 7975 MB)
+@   987s  (total 11 workers using 7995 MB)
+@   999s  (total 11 workers using 8028 MB)
+@  1010s  (total 11 workers using 8068 MB)
+@  1021s  (total 11 workers using 8087 MB)
+@  1025s  (worker 2 finished with result safe) python3 avr.py
+@  1025s  (worker 2 output)
+@  1025s  (stopping all workers)
+@  1025s  (copied results from worker 2 in /tmp//pr_test)
+@  1025s  [0;30;47m(proof race finished with answer safe in 1025.35 seconds)[m
+unsat
+b0
+c done

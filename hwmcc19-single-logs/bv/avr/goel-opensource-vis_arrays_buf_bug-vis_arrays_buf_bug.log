@@ -1,0 +1,214 @@
+c host: c3n27
+c start: Fri Oct 18 18:42:27 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567333
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vis_arrays_buf_bug/vis_arrays_buf_bug.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567333.0
+	(output dir: /tmp//pr_test/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(22 / 22 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: found cex at step 18)
+   0	: 0	: 0 s: 0    2s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v        2.23          34           0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 30808)
+@     0s  (started worker 1 with pid 30809)
+@     0s  (started worker 2 with pid 30810)
+@     0s  (started worker 3 with pid 30811)
+@     0s  (started worker 4 with pid 30812)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 30928)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 122 MB)
+@     2s  (started worker 6 with pid 30984)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 186 MB)
+@     3s  (started worker 7 with pid 31049)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 214 MB)
+@     3s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@     3s  (worker 1 output)
+@     3s  (stopping all workers)
+@     3s  (copied results from worker 1 in /tmp//pr_test)
+@     3s  [0;30;47m(proof race finished with answer unsafe in 2.81 seconds)[m
+sat
+b0
+#0
+0 00000 |_s0_count|#0
+1 0 |_s1_alloc|#0
+2 0 |_s2_busy[0]|#0
+3 0 |_s3_busy[1]|#0
+4 0 |_s4_busy[2]|#0
+5 0 |_s5_busy[3]|#0
+6 0 |_s6_busy[4]|#0
+7 0 |_s7_busy[5]|#0
+8 0 |_s8_busy[6]|#0
+9 0 |_s9_busy[7]|#0
+10 0 |_s10_busy[8]|#0
+11 0 |_s11_busy[9]|#0
+12 0 |_s12_busy[10]|#0
+13 0 |_s13_busy[11]|#0
+14 0 |_s14_busy[12]|#0
+15 0 |_s15_busy[13]|#0
+16 0 |_s16_busy[14]|#0
+17 0 |_s17_busy[15]|#0
+@0
+0 1 |_i0_alloc_raw|@0
+2 0000 |_i2_free_addr_raw|@0
+3 0 |_i3_free_raw|@0
+6 0 |_i6_id386|@0
+7 0000 |_i7_id388|@0
+8 0 |_i8_id404|@0
+9 0000 |_i9_id408|@0
+@1
+0 1 |_i0_alloc_raw|@1
+2 0001 |_i2_free_addr_raw|@1
+3 0 |_i3_free_raw|@1
+6 0 |_i6_id386|@1
+7 0001 |_i7_id388|@1
+8 0 |_i8_id404|@1
+9 0000 |_i9_id408|@1
+@2
+0 1 |_i0_alloc_raw|@2
+2 0010 |_i2_free_addr_raw|@2
+3 0 |_i3_free_raw|@2
+6 0 |_i6_id386|@2
+7 0000 |_i7_id388|@2
+8 0 |_i8_id404|@2
+9 0000 |_i9_id408|@2
+@3
+0 1 |_i0_alloc_raw|@3
+2 1111 |_i2_free_addr_raw|@3
+3 1 |_i3_free_raw|@3
+6 0 |_i6_id386|@3
+7 0000 |_i7_id388|@3
+8 0 |_i8_id404|@3
+9 0000 |_i9_id408|@3
+@4
+0 1 |_i0_alloc_raw|@4
+2 0101 |_i2_free_addr_raw|@4
+3 1 |_i3_free_raw|@4
+6 0 |_i6_id386|@4
+7 0000 |_i7_id388|@4
+8 0 |_i8_id404|@4
+9 0000 |_i9_id408|@4
+@5
+0 1 |_i0_alloc_raw|@5
+2 0101 |_i2_free_addr_raw|@5
+3 1 |_i3_free_raw|@5
+6 0 |_i6_id386|@5
+7 0000 |_i7_id388|@5
+8 0 |_i8_id404|@5
+9 0000 |_i9_id408|@5
+@6
+0 1 |_i0_alloc_raw|@6
+2 1001 |_i2_free_addr_raw|@6
+3 1 |_i3_free_raw|@6
+6 0 |_i6_id386|@6
+7 0000 |_i7_id388|@6
+8 0 |_i8_id404|@6
+9 0000 |_i9_id408|@6
+@7
+0 1 |_i0_alloc_raw|@7
+2 0111 |_i2_free_addr_raw|@7
+3 1 |_i3_free_raw|@7
+6 0 |_i6_id386|@7
+7 0000 |_i7_id388|@7
+8 0 |_i8_id404|@7
+9 0000 |_i9_id408|@7
+@8
+0 1 |_i0_alloc_raw|@8
+2 1111 |_i2_free_addr_raw|@8
+3 1 |_i3_free_raw|@8
+6 0 |_i6_id386|@8
+7 0000 |_i7_id388|@8
+8 0 |_i8_id404|@8
+9 0000 |_i9_id408|@8
+@9
+0 1 |_i0_alloc_raw|@9
+2 0110 |_i2_free_addr_raw|@9
+3 0 |_i3_free_raw|@9
+6 0 |_i6_id386|@9
+7 0110 |_i7_id388|@9
+8 0 |_i8_id404|@9
+9 0000 |_i9_id408|@9
+@10
+0 1 |_i0_alloc_raw|@10
+2 1000 |_i2_free_addr_raw|@10
+3 0 |_i3_free_raw|@10
+6 0 |_i6_id386|@10
+7 1000 |_i7_id388|@10
+8 0 |_i8_id404|@10
+9 0000 |_i9_id408|@10
+@11
+0 1 |_i0_alloc_raw|@11
+2 1001 |_i2_free_addr_raw|@11
+3 0 |_i3_free_raw|@11
+6 0 |_i6_id386|@11
+7 1001 |_i7_id388|@11
+8 0 |_i8_id404|@11
+9 0000 |_i9_id408|@11
+@12
+0 1 |_i0_alloc_raw|@12
+2 1101 |_i2_free_addr_raw|@12
+3 0 |_i3_free_raw|@12
+6 0 |_i6_id386|@12
+7 0101 |_i7_id388|@12
+8 0 |_i8_id404|@12
+9 0000 |_i9_id408|@12
+@13
+0 1 |_i0_alloc_raw|@13
+2 1110 |_i2_free_addr_raw|@13
+3 1 |_i3_free_raw|@13
+6 0 |_i6_id386|@13
+7 0000 |_i7_id388|@13
+8 0 |_i8_id404|@13
+9 0000 |_i9_id408|@13
+@14
+0 1 |_i0_alloc_raw|@14
+2 0001 |_i2_free_addr_raw|@14
+3 0 |_i3_free_raw|@14
+6 0 |_i6_id386|@14
+7 1101 |_i7_id388|@14
+8 0 |_i8_id404|@14
+9 0000 |_i9_id408|@14
+@15
+0 1 |_i0_alloc_raw|@15
+2 1111 |_i2_free_addr_raw|@15
+3 1 |_i3_free_raw|@15
+6 0 |_i6_id386|@15
+7 0000 |_i7_id388|@15
+8 0 |_i8_id404|@15
+9 0000 |_i9_id408|@15
+@16
+0 0 |_i0_alloc_raw|@16
+2 0100 |_i2_free_addr_raw|@16
+3 0 |_i3_free_raw|@16
+6 0 |_i6_id386|@16
+7 1100 |_i7_id388|@16
+8 1 |_i8_id404|@16
+9 0000 |_i9_id408|@16
+@17
+0 1 |_i0_alloc_raw|@17
+2 0111 |_i2_free_addr_raw|@17
+3 0 |_i3_free_raw|@17
+6 0 |_i6_id386|@17
+7 0000 |_i7_id388|@17
+8 0 |_i8_id404|@17
+9 0000 |_i9_id408|@17
+@18
+.
+c done

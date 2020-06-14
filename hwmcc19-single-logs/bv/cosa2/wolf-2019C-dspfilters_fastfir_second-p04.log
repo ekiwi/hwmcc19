@@ -1,0 +1,13 @@
+c host: c3n30
+c start: Wed Oct 16 17:16:09 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564646
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dspfilters_fastfir_second-p04.btor
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564646.0
+unsat
+b0
+
+
+c done

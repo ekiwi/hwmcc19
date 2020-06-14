@@ -1,0 +1,9 @@
+c host: c3n30
+c start: Wed Oct 16 10:03:45 CEST 2019
+c arrayjobid: 17562834
+c jobid: 17564122
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/mann/unknown/ridecore_array.btor
+c solver: ./run-btormc.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564122.0
+c done

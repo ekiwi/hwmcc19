@@ -1,0 +1,12 @@
+c host: c3n18
+c start: Thu Oct 17 01:05:45 CEST 2019
+c arrayjobid: 17562837
+c jobid: 17565373
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/zipversa_composecrc_prf-p11.aig
+c solver: ./run.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17565373.0
+0
+b0
+.
+c done

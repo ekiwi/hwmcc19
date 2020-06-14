@@ -1,0 +1,21 @@
+[runlim] version:		1.17
+[runlim] host:			c3n04
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/MqsBE978.btor
+[runlim] start:			Wed Oct 16 20:33:03 2019
+[runlim] child:			25262
+[runlim] sample:		20.20 time, 10.02 real, 508 MB
+[runlim] sample:		40.47 time, 20.02 real, 757 MB
+[runlim] sample:		60.75 time, 30.02 real, 888 MB
+[runlim] sample:		81.02 time, 40.02 real, 1039 MB
+[runlim] end:			Wed Oct 16 20:33:52 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			48.48 seconds
+[runlim] time:			98.06 seconds
+[runlim] space:			1157 MB
+[runlim] samples:		484

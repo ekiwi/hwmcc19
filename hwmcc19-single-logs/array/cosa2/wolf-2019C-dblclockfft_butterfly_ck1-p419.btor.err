@@ -1,0 +1,37 @@
+[runlim] version:		1.17
+[runlim] host:			c3n25
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run-cosa2.sh
+[runlim] argv[1]:		/tmp/orFNVujv.btor
+[runlim] start:			Wed Oct 16 20:48:17 2019
+[runlim] child:			15721
+[runlim] sample:		20.16 time, 10.02 real, 502 MB
+[runlim] sample:		40.43 time, 20.02 real, 704 MB
+[runlim] sample:		60.69 time, 30.02 real, 813 MB
+[runlim] sample:		80.99 time, 40.02 real, 953 MB
+[runlim] sample:		101.26 time, 50.02 real, 1064 MB
+[runlim] sample:		121.52 time, 60.02 real, 1172 MB
+[runlim] sample:		141.79 time, 70.02 real, 1292 MB
+[runlim] sample:		162.09 time, 80.02 real, 1356 MB
+[runlim] sample:		182.35 time, 90.02 real, 1435 MB
+[runlim] sample:		202.63 time, 100.02 real, 1532 MB
+[runlim] sample:		222.88 time, 110.02 real, 1662 MB
+[runlim] sample:		243.16 time, 120.02 real, 1727 MB
+[runlim] sample:		263.43 time, 130.02 real, 1810 MB
+[runlim] sample:		283.70 time, 140.02 real, 1819 MB
+[runlim] sample:		303.98 time, 150.02 real, 1895 MB
+[runlim] sample:		324.24 time, 160.02 real, 1935 MB
+[runlim] sample:		344.52 time, 170.02 real, 2025 MB
+[runlim] sample:		364.80 time, 180.02 real, 2047 MB
+[runlim] sample:		385.07 time, 190.02 real, 2137 MB
+[runlim] sample:		405.34 time, 200.02 real, 2154 MB
+[runlim] end:			Wed Oct 16 20:51:44 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		4
+[runlim] real:			206.92 seconds
+[runlim] time:			832.78 seconds
+[runlim] space:			2253 MB
+[runlim] samples:		2069

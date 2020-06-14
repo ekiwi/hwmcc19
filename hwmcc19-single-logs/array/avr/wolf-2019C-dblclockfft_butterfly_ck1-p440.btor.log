@@ -1,0 +1,54 @@
+c host: c3n12
+c start: Fri Oct 18 21:58:44 CEST 2019
+c arrayjobid: 17567257
+c jobid: 17567659
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019C/dblclockfft_butterfly_ck1-p440.btor
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567659.0
+	(output dir: /tmp//pr_test/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(3968 / 7166 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     1	: 1	: 0 0 s: 0    0s                     1	: 1	: 0 1 s: 1    0s                     1	: 1	: 0 2 s: 2    0s                     1	: 1	: 0 3 s: 3    0s                     1	: 1	: 0 4 s: 4    0s                     1	: 1	: 0 5 s: 5    0s                     1	: 1	: 0 5 s: 5    0s                  
+   1	: 2	: 0 5 0 s: 5    0s                     2	: 2	: 0 9 0 s: 9    0s                     3	: 2	: 0 9 0 s: 9    0s                     4	: 2	: 0 10 0 s: 10    0s                     5	: 2	: 0 10 0 s: 10    0s                     5	: 2	: 0 10 1 s: 11    0s                     7	: 2	: 0 10 1 s: 11    0s                     9	: 2	: 0 10 1 s: 11    0s                     11	: 2	: 0 11 1 s: 12    0s                     12	: 2	: 0 12 1 s: 13    0s                     12	: 2	: 0 14 2 s: 16    0s                     13	: 2	: 0 14 2 s: 16    0s                     14	: 2	: 0 14 2 s: 16    1s                     14	: 2	: 0 14 3 s: 17    1s                     14	: 2	: 0 13 4 s: 17    1s                     14	: 2	: 0 13 5 s: 18    1s                     14	: 2	: 0 12 6 s: 18    1s                     14	: 2	: 0 12 6 s: 18    1s                  
+   14	: 3	: 0 10 7 0 s: 17    1s                     14	: 3	: 0 10 8 1 s: 19    1s                     15	: 3	: 0 10 8 1 s: 19    1s                     16	: 3	: 0 10 8 1 s: 19    1s                     17	: 3	: 0 10 9 1 s: 20    1s                     17	: 3	: 0 10 9 2 s: 21    1s                     17	: 3	: 0 10 9 3 s: 22    1s                     17	: 3	: 0 10 9 4 s: 23    1s                     17	: 3	: 0 10 8 5 s: 23    1s                     17	: 3	: 0 10 7 6 s: 23    1s                     17	: 3	: 0 10 7 6 s: 23    1s                  
+   17	: 4	: 0 10 5 7 1 s: 23    1s                     19	: 4	: 0 10 5 10 1 s: 26    1s                     20	: 4	: 0 10 5 10 1 s: 26    1s                     21	: 4	: 0 10 5 10 1 s: 26    1s                     23	: 4	: 0 10 5 10 1 s: 26    1s                     25	: 4	: 0 10 6 10 1 s: 27    1s                     26	: 4	: 0 10 6 11 1 s: 28    1s                     27	: 4	: 0 10 7 12 1 s: 30    1s                     28	: 4	: 0 9 7 14 1 s: 31    1s                     29	: 4	: 0 9 7 14 1 s: 31    1s                     30	: 4	: 0 9 7 14 1 s: 31    1s                     31	: 4	: 0 9 7 15 1 s: 32    1s                     31	: 4	: 0 9 7 17 2 s: 35    1s                     32	: 4	: 0 9 7 17 2 s: 35    1s                     34	: 4	: 0 9 7 17 2 s: 35    1s                     36	: 4	: 0 9 8 17 2 s: 36    1s                     37	: 4	: 0 9 8 17 2 s: 36    2s                     38	: 4	: 0 9 8 17 2 s: 36    2s                     39	: 4	: 0 9 8 17 2 s: 36    2s                     40	: 4	: 0 9 9 18 2 s: 38    2s                     40	: 4	: 0 9 10 19 3 s: 41    2s                     40	: 4	: 0 9 10 19 4 s: 42    2s                     40	: 4	: 0 9 10 18 5 s: 42    2s                     40	: 4	: 0 9 10 17 6 s: 42    2s                     40	: 4	: 0 9 10 17 7 s: 43    2s                     40	: 4	: 0 9 10 17 7 s: 43    2s                  
+   40	: 5	: 0 8 5 8 5 7 s: 33    2s                     41	: 5	: 0 8 5 8 5 7 s: 33    2s                     42	: 5	: 0 8 4 9 5 7 s: 33    2s                     43	: 5	: 0 8 4 8 6 7 s: 33    2s                     43	: 5	: 0 8 3 8 6 8 s: 33    2s                     43	: 5	: 0 8 3 8 5 9 s: 33    2s                     43	: 5	: 0 8 3 8 4 10 s: 33    2s                     43	: 5	: 0 8 3 8 3 11 s: 33    2s                     43	: 5	: 0 8 3 8 2 12 s: 33    2s                     43	: 5	: 0 8 3 8 2 12 s: 33    2s                  
+   43	: 6	: 0 8 3 4 2 1 15 s: 33    2s                     43	: 6	: 0 8 3 4 2 1 15 s: 33    2s                  
+   43	: 7	: 0 8 3 4 2 1 5 10 s: 33    2s                     43	: 7	: 0 8 3 4 0 2 5 11 s: 33    2s                     43	: 7	: 0 8 3 4 0 2 4 12 s: 33    2s                     43	: 7	: 0 8 3 4 0 2 3 13 s: 33    2s                     43	: 7	: 0 8 3 4 0 2 2 14 s: 33    2s                     43	: 7	: 0 8 3 4 0 2 1 15 s: 33    2s                     43	: 7	: 0 8 3 4 0 2 1 15 s: 33    2s                  
+   43	: 7	: 0 8 3 4 0 2 1 15 s: 33    2s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        2.90          78          43
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 11812)
+@     0s  (started worker 1 with pid 11813)
+@     0s  (started worker 2 with pid 11814)
+@     0s  (started worker 3 with pid 11815)
+@     0s  (started worker 4 with pid 11816)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 11932)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 534 MB)
+@     2s  (started worker 6 with pid 11988)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 891 MB)
+@     3s  (started worker 7 with pid 12050)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 1175 MB)
+@     3s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@     3s  (worker 3 output)
+@     3s  (stopping all workers)
+@     3s  (copied results from worker 3 in /tmp//pr_test)
+@     3s  [0;30;47m(proof race finished with answer safe in 3.31 seconds)[m
+unsat
+b0
+c done

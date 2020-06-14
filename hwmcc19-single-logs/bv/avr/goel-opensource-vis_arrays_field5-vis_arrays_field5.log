@@ -1,0 +1,527 @@
+c host: c3n21
+c start: Fri Oct 18 18:42:26 CEST 2019
+c arrayjobid: 17567256
+c jobid: 17567332
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/goel/opensource/vis_arrays_field5/vis_arrays_field5.btor2
+c solver: ./run-avr.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17567332.0
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /tmp//pr_test)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 24494)
+@     0s  (started worker 1 with pid 24495)
+@     0s  (started worker 2 with pid 24496)
+@     0s  (started worker 3 with pid 24497)
+@     0s  (started worker 4 with pid 24498)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 24614)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 213 MB)
+@     2s  (started worker 6 with pid 24668)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 293 MB)
+@     3s  (started worker 7 with pid 24730)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 362 MB)
+@     4s  (started worker 8 with pid 24798)
+@     4s  (spawned 1 workers)
+@     4s  (total 9 workers using 413 MB)
+@     5s  (started worker 9 with pid 24890)
+@     5s  (spawned 1 workers)
+@     5s  (total 10 workers using 477 MB)
+@     7s  (started worker 10 with pid 24970)
+@     7s  (spawned 1 workers)
+@     7s  (total 11 workers using 542 MB)
+@    15s  (total 11 workers using 749 MB)
+@    27s  (total 11 workers using 889 MB)
+@    39s  (total 11 workers using 1004 MB)
+@    50s  (total 11 workers using 1106 MB)
+@    61s  (total 11 workers using 1183 MB)
+@    72s  (total 11 workers using 1258 MB)
+@    83s  (total 11 workers using 1342 MB)
+@    95s  (total 11 workers using 1420 MB)
+@   106s  (total 11 workers using 1500 MB)
+@   117s  (total 11 workers using 1571 MB)
+@   128s  (total 11 workers using 1631 MB)
+@   139s  (total 11 workers using 1699 MB)
+@   150s  (total 11 workers using 1771 MB)
+@   161s  (total 11 workers using 1858 MB)
+@   172s  (total 11 workers using 1933 MB)
+@   183s  (total 11 workers using 2007 MB)
+@   194s  (total 11 workers using 2089 MB)
+@   205s  (total 11 workers using 2176 MB)
+@   216s  (total 11 workers using 2237 MB)
+@   227s  (total 11 workers using 2293 MB)
+@   238s  (total 11 workers using 2348 MB)
+@   249s  (total 11 workers using 2425 MB)
+@   260s  (total 11 workers using 2494 MB)
+@   271s  (total 11 workers using 2587 MB)
+@   282s  (total 11 workers using 2649 MB)
+@   293s  (total 11 workers using 2722 MB)
+@   304s  (total 11 workers using 2797 MB)
+@   315s  (total 11 workers using 2875 MB)
+@   326s  (total 11 workers using 2952 MB)
+@   338s  (total 11 workers using 3038 MB)
+@   348s  (total 11 workers using 3105 MB)
+@   360s  (total 11 workers using 3166 MB)
+@   371s  (total 11 workers using 3247 MB)
+@   382s  (total 11 workers using 3291 MB)
+@   393s  (total 11 workers using 3362 MB)
+@   404s  (total 11 workers using 3418 MB)
+@   415s  (total 11 workers using 3464 MB)
+@   426s  (total 11 workers using 3504 MB)
+@   437s  (total 11 workers using 3544 MB)
+@   448s  (total 11 workers using 3585 MB)
+@   459s  (total 11 workers using 3606 MB)
+@   470s  (total 11 workers using 3676 MB)
+@   481s  (total 11 workers using 3730 MB)
+@   492s  (total 11 workers using 3783 MB)
+@   503s  (total 11 workers using 3833 MB)
+@   514s  (total 11 workers using 3882 MB)
+@   525s  (total 11 workers using 3914 MB)
+@   536s  (total 11 workers using 3957 MB)
+@   547s  (total 11 workers using 4008 MB)
+@   558s  (total 11 workers using 4062 MB)
+@   569s  (total 11 workers using 4116 MB)
+@   581s  (total 11 workers using 4170 MB)
+@   592s  (total 11 workers using 4226 MB)
+@   603s  (total 11 workers using 4276 MB)
+@   614s  (total 11 workers using 4317 MB)
+@   625s  (total 11 workers using 4373 MB)
+@   636s  (total 11 workers using 4436 MB)
+@   647s  (total 11 workers using 4490 MB)
+@   658s  (total 11 workers using 4520 MB)
+@   669s  (total 11 workers using 4569 MB)
+@   680s  (total 11 workers using 4593 MB)
+@   691s  (total 11 workers using 4652 MB)
+@   702s  (total 11 workers using 4675 MB)
+@   713s  (total 11 workers using 4712 MB)
+@   724s  (total 11 workers using 4742 MB)
+@   735s  (total 11 workers using 4779 MB)
+@   746s  (total 11 workers using 4832 MB)
+@   757s  (total 11 workers using 4855 MB)
+@   768s  (total 11 workers using 4863 MB)
+@   779s  (total 11 workers using 4909 MB)
+@   790s  (total 11 workers using 4950 MB)
+@   801s  (total 11 workers using 5008 MB)
+@   812s  (total 11 workers using 5062 MB)
+@   823s  (total 11 workers using 5097 MB)
+@   834s  (total 11 workers using 5149 MB)
+@   845s  (total 11 workers using 5164 MB)
+@   856s  (total 11 workers using 5213 MB)
+@   867s  (total 11 workers using 5256 MB)
+@   878s  (total 11 workers using 5321 MB)
+@   889s  (total 11 workers using 5375 MB)
+@   900s  (total 11 workers using 5427 MB)
+@   911s  (total 11 workers using 5471 MB)
+@   922s  (total 11 workers using 5522 MB)
+@   933s  (total 11 workers using 5571 MB)
+@   944s  (total 11 workers using 5623 MB)
+@   955s  (total 11 workers using 5679 MB)
+@   966s  (total 11 workers using 5735 MB)
+@   977s  (total 11 workers using 5795 MB)
+@   988s  (total 11 workers using 5859 MB)
+@   999s  (total 11 workers using 5904 MB)
+@  1010s  (total 11 workers using 5941 MB)
+@  1021s  (total 11 workers using 5963 MB)
+@  1032s  (total 11 workers using 6011 MB)
+@  1043s  (total 11 workers using 6068 MB)
+@  1054s  (total 11 workers using 6117 MB)
+@  1065s  (total 11 workers using 6168 MB)
+@  1076s  (total 11 workers using 6223 MB)
+@  1087s  (total 11 workers using 6279 MB)
+@  1098s  (total 11 workers using 6336 MB)
+@  1109s  (total 11 workers using 6392 MB)
+@  1120s  (total 11 workers using 6440 MB)
+@  1131s  (total 11 workers using 6509 MB)
+@  1142s  (total 11 workers using 6559 MB)
+@  1153s  (total 11 workers using 6615 MB)
+@  1164s  (total 11 workers using 6679 MB)
+@  1175s  (total 11 workers using 6736 MB)
+@  1186s  (total 11 workers using 6809 MB)
+@  1197s  (total 11 workers using 6883 MB)
+@  1208s  (total 11 workers using 6912 MB)
+@  1219s  (total 11 workers using 6980 MB)
+@  1230s  (total 11 workers using 7053 MB)
+@  1241s  (total 11 workers using 7129 MB)
+@  1252s  (total 11 workers using 7203 MB)
+@  1263s  (total 11 workers using 7274 MB)
+@  1274s  (total 11 workers using 7347 MB)
+@  1285s  (total 11 workers using 7428 MB)
+@  1296s  (total 11 workers using 7507 MB)
+@  1307s  (total 11 workers using 7584 MB)
+@  1318s  (total 11 workers using 7659 MB)
+@  1329s  (total 11 workers using 7722 MB)
+@  1340s  (total 11 workers using 7839 MB)
+@  1351s  (total 11 workers using 7890 MB)
+@  1362s  (total 11 workers using 7977 MB)
+@  1373s  (total 11 workers using 8038 MB)
+@  1384s  (total 11 workers using 8094 MB)
+@  1395s  (total 11 workers using 8158 MB)
+@  1406s  (total 11 workers using 8225 MB)
+@  1417s  (total 11 workers using 8302 MB)
+@  1428s  (total 11 workers using 8371 MB)
+@  1439s  (total 11 workers using 8439 MB)
+@  1450s  (total 11 workers using 8524 MB)
+@  1461s  (total 11 workers using 8600 MB)
+@  1472s  (total 11 workers using 8677 MB)
+@  1484s  (total 11 workers using 8759 MB)
+@  1494s  (total 11 workers using 8848 MB)
+@  1506s  (total 11 workers using 8905 MB)
+@  1516s  (total 11 workers using 8968 MB)
+@  1528s  (total 11 workers using 9034 MB)
+@  1538s  (total 11 workers using 9106 MB)
+@  1550s  (total 11 workers using 9192 MB)
+@  1560s  (total 11 workers using 9268 MB)
+@  1572s  (total 11 workers using 9344 MB)
+@  1582s  (total 11 workers using 9418 MB)
+@  1594s  (total 11 workers using 9496 MB)
+@  1605s  (total 11 workers using 9591 MB)
+@  1616s  (total 11 workers using 9664 MB)
+@  1627s  (total 11 workers using 9743 MB)
+@  1638s  (total 11 workers using 9820 MB)
+@  1649s  (total 11 workers using 9897 MB)
+@  1660s  (total 11 workers using 9981 MB)
+@  1671s  (total 11 workers using 10081 MB)
+@  1682s  (total 11 workers using 10166 MB)
+@  1693s  (total 11 workers using 10241 MB)
+@  1704s  (total 11 workers using 10311 MB)
+@  1715s  (total 11 workers using 10394 MB)
+@  1726s  (total 11 workers using 10481 MB)
+@  1737s  (total 11 workers using 10568 MB)
+@  1748s  (total 11 workers using 10644 MB)
+@  1759s  (total 11 workers using 10755 MB)
+@  1770s  (total 11 workers using 10828 MB)
+@  1781s  (total 11 workers using 10917 MB)
+@  1792s  (total 11 workers using 11013 MB)
+@  1803s  (total 11 workers using 11105 MB)	(output dir: /tmp//pr_test/work_w6)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(25 / 25 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 3 s: 3    0s                     0	: 1	: 0 3 s: 3    0s                  
+   0	: 2	: 0 3 0 s: 3    0s                     0	: 2	: 0 3 1 s: 4    0s                     0	: 2	: 0 4 3 s: 7    0s                     0	: 2	: 0 4 4 s: 8    0s                     0	: 2	: 0 4 4 s: 8    0s                  
+   0	: 3	: 0 4 4 0 s: 8    0s                     0	: 3	: 0 4 4 1 s: 9    0s                     0	: 3	: 0 4 4 2 s: 10    0s                     0	: 3	: 0 4 4 3 s: 11    0s                     0	: 3	: 0 4 5 5 s: 14    0s                     0	: 3	: 0 4 5 6 s: 15    1s                     0	: 3	: 0 4 5 7 s: 16    1s                     0	: 3	: 0 4 6 8 s: 18    1s                     0	: 3	: 0 4 6 8 s: 18    1s                  
+   0	: 4	: 0 4 6 8 0 s: 18    1s                     0	: 4	: 0 4 6 8 1 s: 19    1s                     0	: 4	: 0 4 6 8 2 s: 20    1s                     0	: 4	: 0 19 50 82 65 s: 216    20s                     0	: 4	: 0 19 50 82 66 s: 217    20s                     0	: 4	: 0 19 50 82 67 s: 218    20s                     0	: 4	: 0 19 50 82 68 s: 219    20s                     0	: 4	: 0 19 50 82 69 s: 220    20s                     0	: 4	: 0 19 50 82 69 s: 220    20s                  
+   0	: 5	: 0 19 50 82 68 1 s: 220    22s                     0	: 5	: 0 19 50 82 68 2 s: 221    22s                     0	: 5	: 0 19 50 82 68 3 s: 222    22s                     0	: 5	: 0 41 189 1171 5097 5094 s: 11592    2154s                     0	: 5	: 0 41 189 1171 5097 5095 s: 11593    2154s                     0	: 5	: 0 41 189 1171 5097 5096 s: 11594    2154s                     0	: 5	: 0 41 189 1171 5097 5097 s: 11595    2154s                     0	: 5	: 0 41 189 1171 5097 5098 s: 11596    2155s                     0	: 5	: 0 41 189 1171 5097 5099 s: 11597    2155s                     0	: 5	: 0 41 189 1171 5097 5100 s: 11598    2155s                     0	: 5	: 0 41 189 1171 5097 5101 s: 11599    2155s                     0	: 5	: 0 41 189 1171 5097 5102 s: 11600    2156s                     0	: 5	: 0 41 189 1171 5097 5102 s: 11600    2156s                  
+   0	: 6	: 0 41 189 1167 5011 4807 321 s: 11536    2295s                     0	: 6	: 0 41 189 1167 5011 4807 322 s: 11537    2296s                     0	: 6	: 0 43 194 1196 5187 4979 324 s: 11923    2413s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v     2413.88        3307           0
+
+@  1814s  (total 11 workers using 11193 MB)
+@  1825s  (total 11 workers using 11277 MB)
+@  1836s  (total 11 workers using 11362 MB)
+@  1847s  (total 11 workers using 11429 MB)
+@  1858s  (total 11 workers using 11516 MB)
+@  1869s  (total 11 workers using 11578 MB)
+@  1880s  (total 11 workers using 11647 MB)
+@  1891s  (total 11 workers using 11719 MB)
+@  1902s  (total 11 workers using 11780 MB)
+@  1913s  (total 11 workers using 11845 MB)
+@  1924s  (total 11 workers using 11921 MB)
+@  1935s  (total 11 workers using 11993 MB)
+@  1946s  (total 11 workers using 12085 MB)
+@  1957s  (total 11 workers using 12174 MB)
+@  1968s  (total 11 workers using 12246 MB)
+@  1979s  (total 11 workers using 12309 MB)
+@  1990s  (total 11 workers using 12387 MB)
+@  2001s  (total 11 workers using 12471 MB)
+@  2012s  (total 11 workers using 12542 MB)
+@  2023s  (total 11 workers using 12637 MB)
+@  2034s  (total 11 workers using 12733 MB)
+@  2045s  (total 11 workers using 12830 MB)
+@  2056s  (total 11 workers using 12922 MB)
+@  2067s  (total 11 workers using 13013 MB)
+@  2078s  (total 11 workers using 13124 MB)
+@  2089s  (total 11 workers using 13216 MB)
+@  2100s  (total 11 workers using 13304 MB)
+@  2111s  (total 11 workers using 13405 MB)
+@  2122s  (total 11 workers using 13491 MB)
+@  2133s  (total 11 workers using 13563 MB)
+@  2144s  (total 11 workers using 13630 MB)
+@  2155s  (total 11 workers using 13682 MB)
+@  2166s  (total 11 workers using 13686 MB)
+@  2177s  (total 11 workers using 13698 MB)
+@  2189s  (total 11 workers using 13747 MB)
+@  2199s  (total 11 workers using 13807 MB)
+@  2211s  (total 11 workers using 13877 MB)
+@  2221s  (total 11 workers using 13935 MB)
+@  2233s  (total 11 workers using 13992 MB)
+@  2243s  (total 11 workers using 14060 MB)
+@  2255s  (total 11 workers using 14123 MB)
+@  2265s  (total 11 workers using 14179 MB)
+@  2277s  (total 11 workers using 14229 MB)
+@  2287s  (total 11 workers using 14277 MB)
+@  2299s  (total 11 workers using 14319 MB)
+@  2310s  (total 11 workers using 14371 MB)
+@  2321s  (total 11 workers using 14468 MB)
+@  2332s  (total 11 workers using 14534 MB)
+@  2343s  (total 11 workers using 14599 MB)
+@  2354s  (total 11 workers using 14655 MB)
+@  2365s  (total 11 workers using 14718 MB)
+@  2376s  (total 11 workers using 14786 MB)
+@  2387s  (total 11 workers using 14844 MB)
+@  2398s  (total 11 workers using 14910 MB)
+@  2409s  (total 11 workers using 14982 MB)
+@  2420s  (total 11 workers using 15077 MB)
+@  2421s  (worker 6 finished with result unsafe) python3 avr.py -a sa --interpol 1 -f 1
+@  2421s  (worker 6 output)
+@  2421s  (stopping all workers)
+@  2421s  (copied results from worker 6 in /tmp//pr_test)
+@  2421s  [0;30;47m(proof race finished with answer unsafe in 2421.29 seconds)[m
+sat
+b0
+#0
+0 1 |_s0_board[0]|#0
+1 1 |_s1_board[1]|#0
+2 1 |_s2_board[2]|#0
+3 1 |_s3_board[3]|#0
+4 1 |_s4_board[4]|#0
+5 1 |_s5_board[5]|#0
+6 1 |_s6_board[6]|#0
+7 1 |_s7_board[7]|#0
+8 1 |_s8_board[8]|#0
+9 1 |_s9_board[9]|#0
+10 1 |_s10_board[10]|#0
+11 1 |_s11_board[11]|#0
+12 0 |_s12_board[12]|#0
+13 1 |_s13_board[13]|#0
+14 1 |_s14_board[14]|#0
+15 1 |_s15_board[15]|#0
+16 1 |_s16_board[16]|#0
+17 1 |_s17_board[17]|#0
+18 1 |_s18_board[18]|#0
+19 1 |_s19_board[19]|#0
+20 1 |_s20_board[20]|#0
+21 1 |_s21_board[21]|#0
+22 1 |_s22_board[22]|#0
+23 1 |_s23_board[23]|#0
+24 0 |_s24_board[24]|#0
+@0
+240 01 |_i240_dir|@0
+241 10110 |_i241_from|@0
+249 00000000000000000000000000000111 |_i249_id1368|@0
+263 00000000000000000000000000000111 |_i263_id1572|@0
+279 00000000000000000000000000000111 |_i279_id1729|@0
+291 00000000000000000000000000001100 |_i291_id1783|@0
+294 0 |_i294_id1814|@0
+@1
+240 00 |_i240_dir|@1
+241 00111 |_i241_from|@1
+249 00000000000000000000000000010110 |_i249_id1368|@1
+263 00000000000000000000000000000111 |_i263_id1572|@1
+294 0 |_i294_id1814|@1
+295 0 |_i295_id1862|@1
+318 00000000000000000000000000000111 |_i318_id2048|@1
+326 00000000000000000000000000001010 |_i326_id2089|@1
+@2
+240 11 |_i240_dir|@2
+241 10100 |_i241_from|@2
+249 00000000000000000000000000010111 |_i249_id1368|@2
+283 01000000000000000000000000010100 |_i283_id1740|@2
+291 01000000000000000000000000011010 |_i291_id1783|@2
+294 0 |_i294_id1814|@2
+295 0 |_i295_id1862|@2
+296 0 |_i296_id1863|@2
+318 00000000000000000000000000010100 |_i318_id2048|@2
+326 00000000000000000000000000000001 |_i326_id2089|@2
+@3
+240 11 |_i240_dir|@3
+241 00101 |_i241_from|@3
+249 00000000000000000000000000010100 |_i249_id1368|@3
+283 01000000000000000000000000000101 |_i283_id1740|@3
+291 01000000000000000000000000011111 |_i291_id1783|@3
+294 0 |_i294_id1814|@3
+295 0 |_i295_id1862|@3
+296 0 |_i296_id1863|@3
+318 00000000000000000000000000000100 |_i318_id2048|@3
+326 00000000000000000000000000010111 |_i326_id2089|@3
+@4
+240 10 |_i240_dir|@4
+241 10111 |_i241_from|@4
+267 01000000000000000000000000010111 |_i267_id1583|@4
+279 01000000000000000000000000011010 |_i279_id1729|@4
+283 01000000000000000000000000010111 |_i283_id1740|@4
+291 01000000000000000000000000011111 |_i291_id1783|@4
+294 0 |_i294_id1814|@4
+295 0 |_i295_id1862|@4
+296 0 |_i296_id1863|@4
+318 00000000000000000000000000000101 |_i318_id2048|@4
+326 00000000000000000000000000000000 |_i326_id2089|@4
+@5
+240 00 |_i240_dir|@5
+241 01010 |_i241_from|@5
+249 00000000000000000000000000000010 |_i249_id1368|@5
+263 00000000000000000000000000011001 |_i263_id1572|@5
+294 0 |_i294_id1814|@5
+295 0 |_i295_id1862|@5
+318 00000000000000000000000000000110 |_i318_id2048|@5
+326 00000000000000000000000000000001 |_i326_id2089|@5
+@6
+240 10 |_i240_dir|@6
+241 01110 |_i241_from|@6
+267 10000000000000000000000000000000 |_i267_id1583|@6
+279 00000000000000000000000000010011 |_i279_id1729|@6
+283 00000000000000000000000000010000 |_i283_id1740|@6
+291 00000000000000000000000000010111 |_i291_id1783|@6
+294 0 |_i294_id1814|@6
+295 0 |_i295_id1862|@6
+296 0 |_i296_id1863|@6
+318 00000000000000000000000000001100 |_i318_id2048|@6
+326 00000000000000000000000000000111 |_i326_id2089|@6
+@7
+240 01 |_i240_dir|@7
+241 10000 |_i241_from|@7
+249 00000000000000000000000000011001 |_i249_id1368|@7
+263 00000000000000000000000000001000 |_i263_id1572|@7
+279 00000000000000000000000000011111 |_i279_id1729|@7
+291 00000000000000000000000000010100 |_i291_id1783|@7
+294 0 |_i294_id1814|@7
+@8
+240 11 |_i240_dir|@8
+241 10100 |_i241_from|@8
+249 00000000000000000000000000010100 |_i249_id1368|@8
+283 01000000000000000000000000010100 |_i283_id1740|@8
+291 01000000000000000000000000011100 |_i291_id1783|@8
+294 0 |_i294_id1814|@8
+295 0 |_i295_id1862|@8
+296 0 |_i296_id1863|@8
+318 00000000000000000000000000001111 |_i318_id2048|@8
+326 00000000000000000000000000001010 |_i326_id2089|@8
+@9
+240 00 |_i240_dir|@9
+241 00001 |_i241_from|@9
+249 00000000000000000000000000000110 |_i249_id1368|@9
+263 00000000000000000000000000001000 |_i263_id1572|@9
+294 0 |_i294_id1814|@9
+295 0 |_i295_id1862|@9
+318 00000000000000000000000000001010 |_i318_id2048|@9
+326 00000000000000000000000000000101 |_i326_id2089|@9
+@10
+240 11 |_i240_dir|@10
+241 01011 |_i241_from|@10
+249 00000000000000000000000000001101 |_i249_id1368|@10
+283 01000000000000000000000000001011 |_i283_id1740|@10
+291 01000000000000000000000000011001 |_i291_id1783|@10
+294 0 |_i294_id1814|@10
+295 0 |_i295_id1862|@10
+296 0 |_i296_id1863|@10
+318 00000000000000000000000000010000 |_i318_id2048|@10
+326 00000000000000000000000000001101 |_i326_id2089|@10
+@11
+240 01 |_i240_dir|@11
+241 10110 |_i241_from|@11
+249 00000000000000000000000000011011 |_i249_id1368|@11
+263 00000000000000000000000000001100 |_i263_id1572|@11
+279 00000000000000000000000000010000 |_i279_id1729|@11
+291 00000000000000000000000000010101 |_i291_id1783|@11
+294 0 |_i294_id1814|@11
+@12
+240 10 |_i240_dir|@12
+241 00011 |_i241_from|@12
+267 01000000000000000000000000000011 |_i267_id1583|@12
+279 01000000000000000000000000001000 |_i279_id1729|@12
+283 01000000000000000000000000000011 |_i283_id1740|@12
+291 01000000000000000000000000010000 |_i291_id1783|@12
+294 0 |_i294_id1814|@12
+295 0 |_i295_id1862|@12
+296 0 |_i296_id1863|@12
+318 00000000000000000000000000000110 |_i318_id2048|@12
+326 00000000000000000000000000000001 |_i326_id2089|@12
+@13
+240 11 |_i240_dir|@13
+241 00000 |_i241_from|@13
+249 00000000000000000000000000000011 |_i249_id1368|@13
+283 01000000000000000000000000000000 |_i283_id1740|@13
+291 01000000000000000000000000011101 |_i291_id1783|@13
+294 0 |_i294_id1814|@13
+295 0 |_i295_id1862|@13
+296 0 |_i296_id1863|@13
+318 00000000000000000000000000010100 |_i318_id2048|@13
+326 00000000000000000000000000001110 |_i326_id2089|@13
+@14
+240 11 |_i240_dir|@14
+241 01100 |_i241_from|@14
+249 00000000000000000000000000010111 |_i249_id1368|@14
+283 01000000000000000000000000001100 |_i283_id1740|@14
+291 01000000000000000000000000011010 |_i291_id1783|@14
+294 0 |_i294_id1814|@14
+295 0 |_i295_id1862|@14
+296 0 |_i296_id1863|@14
+318 00000000000000000000000000011011 |_i318_id2048|@14
+326 00000000000000000000000000001110 |_i326_id2089|@14
+@15
+240 10 |_i240_dir|@15
+241 10011 |_i241_from|@15
+267 00000000000000000000000000001100 |_i267_id1583|@15
+279 00000000000000000000000000010100 |_i279_id1729|@15
+283 00000000000000000000000000000000 |_i283_id1740|@15
+291 00000000000000000000000000011110 |_i291_id1783|@15
+294 0 |_i294_id1814|@15
+295 0 |_i295_id1862|@15
+296 0 |_i296_id1863|@15
+318 00000000000000000000000000010011 |_i318_id2048|@15
+326 00000000000000000000000000001110 |_i326_id2089|@15
+@16
+240 00 |_i240_dir|@16
+241 01001 |_i241_from|@16
+249 00000000000000000000000000001001 |_i249_id1368|@16
+263 00000000000000000000000000000000 |_i263_id1572|@16
+294 0 |_i294_id1814|@16
+295 0 |_i295_id1862|@16
+318 00000000000000000000000000000001 |_i318_id2048|@16
+326 00000000000000000000000000000000 |_i326_id2089|@16
+@17
+240 00 |_i240_dir|@17
+241 00010 |_i241_from|@17
+249 00000000000000000000000000000000 |_i249_id1368|@17
+263 00000000000000000000000000000001 |_i263_id1572|@17
+294 0 |_i294_id1814|@17
+295 0 |_i295_id1862|@17
+318 00000000000000000000000000000111 |_i318_id2048|@17
+326 00000000000000000000000000000011 |_i326_id2089|@17
+@18
+240 01 |_i240_dir|@18
+241 10001 |_i241_from|@18
+249 00000000000000000000000000000010 |_i249_id1368|@18
+263 00000000000000000000000000000001 |_i263_id1572|@18
+279 00000000000000000000000000001100 |_i279_id1729|@18
+291 00000000000000000000000000010011 |_i291_id1783|@18
+294 0 |_i294_id1814|@18
+@19
+240 11 |_i240_dir|@19
+241 00111 |_i241_from|@19
+249 00000000000000000000000000000010 |_i249_id1368|@19
+283 01000000000000000000000000000111 |_i283_id1740|@19
+291 01000000000000000000000000011101 |_i291_id1783|@19
+294 0 |_i294_id1814|@19
+295 0 |_i295_id1862|@19
+296 0 |_i296_id1863|@19
+318 00000000000000000000000000001110 |_i318_id2048|@19
+326 00000000000000000000000000000111 |_i326_id2089|@19
+@20
+240 00 |_i240_dir|@20
+241 00100 |_i241_from|@20
+249 00000000000000000000000000001011 |_i249_id1368|@20
+263 00000000000000000000000000001011 |_i263_id1572|@20
+294 0 |_i294_id1814|@20
+295 0 |_i295_id1862|@20
+318 00000000000000000000000000010110 |_i318_id2048|@20
+326 00000000000000000000000000001001 |_i326_id2089|@20
+@21
+240 01 |_i240_dir|@21
+241 10011 |_i241_from|@21
+249 00000000000000000000000000001110 |_i249_id1368|@21
+263 00000000000000000000010000001100 |_i263_id1572|@21
+279 00000000000000000000000000001001 |_i279_id1729|@21
+291 00000000000000000000000000011000 |_i291_id1783|@21
+294 0 |_i294_id1814|@21
+@22
+.
+c done

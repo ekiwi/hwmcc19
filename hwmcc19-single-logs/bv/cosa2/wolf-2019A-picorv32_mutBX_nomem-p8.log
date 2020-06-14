@@ -1,0 +1,9 @@
+c host: c3n32
+c start: Wed Oct 16 16:57:06 CEST 2019
+c arrayjobid: 17562835
+c jobid: 17564625
+c benchmark: /home/mathias/hwmcc19/benchmarks-single/btor2/wolf/2019A/picorv32_mutBX_nomem-p8.btor
+c solver: ./run-cosa2.sh
+c solver options: 
+c tmpdir: /tmp/slurm.17564625.0
+c done

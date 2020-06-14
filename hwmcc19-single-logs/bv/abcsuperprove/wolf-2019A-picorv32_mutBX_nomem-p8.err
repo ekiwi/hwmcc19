@@ -1,0 +1,36 @@
+[runlim] version:		1.17
+[runlim] host:			c3n03
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		120000 MB
+[runlim] argv[0]:		./run.sh
+[runlim] argv[1]:		/tmp/OVzyR29P.aig
+[runlim] start:			Thu Oct 17 00:29:33 2019
+[runlim] child:			13874
+[runlim] sample:		18.33 time, 10.02 real, 386 MB
+[runlim] sample:		47.55 time, 20.02 real, 294 MB
+[runlim] sample:		67.54 time, 30.02 real, 297 MB
+[runlim] sample:		88.89 time, 40.02 real, 395 MB
+[runlim] sample:		108.89 time, 50.02 real, 397 MB
+[runlim] sample:		128.89 time, 60.02 real, 403 MB
+[runlim] sample:		1004.79 time, 70.02 real, 264 MB
+[runlim] sample:		1024.78 time, 80.02 real, 291 MB
+[runlim] sample:		1044.78 time, 90.02 real, 309 MB
+[runlim] sample:		1064.78 time, 100.02 real, 321 MB
+[runlim] sample:		1084.78 time, 110.02 real, 336 MB
+[runlim] sample:		1104.78 time, 120.02 real, 350 MB
+[runlim] sample:		1124.77 time, 130.02 real, 381 MB
+[runlim] sample:		1144.77 time, 140.02 real, 401 MB
+[runlim] sample:		1164.77 time, 150.02 real, 426 MB
+[runlim] sample:		1184.78 time, 160.02 real, 444 MB
+[runlim] sample:		1204.78 time, 170.02 real, 468 MB
+[runlim] sample:		1224.78 time, 180.02 real, 496 MB
+[runlim] sample:		2545.43 time, 190.02 real, 174 MB
+[runlim] end:			Thu Oct 17 00:32:51 2019
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		35
+[runlim] real:			197.37 seconds
+[runlim] time:			2718.34 seconds
+[runlim] space:			501 MB
+[runlim] samples:		1973
