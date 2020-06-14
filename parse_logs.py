@@ -47,6 +47,12 @@ def parse_log(lines: List[str]) -> dict:
 	dd = {}
 	for line in lines:
 		if not line.startswith('c '): # skip
+			if line.startswith('sat'):
+				assert 'sat' not in dd or dd['sat']
+				dd['sat'] = True
+			if line.startswith('unsat'):
+				assert 'sat' not in dd or not dd['sat']
+				dd['sat'] = False
 			continue
 		parts = line[2:].strip().split(':')
 		name = parts[0].strip()
@@ -74,6 +80,11 @@ def parse_entry(path: str, name: str) -> dict:
 
 	solver = path.split('/')[-1]
 
+	if 'sat' in log_dict:
+		result = 'SAT' if log_dict['sat'] else 'UNSAT'
+	else:
+		result = 'UNKNOWN'
+
 	entry = {
 		'status': err_dict['status'],
 		'runtime': err_dict['real'],
@@ -82,6 +93,7 @@ def parse_entry(path: str, name: str) -> dict:
 		'solver': solver,
 		'cmd': log_dict['solver'],
 		'options': log_dict['solver options'],
+		'result': result
 	}
 
 	return entry
