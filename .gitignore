@@ -1,0 +1,15 @@
+# output
+/*.csv
+
+# PyCharm
+/.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+__pycache__
+
+# downloads
+/*.tar.xz
+
+# others
+/benchmark-src/
