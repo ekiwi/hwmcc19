@@ -13,3 +13,6 @@ __pycache__
 
 # others
 /benchmark-src/
+
+# Libre Office
+.~lock*
